@@ -1,0 +1,51 @@
+# Hämtar nya annonser varje måndag kl. 06:00 (svensk tid ungefär) och publicerar sidan på GitHub Pages.
+# Kräver: repot ligger på GitHub och Settings → Pages → Source är satt till "GitHub Actions".
+name: Veckouppdatering av jobbannonser
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"     # måndagar 05:00 UTC
+  workflow_dispatch:          # gör att du kan köra den manuellt under fliken Actions
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  uppdatera:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Hämta annonser (bara vid schema/manuell körning)
+        if: github.event_name != 'push'
+        run: python3 skript/hamta_annonser.py
+      - name: Bygg index.html
+        run: python3 skript/bygg_sida.py
+      - name: Spara ny data i repot
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data index.html
+          git diff --cached --quiet || git commit -m "Veckouppdatering av annonser $(date +%F)"
+          git push
+      - name: Förbered publicering
+        run: mkdir -p _site && cp index.html _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

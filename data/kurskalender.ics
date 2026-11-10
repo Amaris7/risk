@@ -1,0 +1,321 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//RHAD01 RHAD14 ht26//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RHAD ht26 (RHAD01\, 14\, 12\, 21)
+X-WR-TIMEZONE:Europe/Stockholm
+BEGIN:VTIMEZONE
+TZID:Europe/Stockholm
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rhad14-ht26-forelasning-1@rhad-kalender
+DTSTAMP:20261005T120000Z
+DTSTART;TZID=Europe/Stockholm:20261007T101500
+DTEND;TZID=Europe/Stockholm:20261007T120000
+SUMMARY:RHAD14: Föreläsning – Riskkommunikation teoretiska perspektiv
+LOCATION:Canvas
+DESCRIPTION:Lärare: Hilde
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad14-ht26-gruppuppgift@rhad-kalender
+DTSTAMP:20261005T120000Z
+DTSTART;TZID=Europe/Stockholm:20261009T235900
+DTEND;TZID=Europe/Stockholm:20261009T235900
+SUMMARY:RHAD14: Inlämning gruppuppgift + individuell reflektion
+LOCATION:Canvas
+DESCRIPTION:Senast kl. 23.59 (flyttad från 2 okt).
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad01-ht26-posterdiskussion@rhad-kalender
+DTSTAMP:20261005T120000Z
+DTSTART;TZID=Europe/Stockholm:20261028T130000
+DTEND;TZID=Europe/Stockholm:20261028T150000
+SUMMARY:RHAD01: Posterdiskussion
+LOCATION:Zoom
+URL:https://kau-se.zoom.us/my/erikperssonpavlovic
+DESCRIPTION:Lärare: Erik och Monir\nAnslut via Zoom: https://kau-se.zoom.u
+ s/my/erikperssonpavlovic
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad14-ht26-individuell-uppgift@rhad-kalender
+DTSTAMP:20261005T120000Z
+DTSTART;TZID=Europe/Stockholm:20261105T235900
+DTEND;TZID=Europe/Stockholm:20261105T235900
+SUMMARY:RHAD14: Inlämning individuell uppgift
+LOCATION:Canvas
+DESCRIPTION:Senast kl. 23.59. Riskkommunikation\, ca 5 sidor.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad01-ht26-posterseminarium@rhad-kalender
+DTSTAMP:20261026T160000Z
+DTSTART;TZID=Europe/Stockholm:20261109T131500
+DTEND;TZID=Europe/Stockholm:20261109T170000
+SUMMARY:RHAD01: Posterseminarium (campus)
+LOCATION:Karlstads universitet\, sal 21A258 Pedagogiska verkstan
+DESCRIPTION:Lärare: Erik och Monir. Lokalen är bokad 12.15–19.00 i Time
+ Edit.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad14-ht26-avslutningsseminarium@rhad-kalender
+DTSTAMP:20261026T160000Z
+DTSTART;TZID=Europe/Stockholm:20261110T081500
+DTEND;TZID=Europe/Stockholm:20261110T120000
+SUMMARY:RHAD14: Avslutningsseminarium (campus)
+LOCATION:Karlstads universitet\, sal 11C270
+DESCRIPTION:Lärare: Kristin och Monir. Redovisning av individuell uppgift.
+ \nObligatoriskt (examinerande moment\; vid förhinder ges kompletterande r
+ edovisning).\n- Presentation och diskussion av de individuella arbetena i 
+ smågrupper om 4–5 – läs varandras arbeten inför träffen\n- Interak
+ tiv övning om kriskommunikation i RiskLab\n- Muntlig kursutvärdering\nEn
+ ligt kursmeddelande 19 okt. Mer info om förberedelser kommer.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad21-ht26-campus-1@rhad-kalender
+DTSTAMP:20261005T120000Z
+DTSTART;TZID=Europe/Stockholm:20261110T131500
+DTEND;TZID=Europe/Stockholm:20261110T160000
+SUMMARY:RHAD21: Hantering av naturkatastrofer 1 – campusträff
+LOCATION:Karlstads universitet\, sal 3D418
+DESCRIPTION:Lärare: Magnus Johansson. Preliminär bokning i TimeEdit – k
+ ontrollera salen ca två veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad12-ht26-campus-1@rhad-kalender
+DTSTAMP:20261005T120000Z
+DTSTART;TZID=Europe/Stockholm:20261111T091500
+DTEND;TZID=Europe/Stockholm:20261111T120000
+SUMMARY:RHAD12: Personsäkerhet I – campusträff
+LOCATION:Karlstads universitet\, sal 3D417
+DESCRIPTION:Lärare: Moniruzzaman Syed (Monir). Preliminär bokning i TimeE
+ dit – kontrollera salen ca två veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad12-vt27-campus-2@rhad-kalender
+DTSTAMP:20261103T140000Z
+DTSTART;TZID=Europe/Stockholm:20270118T081500
+DTEND;TZID=Europe/Stockholm:20270118T120000
+SUMMARY:RHAD12: Personsäkerhet I – campusträff
+LOCATION:Karlstads universitet\, sal 3D417
+DESCRIPTION:Lärare: Moniruzzaman Syed (Monir). Obligatoriskt slutseminariu
+ m (examinationsseminarium). Se avsnittet "Inför avslutningsträff den 18/
+ 1" i studiehandledningen. Preliminär bokning i TimeEdit – kontrollera s
+ alen ca två veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad21-vt27-campus-2@rhad-kalender
+DTSTAMP:20261103T140000Z
+DTSTART;TZID=Europe/Stockholm:20270118T131500
+DTEND;TZID=Europe/Stockholm:20270118T160000
+SUMMARY:RHAD21: Hantering av naturkatastrofer 1 – campusträff
+LOCATION:Karlstads universitet\, sal 3D418
+DESCRIPTION:Lärare: Magnus Johansson. Avslutande seminarium om era fallstu
+ dier. Förbered dig genom att läsa några rapporter från andra kursdelta
+ gare (se sidan "Seminarium Gruppindelning & rapporter fallstudie" i Canvas
+  för RHAD21). Preliminär bokning i TimeEdit – kontrollera salen ca tv
+ å veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad22-vt27-kursstart@rhad-kalender
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:RHAD22: Kursstart – Personsäkerhet II
+LOCATION:Distans (Canvas)
+DESCRIPTION:Personsäkerhet II: skadeförebyggande och säkerhetsfrämjande
+  arbete\, 7\,5 hp. Kurstillfälle 56228. Studieperiod v. 3–12 (18 jan–
+ 28 mar)\, 50 %. 2 obligatoriska campusträffar. Kursansvarig: Moniruzzaman
+  Syed (Monir).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad31-vt27-kursstart@rhad-kalender
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:RHAD31: Kursstart – Hantering av naturkatastrofer 2
+LOCATION:Distans (Canvas)
+DESCRIPTION:Hantering av naturkatastrofer 2\, 7\,5 hp. Kurstillfälle 56229
+ . Studieperiod v. 3–12 (18 jan–28 mar)\, 50 %. 2 obligatoriska campust
+ räffar. Lärare: Magnus Johansson.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad22-vt27-campus-1@rhad-kalender
+DTSTAMP:20261103T120000Z
+DTSTART;TZID=Europe/Stockholm:20270323T080000
+DTEND;TZID=Europe/Stockholm:20270323T120000
+SUMMARY:RHAD22: Personsäkerhet II – campusträff
+LOCATION:Karlstads universitet\, sal 3C512
+DESCRIPTION:Lärare: Syed Zulfiqar Ali Shah. OBS: krockar med RHAD02-boknin
+ gen samma tid (sal 3C510). Preliminär bokning i TimeEdit (gäller först 
+ två veckor före kursstart) – kontrollera salen ca två veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad31-vt27-campus-1@rhad-kalender
+DTSTAMP:20261103T120000Z
+DTSTART;TZID=Europe/Stockholm:20270323T131500
+DTEND;TZID=Europe/Stockholm:20270323T160000
+SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campusträff
+LOCATION:Karlstads universitet\, sal 3C510
+DESCRIPTION:Lärare: Magnus Johansson. Preliminär bokning i TimeEdit (gäl
+ ler först två veckor före kursstart) – kontrollera salen ca två veck
+ or innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad02-vt27-campus-1@rhad-kalender
+DTSTAMP:20261103T120000Z
+DTSTART;TZID=Europe/Stockholm:20270323T080000
+DTEND;TZID=Europe/Stockholm:20270323T120000
+SUMMARY:RHAD02: Teoribildning inom riskhantering – campusträff
+LOCATION:Karlstads universitet\, sal 3C510
+DESCRIPTION:Lärare: Jenni Koivisto. OBS: krockar med RHAD22-bokningen samm
+ a tid (sal 3C512). Preliminär bokning i TimeEdit (gäller först två vec
+ kor före kursstart) – kontrollera salen ca två veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad02-vt27-kursstart@rhad-kalender
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:RHAD02: Kursstart – Teoribildning inom riskhantering
+LOCATION:Distans (Canvas)
+DESCRIPTION:Teoribildning inom riskhantering\, 7\,5 hp. Kurstillfälle 5623
+ 0. Studieperiod v. 13–22 (29 mar–6 jun)\, 50 %. 2 obligatoriska campus
+ träffar. Lärare: Jenni Koivisto.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad02-vt27-campus-2@rhad-kalender
+DTSTAMP:20261103T120000Z
+DTSTART;TZID=Europe/Stockholm:20270603T131500
+DTEND;TZID=Europe/Stockholm:20270603T160000
+SUMMARY:RHAD02: Teoribildning inom riskhantering – campusträff
+LOCATION:Karlstads universitet\, sal 3C510
+DESCRIPTION:Lärare: Jenni Koivisto. Preliminär bokning i TimeEdit (gälle
+ r först två veckor före kursstart) – kontrollera salen ca två veckor
+  innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad03-vt27-kursstart@rhad-kalender
+DTSTAMP:20261103T130000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:RHAD03: Kursstart – Klimatanpassning och riskreducering
+LOCATION:Distans (Canvas)
+DESCRIPTION:Klimatanpassning och riskreducering\, 7\,5 hp (valfri kurs). Ku
+ rstillfälle 56260. Studieperiod v. 13–22 (29 mar–6 jun)\, 50 %. 2 obl
+ igatoriska campusträffar. Kursansvarig: Magnus Johansson.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad03-vt27-forelasning-1@rhad-kalender
+DTSTAMP:20261103T130000Z
+DTSTART;TZID=Europe/Stockholm:20270602T130000
+DTEND;TZID=Europe/Stockholm:20270602T170000
+SUMMARY:RHAD03: Klimatanpassning och riskreducering – föreläsning (camp
+ us)
+LOCATION:Karlstads universitet\, sal 21A259 Risklabb
+DESCRIPTION:Lärare: Magnus Johansson. Föreläsning enligt TimeEdit (bokni
+ ngen står på grupp "55260" – troligen skrivfel för 56260). Preliminä
+ r bokning i TimeEdit (gäller först två veckor före kursstart) – kont
+ rollera salen ca två veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad12-ht26-zoom-1@rhad-kalender
+DTSTAMP:20261103T140000Z
+DTSTART;TZID=Europe/Stockholm:20261126T141500
+DTEND;TZID=Europe/Stockholm:20261126T160000
+SUMMARY:RHAD12: Zoomträff – dataanalys och presentation
+LOCATION:Zoom
+DESCRIPTION:Lärare: Moniruzzaman Syed (Monir). Enligt studiehandledningen 
+ (v. 48). Zoom-länk är inte publicerad än – kolla Canvas för RHAD12.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad21-ht26-webbinarium-1@rhad-kalender
+DTSTAMP:20261103T140000Z
+DTSTART;TZID=Europe/Stockholm:20261209T101500
+DTEND;TZID=Europe/Stockholm:20261209T113000
+SUMMARY:RHAD21: Webbinarium – katastrofteori del 1
+LOCATION:Zoom
+URL:https://kau-se.zoom.us/j/2870313514
+DESCRIPTION:Lärare: Barbara Blumenthal. Webbinarium om något ni lärt er 
+ i del 1. Aktivt deltagande är obligatoriskt.\nAnslut via Zoom: https://ka
+ u-se.zoom.us/j/2870313514
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad12-vt27-salstentamen@rhad-kalender
+DTSTAMP:20261103T140000Z
+DTSTART;TZID=Europe/Stockholm:20270111T081500
+DTEND;TZID=Europe/Stockholm:20270111T121500
+SUMMARY:RHAD12: Salstentamen (campus)
+LOCATION:Karlstads universitet / KAU lärcenter (sal meddelas 1 v innan)
+DESCRIPTION:Obligatorisk digital salstentamen (Inspera). Kontrollera om du 
+ behöver anmäla dig till tentan. Sal publiceras ca 1 vecka innan i tentam
+ enslistan: https://www3.kau.se/tentamenslista/tentamenslista_vecka.html. O
+ mtenta preliminärt 25/3 2027.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad21-vt27-webbinarium-2@rhad-kalender
+DTSTAMP:20261103T140000Z
+DTSTART;TZID=Europe/Stockholm:20270113T101500
+DTEND;TZID=Europe/Stockholm:20270113T113000
+SUMMARY:RHAD21: Webbinarium – myter kring katastrofer
+LOCATION:Zoom
+URL:https://kau-se.zoom.us/my/magnusjohansson70
+DESCRIPTION:Lärare: Magnus Johansson. Aktivt deltagande är obligatoriskt.
+ \nAnslut via Zoom: https://kau-se.zoom.us/my/magnusjohansson70
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad31-vt27-intro@rhad-kalender
+DTSTAMP:20261103T150000Z
+DTSTART;TZID=Europe/Stockholm:20270114T081500
+DTEND;TZID=Europe/Stockholm:20270114T110000
+SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – kursintroduktion (campu
+ s)
+LOCATION:Karlstads universitet\, sal 1B364 Fröding
+DESCRIPTION:Lärare: Magnus Johansson. Troligen kursintroduktion – boknin
+ gen ligger före den officiella studieperioden (v. 3–12)\, kurserna bruk
+ ar gå omlott. Stor sal (117 pl)\, så kanske gemensamt med andra kurser. 
+ Preliminär bokning i TimeEdit (gäller först två veckor före kursstart
+ ) – kontrollera ca två veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad31-vt27-campus-maj27@rhad-kalender
+DTSTAMP:20261103T160000Z
+DTSTART;TZID=Europe/Stockholm:20270527T081500
+DTEND;TZID=Europe/Stockholm:20270527T170000
+SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campus (oklart syfte)
+LOCATION:Karlstads universitet\, sal 3C511
+DESCRIPTION:Lärare: Magnus Johansson. Oklart syfte – bokningen ligger ef
+ ter kursens studieperiod (v. 3–12). Kanske omexamination eller seminariu
+ m\; fråga läraren. Preliminär bokning i TimeEdit – kontrollera ca tv
+ å veckor innan.
+END:VEVENT
+BEGIN:VEVENT
+UID:rhad31-vt27-campus-maj28@rhad-kalender
+DTSTAMP:20261103T160000Z
+DTSTART;TZID=Europe/Stockholm:20270528T081500
+DTEND;TZID=Europe/Stockholm:20270528T170000
+SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campus (oklart syfte)
+LOCATION:Karlstads universitet\, sal 3C511
+DESCRIPTION:Lärare: Magnus Johansson. Oklart syfte – bokningen ligger ef
+ ter kursens studieperiod (v. 3–12). Kanske omexamination eller seminariu
+ m\; fråga läraren. Preliminär bokning i TimeEdit – kontrollera ca tv
+ å veckor innan.
+END:VEVENT
+END:VCALENDAR

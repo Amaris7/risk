@@ -1,0 +1,523 @@
+<title>Karriär i riskhantering</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: arbetsverktyg — smal sidhuvudsrad med flikar, innehåll i en 1100px kolumn; annonslistan som täta rader med filterpanel ovanför */
+/* Färg: tallgrönt som bärande färg, björknäver/lav som neutraler, ockra för arbetsområden, mossgrönt för god matchning */
+:root {
+  --bg: #f3f5f1; --surface: #ffffff; --fg: #1b2a22; --muted: #5d6b62; --line: #dbe2db;
+  --accent: #2c5a43; --accent-soft: #e4eee7; --on-accent: #ffffff; --signal: #9a6416; --signal-soft: #f6ecda;
+  --good: #3b7a3f; --good-soft: #e3f0df;
+  --hdr: #1f3d2f; --hdr-fg: #f1f5ef; --hdr-muted: #b4c8b9; --hdr-mark: #c9dc8f;
+  --shadow: 0 1px 2px rgba(27, 42, 34, .06), 0 2px 8px rgba(27, 42, 34, .04);
+  --f-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111914; --surface: #18231c; --fg: #e3ebe4; --muted: #98aa9d; --line: #2a3a2f;
+  --accent: #86c29d; --accent-soft: #1f3528; --on-accent: #0f1a13; --signal: #ddb067; --signal-soft: #372a15;
+  --good: #9fd08f; --good-soft: #213320;
+  --hdr: #0c140f; --hdr-fg: #e3ebe4; --hdr-muted: #8fa595; --hdr-mark: #b5cf7a;
+  --shadow: none; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111914; --surface: #18231c; --fg: #e3ebe4; --muted: #98aa9d; --line: #2a3a2f;
+  --accent: #86c29d; --accent-soft: #1f3528; --on-accent: #0f1a13; --signal: #ddb067; --signal-soft: #372a15;
+  --good: #9fd08f; --good-soft: #213320;
+  --hdr: #0c140f; --hdr-fg: #e3ebe4; --hdr-muted: #8fa595; --hdr-mark: #b5cf7a;
+  --shadow: none; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--f-body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--hdr) }
+.wrap { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--hdr); color: var(--hdr-fg); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5 }
+.brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding-block: 18px 8px }
+.brand h1 { font: 800 1.4rem/1.15 var(--f-display); margin: 0; letter-spacing: -0.01em; text-wrap: balance; display: flex; align-items: center; gap: 10px }
+.brand h1 svg { flex: none }
+.brand .sub { color: var(--hdr-muted); font-size: .85rem }
+nav.tabs { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-bottom: 0 }
+nav.tabs a { font: 600 .9rem var(--f-body); color: var(--hdr-muted); text-decoration: none; padding: 11px 14px 10px; border-bottom: 3px solid transparent; white-space: nowrap; border-radius: 6px 6px 0 0 }
+nav.tabs a:hover { color: var(--hdr-fg); background: rgba(255, 255, 255, .06) }
+nav.tabs a[aria-current="page"] { color: var(--hdr-fg); border-bottom-color: var(--hdr-mark) }
+nav.tabs .n { font: 500 .72rem var(--f-mono); color: var(--hdr); background: var(--hdr-mark); border-radius: 10px; padding: 1px 6px; margin-left: 6px }
+nav.tabs a:focus-visible { outline-color: var(--hdr-mark) }
+main { padding-block: 24px 64px }
+section.view { display: grid; gap: 24px }
+h2 { font: 700 1.5rem/1.2 var(--f-display); margin: 0; text-wrap: balance }
+h3 { font: 700 1.05rem/1.3 var(--f-display); margin: 0 }
+p { margin: 0; max-width: 68ch }
+.lead { font-size: 1.05rem; color: var(--fg) }
+.muted { color: var(--muted) }
+.eyebrow { font: 500 .72rem var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+a { color: var(--accent) }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; box-shadow: var(--shadow) }
+.intro { display: grid; gap: 10px; padding: 22px 24px; border-radius: 10px; background: var(--accent-soft); border: 1px solid var(--line) }
+.intro .eyebrow { color: var(--accent) }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px }
+.grid2 > * { min-width: 0 }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
+.facts div { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px }
+.facts b { font: 700 1.4rem var(--f-display); font-variant-numeric: tabular-nums; color: var(--accent) }
+.facts span { color: var(--muted); font-size: .82rem }
+ul.clean { margin: 0; padding-left: 18px; display: grid; gap: 4px }
+.chip { display: inline-flex; align-items: center; gap: 4px; font: 500 .75rem/1.2 var(--f-mono); padding: 3px 7px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); white-space: nowrap }
+.chip.sig { background: var(--signal-soft); color: var(--signal) }
+.chip.good { background: var(--good-soft); color: var(--good) }
+.chip.plain { background: transparent; border: 1px solid var(--line); color: var(--muted) }
+.chip.now { background: var(--accent); color: var(--on-accent) }
+.chips { display: flex; flex-wrap: wrap; gap: 6px }
+/* Kurser */
+.term { display: grid; gap: 10px }
+.term-h { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--accent); padding-bottom: 6px }
+.term-h h3 { color: var(--accent) }
+.course { display: grid; grid-template-columns: 1fr auto; gap: 4px 14px; padding: 12px 0; border-bottom: 1px solid var(--line) }
+.course code { font: 500 .85rem var(--f-mono); color: var(--accent) }
+.course .hp { font: 500 .82rem var(--f-mono); color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums }
+.course p { grid-column: 1 / 3; color: var(--muted); font-size: .9rem }
+.course .t { font-weight: 600 }
+
+/* Filter */
+.filters { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 10px; align-items: end }
+.filters label { display: grid; gap: 4px; font: 500 .75rem var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; min-width: 0 }
+.filters input, .filters select { font: 400 .95rem var(--f-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; width: 100%; min-width: 0 }
+.filters input:hover, .filters select:hover { border-color: var(--accent) }
+.filters input:focus, .filters select:focus { border-color: var(--accent); outline: 2px solid var(--accent-soft); outline-offset: 0 }
+@media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr } .filters .q { grid-column: 1 / -1 } }
+.bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
+.seg button { font: 500 .85rem var(--f-body); background: var(--surface); color: var(--muted); border: 0; padding: 8px 13px; cursor: pointer }
+.seg button:hover { color: var(--fg); background: var(--accent-soft) }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent) }
+button.reset { font: 500 .82rem var(--f-body); background: none; border: 0; color: var(--accent); cursor: pointer; text-decoration: underline; padding: 4px }
+.count { font: 500 .85rem var(--f-mono); font-variant-numeric: tabular-nums }
+.list { display: grid; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow) }
+.ad { display: grid; grid-template-columns: 1fr auto; gap: 6px 16px; padding: 16px 18px; border-bottom: 1px solid var(--line); border-left: 4px solid transparent }
+.ad:hover { background: var(--bg) }
+.ad:last-child { border-bottom: 0 }
+.ad.m-Hög { border-left-color: var(--good) } .ad.m-Medel { border-left-color: var(--signal) }
+.ad h3 { font-size: 1.05rem } .ad.m-Grundläggande { border-left-color: var(--line) }
+.ad > * { min-width: 0 }
+.ad h3 a { color: var(--fg); text-decoration: none } .ad h3 a:hover { color: var(--accent); text-decoration: underline }
+.ad .meta { color: var(--muted); font-size: .86rem }
+.ad .right { text-align: right; display: grid; gap: 4px; justify-items: end; align-content: start }
+.ad .date { font: 400 .8rem var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap }
+.ad .ex { grid-column: 1 / -1; color: var(--muted); font-size: .86rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden }
+.ad .chips { grid-column: 1 / -1 }
+@media (max-width: 560px) { .ad { grid-template-columns: 1fr } .ad .right { justify-items: start; text-align: left; grid-row: 1; display: flex; flex-wrap: wrap; gap: 6px } }
+.more { justify-self: center; font: 600 .92rem var(--f-body); background: var(--accent); color: var(--on-accent); border: 0; border-radius: 8px; padding: 11px 22px; cursor: pointer }
+.more:hover { filter: brightness(1.1) }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .8rem; color: var(--muted) }
+.legend span { display: inline-flex; align-items: center; gap: 6px }
+.legend i { width: 4px; height: 14px; border-radius: 2px; display: inline-block }
+.empty { padding: 32px; text-align: center; color: var(--muted) }
+/* Roller */
+.roles { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px }
+.role { display: grid; gap: 10px; align-content: start }
+.role .head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline }
+.role .num { font: 700 1.1rem var(--f-display); font-variant-numeric: tabular-nums; color: var(--accent); background: var(--accent-soft); border-radius: 8px; padding: 2px 10px }
+.role button.go { justify-self: start; font: 600 .85rem var(--f-body); background: var(--accent-soft); border: 1px solid transparent; border-radius: 8px; padding: 7px 14px; color: var(--accent); cursor: pointer }
+.role button.go:hover { border-color: var(--accent) }
+.panel > a, .role-link { font-weight: 600; text-decoration: none } .panel > a:hover { text-decoration: underline }
+/* Staplar */
+.bars { display: grid; gap: 6px }
+.brow { display: grid; grid-template-columns: minmax(110px, 200px) 1fr 44px; gap: 10px; align-items: center; font-size: .88rem }
+.brow .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.brow .track { height: 12px; background: var(--accent-soft); border-radius: 6px; overflow: hidden }
+.brow .fill { height: 100%; background: var(--accent); border-radius: 6px }
+.brow .fill.sig { background: var(--signal) }
+.brow .v { font: 500 .8rem var(--f-mono); text-align: right; font-variant-numeric: tabular-nums; color: var(--muted) }
+button.brow { all: unset; display: grid; grid-template-columns: minmax(110px, 200px) 1fr 44px; gap: 10px; align-items: center; font-size: .88rem; cursor: pointer; border-radius: 4px }
+button.brow:hover .lbl { color: var(--accent); text-decoration: underline }
+button.brow:focus-visible { outline: 2px solid var(--accent) }
+/* Kalender */
+.kal-next { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px }
+.kal-next .panel { display: grid; gap: 6px; align-content: start; border-top: 4px solid var(--accent) }
+.kal-next .when { font: 500 .8rem var(--f-mono); color: var(--accent); text-transform: uppercase; letter-spacing: .04em }
+.month { display: grid; gap: 0 }
+.month h3 { font: 700 1rem var(--f-display); color: var(--accent); padding: 18px 0 8px; border-bottom: 2px solid var(--accent); text-transform: capitalize }
+.ev { display: grid; grid-template-columns: 64px 1fr; gap: 4px 16px; padding: 14px 4px; border-bottom: 1px solid var(--line) }
+.ev.past { opacity: .55 }
+.ev.today { background: var(--accent-soft); border-radius: 8px; padding-inline: 10px; border-bottom-color: transparent }
+.ev .d { display: grid; justify-items: center; align-content: start; line-height: 1.1 }
+.ev .d b { font: 700 1.5rem var(--f-display); font-variant-numeric: tabular-nums }
+.ev .d span { font: 500 .72rem var(--f-mono); color: var(--muted); text-transform: uppercase }
+.ev .body { display: grid; gap: 5px; min-width: 0 }
+.ev .t { font-weight: 600; font-size: 1rem }
+.ev .meta { color: var(--muted); font-size: .86rem; display: flex; flex-wrap: wrap; gap: 4px 14px }
+.ev details { font-size: .86rem; color: var(--muted) }
+.ev details summary { cursor: pointer; color: var(--accent); font-weight: 500; width: fit-content }
+.ev details p { white-space: pre-line; margin-top: 6px; overflow-wrap: anywhere }
+.chip.typ-campus { background: var(--signal-soft); color: var(--signal) }
+.chip.typ-inl { background: var(--good-soft); color: var(--good) }
+.note { font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px }
+@media (prefers-reduced-motion: no-preference) { .fill { transition: width .4s ease } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M11 1 3 11h4l-5 7h6v7h6v-7h6l-5-7h4z" fill="var(--hdr-mark)"/></svg>Karriär i riskhantering</h1>
+      <span class="sub">Masterprogrammet Riskhantering i samhället (SARHS), Karlstads universitet, matchat mot jobbannonser i hela Sverige</span>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Flikar">
+      <a href="#oversikt">Översikt</a>
+      <a href="#utbildningen">Utbildningen</a>
+      <a href="#kalender">Kurskalender</a>
+      <a href="#yrkesroller">Yrkesroller</a>
+      <a href="#annonser">Jobbannonser <span class="n" id="n-ads"></span></a>
+      <a href="#efterfragat">Vad efterfrågas</a>
+      <a href="#om">Om datan</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section class="view" id="v-oversikt">
+  <div class="intro">
+    <span class="eyebrow">Filosofie masterexamen · huvudområde riskhantering · 120 hp</span>
+    <h2>Vilka jobb passar efter en master i riskhantering?</h2>
+    <p class="lead">Programmet utbildar för det förebyggande och förberedande arbetet i samhället, från vardagsolyckor till storskaliga kriser. Annonserna visar att den största efterfrågan finns inom krisberedskap och civilt försvar, följt av säkerhets- och trygghetsarbete. Det är roller som i dag växer i kommuner, regioner, länsstyrelser och statliga myndigheter.</p>
+  </div>
+  <div class="facts" id="facts"></div>
+  <div class="grid2">
+    <div class="panel" style="display:grid;gap:12px">
+      <h3>Vanligaste yrkesrollerna i annonserna</h3>
+      <div class="bars" id="ov-roles"></div>
+      <a href="#yrkesroller">Se alla yrkesroller</a>
+    </div>
+    <div class="panel" style="display:grid;gap:12px">
+      <h3>Arbetsområden</h3>
+      <div class="bars" id="ov-areas"></div>
+      <a href="#annonser">Bläddra bland annonserna</a>
+    </div>
+  </div>
+  <div class="panel" style="display:grid;gap:10px">
+    <h3>Så hänger utbildningen ihop med jobben</h3>
+    <ul class="clean">
+      <li><b>Krisberedskap och civilt försvar</b> bygger på kurserna <i>Hantering av naturkatastrofer 1 och 2</i> och <i>Teoribildning inom riskhantering</i>: risk- och sårbarhetsanalyser, beredskapsplanering, stabsarbete och övningar.</li>
+      <li><b>Säkerhets- och trygghetsarbete</b> knyter an till <i>Personsäkerhet I och II</i> och <i>Olycksutredning och organisatoriskt lärande</i>.</li>
+      <li><b>Skadeförebyggande arbete</b> (trafiksäkerhet, brandskydd, äldre- och barnsäkerhet) är kärnan i <i>Personsäkerhet II</i> och <i>Implementering och utvärdering av riskhanteringsåtgärder</i>.</li>
+      <li><b>Klimatanpassning</b> motsvarar den valbara kursen <i>Klimatanpassning och riskreducering</i> och är ett mindre men tydligt eget spår i kommuner och myndigheter.</li>
+      <li><b>Riskanalys och konsultuppdrag</b> kräver metodkunskapen från <i>Vetenskaplig metodik</i> och den kvantitativa skadeanalysen från <i>Personsäkerhet I</i>.</li>
+    </ul>
+    <p class="muted" style="font-size:.88rem">Säkerhetsskyddsroller och tunga tekniska riskroller (t.ex. riskingenjör, IT-säkerhet) efterfrågar ofta kompletterande kunskap. De visas med lägre matchning i listan.</p>
+  </div>
+</section>
+
+<section class="view" id="v-utbildningen" hidden>
+  <div style="display:grid;gap:10px">
+    <span class="eyebrow">Programkod SARHS · distans med närträffar i Karlstad</span>
+    <h2>Riskhantering i samhället, 120 hp</h2>
+    <p>Tvärvetenskapligt masterprogram med två fokusområden: förebyggande och förberedande arbete mot mindre olyckor, och mot storskaliga kriser och katastrofer. Undervisningen är kopplad till Centrum för forskning om samhällsrisker (CRS). Kurserna läses oftast på halvfart, två parallellt, med två–tre campusträffar per termin.</p>
+  </div>
+  <div class="grid2">
+    <div class="panel" style="display:grid;gap:8px">
+      <h3>Behörighet</h3>
+      <p class="muted">Kandidatexamen om minst 180 hp inom samhällsvetenskap, naturvetenskap, teknik eller vård och omsorg, med självständigt arbete om minst 15 hp. Svenska 3 och Engelska 6.</p>
+    </div>
+    <div class="panel" style="display:grid;gap:8px">
+      <h3>Yrkesroller enligt KAU</h3>
+      <p class="muted">Säkerhets- eller beredskapssamordnare, säkerhetsstrateg, verksamhetsutvecklare, krisberedskapssamordnare och riskkonsult. Tidigare studenter arbetar bland annat på kommuner, MSB (i dag Myndigheten för civilt försvar), länsstyrelser, Trafikverket, Strålsäkerhetsmyndigheten, SOS Alarm, regioner och konsultbolag som WSP, Sweco och Ramböll.</p>
+    </div>
+  </div>
+  <div class="grid2" id="terms"></div>
+  <p class="note">Källa: <a href="https://www.kau.se/utbildning/program-och-kurser/program/SARHS" target="_blank" rel="noopener">kau.se/…/program/SARHS</a> och respektive kurssida. Kurssammanfattningarna är förkortade. Kontrollera alltid aktuell utbildningsplan hos KAU.</p>
+</section>
+
+<section class="view" id="v-kalender" hidden>
+  <div style="display:grid;gap:10px">
+    <h2>Kurskalender</h2>
+    <p class="muted" id="kal-sub"></p>
+  </div>
+  <div id="kal-wrap">
+    <div style="display:grid;gap:10px"><span class="eyebrow">Härnäst</span><div class="kal-next" id="kal-next"></div></div>
+    <div class="panel bar" style="margin-top:20px">
+      <label class="muted" style="font-size:.85rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap">Kurs
+        <select id="kal-kurs" style="font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;max-width:100%"></select>
+      </label>
+      <div class="seg" role="group" aria-label="Tidsperiod" id="kal-tid">
+        <button data-v="kommande" aria-pressed="true">Kommande</button>
+        <button data-v="alla" aria-pressed="false">Hela terminen</button>
+      </div>
+    </div>
+    <div id="kal-list"></div>
+  </div>
+  <p class="note">Tider och salar är preliminära enligt TimeEdit. Kontrollera alltid i Canvas och TimeEdit inför varje träff. Länkar till Zoom finns i Canvas.</p>
+</section>
+
+<section class="view" id="v-yrkesroller" hidden>
+  <div style="display:grid;gap:10px">
+    <h2>Yrkesroller</h2>
+    <p>Annonsrubrikerna grupperade i yrkesroller. Antalet är annonser senaste året. Klicka för att se annonserna för en roll.</p>
+  </div>
+  <div class="roles" id="roles"></div>
+</section>
+
+<section class="view" id="v-annonser" hidden>
+  <div style="display:grid;gap:10px">
+    <h2>Jobbannonser</h2>
+    <p class="muted">Aktuella annonser och arkiverade annonser upp till ett år gamla. Länken till en arkiverad annons kan sluta fungera när den tagits bort ur Platsbanken.</p>
+  </div>
+  <div class="panel" style="display:grid;gap:14px">
+    <div class="filters">
+      <label class="q">Sök<input id="f-q" type="search" placeholder="Titel, arbetsgivare, ort…"></label>
+      <label>Län<select id="f-lan"></select></label>
+      <label>Ort<select id="f-kommun"></select></label>
+      <label>Arbetsområde<select id="f-omr"></select></label>
+      <label>Yrkesroll<select id="f-roll"></select></label>
+    </div>
+    <div class="bar">
+      <div class="seg" role="group" aria-label="Status" id="f-status">
+        <button data-v="alla" aria-pressed="true">Alla</button>
+        <button data-v="aktuell" aria-pressed="false">Aktuella</button>
+        <button data-v="arkiverad" aria-pressed="false">Arkiverade</button>
+      </div>
+      <div class="seg" role="group" aria-label="Matchning" id="f-match">
+        <button data-v="alla" aria-pressed="true">All matchning</button>
+        <button data-v="Hög" aria-pressed="false">Hög</button>
+        <button data-v="Medel+" aria-pressed="false">Medel+</button>
+      </div>
+      <label class="muted" style="font-size:.85rem;display:flex;gap:6px;align-items:center">Sortera
+        <select id="f-sort" style="font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:5px 8px">
+          <option value="datum">Senast publicerad</option>
+          <option value="match">Bäst matchning</option>
+          <option value="ort">Ort A–Ö</option>
+          <option value="sista">Sista ansökningsdag</option>
+        </select>
+      </label>
+    </div>
+    <div class="bar"><span class="count" id="count"></span>
+      <span class="legend"><span><i style="background:var(--good)"></i>Hög matchning</span><span><i style="background:var(--signal)"></i>Medel</span><span><i style="background:var(--line)"></i>Grundläggande</span></span>
+      <button class="reset" id="reset">Rensa filter</button></div>
+  </div>
+  <div class="list" id="list"></div>
+  <button class="more" id="more" hidden>Visa fler</button>
+</section>
+
+<section class="view" id="v-efterfragat" hidden>
+  <div style="display:grid;gap:10px">
+    <h2>Vad efterfrågas i annonserna?</h2>
+    <p>Hur ofta centrala begrepp och krav nämns i annonstexterna, och vilka kurser i programmet de motsvarar. Klicka på en arbetsgivare eller ett län för att filtrera annonserna.</p>
+  </div>
+  <div class="grid2">
+    <div class="panel" style="display:grid;gap:12px"><h3>Begrepp och krav i annonstexten</h3><div class="bars" id="kw"></div></div>
+    <div class="panel" style="display:grid;gap:12px"><h3>Kurser som annonserna anknyter till</h3><div class="bars" id="kc"></div></div>
+    <div class="panel" style="display:grid;gap:12px"><h3>Flest annonser per arbetsgivare</h3><div class="bars" id="emp"></div></div>
+    <div class="panel" style="display:grid;gap:12px"><h3>Annonser per län</h3><div class="bars" id="lan"></div></div>
+  </div>
+</section>
+
+<section class="view" id="v-om" hidden>
+  <h2>Om datan</h2>
+  <div class="panel" style="display:grid;gap:12px">
+    <p>Annonserna kommer från Arbetsförmedlingens öppna API:er (JobTech JobSearch för aktuella annonser och Historical Ads för arkiverade). De hämtades <b id="om-date"></b> och omfattar annonser publicerade från <b id="om-from"></b>.</p>
+    <p>Urval: sökning på ett 40-tal begrepp kopplade till utbildningen (t.ex. beredskapssamordnare, risk- och sårbarhetsanalys, kontinuitetsplanering, klimatanpassning, skadeförebyggande, trygghetssamordnare). Rubriker utan koppling till området och rena IT-säkerhets-, vakt-, brandmans- och vårdtjänster sorterades bort. Dubbletter med samma titel, arbetsgivare och ort slogs ihop.</p>
+    <p><b>Matchning</b> räknas ut från hur många av programmets kursområden som annonstexten anknyter till, plus en bonus om titeln är en tydlig riskhanteringsroll. Hög betyder bred överlapp med utbildningen. Grundläggande betyder att rollen ligger i området men kräver annat i första hand. Måttet är en tumregel och ingen bedömning av behörighet.</p>
+    <p class="muted">Annonserna hämtas på nytt en gång i veckan. Senaste hämtning: <span id="om-date2"></span>.</p>
+  </div>
+</section>
+
+</main>
+
+<script>
+const DATA = __DATA__;
+const ADS = DATA.annonser;
+// Kursnamn som visas på sidan (annonsdatan använder kurskoder internt)
+const COURSE_NAMES = {
+  "RHAD01/RHAD02": "Introduktion & Teoribildning inom riskhantering",
+  "RHAD12/RHAD22": "Personsäkerhet I & II",
+  "RHAD21/RHAD31": "Hantering av naturkatastrofer 1 & 2",
+  "RHAD14": "Riskperception och riskkommunikation",
+  "RHAD03": "Klimatanpassning och riskreducering",
+  "MVAE34": "Hållbar utveckling ur ett säkerhetsperspektiv",
+  "RHAD38": "Implementering och utvärdering av åtgärder",
+  "RHAD39": "Olycksutredning och organisatoriskt lärande",
+  "RHAD35": "Vetenskaplig metodik",
+};
+const isCourse = k => k in COURSE_NAMES;
+const cname = k => COURSE_NAMES[k] || k;
+const TERMS = [
+  ["Termin 1", [["RHAD01","Introduktion riskhantering i samhället",7.5,"Obl.","Ämnets framväxt, samhällets sektorisering och centrala lagar. Introducerar programmets två teman: vardagsolyckor och stora katastrofer."],
+    ["RHAD12","Personsäkerhet I: skadeanalys och riskbedömning",7.5,"Obl.","Kvantitativ riskanalys med epidemiologisk metod, skadestatistik, datakällor och hur ålder och kön påverkar sårbarhet."],
+    ["RHAD21","Hantering av naturkatastrofer 1",7.5,"Obl.","Hur risker uppstår vid extrema naturförhållanden. Katastrofteori och riskreducering, bl.a. PAR-modellen, med fallstudie."],
+    ["RHAD14","Riskperception och riskkommunikation",7.5,"Valfri","Hur människor uppfattar risker och hur riskkommunikation når mottagaren, inklusive etiska överväganden."]]],
+  ["Termin 2", [["RHAD22","Personsäkerhet II: skadeförebyggande och säkerhetsfrämjande arbete",7.5,"Obl.","Trafik-, arbetsmiljö-, produkt-, brand-, barn- och äldresäkerhet samt suicid- och våldsprevention. Planering av systematiska insatser."],
+    ["RHAD31","Hantering av naturkatastrofer 2",7.5,"Obl.","Jämför hur länder organiserar katastrofhantering, beredskap före, under och efter en händelse, och varningssystem."],
+    ["RHAD02","Teoribildning inom riskhantering",7.5,"Obl.","Riskhanteringens begrepp, teorier och metoder, med osäkerhet och oförutsedda händelser som centrala teman."],
+    ["RHAD03","Klimatanpassning och riskreducering",7.5,"Valfri","Kopplar kortsiktig riskreducering till långsiktig klimatanpassning på lokal nivå. RSA integrerad med klimat- och sårbarhetsanalys."],
+    ["MVAE34","Hållbar utveckling ur ett säkerhetsperspektiv",7.5,"Valfri","Hållbarhet i säkerhetsarbetet och sambandet mellan säkerhet, hälsa och miljö (SHM)."]]],
+  ["Termin 3", [["RHAD35","Vetenskaplig metodik för riskhantering i samhället",15,"Obl.","Vetenskapsteori, forskningsdesign, kvalitativa och kvantitativa metoder, analys och forskningsetik."],
+    ["RHAD38","Implementering och utvärdering av riskhanteringsåtgärder",7.5,"Valfri","Hur åtgärder implementeras och utvärderas systematiskt, inklusive policy- och beslutsprocesser."],
+    ["RHAD39","Olycksutredning och organisatoriskt lärande",7.5,"Valfri","Hur organisationer lär av olyckor och tillbud. Säkerhetskultur, högtillförlitliga organisationer och erfarenhetsåterföring."]]],
+  ["Termin 4", [["RHAE01","Riskhantering – masterarbete",30,"Obl.","Självständigt vetenskapligt arbete om samhällets systematiska säkerhetsarbete, inklusive hotbildsanalys."]]],
+];
+const ROLES = [
+  ["Beredskapssamordnare", /beredskapssamordn|beredskapskoordinator|samordnare.*beredskap|beredskaps.*samordn/i, "Samordnar kommunens, regionens eller myndighetens krisberedskap och civila försvar: RSA, beredskapsplaner, krisledningsorganisation, övningar och utbildning."],
+  ["Beredskapshandläggare & -planerare", /beredskapshandl|beredskapsplaner|handläggare.*beredskap|beredskapsspecialist|beredskapsexpert|beredskapsstrateg|beredskapsansvarig|beredskapschef/i, "Handlägger och utvecklar beredskapsplanering på länsstyrelser, civilområden och statliga myndigheter, ofta med fokus på höjd beredskap."],
+  ["Civilt försvar & totalförsvar", /civil[at]? försvar|totalförsvar|civilområde|försörjningsberedskap/i, "Roller som bygger upp det civila försvaret: planering för höjd beredskap, krigsorganisation, försörjningsberedskap och samverkan med Försvarsmakten."],
+  ["Säkerhetssamordnare", /säkerhetssamordn|säkerhetskoordinator/i, "Samordnar en organisations säkerhetsarbete: riskbedömningar, incidenthantering, säkerhetsrutiner och ofta även krisberedskap."],
+  ["Säkerhetsstrateg & säkerhetschef", /säkerhetsstrateg|säkerhetschef|säkerhetsspecialist|säkerhetsansvarig|chef.*säkerhet/i, "Strategiskt ansvar för säkerhet, beredskap och kontinuitet. Ofta krav på erfarenhet och ledningsförmåga."],
+  ["Säkerhetsskydd", /säkerhetsskydd/i, "Säkerhetsskyddschefer och handläggare som skyddar säkerhetskänslig verksamhet. Kräver oftast kompletterande kunskap om säkerhetsskyddslagen."],
+  ["Trygghet & brottsförebyggande", /trygghet|brottsförebygg/i, "Arbetar lokalt med trygghetsskapande och brottsförebyggande åtgärder, ofta i kommuner och bostadsbolag."],
+  ["Kontinuitetshantering", /kontinuitet/i, "Ser till att verksamheten fungerar vid störningar: kontinuitetsplaner, beroendeanalyser och övningar."],
+  ["Riskanalytiker & riskkonsult", /riskanaly|riskkonsult|risk ?manager|riskhanter|riskingenjör|riskspecialist|riskstrateg/i, "Analyserar och bedömer risker, på myndighet, i industri eller som konsult. Inkluderar även finansiella riskroller, som är mer angränsande."],
+  ["Klimatanpassning", /klimat/i, "Strateger och projektledare som arbetar med klimatanpassning, översvämnings- och skredrisker i fysisk planering."],
+  ["Skadeförebyggande & räddningstjänst", /skadeförebygg|olycksförebygg|förebyggande|trafiksäkerhet|räddning|brandskydd|säkerhetsfrämj|olycksutred/i, "Förebyggande arbete mot olyckor och skador: trafiksäkerhet, räddningstjänstens förebyggande verksamhet och olycksutredning."],
+  ["Krisledning & krisstöd", /kris/i, "Krishantering, krisledning och krisstöd, ofta i regioner, myndigheter och företag."],
+  ["Analytiker & utredare", /analytiker|utredare|handläggare|strateg|samordnare|specialist|expert|projektledare/i, "Andra analytiker-, utredar- och samordnarroller med koppling till risk, beredskap eller säkerhet."],
+];
+ADS.forEach(a => { const r = ROLES.find(r => r[1].test(a.rubrik)); a.roll = r ? r[0] : "Övrigt"; a._s = (a.rubrik + " " + a.arbetsgivare + " " + a.kommun + " " + a.lan).toLowerCase(); });
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const count = (arr, f) => { const m = new Map(); arr.forEach(x => [].concat(f(x)).forEach(k => k && m.set(k, (m.get(k) || 0) + 1))); return [...m].sort((a, b) => b[1] - a[1]); };
+function bars(el, rows, opts = {}) {
+  const max = Math.max(1, ...rows.map(r => r[1]));
+  el.innerHTML = rows.map(([k, v]) => {
+    const inner = `<span class="lbl" title="${esc(k)}">${esc(opts.label ? opts.label(k) : k)}</span><span class="track"><span class="fill${opts.sig ? " sig" : ""}" style="width:${(v / max * 100).toFixed(1)}%"></span></span><span class="v">${v}</span>`;
+    return opts.click ? `<button class="brow" data-k="${esc(k)}">${inner}</button>` : `<div class="brow">${inner}</div>`;
+  }).join("");
+  if (opts.click) el.querySelectorAll("button").forEach(b => b.onclick = () => opts.click(b.dataset.k));
+}
+
+// Översikt
+const akt = ADS.filter(a => a.status === "aktuell").length;
+$("n-ads").textContent = ADS.length;
+$("facts").innerHTML = [[ADS.length, "annonser senaste året"], [akt, "aktuella just nu"], [ADS.filter(a => a.match === "Hög").length, "med hög matchning"], [new Set(ADS.map(a => a.kommun)).size, "orter"], [new Set(ADS.map(a => a.arbetsgivare)).size, "arbetsgivare"]]
+  .map(([v, l]) => `<div><b>${v.toLocaleString("sv-SE")}</b><span>${l}</span></div>`).join("");
+const roleCounts = count(ADS, a => a.roll).filter(r => r[0] !== "Övrigt");
+bars($("ov-roles"), roleCounts.slice(0, 8), { click: k => go({ roll: k }) });
+bars($("ov-areas"), count(ADS, a => a.omraden), { click: k => go({ omr: k }), sig: true });
+
+// Utbildningen
+$("terms").innerHTML = TERMS.map(([t, cs]) => `<div class="panel term"><div class="term-h"><h3>${t}</h3><span class="eyebrow">${cs.reduce((s, c) => s + (c[3] === "Obl." ? c[2] : 0), 0)} hp obl.</span></div>` +
+  cs.map(c => `<div class="course"><span class="t">${esc(c[1])}</span><span class="hp">${String(c[2]).replace(".", ",")} hp · ${c[3] === "Obl." ? "Obligatorisk" : "Valfri"}</span><p>${esc(c[4])}</p></div>`).join("") + `</div>`).join("");
+
+// Yrkesroller
+$("roles").innerHTML = [...ROLES.map(r => r[0]), "Övrigt"].map(name => {
+  const ads = ADS.filter(a => a.roll === name); if (!ads.length) return "";
+  const r = ROLES.find(r => r[0] === name);
+  const emps = count(ads, a => a.arbetsgivare).slice(0, 3).map(e => e[0]);
+  const kurser = count(ads, a => a.kurser.filter(isCourse)).slice(0, 3).map(k => k[0]);
+  const ak = ads.filter(a => a.status === "aktuell").length;
+  const titles = count(ads, a => a.rubrik.replace(/\s+(till|sökes|på|i|vid|inom|för)\s.*$/i, "").replace(/[,–-]\s.*$/, "").trim()).slice(0, 4).map(t => t[0]);
+  return `<div class="panel role"><div class="head"><h3>${esc(name)}</h3><span class="num">${ads.length}</span></div>
+    <p class="muted" style="font-size:.9rem">${esc(r ? r[2] : "Annonser som inte passade in i någon av grupperna ovan.")}</p>
+    <div style="font-size:.86rem"><span class="eyebrow">Exempel på titlar</span><br>${titles.map(esc).join(" · ")}</div>
+    <div style="font-size:.86rem"><span class="eyebrow">Vanliga arbetsgivare</span><br>${emps.map(esc).join(" · ")}</div>
+    <div class="chips">${kurser.map(k => `<span class="chip">${esc(cname(k))}</span>`).join("")}${ak ? `<span class="chip good">${ak} aktuella</span>` : ""}</div>
+    <button class="go" data-r="${esc(name)}">Visa annonserna</button></div>`;
+}).join("");
+$("roles").querySelectorAll("button.go").forEach(b => b.onclick = () => go({ roll: b.dataset.r }));
+
+// Efterfrågat
+bars($("kw"), count(ADS, a => a.nyckelord).slice(0, 18));
+bars($("kc"), count(ADS, a => a.kurser.filter(isCourse)), { label: cname, sig: true });
+bars($("emp"), count(ADS, a => a.arbetsgivare).slice(0, 15), { click: k => go({ q: k }) });
+bars($("lan"), count(ADS, a => a.lan), { click: k => go({ lan: k }) });
+$("om-date").textContent = DATA.hamtad; $("om-date2").textContent = DATA.hamtad; $("om-from").textContent = DATA.fran;
+
+// Annonser
+const st = { q: "", lan: "", kommun: "", omr: "", roll: "", status: "alla", match: "alla", sort: "datum", shown: 50 };
+function opts(sel, rows, all) { sel.innerHTML = `<option value="">${all}</option>` + rows.map(([k, v]) => `<option value="${esc(k)}">${esc(k)} (${v})</option>`).join(""); }
+opts($("f-lan"), count(ADS, a => a.lan).sort((a, b) => a[0].localeCompare(b[0], "sv")), "Alla län");
+opts($("f-omr"), count(ADS, a => a.omraden), "Alla områden");
+opts($("f-roll"), count(ADS, a => a.roll), "Alla roller");
+function kommunOpts() { opts($("f-kommun"), count(ADS.filter(a => !st.lan || a.lan === st.lan), a => a.kommun).sort((a, b) => a[0].localeCompare(b[0], "sv")), "Alla orter"); $("f-kommun").value = st.kommun; }
+kommunOpts();
+const MR = { "Hög": 3, "Medel": 2, "Grundläggande": 1 };
+function filtered() {
+  const q = st.q.toLowerCase().trim();
+  let r = ADS.filter(a => (!q || a._s.includes(q)) && (!st.lan || a.lan === st.lan) && (!st.kommun || a.kommun === st.kommun) && (!st.omr || a.omraden.includes(st.omr)) && (!st.roll || a.roll === st.roll)
+    && (st.status === "alla" || a.status === st.status) && (st.match === "alla" || (st.match === "Hög" ? a.match === "Hög" : a.match !== "Grundläggande")));
+  const s = { datum: (a, b) => b.publicerad.localeCompare(a.publicerad), match: (a, b) => b.poang - a.poang || b.publicerad.localeCompare(a.publicerad),
+    ort: (a, b) => a.kommun.localeCompare(b.kommun, "sv") || b.publicerad.localeCompare(a.publicerad), sista: (a, b) => (a.status !== "aktuell") - (b.status !== "aktuell") || (a.sista || "9").localeCompare(b.sista || "9") }[st.sort];
+  return r.sort(s);
+}
+const fmt = d => d ? new Date(d).toLocaleDateString("sv-SE", { day: "numeric", month: "short", year: "numeric" }) : "";
+function renderList() {
+  const r = filtered();
+  $("count").textContent = `${r.length.toLocaleString("sv-SE")} annonser`;
+  $("list").innerHTML = r.length ? r.slice(0, st.shown).map(a => `<article class="ad m-${a.match}">
+    <div style="display:grid;gap:3px;min-width:0"><h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.rubrik)}</a></h3>
+      <div class="meta">${esc(a.arbetsgivare)} · <b>${esc(a.kommun)}</b>, ${esc(a.lan)}${a.omfattning ? " · " + esc(a.omfattning) : ""}</div></div>
+    <div class="right"><span class="chip ${a.status === "aktuell" ? "now" : "plain"}">${a.status === "aktuell" ? "Aktuell" : "Arkiverad"}</span>
+      <span class="date">Publ. ${fmt(a.publicerad)}</span>${a.status === "aktuell" && a.sista ? `<span class="date">Sista dag ${fmt(a.sista)}</span>` : ""}</div>
+    ${a.utdrag ? `<p class="ex">${esc(a.utdrag)}</p>` : ""}
+    <div class="chips"><span class="chip ${a.match === "Hög" ? "good" : a.match === "Medel" ? "" : "plain"}">Matchning: ${a.match}</span>${a.omraden.map(o => `<span class="chip sig">${esc(o)}</span>`).join("")}${a.kurser.filter(isCourse).slice(0, 3).map(k => `<span class="chip plain">${esc(cname(k))}</span>`).join("")}</div>
+  </article>`).join("") : `<div class="empty">Inga annonser matchar filtren. Prova att rensa ett filter.</div>`;
+  $("more").hidden = r.length <= st.shown;
+  $("more").textContent = `Visa fler (${(r.length - st.shown).toLocaleString("sv-SE")} kvar)`;
+}
+function syncControls() {
+  $("f-q").value = st.q; $("f-lan").value = st.lan; kommunOpts(); $("f-omr").value = st.omr; $("f-roll").value = st.roll; $("f-sort").value = st.sort;
+  ["status", "match"].forEach(k => $("f-" + k).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === st[k])));
+}
+const upd = (k, v) => { st[k] = v; st.shown = 50; if (k === "lan") { st.kommun = ""; kommunOpts(); } renderList(); };
+$("f-q").oninput = e => upd("q", e.target.value);
+["lan", "kommun", "omr", "roll", "sort"].forEach(k => $("f-" + k).onchange = e => upd(k, e.target.value));
+["status", "match"].forEach(k => $("f-" + k).querySelectorAll("button").forEach(b => b.onclick = () => { upd(k, b.dataset.v); syncControls(); }));
+$("more").onclick = () => { st.shown += 50; renderList(); };
+$("reset").onclick = () => { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", status: "alla", match: "alla", shown: 50 }); syncControls(); renderList(); };
+function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", shown: 50 }, f); syncControls(); renderList(); location.hash = "annonser"; window.scrollTo(0, 0); }
+
+// Kurskalender
+(function () {
+  const K = DATA.kalender;
+  if (!K || !K.handelser.length) { $("kal-sub").textContent = "Ingen kalenderfil hittades. Lägg den som data/kurskalender.ics och bygg om sidan."; $("kal-wrap").hidden = true; return; }
+  const FULL = Object.fromEntries(TERMS.flatMap(t => t[1].map(c => [c[0], c[1]])));
+  const name = k => FULL[k] || k || "Övrigt";
+  const pad = n => String(n).padStart(2, "0");
+  const now = new Date(); const today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+  const EV = K.handelser.map(e => {
+    let t = e.titel;
+    const n = name(e.kod).split(":")[0];
+    if (t.toLowerCase().startsWith(n.toLowerCase())) t = t.slice(n.length).replace(/^\s*[–-]\s*/, "");
+    t = t.replace(/^Kursstart\s*[–-]\s*.*/, "Kursstart");
+    t = t.charAt(0).toUpperCase() + t.slice(1);
+    const txt = (e.titel + " " + e.plats).toLowerCase();
+    const typ = /inlämning|deadline/.test(txt) ? ["Inlämning", "typ-inl"] : /kursstart/.test(txt) ? ["Kursstart", ""] : /zoom|webbinar|canvas/.test(txt) && !/campus|sal /.test(txt) ? ["Distans", "plain"] : /campus|sal |universitet/.test(txt) ? ["Campus", "typ-campus"] : ["Övrigt", "plain"];
+    return { ...e, dag: e.start.slice(0, 10), rubrik: t, kurs: name(e.kod), typ };
+  });
+  const sv = (d, o) => new Date(d + (d.length === 10 ? "T12:00" : "")).toLocaleDateString("sv-SE", o);
+  const klock = e => e.heldag ? "Heldag" : e.start.slice(11) === e.slut.slice(11) ? `senast ${e.start.slice(11)}` : `${e.start.slice(11)}–${e.slut.slice(11)}`;
+  $("kal-sub").textContent = `${K.handelser.length} händelser från ${sv(EV[0].dag, { day: "numeric", month: "long", year: "numeric" })} till ${sv(EV[EV.length - 1].dag, { day: "numeric", month: "long", year: "numeric" })}. Kalenderfilen ändrades senast ${sv(K.andrad, { day: "numeric", month: "long", year: "numeric" })}.`;
+  const kurser = [...new Set(EV.map(e => e.kurs))].sort((a, b) => a.localeCompare(b, "sv"));
+  $("kal-kurs").innerHTML = `<option value="">Alla kurser</option>` + kurser.map(k => `<option>${esc(k)}</option>`).join("");
+  const ks = { kurs: "", tid: "kommande" };
+  const card = e => `<div class="panel"><span class="when">${e.dag === today ? "Idag" : sv(e.dag, { weekday: "short", day: "numeric", month: "short" })} · ${klock(e)}</span><b>${esc(e.rubrik)}</b><span class="muted" style="font-size:.86rem">${esc(e.kurs)}</span><span class="muted" style="font-size:.86rem">${esc(e.plats)}</span></div>`;
+  function render() {
+    const up = EV.filter(e => e.dag >= today);
+    $("kal-next").innerHTML = up.length ? up.slice(0, 3).map(card).join("") : `<p class="muted">Inga kommande händelser i kalenderfilen.</p>`;
+    const rows = EV.filter(e => (!ks.kurs || e.kurs === ks.kurs) && (ks.tid === "alla" || e.dag >= today));
+    const months = new Map(); rows.forEach(e => { const m = e.dag.slice(0, 7); months.has(m) || months.set(m, []); months.get(m).push(e); });
+    $("kal-list").innerHTML = rows.length ? [...months].map(([m, es]) => `<div class="month"><h3>${sv(m + "-15", { month: "long", year: "numeric" })}</h3>` + es.map(e => `
+      <div class="ev${e.dag < today ? " past" : ""}${e.dag === today ? " today" : ""}">
+        <div class="d"><b>${+e.dag.slice(8)}</b><span>${sv(e.dag, { weekday: "short" })}</span></div>
+        <div class="body">
+          <span class="t">${esc(e.rubrik)}</span>
+          <div class="chips"><span class="chip">${esc(e.kurs)}</span><span class="chip ${e.typ[1]}">${e.typ[0]}</span>${e.dag === today ? `<span class="chip now">Idag</span>` : ""}</div>
+          <div class="meta"><span>${klock(e)}</span>${e.plats ? `<span>${esc(e.plats)}</span>` : ""}</div>
+          ${e.info ? `<details><summary>Mer information</summary><p>${esc(e.info)}</p></details>` : ""}
+        </div>
+      </div>`).join("") + `</div>`).join("") : `<div class="empty">Inga händelser för det här urvalet.</div>`;
+  }
+  $("kal-kurs").onchange = e => { ks.kurs = e.target.value; render(); };
+  $("kal-tid").querySelectorAll("button").forEach(b => b.onclick = () => { ks.tid = b.dataset.v; $("kal-tid").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b)); render(); });
+  render();
+})();
+
+// Flikar
+const VIEWS = ["oversikt", "utbildningen", "kalender", "yrkesroller", "annonser", "efterfragat", "om"];
+function route() {
+  const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "oversikt";
+  VIEWS.forEach(x => $("v-" + x).hidden = x !== v);
+  document.querySelectorAll("#tabs a").forEach(a => a.getAttribute("href") === "#" + v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+}
+addEventListener("hashchange", () => { route(); window.scrollTo(0, 0); });
+route(); renderList();
+</script>
