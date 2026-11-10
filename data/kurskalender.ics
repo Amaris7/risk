@@ -1,321 +1,1592 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//RHAD01 RHAD14 ht26//SV
+PRODID:icalendar-ruby
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:RHAD ht26 (RHAD01\, 14\, 12\, 21)
-X-WR-TIMEZONE:Europe/Stockholm
-BEGIN:VTIMEZONE
-TZID:Europe/Stockholm
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
+X-WR-CALNAME:Samira Ariadad Kalender (Canvas)
+X-WR-CALDESC:Kalenderhändelser för användaren Samira Ariadad
 BEGIN:VEVENT
-UID:rhad14-ht26-forelasning-1@rhad-kalender
-DTSTAMP:20261005T120000Z
-DTSTART;TZID=Europe/Stockholm:20261007T101500
-DTEND;TZID=Europe/Stockholm:20261007T120000
-SUMMARY:RHAD14: Föreläsning – Riskkommunikation teoretiska perspektiv
-LOCATION:Canvas
-DESCRIPTION:Lärare: Hilde
+DTSTAMP:20261103T092400Z
+UID:event-assignment-166836
+DTSTART:20261016T150000Z
+DTEND:20261016T150000Z
+CLASS:PUBLIC
+DESCRIPTION:Syftet med denna uppgift är att ni ska diskutera era arbeten o
+ ch dela tankar kring genomförandet. Bestäm en tid när ni kan höras öv
+ er länk\, diskutera frågorna nedan och lämna in några korta punkter so
+ m beskriver hur ni resonerat.  En inlämning/grupp.\n\n- Beskriv för var
+ andra hur ni tänkt strukturera rapporten och hur ni uppfattar att IMRD sk
+ a användas?\n\n- Hur får man till en röd tråd genom arbetet så att in
+ ledning\, syfte\, metoden\, resultatet och diskussion hänger ihop?\n\n- B
+ erätta för varandra hur ni tänkt lägga upp er resultatdel och hur man 
+ kan göra för att den ska bli intressant att läsa? Hur höjer man analys
+ en och kommer ifrån att ”bara” återge vad som beskrivs i artiklarna?
+  \n\nOm det kommer upp frågor eller områden som ni känner er osäkra p
+ å så skriver ni ner dem och lämnar in\, så göra vi vårt bästa för 
+ att besvara dem. \n\nHoppas att det blir givande!/Lärarna \n\n 
+SEQUENCE:0
+SUMMARY:Gruppseminarie [RHAD01\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_28812&
+ month=10&year=2026#assignment_166836
+X-ALT-DESC;FMTTYPE=text/html:<p>Syftet med denna uppgift är att ni ska dis
+ kutera era arbeten och dela tankar kring genomförandet. Bestäm en tid n
+ är ni kan höras över länk\, diskutera frågorna nedan och lämna in n
+ ågra<span style="font-family: inherit\; font-size: 1rem\;"> korta punkter
+  som beskriver hur ni resonerat.&nbsp\; En inlämning/grupp.</span></p>\n<
+ p><span style="font-family: inherit\; font-size: 1rem\;">- Beskriv för va
+ randra hur ni tänkt strukturera rapporten och hur ni uppfattar att IMRD s
+ ka användas?</span></p>\n<p><span style="font-family: inherit\; font-size
+ : 1rem\;">- Hur får man till en röd tråd genom arbetet så att inlednin
+ g\, syfte\, metoden\, resultatet och diskussion hänger ihop?</span></p>\n
+ <p><span style="font-family: inherit\; font-size: 1rem\;">- Berätta för 
+ varandra hur ni tänkt lägga upp er resultatdel och hur man kan göra fö
+ r att den ska bli intressant att läsa? </span>Hur höjer man analysen och
+  kommer ifrån att ”bara” återge vad som beskrivs i artiklarna?&nbsp\
+ ;</p>\n<p>Om det kommer upp frågor eller områden som ni känner er osäk
+ ra på så skriver ni ner dem och lämnar in\, så göra vi vårt bästa f
+ ör att besvara dem.&nbsp\;</p>\n<p>Hoppas att det blir givande!/Lärarna&
+ nbsp\;</p>\n<p>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad14-ht26-gruppuppgift@rhad-kalender
-DTSTAMP:20261005T120000Z
-DTSTART;TZID=Europe/Stockholm:20261009T235900
-DTEND;TZID=Europe/Stockholm:20261009T235900
-SUMMARY:RHAD14: Inlämning gruppuppgift + individuell reflektion
-LOCATION:Canvas
-DESCRIPTION:Senast kl. 23.59 (flyttad från 2 okt).
+DTSTAMP:20261028T105500Z
+UID:event-assignment-166828
+DTSTART:20261027T160000Z
+DTEND:20261027T160000Z
+CLASS:PUBLIC
+DESCRIPTION:Här lämnar du in utkastet till din poster inför det lärarle
+ dda gruppseminariet senare i veckan. Vi kommer diskutera postrarna i grupp
+ er och ni har efter det möjlighet att modifiera postern inför att den sk
+ a gå till tryck. Vidare instruktioner återfinns längst ner på sidan f
+ ör avsnitt tre. \n\nPostern som ska innehålla följande:\n\n* En beskri
+ vande titel\n\n* Beskrivning av ditt område samt syfte och/eller forsknin
+ gsfråga\n\n* Något kort om vad bygger forskningen på för traditioner o
+ ch om du kan se vad som påverkat forskningen? Det kan exempelvis vara att
+  det området ut valt svarar upp på ett aktuellt samhällsproblem\, en sp
+ ecifik händelse eller en samhällstrend.\n\n* De viktigaste resultaten i 
+ punktform\n\n* Hur berättigar författarna den forskning de bedriver och 
+ anser du att den är relevant? Det kan exempelvis vara hur studierna motiv
+ eras och vilka argument författarna lyfter fram för att visa att forskni
+ ngen är relevant.\n\n* Slutsatser och lärdomar\n\nAtt tänka på när du
+  gör din poster\n\n* Allt behöver inte framgå i text på postern\, tän
+ k snarare stödord som du sen kan prata utifrån\n\n* Less is more – str
+ äva efter (nästan) så lite text som möjligt\n\n* Skapa gärna en figur
+  eller bild som illustrerar ditt arbete eller delar av det\, till exempel 
+ resultatet eller dina reflektioner\n\nPå KAU finns följande mallar för 
+ posters. Det är fritt att välja stående eller liggande format. Postrar 
+ kommer att tryckas i A2-format alternativt på två A3 som sätts ihop.\n\
+ n[Mall poster stående] (https://canvas.kau.se/courses/28812/files/3555121
+ ?wrap=1)[ [] (https://canvas.kau.se/images/svg-icons/svg_icon_download.sv
+ g)Ladda ner Mall poster stående] (https://canvas.kau.se/courses/28812/fil
+ es/3555121/download)\n\n[Mall poster liggande] (https://canvas.kau.se/cour
+ ses/28812/files/3555161?wrap=1)[ [] (https://canvas.kau.se/images/svg-ico
+ ns/svg_icon_download.svg)Ladda ner Mall poster liggande] (https://canvas.k
+ au.se/courses/28812/files/3555161/download)
+SEQUENCE:0
+SUMMARY:🔔 Inför posterseminarium [RHAD01\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_28812&
+ month=10&year=2026#assignment_166828
+X-ALT-DESC;FMTTYPE=text/html:<p>Här lämnar du in utkastet till din poster
+  inför det lärarledda gruppseminariet senare i veckan. Vi kommer diskute
+ ra postrarna i grupper och ni har efter det möjlighet att modifiera poste
+ rn inför att den ska gå till tryck. Vidare instruktioner återfinns län
+ gst ner på sidan för avsnitt tre.&nbsp\;</p>\n<p>Postern som ska innehå
+ lla följande:</p>\n<ul>\n<li>En beskrivande titel</li>\n</ul>\n<ul>\n<li>
+ Beskrivning av ditt område samt syfte och/eller forskningsfråga</li>\n<l
+ i>Något kort om vad bygger forskningen på för traditioner och om du kan
+  se vad som påverkat forskningen? Det kan exempelvis vara att det område
+ t ut valt svarar upp på ett aktuellt samhällsproblem\, en specifik händ
+ else eller en samhällstrend.</li>\n<li>De viktigaste resultaten i punktfo
+ rm</li>\n<li>Hur berättigar författarna den forskning de bedriver och an
+ ser du att den är relevant? Det kan exempelvis vara hur studierna motiver
+ as och vilka argument författarna lyfter fram för att visa att forskning
+ en är relevant.</li>\n<li>Slutsatser och lärdomar</li>\n</ul>\n<p>Att t
+ änka på när du gör din poster</p>\n<ul>\n<li>Allt behöver inte framg
+ å i text på postern\, tänk snarare stödord som du sen kan prata utifr
+ ån</li>\n<li>Less is more – sträva efter (nästan) så lite text som m
+ öjligt</li>\n<li>Skapa gärna en figur eller bild som illustrerar ditt ar
+ bete eller delar av det\, till exempel resultatet eller dina reflektioner<
+ /li>\n</ul>\n<p>På KAU finns följande mallar för posters. Det är fritt
+  att välja stående eller liggande format. Postrar kommer att tryckas i A
+ 2-format alternativt på två A3 som sätts ihop.</p>\n<p><span class="ins
+ tructure_file_holder link_holder instructure_file_link_holder"><a class="i
+ nline_disabled preview_in_overlay" title="Poster _staende_a0.pptx" href="h
+ ttps://canvas.kau.se/courses/28812/files/3555121?wrap=1" target="_blank" d
+ ata-api-endpoint="https://canvas.kau.se/api/v1/courses/28812/files/3555121
+ " data-api-returntype="File">Mall poster stående</a><a class="file_downlo
+ ad_btn" role="button" href="https://canvas.kau.se/courses/28812/files/3555
+ 121/download" data-api-endpoint="https://canvas.kau.se/api/v1/courses/2881
+ 2/files/3555121" data-api-returntype="File"><span>&nbsp\;</span><img role=
+ "presentation" src="https://canvas.kau.se/images/svg-icons/svg_icon_downlo
+ ad.svg" alt="" loading="lazy"><span class="screenreader-only">Ladda ner Ma
+ ll poster stående</span></a></span></p>\n<p><span class="instructure_file
+ _holder link_holder instructure_file_link_holder"><a class="inline_disable
+ d preview_in_overlay" title="Poster liggande_a0.pptx" href="https://canvas
+ .kau.se/courses/28812/files/3555161?wrap=1" target="_blank" data-api-endpo
+ int="https://canvas.kau.se/api/v1/courses/28812/files/3555161" data-api-re
+ turntype="File">Mall poster liggande</a><a class="file_download_btn" role=
+ "button" href="https://canvas.kau.se/courses/28812/files/3555161/download"
+  data-api-endpoint="https://canvas.kau.se/api/v1/courses/28812/files/35551
+ 61" data-api-returntype="File"><span>&nbsp\;</span><img role="presentation
+ " src="https://canvas.kau.se/images/svg-icons/svg_icon_download.svg" alt="
+ " loading="lazy"><span class="screenreader-only">Ladda ner Mall poster lig
+ gande</span></a></span></p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad01-ht26-posterdiskussion@rhad-kalender
-DTSTAMP:20261005T120000Z
-DTSTART;TZID=Europe/Stockholm:20261028T130000
-DTEND;TZID=Europe/Stockholm:20261028T150000
-SUMMARY:RHAD01: Posterdiskussion
+DTSTAMP:20261005T212500Z
+UID:event-calendar-event-118098
+DTSTART:20261028T120000Z
+DTEND:20261028T140000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Erik och Monir\n\nAnslut via Zoom: https://kau-se.zoom
+ .us/my/erikperssonpavlovic
 LOCATION:Zoom
-URL:https://kau-se.zoom.us/my/erikperssonpavlovic
-DESCRIPTION:Lärare: Erik och Monir\nAnslut via Zoom: https://kau-se.zoom.u
- s/my/erikperssonpavlovic
+SEQUENCE:0
+SUMMARY:RHAD01: Posterdiskussion [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=10&year=2026#calendar_event_118098
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Erik och Monir</p><p>Anslut via Zo
+ om: <a href="https://kau-se.zoom.us/my/erikperssonpavlovic">https://kau-se
+ .zoom.us/my/erikperssonpavlovic</a></p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad14-ht26-individuell-uppgift@rhad-kalender
-DTSTAMP:20261005T120000Z
-DTSTART;TZID=Europe/Stockholm:20261105T235900
-DTEND;TZID=Europe/Stockholm:20261105T235900
-SUMMARY:RHAD14: Inlämning individuell uppgift
-LOCATION:Canvas
-DESCRIPTION:Senast kl. 23.59. Riskkommunikation\, ca 5 sidor.
+DTSTAMP:20260930T103900Z
+UID:event-assignment-166834
+DTSTART;VALUE=DATE;VALUE=DATE:20261102
+CLASS:PUBLIC
+DESCRIPTION:Börja med att ställa upp de artiklar du valt ut i en matris e
+ nligt mall som återfinns [här] (https://canvas.kau.se/courses/28812/fil
+ es/3555120/preview). Matrisen läggs i rapportens resultatdel. Syftet med 
+ matrisen är skapa en överblick av artiklarna. Har man många artiklar\, 
+ som vid en fullständig litteraturgenomgång eller en uppsats\, så underl
+ ättar matrisen att hålla reda på träffarna.\n\nHur rapporten ska utfor
+ mas framgår i rapportmallen som återfinns [här] (https://canvas.kau.se/
+ courses/28812/files/3555147?wrap=1) där det även framgår vad som ska s
+ tå under respektive rubrik. \n\nVidare ska du granska artiklarna utifrå
+ n följande frågor: \n\n* Finns metod\, urval och population väl beskri
+ vet?\n\n* I vilken utsträckning går resultaten att generalisera till and
+ ra kontexter\, t ex andra länder\, händelser\, populationer (om det är 
+ applicerbart)\, kulturer o.s.v.?\n\n* Inom vilken vetenskaplig disciplin 
+ är artikeln skriven\, hur påverkade det innehållet?\n\n* Vem har finans
+ ierat forskningen?\n\n* förtydliga om det är någon specifik händelse s
+ om gjort att forskningen blivit av?\n\nDet är även fritt fram att lägga
+  till ytterligare granskningskriterier som du anser är relevanta. \n\nBe
+ svara frågorna och diskutera artiklarna utifrån svaren. Använd annan re
+ levant litteratur när du diskuterar dina resultat. Det kan vara både lit
+ teratur som anvisats i andra uppgifter och sådant som du själv sökt fra
+ m. \n\nHär hittar ni exempel på hur inlämningar från tidigare kurser\
+ , instruktionerna för uppgiften har ändrats något men det kan ändå va
+ ra lärorikt att se hur andra löst uppgiften. Exempel från tidigare års
+  kurser: [Ett\,] (https://canvas.kau.se/courses/28812/files/3555143?wrap=1
+ ) [Två\, ] (https://canvas.kau.se/courses/28812/files/3555145?wrap=1)[]
+  (https://canvas.kau.se/courses/28812/files/3555145?wrap=1)[Tre] (https://
+ canvas.kau.se/courses/28812/files/3555119?wrap=1)\n\nRapportens Omfång: 
+ 2500-4000 ord\, strukturera rapporten enligt mallen. Matrisen räknas inte
+  in i antalet ord.  Uppgiften betygssätts med U\, G eller VG\, se matris
+  för bedömningskriterier. \n\nLägg även upp rapporten i gruppens mapp
+ .\n\nHör av dig om något är oklart och lycka till!
+SEQUENCE:0
+SUMMARY:🔔 Uppgift 3.3 Litteraturstudie [RHAD01\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_28812&
+ month=11&year=2026#assignment_166834
+X-ALT-DESC;FMTTYPE=text/html:<p><span style="font-family: inherit\; font-si
+ ze: 1rem\;">Börja med att ställa upp de artiklar du valt ut i en matris 
+ enligt mall som återfinns</span><span style="font-family: inherit\; font-
+ size: 1rem\;">&nbsp\;</span><a class="instructure_file_link instructure_sc
+ ribd_file" style="font-family: inherit\; font-size: 1rem\;" title="Matrism
+ all för litteraturstudier.docx" href="https://canvas.kau.se/courses/28812
+ /files/3555120/preview" target="_blank" data-api-endpoint="https://canvas.
+ kau.se/api/v1/courses/28812/files/3555120" data-api-returntype="File">här
+ </a><span style="font-family: inherit\; font-size: 1rem\;">. Matrisen läg
+ gs i rapportens resultatdel. Syftet med matrisen är skapa en överblick a
+ v artiklarna. Har man många artiklar\, som vid en fullständig litteratur
+ genomgång eller en uppsats\, så underlättar matrisen att hålla reda p
+ å träffarna.</span></p>\n<p><span>Hur rapporten ska utformas framgår i 
+ rapportmallen som återfinns <a class="instructure_file_link instructure_s
+ cribd_file inline_disabled" title="Rapportmall uppgift 3.docx" href="https
+ ://canvas.kau.se/courses/28812/files/3555147?wrap=1" target="_blank" data-
+ api-endpoint="https://canvas.kau.se/api/v1/courses/28812/files/3555147" da
+ ta-api-returntype="File">här</a></span>&nbsp\;där det även framgår vad
+  som ska stå under respektive rubrik.&nbsp\;</p>\n<p>Vidare ska du<span> 
+ granska artiklarna utifrån följande frågor:&nbsp\;</span></p>\n<ul>\n<l
+ i>Finns metod\, urval och population väl beskrivet?</li>\n<li>I vilken ut
+ sträckning går resultaten att generalisera till andra kontexter\, t ex a
+ ndra länder\, händelser\, populationer (om det är applicerbart)\, kultu
+ rer o.s.v.?</li>\n<li>Inom vilken vetenskaplig disciplin är artikeln skri
+ ven\, hur påverkade det innehållet?</li>\n<li>Vem har finansierat forskn
+ ingen?</li>\n<li>förtydliga om det är någon specifik händelse som gjor
+ t att forskningen blivit av?</li>\n</ul>\n<p><span>Det är även fritt fra
+ m att lägga till ytterligare granskningskriterier som du anser är releva
+ nta.&nbsp\; </span></p>\n<p><span><strong>Besvara frågorna </strong>och <
+ strong>d</strong></span><strong>iskutera artiklarna utifrån svaren</stron
+ g>. Använd annan relevant litteratur när du diskuterar dina resultat. De
+ t kan vara både litteratur som anvisats i andra uppgifter och sådant som
+  du själv sökt fram.&nbsp\;</p>\n<p>Här hittar ni exempel på hur inlä
+ mningar från tidigare kurser\, instruktionerna för uppgiften har ändrat
+ s något men det kan ändå vara lärorikt att se hur andra löst uppgifte
+ n. Exempel från tidigare års kurser: <a class="instructure_file_link ins
+ tructure_scribd_file inline_disabled" title="Uppgift 3.3 - A.R..docx" href
+ ="https://canvas.kau.se/courses/28812/files/3555143?wrap=1" target="_blank
+ " data-api-endpoint="https://canvas.kau.se/api/v1/courses/28812/files/3555
+ 143" data-api-returntype="File">Ett\,</a>&nbsp\;<a class="instructure_file
+ _link instructure_scribd_file inline_disabled" title="Uppgift 3.3 S.D..doc
+ x" href="https://canvas.kau.se/courses/28812/files/3555145?wrap=1" target=
+ "_blank" data-api-endpoint="https://canvas.kau.se/api/v1/courses/28812/fil
+ es/3555145" data-api-returntype="File">Två\,&nbsp\;</a><a class="instruct
+ ure_file_link instructure_scribd_file inline_disabled" title="Uppgift 3.3 
+ S.D..docx" href="https://canvas.kau.se/courses/28812/files/3555145?wrap=1"
+  target="_blank" data-api-endpoint="https://canvas.kau.se/api/v1/courses/2
+ 8812/files/3555145" data-api-returntype="File"></a><a class="instructure_f
+ ile_link instructure_scribd_file inline_disabled" title="Uppgift 3.3. M.H.
+ pdf" href="https://canvas.kau.se/courses/28812/files/3555119?wrap=1" targe
+ t="_blank" data-api-endpoint="https://canvas.kau.se/api/v1/courses/28812/f
+ iles/3555119" data-api-returntype="File">Tre</a></p>\n<p><span>Rapportens&
+ nbsp\;</span><span>Omfång: 2500-4000 ord\, strukturera rapporten enligt m
+ allen. Matrisen räknas inte in i antalet ord.&nbsp\; </span><span>Uppgift
+ en betygssätts med U\, G eller VG\, se matris för bedömningskriterier.&
+ nbsp\;</span></p>\n<p><span>Lägg även upp rapporten i gruppens mapp.</sp
+ an></p>\n<p><span>Hör av dig om något är oklart och lycka till!</span><
+ /p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad01-ht26-posterseminarium@rhad-kalender
-DTSTAMP:20261026T160000Z
-DTSTART;TZID=Europe/Stockholm:20261109T131500
-DTEND;TZID=Europe/Stockholm:20261109T170000
-SUMMARY:RHAD01: Posterseminarium (campus)
-LOCATION:Karlstads universitet\, sal 21A258 Pedagogiska verkstan
+DTSTAMP:20261109T081000Z
+UID:event-assignment-166829
+DTSTART:20261104T160000Z
+DTEND:20261104T160000Z
+CLASS:PUBLIC
+DESCRIPTION:Instruktioner för poster finns i uppgiften för inlämning av 
+ posterutkast. \n\nInför tryck: \n\n* lämna in här i PDF format\n\n- g
+ å inte utanför marginalerna\, då kan information försvinna vid tryckni
+ ng\n\nPå morgonen dagen efter inlämning går materialet till tryck. Om d
+ u lämnar in efter det så kommer din poster inte att tryckas lika profess
+ ionellt utan printas svartvitt i mindre format. \n\nExempel på posters f
+ rån tidigare år:\n\n[A.M. Poster.pdf] (https://canvas.kau.se/courses/288
+ 12/files/3555150?wrap=1)\n\n[Poster - A.H. .pdf] (https://canvas.kau.se/co
+ urses/28812/files/3555152?wrap=1)\n\n[Poster - S.A. .pdf] (https://canvas.
+ kau.se/courses/28812/files/3555104?wrap=1)\n\n[poster M.S..pdf] (https://c
+ anvas.kau.se/courses/28812/files/3555140?wrap=1)\n\n[Poster N.S.N. .pdf] (
+ https://canvas.kau.se/courses/28812/files/3555141?wrap=1)\n\n[Poster N.T.B
+ . .pdf] (https://canvas.kau.se/courses/28812/files/3555159?wrap=1)\n\n[Pos
+ ter R.G.A. .pdf] (https://canvas.kau.se/courses/28812/files/3555136?wrap=1
+ )
+SEQUENCE:0
+SUMMARY:🔔 Poster till tryck [RHAD01\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_28812&
+ month=11&year=2026#assignment_166829
+X-ALT-DESC;FMTTYPE=text/html:<p>Instruktioner för poster finns i uppgiften
+  för inlämning av posterutkast.&nbsp\;</p>\n<p>Inför tryck:&nbsp\;</p>\
+ n<ul>\n<li>lämna in här i <strong>PDF format</strong></li>\n</ul>\n<p>- 
+ gå inte utanför marginalerna\, då kan information försvinna vid tryckn
+ ing</p>\n<p>På morgonen <span style="font-size: 12pt\;">dagen efter inlä
+ mning går materialet till try</span>ck. Om du lämnar in efter det så ko
+ mmer din poster inte att tryckas lika professionellt utan printas svartvit
+ t i mindre format.&nbsp\;</p>\n<p>Exempel på posters från tidigare år:<
+ /p>\n<p><a class="instructure_file_link instructure_scribd_file inline_dis
+ abled" title="A.M. Poster.pdf" href="https://canvas.kau.se/courses/28812/f
+ iles/3555150?wrap=1" target="_blank" data-api-endpoint="https://canvas.kau
+ .se/api/v1/courses/28812/files/3555150" data-api-returntype="File">A.M. Po
+ ster.pdf</a></p>\n<p><a class="instructure_file_link instructure_scribd_fi
+ le inline_disabled" title="Poster - A.H. .pdf" href="https://canvas.kau.se
+ /courses/28812/files/3555152?wrap=1" target="_blank" data-api-endpoint="ht
+ tps://canvas.kau.se/api/v1/courses/28812/files/3555152" data-api-returntyp
+ e="File">Poster - A.H. .pdf</a></p>\n<p><a class="instructure_file_link in
+ structure_scribd_file inline_disabled" title="Poster - S.A. .pdf" href="ht
+ tps://canvas.kau.se/courses/28812/files/3555104?wrap=1" target="_blank" da
+ ta-api-endpoint="https://canvas.kau.se/api/v1/courses/28812/files/3555104"
+  data-api-returntype="File">Poster - S.A. .pdf</a></p>\n<p><a class="instr
+ ucture_file_link instructure_scribd_file inline_disabled" title="poster M.
+ S..pdf" href="https://canvas.kau.se/courses/28812/files/3555140?wrap=1" ta
+ rget="_blank" data-api-endpoint="https://canvas.kau.se/api/v1/courses/2881
+ 2/files/3555140" data-api-returntype="File">poster M.S..pdf</a></p>\n<p><a
+  class="instructure_file_link instructure_scribd_file inline_disabled" tit
+ le="Poster N.S.N. .pdf" href="https://canvas.kau.se/courses/28812/files/35
+ 55141?wrap=1" target="_blank" data-api-endpoint="https://canvas.kau.se/api
+ /v1/courses/28812/files/3555141" data-api-returntype="File">Poster N.S.N. 
+ .pdf</a></p>\n<p><a class="instructure_file_link instructure_scribd_file i
+ nline_disabled" title="Poster N.T.B. .pdf" href="https://canvas.kau.se/cou
+ rses/28812/files/3555159?wrap=1" target="_blank" data-api-endpoint="https:
+ //canvas.kau.se/api/v1/courses/28812/files/3555159" data-api-returntype="F
+ ile">Poster N.T.B. .pdf</a></p>\n<p><a class="instructure_file_link instru
+ cture_scribd_file inline_disabled" title="Poster R.G.A. .pdf" href="https:
+ //canvas.kau.se/courses/28812/files/3555136?wrap=1" target="_blank" data-a
+ pi-endpoint="https://canvas.kau.se/api/v1/courses/28812/files/3555136" dat
+ a-api-returntype="File">Poster R.G.A. .pdf</a></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260821T091900Z
+UID:event-assignment-168187
+DTSTART;VALUE=DATE;VALUE=DATE:20261105
+CLASS:PUBLIC
+DESCRIPTION:För instruktioner se studiehandledning.
+SEQUENCE:0
+SUMMARY:Individuell uppgift [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_29190&
+ month=11&year=2026#assignment_168187
+X-ALT-DESC;FMTTYPE=text/html:<p style="text-align: left\;">För instruktion
+ er se studiehandledning.</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261005T211200Z
+UID:event-calendar-event-118099
+DTSTART:20261109T121500Z
+DTEND:20261109T160000Z
+CLASS:PUBLIC
 DESCRIPTION:Lärare: Erik och Monir. Lokalen är bokad 12.15–19.00 i Time
  Edit.
+LOCATION:Karlstads universitet\, sal 21A258 Pedagogiska verkstan
+SEQUENCE:0
+SUMMARY:RHAD01: Posterseminarium (campus) [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=11&year=2026#calendar_event_118099
+X-ALT-DESC;FMTTYPE=text/html:Lärare: Erik och Monir. Lokalen är bokad 12.
+ 15–19.00 i TimeEdit.
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad14-ht26-avslutningsseminarium@rhad-kalender
-DTSTAMP:20261026T160000Z
-DTSTART;TZID=Europe/Stockholm:20261110T081500
-DTEND;TZID=Europe/Stockholm:20261110T120000
-SUMMARY:RHAD14: Avslutningsseminarium (campus)
-LOCATION:Karlstads universitet\, sal 11C270
+DTSTAMP:20261026T154700Z
+UID:event-calendar-event-118100
+DTSTART:20261110T071500Z
+DTEND:20261110T110000Z
+CLASS:PUBLIC
 DESCRIPTION:Lärare: Kristin och Monir. Redovisning av individuell uppgift.
- \nObligatoriskt (examinerande moment\; vid förhinder ges kompletterande r
- edovisning).\n- Presentation och diskussion av de individuella arbetena i 
- smågrupper om 4–5 – läs varandras arbeten inför träffen\n- Interak
- tiv övning om kriskommunikation i RiskLab\n- Muntlig kursutvärdering\nEn
- ligt kursmeddelande 19 okt. Mer info om förberedelser kommer.
+ \n\nObligatoriskt (examinerande moment\; vid förhinder ges kompletterande
+  redovisning).\n\n* Presentation och diskussion av de individuella arbeten
+ a i smågrupper om 4–5 – läs varandras arbeten inför träffen\n\n* I
+ nteraktiv övning om kriskommunikation i RiskLab\n\n* Muntlig kursutvärde
+ ring\n\nEnligt kursmeddelande 19 okt. Mer info om förberedelser kommer.
+LOCATION:Karlstads universitet\, sal 11C270
+SEQUENCE:0
+SUMMARY:RHAD14: Avslutningsseminarium (campus) [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=11&year=2026#calendar_event_118100
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Kristin och Monir. Redovisning av 
+ individuell uppgift.</p><p><strong>Obligatoriskt</strong> (examinerande mo
+ ment\; vid förhinder ges kompletterande redovisning).</p><ul><li>Presenta
+ tion och diskussion av de individuella arbetena i smågrupper om 4–5 –
+  läs varandras arbeten inför träffen</li><li>Interaktiv övning om kris
+ kommunikation i RiskLab</li><li>Muntlig kursutvärdering</li></ul><p>Enlig
+ t kursmeddelande 19 okt. Mer info om förberedelser kommer.</p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad21-ht26-campus-1@rhad-kalender
-DTSTAMP:20261005T120000Z
-DTSTART;TZID=Europe/Stockholm:20261110T131500
-DTEND;TZID=Europe/Stockholm:20261110T160000
-SUMMARY:RHAD21: Hantering av naturkatastrofer 1 – campusträff
-LOCATION:Karlstads universitet\, sal 3D418
+DTSTAMP:20261005T213700Z
+UID:event-calendar-event-118101
+DTSTART:20261110T121500Z
+DTEND:20261110T150000Z
+CLASS:PUBLIC
 DESCRIPTION:Lärare: Magnus Johansson. Preliminär bokning i TimeEdit – k
  ontrollera salen ca två veckor innan.
+LOCATION:Karlstads universitet\, sal 3D418
+SEQUENCE:0
+SUMMARY:RHAD21: Hantering av naturkatastrofer 1 – campusträff [RHAD14\, 
+ ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=11&year=2026#calendar_event_118101
+X-ALT-DESC;FMTTYPE=text/html:Lärare: Magnus Johansson. Preliminär bokning
+  i TimeEdit – kontrollera salen ca två veckor innan.
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad12-ht26-campus-1@rhad-kalender
-DTSTAMP:20261005T120000Z
-DTSTART;TZID=Europe/Stockholm:20261111T091500
-DTEND;TZID=Europe/Stockholm:20261111T120000
-SUMMARY:RHAD12: Personsäkerhet I – campusträff
-LOCATION:Karlstads universitet\, sal 3D417
+DTSTAMP:20261005T213700Z
+UID:event-calendar-event-118102
+DTSTART:20261111T081500Z
+DTEND:20261111T110000Z
+CLASS:PUBLIC
 DESCRIPTION:Lärare: Moniruzzaman Syed (Monir). Preliminär bokning i TimeE
  dit – kontrollera salen ca två veckor innan.
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad12-vt27-campus-2@rhad-kalender
-DTSTAMP:20261103T140000Z
-DTSTART;TZID=Europe/Stockholm:20270118T081500
-DTEND;TZID=Europe/Stockholm:20270118T120000
-SUMMARY:RHAD12: Personsäkerhet I – campusträff
 LOCATION:Karlstads universitet\, sal 3D417
-DESCRIPTION:Lärare: Moniruzzaman Syed (Monir). Obligatoriskt slutseminariu
- m (examinationsseminarium). Se avsnittet "Inför avslutningsträff den 18/
- 1" i studiehandledningen. Preliminär bokning i TimeEdit – kontrollera s
- alen ca två veckor innan.
+SEQUENCE:0
+SUMMARY:RHAD12: Personsäkerhet I – campusträff [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=11&year=2026#calendar_event_118102
+X-ALT-DESC;FMTTYPE=text/html:Lärare: Moniruzzaman Syed (Monir). Preliminä
+ r bokning i TimeEdit – kontrollera salen ca två veckor innan.
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad21-vt27-campus-2@rhad-kalender
-DTSTAMP:20261103T140000Z
-DTSTART;TZID=Europe/Stockholm:20270118T131500
-DTEND;TZID=Europe/Stockholm:20270118T160000
-SUMMARY:RHAD21: Hantering av naturkatastrofer 1 – campusträff
-LOCATION:Karlstads universitet\, sal 3D418
-DESCRIPTION:Lärare: Magnus Johansson. Avslutande seminarium om era fallstu
- dier. Förbered dig genom att läsa några rapporter från andra kursdelta
- gare (se sidan "Seminarium Gruppindelning & rapporter fallstudie" i Canvas
-  för RHAD21). Preliminär bokning i TimeEdit – kontrollera salen ca tv
- å veckor innan.
+DTSTAMP:20261025T105700Z
+UID:event-assignment-175940
+DTSTART;VALUE=DATE;VALUE=DATE:20261119
+CLASS:PUBLIC
+DESCRIPTION:För instruktioner se studiehandledning.
+SEQUENCE:0
+SUMMARY:Inlämning PM [RHAD12\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_29108&
+ month=11&year=2026#assignment_175940
+X-ALT-DESC;FMTTYPE=text/html:<p>För instruktioner se studiehandledning.</p
+ >
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad22-vt27-kursstart@rhad-kalender
-DTSTAMP:20261103T120000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:RHAD22: Kursstart – Personsäkerhet II
-LOCATION:Distans (Canvas)
-DESCRIPTION:Personsäkerhet II: skadeförebyggande och säkerhetsfrämjande
-  arbete\, 7\,5 hp. Kurstillfälle 56228. Studieperiod v. 3–12 (18 jan–
- 28 mar)\, 50 %. 2 obligatoriska campusträffar. Kursansvarig: Moniruzzaman
-  Syed (Monir).
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad31-vt27-kursstart@rhad-kalender
-DTSTAMP:20261103T120000Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-SUMMARY:RHAD31: Kursstart – Hantering av naturkatastrofer 2
-LOCATION:Distans (Canvas)
-DESCRIPTION:Hantering av naturkatastrofer 2\, 7\,5 hp. Kurstillfälle 56229
- . Studieperiod v. 3–12 (18 jan–28 mar)\, 50 %. 2 obligatoriska campust
- räffar. Lärare: Magnus Johansson.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad22-vt27-campus-1@rhad-kalender
-DTSTAMP:20261103T120000Z
-DTSTART;TZID=Europe/Stockholm:20270323T080000
-DTEND;TZID=Europe/Stockholm:20270323T120000
-SUMMARY:RHAD22: Personsäkerhet II – campusträff
-LOCATION:Karlstads universitet\, sal 3C512
-DESCRIPTION:Lärare: Syed Zulfiqar Ali Shah. OBS: krockar med RHAD02-boknin
- gen samma tid (sal 3C510). Preliminär bokning i TimeEdit (gäller först 
- två veckor före kursstart) – kontrollera salen ca två veckor innan.
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad31-vt27-campus-1@rhad-kalender
-DTSTAMP:20261103T120000Z
-DTSTART;TZID=Europe/Stockholm:20270323T131500
-DTEND;TZID=Europe/Stockholm:20270323T160000
-SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campusträff
-LOCATION:Karlstads universitet\, sal 3C510
-DESCRIPTION:Lärare: Magnus Johansson. Preliminär bokning i TimeEdit (gäl
- ler först två veckor före kursstart) – kontrollera salen ca två veck
- or innan.
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad02-vt27-campus-1@rhad-kalender
-DTSTAMP:20261103T120000Z
-DTSTART;TZID=Europe/Stockholm:20270323T080000
-DTEND;TZID=Europe/Stockholm:20270323T120000
-SUMMARY:RHAD02: Teoribildning inom riskhantering – campusträff
-LOCATION:Karlstads universitet\, sal 3C510
-DESCRIPTION:Lärare: Jenni Koivisto. OBS: krockar med RHAD22-bokningen samm
- a tid (sal 3C512). Preliminär bokning i TimeEdit (gäller först två vec
- kor före kursstart) – kontrollera salen ca två veckor innan.
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad02-vt27-kursstart@rhad-kalender
-DTSTAMP:20261103T120000Z
-DTSTART;VALUE=DATE:20270329
-DTEND;VALUE=DATE:20270330
-SUMMARY:RHAD02: Kursstart – Teoribildning inom riskhantering
-LOCATION:Distans (Canvas)
-DESCRIPTION:Teoribildning inom riskhantering\, 7\,5 hp. Kurstillfälle 5623
- 0. Studieperiod v. 13–22 (29 mar–6 jun)\, 50 %. 2 obligatoriska campus
- träffar. Lärare: Jenni Koivisto.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad02-vt27-campus-2@rhad-kalender
-DTSTAMP:20261103T120000Z
-DTSTART;TZID=Europe/Stockholm:20270603T131500
-DTEND;TZID=Europe/Stockholm:20270603T160000
-SUMMARY:RHAD02: Teoribildning inom riskhantering – campusträff
-LOCATION:Karlstads universitet\, sal 3C510
-DESCRIPTION:Lärare: Jenni Koivisto. Preliminär bokning i TimeEdit (gälle
- r först två veckor före kursstart) – kontrollera salen ca två veckor
-  innan.
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad03-vt27-kursstart@rhad-kalender
-DTSTAMP:20261103T130000Z
-DTSTART;VALUE=DATE:20270329
-DTEND;VALUE=DATE:20270330
-SUMMARY:RHAD03: Kursstart – Klimatanpassning och riskreducering
-LOCATION:Distans (Canvas)
-DESCRIPTION:Klimatanpassning och riskreducering\, 7\,5 hp (valfri kurs). Ku
- rstillfälle 56260. Studieperiod v. 13–22 (29 mar–6 jun)\, 50 %. 2 obl
- igatoriska campusträffar. Kursansvarig: Magnus Johansson.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad03-vt27-forelasning-1@rhad-kalender
-DTSTAMP:20261103T130000Z
-DTSTART;TZID=Europe/Stockholm:20270602T130000
-DTEND;TZID=Europe/Stockholm:20270602T170000
-SUMMARY:RHAD03: Klimatanpassning och riskreducering – föreläsning (camp
- us)
-LOCATION:Karlstads universitet\, sal 21A259 Risklabb
-DESCRIPTION:Lärare: Magnus Johansson. Föreläsning enligt TimeEdit (bokni
- ngen står på grupp "55260" – troligen skrivfel för 56260). Preliminä
- r bokning i TimeEdit (gäller först två veckor före kursstart) – kont
- rollera salen ca två veckor innan.
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad12-ht26-zoom-1@rhad-kalender
-DTSTAMP:20261103T140000Z
-DTSTART;TZID=Europe/Stockholm:20261126T141500
-DTEND;TZID=Europe/Stockholm:20261126T160000
-SUMMARY:RHAD12: Zoomträff – dataanalys och presentation
-LOCATION:Zoom
+DTSTAMP:20261103T092200Z
+UID:event-calendar-event-119263
+DTSTART:20261126T131500Z
+DTEND:20261126T150000Z
+CLASS:PUBLIC
 DESCRIPTION:Lärare: Moniruzzaman Syed (Monir). Enligt studiehandledningen 
  (v. 48). Zoom-länk är inte publicerad än – kolla Canvas för RHAD12.
+LOCATION:Zoom
+SEQUENCE:0
+SUMMARY:RHAD12: Zoomträff – dataanalys och presentation [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=11&year=2026#calendar_event_119263
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Moniruzzaman Syed (Monir). Enligt 
+ studiehandledningen (v. 48). Zoom-länk är inte publicerad än – kolla 
+ Canvas för RHAD12.</p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad21-ht26-webbinarium-1@rhad-kalender
-DTSTAMP:20261103T140000Z
-DTSTART;TZID=Europe/Stockholm:20261209T101500
-DTEND;TZID=Europe/Stockholm:20261209T113000
-SUMMARY:RHAD21: Webbinarium – katastrofteori del 1
-LOCATION:Zoom
-URL:https://kau-se.zoom.us/j/2870313514
+DTSTAMP:20261110T112500Z
+UID:event-assignment-173602
+DTSTART;VALUE=DATE;VALUE=DATE:20261206
+CLASS:PUBLIC
+DESCRIPTION:I den inledande delen av kursen ska du läsa kap. 1-3 i David E
+ tkin's bok "Disaster Theory - an Interdisciplinary Approach to Concepts an
+ d Causes". Till varje kapitel finns en inspelad föreläsning eller kortar
+ e text som du tar del av innan du sedan läser själva kapitlet. Ibland fi
+ nns det sedan länkar i mina kommentarer till ytterligare texter och dessa
+  läser du efter kapitlet i Etkin's bok. Till några av kapitlen finns hä
+ r på Canvas också en uppgift att besvara. Du samlar alla dina svar i ett
+  dokument som du lämnar in när du är klar. Referera till din källor en
+ ligt APA-systemet ([KAU bibliotek's information om referenssystemet APA] (
+ https://libguides.kau.se/apa7?_ga=2.147531957.340197388.1599462286-4878190
+ 62.1579465090)) . När ni refererar vill jag dessutom att ni anger vilken 
+ sida i artikeln eller boken som ni refererar till. Hör av dig via Canvas 
+ mail till Barbara Blumenthal om du har några frågor.\n\n \n\nKap. 1. In
+ troduction. What is a Disaster? \n\nUppgift: Alla som studerar katastrofe
+ r bör ha kännedom om ett par saker från FN: terminologi och definitione
+ r\, liksom det aktuella avtalet för katastrofriskreducering. Det sistnäm
+ nda är det tredje avtalet som 187 länder\, däribland Sverige\, skrev un
+ der 2015. Bekanta dig med dess innehåll här: [Sendai Framework for Disas
+ ter Risk Reduction 2015-2030 ] (https://www.undrr.org/implementing-sendai-
+ framework/what-sendai-framework). I samband med avtalet från Sendai-konfe
+ rensen beslöt UNDRR (United Nations Office for Disaster Risk Reduction) a
+ tt det var dags att uppdatera terminologin från 2009 och synkronisera den
+  med de termer som behövs utifrån bl.a. det nya avtalet. Man tillsatte e
+ n expertgrupp som också stämde av alla förslag på definitioner med sak
+ kunniga hos de olika ländernas nationella myndigheter (i Sverige MSB\, nu
+ mera MCF) och några utvalda akademiska institutioner. Bekanta dig med des
+ sa texter från 2017 på [UNDRR Terminology] (https://www.undrr.org/termin
+ ology).\n\nFrågor att besvara: \n\n1) Jämför FN's definition av katast
+ rof från 2009 (ex. i min föreläsning ovanför) med den från 2017. Hur 
+ skiljer de sig åt och vad är samma?  \n\n2) I Sendai-avtalet: Vilka ä
+ r de sju "global targets"? De sju målen avser man också att mäta för a
+ tt studera utvecklingen över tid\, och det har efter avtalets start varit
+  förhandlingar där alla länder till slut har enats om hur man ska avgr
+ änsa indikatorerna. Inte mindre än 38 indikatorer har definierats och hu
+ r det går med insamlandet av data och inrapportering ser du här: https:/
+ /sendaimonitor.undrr.org/. Hur man avgränsar och räknar fram indikatorer
+ na finns beskrivet i följande rapport: [54970_techguidancefdigitalhr.pdf]
+  (https://canvas.kau.se/courses/28683/files/3728843?wrap=1) . Flera av ind
+ ikatorerna har kritiserats för att vara oprecisa och subjektiva\, och dä
+ rmed svåra att använda för att studera trender över tid fram till 2030
+ . Försök att beskriva detta för "target B".\n\nLängd på svaret: ca 50
+ 0 ord.\n\n----------------------------------------------------------------
+ ----------------------------------------------\n\nKap. 2. Disaster Data: A
+  global view of economic and life loss\n\nFöreläsning:\n\nUppgift: I den
+  här uppgiften ska du själv ladda hem data från CRED's Emergency Databa
+ se\, bearbeta och göra en enkel analys. Börja med att besöka [EmDat] (h
+ ttps://public.emdat.be/) och registrera dig. Ladda sedan hem data för per
+ ioden 1994-2025\, naturkatastrofer\, samt en region som du väljer själv 
+ (ex. Europa\, Asien\, etc):\n\n[EM DAT sökning efter data.jpg] (https://c
+ anvas.kau.se/courses/28683/files/3728835/preview?hidden=1)\n\n \n\nDu få
+ r hem datan som en excel-fil. Sortera och bearbeta data\, samt gör tabell
+ er som hjälper dig att svara på följande frågor:\n\n1) Gör ett stapel
+ diagram över antal döda\, summerat per år. Identifiera och beskriv de 5
+  största avvikelserna från "normala" nivåer\, dvs 5 katastrofer med ext
+ rema konsekvenser\, och skriv något kortfattat om varför just dessa hän
+ delser fick så stora dödstal (exempel kan vara tid på dygnet\, hus som 
+ rasar\, avsaknad av varningssignal och evakuering\, mm - dvs olika bestäm
+ ningsfaktorer till konsekvenserna). Du hittar dessa katastrofer via din ta
+ bell och sedan i ditt excelblad och googlar fram fakta. Observera att en k
+ atastrof kan ha en utbredning som involverar flera länder samtidigt\, men
+  att det registrerats som olika händelser i databasen\, en för varje lan
+ d.\n\n2) Gör ett stapeldiagram över totala kostnader\, summerat per år.
+  Jämför med ditt diagram över antalet döda. Finns det likheter och/ell
+ er skillnader att finna mellan stort antal döda och stora ekonomiska kons
+ ekvenser?\n\n3) I hur många registrerade katastrofer (uttryckt i absoluta
+  tal\, samt att du anger totala antalet katastrofer också) saknas det dat
+ a om ekonomiska skador (försäkrade och/eller oförsäkrade värden) unde
+ r den här 30-års perioden? Du behöver inte spåra och lägga ihop katas
+ trofer som ibland finns registrerade på olika länder\, trots att det kan
+  vara samma katastrof med en stor utbredning. Det har ingen större påver
+ kan på den slutsats som jag vill att ni får fram.\n\nLängd på svaret: 
+ Ca 1000-1500 ord.\n\nTips: Om du inte är van vid att arbeta i Excel - det
+  finns en hel del filmklipp på Youtube om hur man gör olika saker. Det g
+ år också bra att ta hjälp av AI om man inte förstår hur funktionerna 
+ i Excel används - fråga AI om hur man gör\, men gör bearbetningen sjä
+ lv i Excel.\n\n-----------------------------------------------------------
+ --------------------------------------------------\n\nKap. 3. Disaster Ris
+ k\n\nProblematiken kring att bygga levéer beskrivs ytterligare i den här
+  filmen:\n\nÅtervänd gärna till filmen efter att du har läst kap. 9 om
+  etik\, liksom Sven-Ove Hansson's artikel\, och fundera lite över den ris
+ köverföring som beskrivs. Också sådant som kopplar till Kap. 8 om poes
+ i\, konst och litteratur finns i filmen...\n\nUppgift: Gör en problematis
+ ering kring levée-effekten som du bygger dels på det du läst om i kap 3
+  och filmerna\, men också fakta som finns att hämta i följande artikel:
+ \n\nR. A. Collenteur\, H. de Moel\, B. Jongman\, G. Di Baldassarre (2015).
+  The failed-levee effect: Do societies learn from flood disasters? Natural
+  Hazards  76: 373–388. [Collenteur et al 2015_Article_TheFailed-leveeEf
+ fectDoSocieti.pdf] (https://canvas.kau.se/courses/28683/files/3728848?wrap
+ =1)\n\nLängd på svaret: Ca 1000 ord.\n\n/MJ
+SEQUENCE:0
+SUMMARY:🎯 Katastrofteori del 1 [RHAD21\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_28683&
+ month=12&year=2026#assignment_173602
+X-ALT-DESC;FMTTYPE=text/html:<p>I den inledande delen av kursen ska du läs
+ a kap. 1-3 i David Etkin's bok "Disaster Theory - an Interdisciplinary App
+ roach to Concepts and Causes". Till varje kapitel finns en inspelad förel
+ äsning eller kortare text som du tar del av innan du sedan läser själva
+  kapitlet. Ibland finns det sedan länkar i mina kommentarer till ytterlig
+ are texter och dessa läser du efter kapitlet i Etkin's bok. Till några a
+ v kapitlen finns här på Canvas också en uppgift att besvara. Du samlar 
+ alla dina svar i <strong><span style="text-decoration: underline\;">ett</s
+ pan></strong> dokument som du lämnar in när du är klar. Referera till d
+ in källor enligt APA-systemet (<a class="instructure_file_link inline_dis
+ abled" href="https://libguides.kau.se/apa7?_ga=2.147531957.340197388.15994
+ 62286-487819062.1579465090" target="_blank">KAU bibliotek's information om
+  referenssystemet APA</a>) . När ni refererar vill jag dessutom att ni an
+ ger vilken sida i artikeln eller boken som ni refererar till. Hör av dig 
+ via Canvas mail till Barbara Blumenthal om du har några frågor.</p>\n<p>
+ &nbsp\;</p>\n<p><span style="font-size: 14pt\;"><strong>Kap. 1. Introducti
+ on. What is a Disaster?&nbsp\;</strong></span></p>\n<p><iframe id="kaltura
+ _player" title="Kaltura Player" src="https://vod-cache.kaltura.nordu.net/p
+ /300/sp/30000/embedIframeJs/uiconf_id/23449796/partner_id/300?iframeembed=
+ true&amp\;playerId=kaltura_player&amp\;entry_id=0_g1s6ucaa&amp\;flashvars%
+ 5BstreamerType%5D=auto&amp\;flashvars%5BlocalizationCode%5D=en&amp\;flashv
+ ars%5BleadWithHTML5%5D=true&amp\;flashvars%5BsideBarContainer.plugin%5D=tr
+ ue&amp\;flashvars%5BsideBarContainer.position%5D=left&amp\;flashvars%5Bsid
+ eBarContainer.clickToClose%5D=true&amp\;flashvars%5Bchapters.plugin%5D=tru
+ e&amp\;flashvars%5Bchapters.layout%5D=vertical&amp\;flashvars%5Bchapters.t
+ humbnailRotator%5D=false&amp\;flashvars%5BstreamSelector.plugin%5D=true&am
+ p\;flashvars%5BEmbedPlayer.SpinnerTarget%5D=videoHolder&amp\;flashvars%5Bd
+ ualScreen.plugin%5D=true&amp\;flashvars%5Bhotspots.plugin%5D=1&amp\;flashv
+ ars%5BKaltura.addCrossoriginToIframe%5D=true&amp\;&amp\;wid=0_a1kl3cgm" wi
+ dth="608" height="402" sandbox="allow-forms allow-same-origin allow-script
+ s allow-pointer-lock allow-popups allow-modals allow-orientation-lock allo
+ w-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user
+ -activation" loading="lazy" allowfullscreen="allowfullscreen" webkitallowf
+ ullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" 
+ allow="autoplay *\; fullscreen *\; encrypted-media *"></iframe></p>\n<p><s
+ trong>Uppgift:</strong> Alla som studerar katastrofer bör ha kännedom om
+  ett par saker från FN: terminologi och definitioner\, liksom det aktuell
+ a avtalet för katastrofriskreducering. Det sistnämnda är det tredje avt
+ alet som 187 länder\, däribland Sverige\, skrev under 2015. Bekanta dig 
+ med dess innehåll här: <a class="instructure_file_link inline_disabled" 
+ href="https://www.undrr.org/implementing-sendai-framework/what-sendai-fram
+ ework" target="_blank">Sendai Framework for Disaster Risk Reduction 2015-2
+ 030 </a>. I samband med avtalet från Sendai-konferensen beslöt UNDRR (Un
+ ited Nations Office for Disaster Risk Reduction) att det var dags att uppd
+ atera terminologin från 2009 och synkronisera den med de termer som behö
+ vs utifrån bl.a. det nya avtalet. Man tillsatte en expertgrupp som också
+  stämde av alla förslag på definitioner med sakkunniga hos de olika lä
+ ndernas nationella myndigheter (i Sverige MSB\, numera MCF) och några utv
+ alda akademiska institutioner. Bekanta dig med dessa texter från 2017 på
+  <a class="instructure_file_link inline_disabled" href="https://www.undrr.
+ org/terminology" target="_blank">UNDRR Terminology</a>.</p>\n<p><strong>Fr
+ ågor att besvara</strong>:&nbsp\;</p>\n<p>1) Jämför FN's definition av 
+ katastrof från 2009 (ex. i min föreläsning ovanför) med den från 2017
+ . Hur skiljer de sig åt och vad är samma?&nbsp\;&nbsp\;</p>\n<p>2) I Sen
+ dai-avtalet: Vilka är de sju "global targets"? De sju målen avser man oc
+ kså att mäta för att studera utvecklingen över tid\, och det har efter
+  avtalets start varit förhandlingar där alla länder till slut har enats
+  om hur man ska avgränsa indikatorerna. Inte mindre än 38 indikatorer ha
+ r definierats och hur det går med insamlandet av data och inrapportering 
+ ser du här: <a class="inline_disabled" href="https://sendaimonitor.undrr.
+ org/" target="_blank">https://sendaimonitor.undrr.org/</a>. Hur man avgrä
+ nsar och räknar fram indikatorerna finns beskrivet i följande rapport: <
+ a class="instructure_file_link instructure_scribd_file inline_disabled" ti
+ tle="54970_techguidancefdigitalhr.pdf" href="https://canvas.kau.se/courses
+ /28683/files/3728843?wrap=1" target="_blank" data-canvas-previewable="fals
+ e" data-api-endpoint="https://canvas.kau.se/api/v1/courses/28683/files/372
+ 8843" data-api-returntype="File">54970_techguidancefdigitalhr.pdf</a> . Fl
+ era av indikatorerna har kritiserats för att vara oprecisa och subjektiva
+ \, och därmed svåra att använda för att studera trender över tid fram
+  till 2030. Försök att beskriva detta för "target B".</p>\n<p>Längd p
+ å svaret: ca 500 ord.</p>\n<p>-------------------------------------------
+ -------------------------------------------------------------------</p>\n<
+ p><span style="font-size: 14pt\;"><strong>Kap. 2. Disaster Data: A global 
+ view of economic and life loss</strong></span></p>\n<p><strong>Föreläsni
+ ng:</strong></p>\n<p><iframe id="kaltura_player" title="Kaltura Player" sr
+ c="https://vod-cache.kaltura.nordu.net/p/300/sp/30000/embedIframeJs/uiconf
+ _id/23449796/partner_id/300?iframeembed=true&amp\;playerId=kaltura_player&
+ amp\;entry_id=0_hrhvbwyk&amp\;flashvars%5BstreamerType%5D=auto&amp\;flashv
+ ars%5BlocalizationCode%5D=en&amp\;flashvars%5BleadWithHTML5%5D=true&amp\;f
+ lashvars%5BsideBarContainer.plugin%5D=true&amp\;flashvars%5BsideBarContain
+ er.position%5D=left&amp\;flashvars%5BsideBarContainer.clickToClose%5D=true
+ &amp\;flashvars%5Bchapters.plugin%5D=true&amp\;flashvars%5Bchapters.layout
+ %5D=vertical&amp\;flashvars%5Bchapters.thumbnailRotator%5D=false&amp\;flas
+ hvars%5BstreamSelector.plugin%5D=true&amp\;flashvars%5BEmbedPlayer.Spinner
+ Target%5D=videoHolder&amp\;flashvars%5BdualScreen.plugin%5D=true&amp\;flas
+ hvars%5Bhotspots.plugin%5D=1&amp\;flashvars%5BKaltura.addCrossoriginToIfra
+ me%5D=true&amp\;&amp\;wid=0_nij7q73e" width="608" height="402" sandbox="al
+ low-forms allow-same-origin allow-scripts allow-pointer-lock allow-popups 
+ allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-p
+ resentation allow-top-navigation-by-user-activation" loading="lazy" allowf
+ ullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" 
+ mozallowfullscreen="mozallowfullscreen" allow="autoplay *\; fullscreen *\;
+  encrypted-media *"></iframe></p>\n<p><strong>Uppgift:</strong> I den här
+  uppgiften ska du själv ladda hem data från CRED's Emergency Database\, 
+ bearbeta och göra en enkel analys. Börja med att besöka <a class="instr
+ ucture_file_link inline_disabled" href="https://public.emdat.be/" target="
+ _blank">EmDat</a> och registrera dig. Ladda sedan hem data för perioden 1
+ 994-2025\, naturkatastrofer\, samt en region som du väljer själv (ex. Eu
+ ropa\, Asien\, etc):</p>\n<p><img src="https://canvas.kau.se/courses/28683
+ /files/3728835/preview?hidden=1" alt="EM DAT sökning efter data.jpg" data
+ -api-endpoint="https://canvas.kau.se/api/v1/courses/28683/files/3728835" d
+ ata-api-returntype="File" loading="lazy"></p>\n<p>&nbsp\;</p>\n<p>Du får 
+ hem datan som en excel-fil. Sortera och bearbeta data\, samt gör tabeller
+  som hjälper dig att svara på följande frågor:</p>\n<p>1) Gör ett sta
+ peldiagram över antal döda\, summerat per år. Identifiera och beskriv d
+ e 5 största avvikelserna från "normala" nivåer\, dvs 5 katastrofer med 
+ extrema konsekvenser\, och skriv något kortfattat om varför just dessa h
+ ändelser fick så stora dödstal (exempel kan vara tid på dygnet\, hus s
+ om rasar\, avsaknad av varningssignal och evakuering\, mm - dvs olika best
+ ämningsfaktorer till konsekvenserna). Du hittar dessa katastrofer via din
+  tabell och sedan i ditt excelblad och googlar fram fakta. Observera att e
+ n katastrof kan ha en utbredning som involverar flera länder samtidigt\, 
+ men att det registrerats som olika händelser i databasen\, en för varje 
+ land.</p>\n<p>2) Gör ett stapeldiagram över totala kostnader\, summerat 
+ per år. Jämför med ditt diagram över antalet döda. Finns det likheter
+  och/eller skillnader att finna mellan stort antal döda och stora ekonomi
+ ska konsekvenser?</p>\n<p>3) I hur många registrerade katastrofer (uttryc
+ kt i absoluta tal\, samt att du anger totala antalet katastrofer också) s
+ aknas det data om ekonomiska skador (försäkrade och/eller oförsäkrade 
+ värden) under den här 30-års perioden? Du behöver inte spåra och läg
+ ga ihop katastrofer som ibland finns registrerade på olika länder\, trot
+ s att det kan vara samma katastrof med en stor utbredning. Det har ingen s
+ törre påverkan på den slutsats som jag vill att ni får fram.</p>\n<p>L
+ ängd på svaret: Ca 1000-1500 ord.</p>\n<p><strong>Tips:</strong> Om du i
+ nte är van vid att arbeta i Excel - det finns en hel del filmklipp på Yo
+ utube om hur man gör olika saker. Det går också bra att ta hjälp av AI
+  om man inte förstår hur funktionerna i Excel används - fråga AI om hu
+ r man gör\, men gör bearbetningen själv i Excel.</p>\n<p>--------------
+ --------------------------------------------------------------------------
+ ---------------------</p>\n<p><span style="font-size: 14pt\;"><strong>Kap.
+  3. Disaster Risk</strong></span></p>\n<p><iframe id="kaltura_player" titl
+ e="Kaltura Player" src="https://vod-cache.kaltura.nordu.net/p/300/sp/30000
+ /embedIframeJs/uiconf_id/23449796/partner_id/300?iframeembed=true&amp\;pla
+ yerId=kaltura_player&amp\;entry_id=0_lqftxvdl&amp\;flashvars%5BstreamerTyp
+ e%5D=auto&amp\;flashvars%5BlocalizationCode%5D=en&amp\;flashvars%5BleadWit
+ hHTML5%5D=true&amp\;flashvars%5BsideBarContainer.plugin%5D=true&amp\;flash
+ vars%5BsideBarContainer.position%5D=left&amp\;flashvars%5BsideBarContainer
+ .clickToClose%5D=true&amp\;flashvars%5Bchapters.plugin%5D=true&amp\;flashv
+ ars%5Bchapters.layout%5D=vertical&amp\;flashvars%5Bchapters.thumbnailRotat
+ or%5D=false&amp\;flashvars%5BstreamSelector.plugin%5D=true&amp\;flashvars%
+ 5BEmbedPlayer.SpinnerTarget%5D=videoHolder&amp\;flashvars%5BdualScreen.plu
+ gin%5D=true&amp\;flashvars%5Bhotspots.plugin%5D=1&amp\;flashvars%5BKaltura
+ .addCrossoriginToIframe%5D=true&amp\;&amp\;wid=0_3ddyfbwk" width="608" hei
+ ght="402" sandbox="allow-forms allow-same-origin allow-scripts allow-point
+ er-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-e
+ scape-sandbox allow-presentation allow-top-navigation-by-user-activation" 
+ loading="lazy" allowfullscreen="allowfullscreen" webkitallowfullscreen="we
+ bkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allow="autopl
+ ay *\; fullscreen *\; encrypted-media *"></iframe></p>\n<p>Problematiken k
+ ring att bygga levéer beskrivs ytterligare i den här filmen:</p>\n<p><if
+ rame title="inbäddat innehåll" src="https://www.youtube.com/embed/LTv6Rk
+ FnelM" width="560" height="315" loading="lazy" allowfullscreen="allowfulls
+ creen" allow="accelerometer\; autoplay\; encrypted-media\; gyroscope\; pic
+ ture-in-picture"></iframe></p>\n<p>Återvänd gärna till filmen efter att
+  du har läst kap. 9 om etik\, liksom Sven-Ove Hansson's artikel\, och fun
+ dera lite över den risköverföring som beskrivs. Också sådant som kopp
+ lar till Kap. 8 om poesi\, konst och litteratur finns i filmen...</p>\n<p>
+ <strong>Uppgift</strong>: Gör en problematisering kring levée-effekten s
+ om du bygger dels på det du läst om i kap 3 och filmerna\, men också fa
+ kta som finns att hämta i följande artikel:</p>\n<p>R. A. Collenteur\, H
+ . de Moel\, B. Jongman\, G. Di Baldassarre (2015). The failed-levee effect
+ : Do societies learn from flood disasters? Natural Hazards&nbsp\; 76: 373
+ –388. <a class="instructure_file_link instructure_scribd_file inline_dis
+ abled" title="Collenteur et al 2015_Article_TheFailed-leveeEffectDoSocieti
+ .pdf" href="https://canvas.kau.se/courses/28683/files/3728848?wrap=1" targ
+ et="_blank" data-canvas-previewable="false" data-api-endpoint="https://can
+ vas.kau.se/api/v1/courses/28683/files/3728848" data-api-returntype="File">
+ Collenteur et al 2015_Article_TheFailed-leveeEffectDoSocieti.pdf</a></p>\n
+ <p>Längd på svaret: Ca 1000 ord.</p>\n<p>/MJ</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092200Z
+UID:event-calendar-event-119264
+DTSTART:20261209T091500Z
+DTEND:20261209T103000Z
+CLASS:PUBLIC
 DESCRIPTION:Lärare: Barbara Blumenthal. Webbinarium om något ni lärt er 
- i del 1. Aktivt deltagande är obligatoriskt.\nAnslut via Zoom: https://ka
- u-se.zoom.us/j/2870313514
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad12-vt27-salstentamen@rhad-kalender
-DTSTAMP:20261103T140000Z
-DTSTART;TZID=Europe/Stockholm:20270111T081500
-DTEND;TZID=Europe/Stockholm:20270111T121500
-SUMMARY:RHAD12: Salstentamen (campus)
-LOCATION:Karlstads universitet / KAU lärcenter (sal meddelas 1 v innan)
-DESCRIPTION:Obligatorisk digital salstentamen (Inspera). Kontrollera om du 
- behöver anmäla dig till tentan. Sal publiceras ca 1 vecka innan i tentam
- enslistan: https://www3.kau.se/tentamenslista/tentamenslista_vecka.html. O
- mtenta preliminärt 25/3 2027.
-END:VEVENT
-BEGIN:VEVENT
-UID:rhad21-vt27-webbinarium-2@rhad-kalender
-DTSTAMP:20261103T140000Z
-DTSTART;TZID=Europe/Stockholm:20270113T101500
-DTEND;TZID=Europe/Stockholm:20270113T113000
-SUMMARY:RHAD21: Webbinarium – myter kring katastrofer
+ i del 1. Aktivt deltagande är obligatoriskt.\n\nAnslut via Zoom: https://
+ kau-se.zoom.us/j/2870313514
 LOCATION:Zoom
-URL:https://kau-se.zoom.us/my/magnusjohansson70
+SEQUENCE:0
+SUMMARY:RHAD21: Webbinarium – katastrofteori del 1 [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=12&year=2026#calendar_event_119264
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Barbara Blumenthal. Webbinarium om
+  något ni lärt er i del 1. Aktivt deltagande är obligatoriskt.</p><p>An
+ slut via Zoom: <a href="https://kau-se.zoom.us/j/2870313514">https://kau-s
+ e.zoom.us/j/2870313514</a></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261109T230000Z
+UID:event-assignment-173603
+DTSTART;VALUE=DATE;VALUE=DATE:20270110
+CLASS:PUBLIC
+DESCRIPTION:Här fortsätter du att läsa kap. 4 - 10 i David Etkin's bok "
+ Disaster Theory - an Interdisciplinary Approach to Concepts and Causes". T
+ ill varje kapitel finns vanligtvis en inspelad föreläsning eller kortare
+  text som du tar del av innan du sedan läser själva kapitlet. Ibland fin
+ ns det länkar till ytterligare texter och dessa läser du efter kapitlet 
+ i Etkin's bok. Till några av kapitlen finns här på Canvas också en upp
+ gift att besvara. Du samlar alla dina svar i ett dokument som du lämnar i
+ n när du är klar. Referera till din källor enligt APA-systemet ([KAU bi
+ bliotek's information om referenssystemet APA] (https://libguides.kau.se/a
+ pa7?_ga=2.147531957.340197388.1599462286-487819062.1579465090)) . När ni 
+ refererar vill jag dessutom att ni anger vilken sida i artikeln eller boke
+ n som ni refererar till. Hör av dig via Canvas mail till Magnus Johansson
+  om du har några frågor.\n\n \n\nKap. 4. Hazard\, Vulnerability and Res
+ ilience\n\nUppgift: Gör en begreppsanalys och diskutera begreppet "resili
+ ens" utifrån dess innebörd och relation till det närliggande begreppet 
+ "sårbarhet". Använd dig av Etkin´s kapitel 4 och följande tre artiklar
+ . Referera till de källor som ni använder och ange sidnummer.\n\nAdger 
+ (2006): Vulnerability. Global Environmental Change\, 16\, 268-281. [Adger 
+ 2006.pdf] (https://canvas.kau.se/courses/28683/files/3728865?wrap=1)  \n\
+ nManyena et al (2011): Disaster resilience: a bounce back or bounce forwar
+ d ability?\, Local Environment: The International Journal of Justice and S
+ ustainability\, 16:5\, 417-424. [Manyena et al 2011 resilience bounce back
+  or forward.pdf] (https://canvas.kau.se/courses/28683/files/3728866?wrap=1
+ )\n\nDavoudi (2012): Resilience: A Bridging Concept or a Dead End? Plannin
+ g Theory & Practice\, Vol. 13\, No. 2\, 299-307. [Davoudi 2012 Resilience 
+ A Bridging Concept or a Dead End.pdf] (https://canvas.kau.se/courses/28683
+ /files/3728867?wrap=1)\n\nLängd på svaret: ca 1000-1500 ord.\n\nAnvänd 
+ gärna något tillämpligt från den struktur av en begreppsanalys som jag
+  visade på en föreläsning på Introduktionskursen: [Begreppsanalys stru
+ ktur.pdf] (https://canvas.kau.se/courses/28683/files/3728870?wrap=1).\n\n-
+ --------------------------------------------------------------------------
+ -----------------------------------\n\nKap. 5. Disasters and Complexity\n\
+ nVidare fördjupning om katastrofer och komplexitet sker i delkurs 2. Ni b
+ ör då ha läst denna text.\n\n------------------------------------------
+ --------------------------------------------------------------------\n\nKa
+ p. 6. Disaster Models\n\nNi kommer att fördjupa er i PAR-modellen i uppgi
+ ften [Fallstudie av en naturkatastrof] (https://canvas.kau.se/courses/2868
+ 3/assignments/173601). Innan dess kan ni också ta del av en presentation 
+ av Dr. Lori Peek\, Center for Disaster and Risk Analysis\, Colorado State 
+ University. Hon inleder med att beskriva PAR-modellens uppbyggnad och går
+  sedan vidare med att\, utifrån sättet att tänka som PAR-modellen erbju
+ der\, berätta om en fallstudie av oljeutsläppet 2010 i Mexikanska golfen
+  (Deepwater Horizon oil spill) och dess sociala konsekvenser.\n\n \n\n---
+ --------------------------------------------------------------------------
+ ---------------------------------\n\nKap. 7. Myths and Fallacies\n\nDet fi
+ nns förstås en tydlig koppling mellan riskuppfattning och de myter eller
+  missuppfattningar som Etkin skriver om i det här kapitlet. Jag kopplar i
+ nte någon skriftlig uppgift till detta\, men ämnet är värt sin genoml
+ äsning och ni har ett webbinarium (se startsidan) där vi diskuterar tema
+ t. Inte minst tycker jag att missuppfattningarna att människor i större 
+ grupper vid katastrofer lätt kan drabbas av panik och reagera orationellt
+  eller själviskt\, är intressant och viktigt att ta till sig. \n\n-----
+ --------------------------------------------------------------------------
+ -------------------------------\n\nKap. 8. The Poetry of Disaster\n\nI det
+  här kapitlet låter Etkin flera andra personer komma till tals\, och som
+  Robin Cox skriver är det här kapitlet något av en överraskning i boke
+ n. Jag tycker att texten är allmänbildande samtidigt som det är lite pe
+ rifert i förhållande till kursens mål. Därför får ni inte någon upp
+ gift kopplad till ämnet\, men att fundera lite över de olika uttryck som
+  människors sorg och läkande processer tar sig rekommenderas - och kan e
+ gentligen breddas utanför litteraturen. Kapitlet kunde också ha tagit up
+ p betydelsen och funktionen hos minnesmärken och monument av olika slag.
+  \n\nÅtervänd gärna till filmen om levée-effekter igen som tar upp li
+ te om kulturella yttringar kring levéer ([Katastrofteori del 1] (https://
+ canvas.kau.se/courses/28683/assignments/173602)).\n\n---------------------
+ --------------------------------------------------------------------------
+ ----------------\n\nKap. 9. Ethics and Disaster\n\nEtkin går igenom någr
+ a av de teorier inom etik som kan tillämpas inom studier av katastrofer. 
+ Han konstaterar att etiska överväganden är viktigt när man studerar oc
+ h praktiserar riskhantering mot katastrofer – men det finns inga enkla o
+ ch ”rätta” svar. Etik finns underliggande i alla olika delar av riskh
+ anteringen (jmf ex. CEM-modellens delar).\n\nUppgift: En av de mer framst
+ ående forskarna inom riskfilosofi och etik har under lång tid varit Sv
+ en-Ove Hansson\, KTH. Han har bl.a. skrivit böckerna "Riskfilosofi" och "
+ The ethics of risk". I en artikel från 2018 ([Hansson 2018 How to perform
+  an ethical risk analysis.pdf] (https://canvas.kau.se/courses/28683/files/
+ 3728872?wrap=1)) föreslår han en metod i tre steg som kan komplettera va
+ nliga riskanalyser med etiska aspekter\, vilket sällan görs. Det handlar
+  om olika samspel och förhållanden mellan beslutsfattare\; de som drar n
+ ytta av riskreducerande åtgärder och de som är exponerade för risken. 
+ Tillämpa metoden eRA på miljökatastrofen i Grassy Narrows på 1970-tale
+ t\, som du läst om i kap 4 (sid 138-142). Placera in aktörerna i Hansson
+ 's Venn-diagram och diskutera dem med hjälp av teoribildningen som dels f
+ inns i Hansson's artikel och dels i Etkin's kap 9. Avgränsa dig till vad 
+ Etkin kallar för "the short story"\, även om du kanske i något avseende
+  behöver ta med bakgrunden ("the long story") från slutet av 1800-talet 
+ fram till 1970-talet för att kunna beskriva och förklara sårbarheten\, 
+ liksom bristen på resiliens\, hos lokalbefolkningen.\n\nLängd på svaret
+ : ca 1000-1500 ord.\n\nEtkins beskrivning av katastrofen räcker gott för
+  uppgiften\, men det finns flera nyhetsklipp att ta del av på nätet om m
+ an vill. Nya studier visar också på en kvarstående problematik med för
+ giftning av både dricksvatten och fisk.\n\n------------------------------
+ --------------------------------------------------------------------------
+ ----\n\nKap. 10. Workshop on Principles of Disaster Management\n\nEn vikti
+ g tillämpning av katastrofteorier är hur samhället eller organisationer
+  formulerar principer för katastrofhantering. Etkin försöker att titta 
+ tvärs alla olika tänkbara principer som har formulerats och sovrar fram 
+ något allmänt om varför principer är viktiga och vad som karaktäriser
+ ar dem. Som komplement till texten vill jag att ni läser kap. 4 i [MSB Ge
+ mensamma grunder för samverkan och ledning vid samhällsstörningar.pdf] 
+ (https://canvas.kau.se/courses/28683/files/3728873?wrap=1) . Här beskrivs
+  tre principer som styr den svenska modellen för att hantera samhällsst
+ örningar i olika skala. Alla som studerar samhällets riskhantering behö
+ ver känna till dessa.\n\nBetydligt fler principer kan ni ta del av\, om n
+ i vill\, genom att återvända till [Sendai Framework for Disaster Risk Re
+ duction 2015-2030] (https://www.preventionweb.net/files/43291_sendaiframew
+ orkfordrren.pdf). \n\n \n\n/MJ
+SEQUENCE:0
+SUMMARY:🎯 Katastrofteori del 2 [RHAD21\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_28683&
+ month=01&year=2027#assignment_173603
+X-ALT-DESC;FMTTYPE=text/html:<p>Här fortsätter du att läsa kap. 4 - 10 i
+  David Etkin's bok "Disaster Theory - an Interdisciplinary Approach to Con
+ cepts and Causes". Till varje kapitel finns vanligtvis en inspelad förel
+ äsning eller kortare text som du tar del av innan du sedan läser själva
+  kapitlet. Ibland finns det länkar till ytterligare texter och dessa läs
+ er du efter kapitlet i Etkin's bok. Till några av kapitlen finns här på
+  Canvas också en uppgift att besvara. Du samlar alla dina svar i <strong>
+ <span style="text-decoration: underline\;">ett</span></strong> dokument so
+ m du lämnar in när du är klar. Referera till din källor enligt APA-sys
+ temet (<a class="instructure_file_link inline_disabled" href="https://libg
+ uides.kau.se/apa7?_ga=2.147531957.340197388.1599462286-487819062.157946509
+ 0" target="_blank">KAU bibliotek's information om referenssystemet APA</a>
+ ) . När ni refererar vill jag dessutom att ni anger vilken sida i artikel
+ n eller boken som ni refererar till. Hör av dig via Canvas mail till Magn
+ us Johansson om du har några frågor.</p>\n<p>&nbsp\;</p>\n<p><span style
+ ="font-size: 14pt\;"><strong>Kap. 4. Hazard\, Vulnerability and Resilience
+ </strong></span></p>\n<p><iframe id="kaltura_player" title="Kaltura Player
+ " src="https://vod-cache.kaltura.nordu.net/p/300/sp/30000/embedIframeJs/ui
+ conf_id/23449796/partner_id/300?iframeembed=true&amp\;playerId=kaltura_pla
+ yer&amp\;entry_id=0_cpuk7duh&amp\;flashvars%5BstreamerType%5D=auto&amp\;fl
+ ashvars%5BlocalizationCode%5D=en&amp\;flashvars%5BleadWithHTML5%5D=true&am
+ p\;flashvars%5BsideBarContainer.plugin%5D=true&amp\;flashvars%5BsideBarCon
+ tainer.position%5D=left&amp\;flashvars%5BsideBarContainer.clickToClose%5D=
+ true&amp\;flashvars%5Bchapters.plugin%5D=true&amp\;flashvars%5Bchapters.la
+ yout%5D=vertical&amp\;flashvars%5Bchapters.thumbnailRotator%5D=false&amp\;
+ flashvars%5BstreamSelector.plugin%5D=true&amp\;flashvars%5BEmbedPlayer.Spi
+ nnerTarget%5D=videoHolder&amp\;flashvars%5BdualScreen.plugin%5D=true&amp\;
+ flashvars%5Bhotspots.plugin%5D=1&amp\;flashvars%5BKaltura.addCrossoriginTo
+ Iframe%5D=true&amp\;&amp\;wid=0_67uprfbk" width="608" height="402" sandbox
+ ="allow-forms allow-same-origin allow-scripts allow-pointer-lock allow-pop
+ ups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox all
+ ow-presentation allow-top-navigation-by-user-activation" loading="lazy" al
+ lowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscre
+ en" mozallowfullscreen="mozallowfullscreen" allow="autoplay *\; fullscreen
+  *\; encrypted-media *"></iframe></p>\n<p><strong>Uppgift: </strong>Gör e
+ n begreppsanalys och diskutera begreppet "resiliens" utifrån dess innebö
+ rd och relation till det närliggande begreppet "sårbarhet". Använd dig 
+ av Etkin´s kapitel 4 och <span style="font-family: inherit\; font-size: 1
+ rem\;">följande tre </span><span style="font-family: inherit\; font-size:
+  1rem\;">artiklar. Referera till de</span><span style="font-family: inheri
+ t\; font-size: 1rem\;">&nbsp\;</span><span style="font-family: inherit\; f
+ ont-size: 1rem\;">källor som ni använder och ange sidnummer</span><span 
+ style="font-family: inherit\; font-size: 1rem\;">.</span></p>\n<p><span st
+ yle="font-family: inherit\; font-size: 1rem\;">Adger (2006): Vulnerability
+ . Global Environmental Change\, 16\, 268-281. <a class="instructure_file_l
+ ink instructure_scribd_file inline_disabled" title="Adger 2006.pdf" href="
+ https://canvas.kau.se/courses/28683/files/3728865?wrap=1" target="_blank" 
+ data-canvas-previewable="false" data-api-endpoint="https://canvas.kau.se/a
+ pi/v1/courses/28683/files/3728865" data-api-returntype="File">Adger 2006.p
+ df</a> &nbsp\;</span></p>\n<p>Manyena et al (2011): Disaster resilience: a
+  bounce back or bounce forward ability?\, Local Environment: The Internati
+ onal Journal of Justice and Sustainability\, 16:5\, 417-424. <a class="ins
+ tructure_file_link instructure_scribd_file inline_disabled" title="Manyena
+  et al 2011 resilience bounce back or forward.pdf" href="https://canvas.ka
+ u.se/courses/28683/files/3728866?wrap=1" target="_blank" data-canvas-previ
+ ewable="false" data-api-endpoint="https://canvas.kau.se/api/v1/courses/286
+ 83/files/3728866" data-api-returntype="File">Manyena et al 2011 resilience
+  bounce back or forward.pdf</a></p>\n<p>Davoudi (2012): Resilience: A Brid
+ ging Concept or a Dead End? Planning Theory &amp\; Practice\, Vol. 13\, No
+ . 2\, 299-307. <a class="instructure_file_link instructure_scribd_file inl
+ ine_disabled" title="Davoudi 2012 Resilience A Bridging Concept or a Dead 
+ End.pdf" href="https://canvas.kau.se/courses/28683/files/3728867?wrap=1" t
+ arget="_blank" data-canvas-previewable="false" data-api-endpoint="https://
+ canvas.kau.se/api/v1/courses/28683/files/3728867" data-api-returntype="Fil
+ e">Davoudi 2012 Resilience A Bridging Concept or a Dead End.pdf</a></p>\n<
+ p>Längd på svaret: ca 1000-1500 ord.</p>\n<p>Använd gärna något till
+ ämpligt från den struktur av en begreppsanalys som jag visade på en fö
+ reläsning på Introduktionskursen: <a class="instructure_file_link instru
+ cture_scribd_file inline_disabled" title="Begreppsanalys struktur.pdf" hre
+ f="https://canvas.kau.se/courses/28683/files/3728870?wrap=1" target="_blan
+ k" data-canvas-previewable="false" data-api-endpoint="https://canvas.kau.s
+ e/api/v1/courses/28683/files/3728870" data-api-returntype="File">Begreppsa
+ nalys struktur.pdf</a>.</p>\n<p>------------------------------------------
+ --------------------------------------------------------------------</p>\n
+ <p><span style="font-size: 14pt\;"><strong>Kap. 5. Disasters and Complexit
+ y</strong></span></p>\n<p><iframe id="kaltura_player" title="Kaltura Playe
+ r" src="https://vod-cache.kaltura.nordu.net/p/300/sp/30000/embedIframeJs/u
+ iconf_id/23449796/partner_id/300?iframeembed=true&amp\;playerId=kaltura_pl
+ ayer&amp\;entry_id=0_rk3yxwj2&amp\;flashvars%5BstreamerType%5D=auto&amp\;f
+ lashvars%5BlocalizationCode%5D=en&amp\;flashvars%5BleadWithHTML5%5D=true&a
+ mp\;flashvars%5BsideBarContainer.plugin%5D=true&amp\;flashvars%5BsideBarCo
+ ntainer.position%5D=left&amp\;flashvars%5BsideBarContainer.clickToClose%5D
+ =true&amp\;flashvars%5Bchapters.plugin%5D=true&amp\;flashvars%5Bchapters.l
+ ayout%5D=vertical&amp\;flashvars%5Bchapters.thumbnailRotator%5D=false&amp\
+ ;flashvars%5BstreamSelector.plugin%5D=true&amp\;flashvars%5BEmbedPlayer.Sp
+ innerTarget%5D=videoHolder&amp\;flashvars%5BdualScreen.plugin%5D=true&amp\
+ ;flashvars%5Bhotspots.plugin%5D=1&amp\;flashvars%5BKaltura.addCrossoriginT
+ oIframe%5D=true&amp\;&amp\;wid=0_bq7lxs8i" width="608" height="402" sandbo
+ x="allow-forms allow-same-origin allow-scripts allow-pointer-lock allow-po
+ pups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox al
+ low-presentation allow-top-navigation-by-user-activation" loading="lazy" a
+ llowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscr
+ een" mozallowfullscreen="mozallowfullscreen" allow="autoplay *\; fullscree
+ n *\; encrypted-media *"></iframe></p>\n<p>Vidare fördjupning om katastro
+ fer och komplexitet sker i delkurs 2. Ni bör då ha läst denna text.</p>
+ \n<p>---------------------------------------------------------------------
+ -----------------------------------------</p>\n<p><span style="font-size: 
+ 14pt\;"><strong>Kap. 6. Disaster Models</strong></span></p>\n<p><iframe id
+ ="kaltura_player" title="Kaltura Player" src="https://vod-cache.kaltura.no
+ rdu.net/p/300/sp/30000/embedIframeJs/uiconf_id/23449796/partner_id/300?ifr
+ ameembed=true&amp\;playerId=kaltura_player&amp\;entry_id=0_h5wfnw2o&amp\;f
+ lashvars%5BstreamerType%5D=auto&amp\;flashvars%5BlocalizationCode%5D=en&am
+ p\;flashvars%5BleadWithHTML5%5D=true&amp\;flashvars%5BsideBarContainer.plu
+ gin%5D=true&amp\;flashvars%5BsideBarContainer.position%5D=left&amp\;flashv
+ ars%5BsideBarContainer.clickToClose%5D=true&amp\;flashvars%5Bchapters.plug
+ in%5D=true&amp\;flashvars%5Bchapters.layout%5D=vertical&amp\;flashvars%5Bc
+ hapters.thumbnailRotator%5D=false&amp\;flashvars%5BstreamSelector.plugin%5
+ D=true&amp\;flashvars%5BEmbedPlayer.SpinnerTarget%5D=videoHolder&amp\;flas
+ hvars%5BdualScreen.plugin%5D=true&amp\;flashvars%5Bhotspots.plugin%5D=1&am
+ p\;flashvars%5BKaltura.addCrossoriginToIframe%5D=true&amp\;&amp\;wid=0_al5
+ 1upir" width="608" height="402" sandbox="allow-forms allow-same-origin all
+ ow-scripts allow-pointer-lock allow-popups allow-modals allow-orientation-
+ lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigatio
+ n-by-user-activation" loading="lazy" allowfullscreen="allowfullscreen" web
+ kitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowful
+ lscreen" allow="autoplay *\; fullscreen *\; encrypted-media *"></iframe></
+ p>\n<p>Ni kommer att fördjupa er i PAR-modellen i uppgiften <a title="Fal
+ lstudie av en naturkatastrof" href="https://canvas.kau.se/courses/28683/as
+ signments/173601" data-api-endpoint="https://canvas.kau.se/api/v1/courses/
+ 28683/assignments/173601" data-api-returntype="Assignment">Fallstudie av e
+ n naturkatastrof</a>. Innan dess kan ni också ta del av en presentation a
+ v Dr. Lori Peek\, Center for Disaster and Risk Analysis\, Colorado State U
+ niversity. Hon inleder med att beskriva PAR-modellens uppbyggnad och går 
+ sedan vidare med att\, utifrån sättet att tänka som PAR-modellen erbjud
+ er\, berätta om en fallstudie av oljeutsläppet 2010 i Mexikanska golfen 
+ (Deepwater Horizon oil spill) och dess sociala konsekvenser.</p>\n<p><ifra
+ me title="inbäddat innehåll" src="https://www.youtube.com/embed/jlXWot27
+ Omk" width="560" height="315" loading="lazy" allowfullscreen="allowfullscr
+ een" allow="accelerometer\; autoplay\; clipboard-write\; encrypted-media\;
+  gyroscope\; picture-in-picture"></iframe></p>\n<p>&nbsp\;</p>\n<p>-------
+ --------------------------------------------------------------------------
+ -----------------------------</p>\n<p><span style="font-size: 14pt\;"><str
+ ong>Kap. 7. Myths and Fallacies</strong></span></p>\n<p>Det finns förstå
+ s en tydlig koppling mellan riskuppfattning och de myter eller missuppfatt
+ ningar som Etkin skriver om i det här kapitlet. Jag kopplar inte någon s
+ kriftlig uppgift till detta\, men ämnet är värt sin genomläsning och n
+ i har ett webbinarium (se startsidan) där vi diskuterar temat. Inte minst
+  tycker jag att missuppfattningarna att människor i större grupper <span
+  style="font-family: inherit\; font-size: 1rem\;">vid katastrofer</span><s
+ pan style="font-family: inherit\; font-size: 1rem\;"> lätt kan drabbas av
+  panik och reagera orationellt eller själviskt\, är intressant och vikti
+ gt att ta till sig.&nbsp\;</span></p>\n<p>--------------------------------
+ --------------------------------------------------------------------------
+ ----</p>\n<p><span style="font-size: 14pt\;"><strong>Kap. 8. The Poetry of
+  Disaster</strong></span></p>\n<p>I det här kapitlet låter Etkin flera a
+ ndra personer komma till tals\, och som Robin Cox skriver är det här kap
+ itlet något av en överraskning i boken. Jag tycker att texten är allmä
+ nbildande samtidigt som det är lite perifert i förhållande till kursens
+  mål. Därför får ni inte någon uppgift kopplad till ämnet\, men att 
+ fundera lite över de olika uttryck som människors sorg och läkande proc
+ esser tar sig rekommenderas - och kan egentligen breddas utanför litterat
+ uren. Kapitlet kunde också ha tagit upp betydelsen och funktionen hos min
+ nesmärken och monument av olika slag.&nbsp\;</p>\n<p>Återvänd gärna ti
+ ll filmen om levée-effekter igen som tar upp lite om kulturella yttringar
+  kring levéer (<a title="Katastrofteori del 1" href="https://canvas.kau.s
+ e/courses/28683/assignments/173602" data-api-endpoint="https://canvas.kau.
+ se/api/v1/courses/28683/assignments/173602" data-api-returntype="Assignmen
+ t">Katastrofteori del 1</a>).</p>\n<p>------------------------------------
+ --------------------------------------------------------------------------
+ -</p>\n<p><span style="font-size: 14pt\;"><strong>Kap. 9. Ethics and Disas
+ ter</strong></span></p>\n<p>Etkin går igenom några av de teorier inom et
+ ik som kan tillämpas inom studier av katastrofer. Han konstaterar att eti
+ ska överväganden är viktigt när man studerar och praktiserar riskhante
+ ring mot katastrofer – men det finns inga enkla och ”rätta” svar. E
+ tik finns underliggande i alla olika delar av riskhanteringen (jmf ex. CEM
+ -modellens delar).</p>\n<p><strong>Uppgift:</strong> E<span style="font-fa
+ mily: inherit\; font-size: 1rem\;">n av de mer framstående forskarna inom
+  riskfilosofi och etik har&nbsp\;</span><span style="font-family: inherit\
+ ; font-size: 1rem\;">under lång tid</span><span style="font-family: inher
+ it\; font-size: 1rem\;">&nbsp\;</span><span style="font-family: inherit\; 
+ font-size: 1rem\;">varit Sven-Ove Hansson\, KTH. Han har bl.a. skrivit bö
+ ckerna "Riskfilosofi" och "The ethics of risk". I en artikel från 2018 (<
+ a class="instructure_file_link instructure_scribd_file inline_disabled" ti
+ tle="Hansson 2018 How to perform an ethical risk analysis.pdf" href="https
+ ://canvas.kau.se/courses/28683/files/3728872?wrap=1" target="_blank" data-
+ canvas-previewable="false" data-api-endpoint="https://canvas.kau.se/api/v1
+ /courses/28683/files/3728872" data-api-returntype="File">Hansson 2018 How 
+ to perform an ethical risk analysis.pdf</a>) föreslår han en metod i tre
+  steg som kan komplettera vanliga riskanalyser med etiska aspekter\, vilke
+ t sällan görs. Det handlar om olika samspel och förhållanden mellan be
+ slutsfattare\; de som drar nytta av riskreducerande åtgärder och de som 
+ är exponerade för risken. Tillämpa metoden eRA på miljökatastrofen i 
+ Grassy Narrows på 1970-talet\, som du läst om i kap 4 (sid 138-142). Pla
+ cera in aktörerna i Hansson's Venn-diagram och diskutera dem med hjälp a
+ v teoribildningen som dels finns i Hansson's artikel och dels i Etkin's ka
+ p 9. Avgränsa dig till vad Etkin kallar för "the short story"\, även om
+  du kanske i något avseende behöver ta med bakgrunden ("the long story")
+  från slutet av 1800-talet fram till 1970-talet för att kunna beskriva o
+ ch förklara sårbarheten\, liksom bristen på resiliens\, hos lokalbefolk
+ ningen.</span></p>\n<p><span style="font-family: inherit\; font-size: 1rem
+ \;">Längd på svaret: ca 1000-1500 ord.</span></p>\n<p><span style="font-
+ family: inherit\; font-size: 1rem\;">Etkins beskrivning av katastrofen rä
+ cker gott för uppgiften\, men det finns flera nyhetsklipp att ta del av p
+ å nätet om man vill. Nya studier visar också på en kvarstående proble
+ matik med förgiftning av både dricksvatten och fisk.</span></p>\n<p><spa
+ n style="font-family: inherit\; font-size: 1rem\;"><iframe title="YouTube 
+ video player" src="https://www.youtube.com/embed/jVNJlPBjhFQ?si=-D-vfeLUsF
+ 3FcADR" width="560" height="315" loading="lazy" allowfullscreen="allowfull
+ screen" allow="accelerometer\; autoplay\; clipboard-write\; encrypted-medi
+ a\; gyroscope\; picture-in-picture\; web-share"></iframe></span></p>\n<p><
+ span style="font-family: inherit\; font-size: 1rem\;"> </span><span style=
+ "font-family: inherit\; font-size: 1rem\;">-------------------------------
+ --------------------------------------------------------------------------
+ ---</span></p>\n<p><span style="font-size: 14pt\;"><strong><span style="fo
+ nt-family: inherit\;">Kap. 10. Workshop on Principles of Disaster Manageme
+ nt</span></strong></span></p>\n<p>En viktig tillämpning av katastrofteori
+ er är hur samhället eller organisationer formulerar principer för katas
+ trofhantering. Etkin försöker att titta tvärs alla olika tänkbara prin
+ ciper som har formulerats och sovrar fram något allmänt om varför princ
+ iper är viktiga och vad som karaktäriserar dem. Som komplement till text
+ en vill jag att ni läser kap. 4 i <a class="instructure_file_link instruc
+ ture_scribd_file inline_disabled" title="MSB Gemensamma grunder för samve
+ rkan och ledning vid samhällsstörningar.pdf" href="https://canvas.kau.se
+ /courses/28683/files/3728873?wrap=1" target="_blank" data-canvas-previewab
+ le="false" data-api-endpoint="https://canvas.kau.se/api/v1/courses/28683/f
+ iles/3728873" data-api-returntype="File">MSB Gemensamma grunder för samve
+ rkan och ledning vid samhällsstörningar.pdf</a> . Här beskrivs tre prin
+ ciper som styr den svenska modellen för att hantera samhällsstörningar 
+ i olika skala. Alla som studerar samhällets riskhantering behöver känna
+  till dessa.</p>\n<p>Betydligt fler principer kan ni ta del av\, om ni vil
+ l\, genom att återvända till <a class="instructure_file_link inline_disa
+ bled" href="https://www.preventionweb.net/files/43291_sendaiframeworkfordr
+ ren.pdf" target="_blank">Sendai Framework for Disaster Risk Reduction 2015
+ -2030</a>.&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>/MJ</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092200Z
+UID:event-calendar-event-119265
+DTSTART:20270111T071500Z
+DTEND:20270111T111500Z
+CLASS:PUBLIC
+DESCRIPTION:Obligatorisk digital salstentamen (Inspera). Kontrollera om du 
+ behöver anmäla dig till tentan.\n\nSal publiceras ca 1 vecka innan i [te
+ ntamenslistan] (https://www3.kau.se/tentamenslista/tentamenslista_vecka.ht
+ ml). Omtenta preliminärt 25/3 2027.
+LOCATION:Karlstads universitet / KAU lärcenter (sal meddelas 1 v innan)
+SEQUENCE:0
+SUMMARY:RHAD12: Salstentamen (campus) [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=01&year=2027#calendar_event_119265
+X-ALT-DESC;FMTTYPE=text/html:<p><strong>Obligatorisk</strong> digital salst
+ entamen (Inspera). Kontrollera om du behöver anmäla dig till tentan.</p>
+ <p>Sal publiceras ca 1 vecka innan i <a href="https://www3.kau.se/tentamen
+ slista/tentamenslista_vecka.html">tentamenslistan</a>. Omtenta preliminär
+ t 25/3 2027.</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092200Z
+UID:event-calendar-event-119266
+DTSTART:20270113T091500Z
+DTEND:20270113T103000Z
+CLASS:PUBLIC
 DESCRIPTION:Lärare: Magnus Johansson. Aktivt deltagande är obligatoriskt.
- \nAnslut via Zoom: https://kau-se.zoom.us/my/magnusjohansson70
+ \n\nAnslut via Zoom: https://kau-se.zoom.us/my/magnusjohansson70
+LOCATION:Zoom
+SEQUENCE:0
+SUMMARY:RHAD21: Webbinarium – myter kring katastrofer [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=01&year=2027#calendar_event_119266
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Magnus Johansson. Aktivt deltagand
+ e är obligatoriskt.</p><p>Anslut via Zoom: <a href="https://kau-se.zoom.u
+ s/my/magnusjohansson70">https://kau-se.zoom.us/my/magnusjohansson70</a></p
+ >
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad31-vt27-intro@rhad-kalender
-DTSTAMP:20261103T150000Z
-DTSTART;TZID=Europe/Stockholm:20270114T081500
-DTEND;TZID=Europe/Stockholm:20270114T110000
-SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – kursintroduktion (campu
- s)
-LOCATION:Karlstads universitet\, sal 1B364 Fröding
-DESCRIPTION:Lärare: Magnus Johansson. Troligen kursintroduktion – boknin
- gen ligger före den officiella studieperioden (v. 3–12)\, kurserna bruk
- ar gå omlott. Stor sal (117 pl)\, så kanske gemensamt med andra kurser. 
- Preliminär bokning i TimeEdit (gäller först två veckor före kursstart
- ) – kontrollera ca två veckor innan.
+DTSTAMP:20261109T230000Z
+UID:event-assignment-173601
+DTSTART;VALUE=DATE;VALUE=DATE:20270113
+CLASS:PUBLIC
+DESCRIPTION: [sichuan-earthquake-07.jpg] (https://canvas.kau.se/courses/28
+ 683/files/3627633/download?hidden=1)[flood-3.jpg] (https://canvas.kau.se/c
+ ourses/28683/files/3627663/preview?hidden=1)\n\n \n\nFallstudie\n\nDen h
+ är uppgiften innebär att ni gör en fallstudie av en naturkatastrof. Ni 
+ kommer att sammanställa konsekvenser och lärdomar som gjorts i efterhand
+ . Lärdomarna berör i regel samhällets sårbarhet\, exponering och hante
+ ringsförmåga\, samt syftar till att utveckla och förbättra förberedan
+ de\, förebyggande och återuppbyggande arbeten\, liksom den akuta hanteri
+ ngen. Fallstudier har använts av olika forskargrupper\, ex. CRISMART vid 
+ Försvarshögskolan\, som en metod för att studera samhällets hanterings
+ förmåga vid större katastrofer\, eller påfrestningar\, med syftet att 
+ lära för framtiden. Det finns flera olika metoder utvecklade för hur ma
+ n gör fallstudier på ett vetenskapligt sätt (ex. Merriam\, 1993: Fallst
+ udien som forskningsmetod)\, men vi nyttjar inte dessa fullt ut i den här
+  övningen i och med att ni enbart kommer att leta efter fakta i dokument 
+ och litteratur. Ni får ett antal tips nedan från mig om vad ni ska förs
+ öka att leta upp information om.\n\nAnalytiskt tar ni hjälp av den s.k. 
+ PAR-modellen som ni läst lite om i Etkin's kap 6. Inled med att fördjupa
+  er om modellens uppbyggnad genom att läsa kap 2\, sid 49-86\, i [At Risk
+  Wisner et al 2003.pdf] (https://canvas.kau.se/courses/28683/files/3728875
+ ?wrap=1). \n\nUppgiften består i att studera en fritt vald naturkatastro
+ f\, ex. jordskalvet i Tokyo 1923\, cyklonen Katrina 2005 eller snöfallet 
+ i Gävle 1998. Arbetet utförs i grupper om 2-3 personer (vi gör gruppind
+ elningen på introduktionsträffen och ni hittar sedan gruppindelningen h
+ är\; [Gruppindelning fallstudie] (https://canvas.kau.se/courses/28683/pag
+ es/gruppindelning-fallstudie)) och valet av ämne görs senast i v. 48.  
+ Lämna in ert förslag i diskussionstråden "[Inlämning av förslag på f
+ allstudie] (https://canvas.kau.se/courses/28683/discussion_topics/382935)"
+ . Men innan ni lämnar in ert förslag till mig - försök att leta upp li
+ te material och fundera på om ni kan hitta tillräckligt med intressanta 
+ källor. Använd er av universitetets sökmotorer för vetenskapliga artik
+ lar och böcker (ex. One Search)\, utöver att ni helt enkelt googlar er f
+ ram till olika källor. I den mån jag kan\, ger jag er sedan mer litterat
+ urtips när ni lämnat in ert förslag.\n\nNaturkatastrofen skall behandla
+ s ur flera olika perspektiv och ni ska utnyttja "sättet att tänka" som P
+ AR-modellen hjälper till med. Syftet med uppgiften är att ni dels ska ku
+ nna ge en helhetsbild av en viss händelse och dels gå på djupet kring o
+ rsak och verkan inom något som ni finner extra intressant. Följande punk
+ ter som rör sårbarhet\, exponering och hanteringsförmåga bör om möjl
+ igt bearbetas (men inte säkert att ni hittar information om allt):\n\na)
+   direkta och indirekta konsekvenser i samhället och kopplingen till ak
+ tuella extrema vädervariabler eller geologiska faktorer\n\nb) befintliga 
+ prognoser och varningssystem\, samt hur det fungerade under händelsen\n\n
+ c) samhällets beredskap\, respons och återuppbyggnad (build back better?
+ ) - före / under / efter den aktuella katastrofen\n\nNär ni använder er
+  av PAR-modellen för att bearbeta ert material analytiskt\, kan det iblan
+ d vara bra med "five why?"-metoden\, dvs ställ frågan varför minst fem 
+ gånger och ni kommer förmodligen till slut att hamna i de mer distalt ba
+ komliggande orsakerna ("root causes").\n\n \n\nI följande film kanske ni
+  hittar lite inspiration. Filmen följer tidslinjen Före - Under - Efter 
+ och har satts samman efter översvämningarna i Queensland\, Australien ja
+ nuari 2011.\n\n \n\nNyttiga länkar för att komma igång med att hitta e
+ n naturkatastrof som ni vill gå vidare med (ni hittar information om sär
+ skilda händelser nationellt och internationellt):\n\nFN´s ReliefWeb: htt
+ ps://reliefweb.int/disasters\n\nFN´s PreventionWeb: http://www.prevention
+ web.net/english/ \n\nMunich Re: https://www.munichre.com/topics-online/en
+ /climate-change-and-natural-disasters.html \n\nStatens Geotekniska Instit
+ ut's skreddatabas: http://www.swedgeo.se/sv/produkter--tjanster/kartor-dat
+ a-och-verktyg/skreddatabas/ \n\nBläddra lite i [UNU-EHS_Interconnected_D
+ isaster_Risks_Report_2022_LowREs_FINAL.pdf] (https://canvas.kau.se/courses
+ /28683/files/3728877?wrap=1)  \n\n...eller bara googla på nätet...\n\n
+  \n\nResultatet lämnas in skriftligt och får ej överstiga 3500 ord (ex
+ klusive figurer och referenslista). Antalet sidor kan lätt dra iväg i en
+  sådan här uppgift\, om man är alltför deskriptiv i sin hantering av m
+ aterialet. Fokusera istället på analysen av händelsen och att bearbeta 
+ ert material med hjälp av PAR-modellen. Begränsningen i antalet sidor ä
+ r ett sätt från min sida att försöka "tvinga er" att göra detta. Text
+ en ska innehålla referenser enligt APA ([KAU bibliotek's information om r
+ eferenssystemet APA] (https://libguides.kau.se/apa7?_ga=2.173260833.340197
+ 388.1599462286-487819062.1579465090)) till den fakta som ni sammanställer
+  och analyserar\, inklusive en referenslista längst bak i arbetet. Allra 
+ sist i er rapport vill jag också se ett avsnitt som heter "Källkritisk r
+ eflektion"\, där ni reflekterar över de dokument som ni använder er av 
+ i fråga om tillförlitlighet.\n\nDet är inte tillåtet att använda gene
+ rativ AI när ni skriver er rapport\, men det kan vara ett bra sätt jämt
+ e google-sökningar att hitta relevanta dokument. Det kan också komma til
+ l nytta om ni hittar dokument från en katastrof som är skrivna på ett s
+ pråk ni inte behärskar och behöver göra en översättning. Om ni anvä
+ nder AI - beskriv hur ni gör det under rubriken "Källkritisk reflektion"
+ .\n\nUppgiften är en gruppuppgift och bedöms utifrån skalan underkänd 
+ eller godkänd.\n\nInför och på det avslutande seminariet delas ni in i 
+ nya grupper där 3-4 olika fallstudier diskuteras i varje grupp enligt anv
+ isningar som delas ut vid seminariet. Ni kommer inte att hamna i samma gru
+ pp som den ni skrivit ert arbete tillsammans med. Jag lägger ut ett schem
+ a med gruppindelningar för seminariet på sidan [📌 Seminarium Gruppind
+ elning & rapporter fallstudie] (https://canvas.kau.se/courses/28683/pages/
+ seminarium-gruppindelning-and-rapporter-fallstudie?wrap=1)\, inklusive all
+ as rapporter\, på förmiddagen 14 jan och ni förbereder er genom att lä
+ sa igenom de övriga fallstudierna som ingår i er seminariegrupp. Det är
+  alltså viktigt att alla lämnar in sin rapport i tid.\n\n \n\nLycka til
+ l!\n\nMagnus
+SEQUENCE:0
+SUMMARY:🎯 Fallstudie av en naturkatastrof [RHAD21\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=course_28683&
+ month=01&year=2027#assignment_173601
+X-ALT-DESC;FMTTYPE=text/html:<p><strong>&nbsp\;<img src="https://canvas.kau
+ .se/courses/28683/files/3627633/download?hidden=1" alt="sichuan-earthquake
+ -07.jpg" width="321" height="215" data-api-endpoint="https://canvas.kau.se
+ /api/v1/courses/28683/files/3627633" data-api-returntype="File" loading="l
+ azy"><img id="1145326" src="https://canvas.kau.se/courses/28683/files/3627
+ 663/preview?hidden=1" alt="flood-3.jpg" width="352" height="216" data-api-
+ endpoint="https://canvas.kau.se/api/v1/courses/28683/files/3627663" data-a
+ pi-returntype="File" loading="lazy"></strong></p>\n<p>&nbsp\;</p>\n<p><spa
+ n style="font-size: 14pt\;"><strong>Fallstudie</strong></span></p>\n<p>Den
+  här uppgiften innebär att ni gör en fallstudie av en naturkatastrof. N
+ i kommer att sammanställa konsekvenser och lärdomar som gjorts i efterha
+ nd. Lärdomarna berör i regel samhällets sårbarhet\, exponering och han
+ teringsförmåga\, samt syftar till att utveckla och förbättra förbered
+ ande\, förebyggande och återuppbyggande arbeten\, liksom den akuta hante
+ ringen. Fallstudier har använts av olika forskargrupper\, ex. CRISMART vi
+ d Försvarshögskolan\, som en metod för att studera samhällets hanterin
+ gsförmåga vid större katastrofer\, eller påfrestningar\, med syftet at
+ t lära för framtiden. Det finns flera olika metoder utvecklade för hur 
+ man gör fallstudier på ett vetenskapligt sätt (ex. Merriam\, 1993: Fall
+ studien som forskningsmetod)\, men vi nyttjar inte dessa fullt ut i den h
+ är övningen i och med att ni enbart kommer att leta efter fakta i dokume
+ nt och litteratur. Ni får ett antal tips nedan från mig om vad ni ska f
+ örsöka att leta upp information om.</p>\n<p>Analytiskt tar ni hjälp av 
+ den s.k. PAR-modellen som ni läst lite om i Etkin's kap 6. Inled med att 
+ fördjupa er om modellens uppbyggnad genom att läsa kap 2\, sid 49-86\, i
+  <a class="instructure_file_link instructure_scribd_file inline_disabled" 
+ title="At Risk Wisner et al 2003.pdf" href="https://canvas.kau.se/courses/
+ 28683/files/3728875?wrap=1" target="_blank" data-canvas-previewable="false
+ " data-api-endpoint="https://canvas.kau.se/api/v1/courses/28683/files/3728
+ 875" data-api-returntype="File">At Risk Wisner et al 2003.pdf</a>.&nbsp\;<
+ /p>\n<p><strong>Uppgiften </strong>består i att studera en fritt vald nat
+ urkatastrof\, ex. jordskalvet i Tokyo 1923\, cyklonen Katrina 2005 eller s
+ nöfallet i Gävle 1998. Arbetet utförs i grupper om 2-3 personer (vi gö
+ r gruppindelningen på introduktionsträffen och ni hittar sedan gruppinde
+ lningen här\; <a title="Gruppindelning fallstudie" href="https://canvas.k
+ au.se/courses/28683/pages/gruppindelning-fallstudie" data-api-endpoint="ht
+ tps://canvas.kau.se/api/v1/courses/28683/pages/gruppindelning-fallstudie" 
+ data-api-returntype="Page">Gruppindelning fallstudie</a>) och valet av äm
+ ne görs <strong>senast i v. 48.</strong>&nbsp\; Lämna in ert förslag i 
+ diskussionstråden "<a title="Inlämning av förslag på fallstudie" href=
+ "https://canvas.kau.se/courses/28683/discussion_topics/382935" data-api-en
+ dpoint="https://canvas.kau.se/api/v1/courses/28683/discussion_topics/38293
+ 5" data-api-returntype="Discussion">Inlämning av förslag på fallstudie<
+ /a>". Men innan ni lämnar in ert förslag till mig - försök att leta up
+ p lite material och fundera på om ni kan hitta tillräckligt med intressa
+ nta källor. Använd er av universitetets sökmotorer för vetenskapliga a
+ rtiklar och böcker (ex. One Search)\, utöver att ni helt enkelt googlar 
+ er fram till olika källor. I den mån jag kan\, ger jag er sedan mer litt
+ eraturtips när ni lämnat in ert förslag.</p>\n<p>Naturkatastrofen skall
+  behandlas ur flera olika perspektiv och ni ska utnyttja "sättet att tän
+ ka" som PAR-modellen hjälper till med. Syftet med uppgiften är att ni de
+ ls ska kunna ge en helhetsbild av en viss händelse och dels gå på djupe
+ t kring orsak och verkan inom något som ni finner extra intressant. Följ
+ ande punkter som rör <span style="font-family: inherit\; font-size: 1rem\
+ ;">sårbarhet\, exponering och hanteringsförmåga </span><span style="fon
+ t-family: inherit\; font-size: 1rem\;">bör om möjligt bearbetas (</span>
+ <span style="text-decoration: underline\;">men inte säkert att ni hittar 
+ information om allt</span><span style="font-family: inherit\; font-size: 1
+ rem\;">):</span></p>\n<p>a)&nbsp\;<span style="font-family: inherit\; font
+ -size: 1rem\;">&nbsp\;</span><span style="font-family: inherit\; font-size
+ : 1rem\;">direkta och indirekta konsekvenser i samhället och</span><span 
+ style="font-family: inherit\; font-size: 1rem\;"> kopplingen till aktuella
+  extrema vädervariabler eller geologiska faktorer</span></p>\n<p>b) befin
+ tliga prognoser och varningssystem\, samt hur det fungerade under händels
+ en</p>\n<p>c) samhällets beredskap\, respons och återuppbyggnad (build b
+ ack better?) - före / under / efter den aktuella katastrofen</p>\n<p>När
+  ni använder er av PAR-modellen för att bearbeta ert material analytiskt
+ \, kan det ibland vara bra med "five why?"-metoden\, dvs ställ frågan <s
+ trong><em>varför</em></strong> minst fem gånger och ni kommer förmodlig
+ en till slut att hamna i de mer distalt bakomliggande orsakerna ("root cau
+ ses").</p>\n<p>&nbsp\;</p>\n<p>I följande film kanske ni hittar lite insp
+ iration. Filmen följer tidslinjen <em><strong>Före - Under - Efter</stro
+ ng></em> och har satts samman efter översvämningarna i Queensland\, Aust
+ ralien januari 2011.</p>\n<p><iframe src="https://www.youtube.com/embed/md
+ BYf3rEc6E" width="560" height="315" loading="lazy" allowfullscreen="allowf
+ ullscreen" allow="autoplay\; encrypted-media"></iframe></p>\n<p>&nbsp\;</p
+ >\n<p>Nyttiga länkar för att komma igång med att hitta en naturkatastro
+ f som ni vill gå vidare med (ni hittar information om särskilda händels
+ er nationellt och internationellt):</p>\n<p>FN´s ReliefWeb: <a class="ins
+ tructure_file_link inline_disabled" href="https://reliefweb.int/disasters"
+  target="_blank">https://reliefweb.int/disasters</a></p>\n<p>FN´s Prevent
+ ionWeb: <a href="http://www.preventionweb.net/english/">http://www.prevent
+ ionweb.net/english/</a>&nbsp\;</p>\n<p>Munich Re: <a href="https://www.mun
+ ichre.com/topics-online/en/climate-change-and-natural-disasters.html" targ
+ et="_blank">https://www.munichre.com/topics-online/en/climate-change-and-n
+ atural-disasters.html</a>&nbsp\;</p>\n<p>Statens Geotekniska Institut's sk
+ reddatabas: <a href="http://www.swedgeo.se/sv/produkter--tjanster/kartor-d
+ ata-och-verktyg/skreddatabas/">http://www.swedgeo.se/sv/produkter--tjanste
+ r/kartor-data-och-verktyg/skreddatabas/</a>&nbsp\;</p>\n<p>Bläddra lite i
+  <a class="instructure_file_link instructure_scribd_file inline_disabled" 
+ title="UNU-EHS_Interconnected_Disaster_Risks_Report_2022_LowREs_FINAL.pdf"
+  href="https://canvas.kau.se/courses/28683/files/3728877?wrap=1" target="_
+ blank" data-canvas-previewable="false" data-api-endpoint="https://canvas.k
+ au.se/api/v1/courses/28683/files/3728877" data-api-returntype="File">UNU-E
+ HS_Interconnected_Disaster_Risks_Report_2022_LowREs_FINAL.pdf</a> &nbsp\;<
+ /p>\n<p>...eller bara googla på nätet...</p>\n<p>&nbsp\;</p>\n<p>Resulta
+ tet lämnas in skriftligt och <strong>får ej överstiga 3500 ord</strong>
+  (exklusive figurer och referenslista). Antalet sidor kan lätt dra iväg 
+ i en sådan här uppgift\, om man är alltför deskriptiv i sin hantering 
+ av materialet. Fokusera istället på analysen av händelsen och att bearb
+ eta ert material med hjälp av PAR-modellen. Begränsningen i antalet sido
+ r är ett sätt från min sida att försöka "tvinga er" att göra detta. 
+ Texten ska innehålla referenser enligt APA (<a class="instructure_file_li
+ nk inline_disabled" href="https://libguides.kau.se/apa7?_ga=2.173260833.34
+ 0197388.1599462286-487819062.1579465090" target="_blank">KAU bibliotek's i
+ nformation om referenssystemet APA</a>) till den fakta som ni sammanställ
+ er och analyserar\, inklusive en referenslista längst bak i arbetet. Allr
+ a sist i er rapport vill jag också se ett avsnitt som heter "Källkritisk
+  reflektion"\, där ni reflekterar över de dokument som ni använder er a
+ v i fråga om tillförlitlighet.</p>\n<p>Det är inte tillåtet att använ
+ da generativ AI när ni skriver er rapport\, men det kan vara ett bra sät
+ t jämte google-sökningar att hitta relevanta dokument. Det kan också ko
+ mma till nytta om ni hittar dokument från en katastrof som är skrivna p
+ å ett språk ni inte behärskar och behöver göra en översättning. Om 
+ ni använder AI - beskriv hur ni gör det under rubriken "Källkritisk ref
+ lektion".</p>\n<p><span style="font-family: inherit\; font-size: 1rem\;">U
+ ppgiften är en gruppuppgift och bedöms utifrån skalan underkänd eller 
+ godkänd.</span></p>\n<p>Inför och på det avslutande seminariet delas ni
+  in i nya grupper där 3-4 olika fallstudier diskuteras i varje grupp enli
+ gt anvisningar som delas ut vid seminariet. Ni kommer inte att hamna i sam
+ ma grupp som den ni skrivit ert arbete tillsammans med. Jag lägger ut ett
+  schema med gruppindelningar för seminariet på sidan <a title="📌 Semi
+ narium Gruppindelning &amp\; rapporter fallstudie" href="https://canvas.ka
+ u.se/courses/28683/pages/seminarium-gruppindelning-and-rapporter-fallstudi
+ e?wrap=1" data-course-type="wikiPages" data-published="true" data-api-endp
+ oint="https://canvas.kau.se/api/v1/courses/28683/pages/seminarium-gruppind
+ elning-and-rapporter-fallstudie" data-api-returntype="Page">📌 Seminariu
+ m Gruppindelning &amp\; rapporter fallstudie</a>\, inklusive allas rapport
+ er\, på förmiddagen 14 jan och <em><strong>n</strong><strong><em>i </em>
+ förbereder er genom att läsa igenom de övriga fallstudierna som ingår 
+ i er seminariegrupp. </strong></em><span style="text-decoration: underline
+ \; font-size: 14pt\;"><span style="background-color: #ffff00\;">Det är al
+ ltså viktigt att alla lämnar in sin rapport i tid</span>.</span></p>\n<p
+ >&nbsp\;</p>\n<p>Lycka till!</p>\n<p>Magnus</p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad31-vt27-campus-maj27@rhad-kalender
-DTSTAMP:20261103T160000Z
-DTSTART;TZID=Europe/Stockholm:20270527T081500
-DTEND;TZID=Europe/Stockholm:20270527T170000
-SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campus (oklart syfte)
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119254
+DTSTART;VALUE=DATE;VALUE=DATE:20270118
+CLASS:PUBLIC
+DESCRIPTION:Personsäkerhet II: skadeförebyggande och säkerhetsfrämjande
+  arbete\, 7\,5 hp. Kurstillfälle 56228.\n\nStudieperiod v. 3–12 (18 jan
+ –28 mar)\, 50 %. 2 obligatoriska campusträffar. Kursansvarig: Moniruzza
+ man Syed (Monir).
+LOCATION:Distans (Canvas)
+SEQUENCE:0
+SUMMARY:RHAD22: Kursstart – Personsäkerhet II [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=01&year=2027#calendar_event_119254
+X-ALT-DESC;FMTTYPE=text/html:<p>Personsäkerhet II: skadeförebyggande och 
+ säkerhetsfrämjande arbete\, 7\,5 hp. Kurstillfälle 56228.</p><p>Studiep
+ eriod v. 3–12 (18 jan–28 mar)\, 50 %. 2 obligatoriska campusträffar. 
+ Kursansvarig: Moniruzzaman Syed (Monir).</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119255
+DTSTART;VALUE=DATE;VALUE=DATE:20270118
+CLASS:PUBLIC
+DESCRIPTION:Hantering av naturkatastrofer 2\, 7\,5 hp. Kurstillfälle 56229
+ .\n\nStudieperiod v. 3–12 (18 jan–28 mar)\, 50 %. 2 obligatoriska camp
+ usträffar. Lärare: Magnus Johansson.
+LOCATION:Distans (Canvas)
+SEQUENCE:0
+SUMMARY:RHAD31: Kursstart – Hantering av naturkatastrofer 2 [RHAD14\, ht2
+ 6]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=01&year=2027#calendar_event_119255
+X-ALT-DESC;FMTTYPE=text/html:<p>Hantering av naturkatastrofer 2\, 7\,5 hp. 
+ Kurstillfälle 56229.</p><p>Studieperiod v. 3–12 (18 jan–28 mar)\, 50 
+ %. 2 obligatoriska campusträffar. Lärare: Magnus Johansson.</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092200Z
+UID:event-calendar-event-118103
+DTSTART:20270118T071500Z
+DTEND:20270118T110000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Moniruzzaman Syed (Monir).\n\nObligatoriskt slutsemina
+ rium (examinationsseminarium). Se avsnittet "Inför avslutningsträff den 
+ 18/1" i studiehandledningen.\n\nPreliminär bokning i TimeEdit – kontrol
+ lera salen ca två veckor innan.
+LOCATION:Karlstads universitet\, sal 3D417
+SEQUENCE:0
+SUMMARY:RHAD12: Personsäkerhet I – campusträff [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=01&year=2027#calendar_event_118103
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Moniruzzaman Syed (Monir).</p><p><
+ strong>Obligatoriskt</strong> slutseminarium (examinationsseminarium). Se 
+ avsnittet "Inför avslutningsträff den 18/1" i studiehandledningen.</p><p
+ ><em>Preliminär bokning i TimeEdit – kontrollera salen ca två veckor i
+ nnan.</em></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092200Z
+UID:event-calendar-event-118104
+DTSTART:20270118T121500Z
+DTEND:20270118T150000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Magnus Johansson.\n\nAvslutande seminarium om era fall
+ studier. Förbered dig genom att läsa några rapporter från andra kursde
+ ltagare (se sidan "Seminarium Gruppindelning & rapporter fallstudie" i Can
+ vas för RHAD21).\n\nPreliminär bokning i TimeEdit – kontrollera salen 
+ ca två veckor innan.
+LOCATION:Karlstads universitet\, sal 3D418
+SEQUENCE:0
+SUMMARY:RHAD21: Hantering av naturkatastrofer 1 – campusträff [RHAD14\, 
+ ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=01&year=2027#calendar_event_118104
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Magnus Johansson.</p><p>Avslutande
+  seminarium om era fallstudier. Förbered dig genom att läsa några rappo
+ rter från andra kursdeltagare (se sidan "Seminarium Gruppindelning &amp\;
+  rapporter fallstudie" i Canvas för RHAD21).</p><p><em>Preliminär boknin
+ g i TimeEdit – kontrollera salen ca två veckor innan.</em></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119258
+DTSTART:20270323T070000Z
+DTEND:20270323T110000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Jenni Koivisto.\n\nOBS: krockar med RHAD22-bokningen s
+ amma tid (sal 3C512).\n\nPreliminär bokning i TimeEdit (gäller först tv
+ å veckor före kursstart) – kontrollera salen ca två veckor innan.
+LOCATION:Karlstads universitet\, sal 3C510
+SEQUENCE:0
+SUMMARY:RHAD02: Teoribildning inom riskhantering – campusträff [RHAD14\,
+  ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=03&year=2027#calendar_event_119258
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Jenni Koivisto.</p><p><strong>OBS:
+ </strong> krockar med RHAD22-bokningen samma tid (sal 3C512).</p><p><em>Pr
+ eliminär bokning i TimeEdit (gäller först två veckor före kursstart) 
+ – kontrollera salen ca två veckor innan.</em></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119256
+DTSTART:20270323T070000Z
+DTEND:20270323T110000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Syed Zulfiqar Ali Shah.\n\nOBS: krockar med RHAD02-bok
+ ningen samma tid (sal 3C510).\n\nPreliminär bokning i TimeEdit (gäller f
+ örst två veckor före kursstart) – kontrollera salen ca två veckor in
+ nan.
+LOCATION:Karlstads universitet\, sal 3C512
+SEQUENCE:0
+SUMMARY:RHAD22: Personsäkerhet II – campusträff [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=03&year=2027#calendar_event_119256
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Syed Zulfiqar Ali Shah.</p><p><str
+ ong>OBS:</strong> krockar med RHAD02-bokningen samma tid (sal 3C510).</p><
+ p><em>Preliminär bokning i TimeEdit (gäller först två veckor före kur
+ sstart) – kontrollera salen ca två veckor innan.</em></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119257
+DTSTART:20270323T121500Z
+DTEND:20270323T150000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Magnus Johansson.\n\nPreliminär bokning i TimeEdit (g
+ äller först två veckor före kursstart) – kontrollera salen ca två v
+ eckor innan.
+LOCATION:Karlstads universitet\, sal 3C510
+SEQUENCE:0
+SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campusträff [RHAD14\, 
+ ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=03&year=2027#calendar_event_119257
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Magnus Johansson.</p><p><em>Prelim
+ inär bokning i TimeEdit (gäller först två veckor före kursstart) – 
+ kontrollera salen ca två veckor innan.</em></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119259
+DTSTART;VALUE=DATE;VALUE=DATE:20270329
+CLASS:PUBLIC
+DESCRIPTION:Teoribildning inom riskhantering\, 7\,5 hp. Kurstillfälle 5623
+ 0.\n\nStudieperiod v. 13–22 (29 mar–6 jun)\, 50 %. 2 obligatoriska cam
+ pusträffar. Lärare: Jenni Koivisto.
+LOCATION:Distans (Canvas)
+SEQUENCE:0
+SUMMARY:RHAD02: Kursstart – Teoribildning inom riskhantering [RHAD14\, ht
+ 26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=03&year=2027#calendar_event_119259
+X-ALT-DESC;FMTTYPE=text/html:<p>Teoribildning inom riskhantering\, 7\,5 hp.
+  Kurstillfälle 56230.</p><p>Studieperiod v. 13–22 (29 mar–6 jun)\, 50
+  %. 2 obligatoriska campusträffar. Lärare: Jenni Koivisto.</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119260
+DTSTART;VALUE=DATE;VALUE=DATE:20270329
+CLASS:PUBLIC
+DESCRIPTION:Klimatanpassning och riskreducering\, 7\,5 hp (valfri kurs). Ku
+ rstillfälle 56260.\n\nStudieperiod v. 13–22 (29 mar–6 jun)\, 50 %. 2 
+ obligatoriska campusträffar. Kursansvarig: Magnus Johansson.
+LOCATION:Distans (Canvas)
+SEQUENCE:0
+SUMMARY:RHAD03: Kursstart – Klimatanpassning och riskreducering [RHAD14\,
+  ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=03&year=2027#calendar_event_119260
+X-ALT-DESC;FMTTYPE=text/html:<p>Klimatanpassning och riskreducering\, 7\,5 
+ hp (valfri kurs). Kurstillfälle 56260.</p><p>Studieperiod v. 13–22 (29 
+ mar–6 jun)\, 50 %. 2 obligatoriska campusträffar. Kursansvarig: Magnus 
+ Johansson.</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092600Z
+UID:event-calendar-event-119268
+DTSTART:20270527T061500Z
+DTEND:20270527T150000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Magnus Johansson.\n\nOklart syfte – bokningen ligger
+  efter kursens studieperiod (v. 3–12). Kanske omexamination eller semina
+ rium\; fråga läraren.\n\nPreliminär bokning i TimeEdit – kontrollera 
+ ca två veckor innan.
 LOCATION:Karlstads universitet\, sal 3C511
-DESCRIPTION:Lärare: Magnus Johansson. Oklart syfte – bokningen ligger ef
- ter kursens studieperiod (v. 3–12). Kanske omexamination eller seminariu
- m\; fråga läraren. Preliminär bokning i TimeEdit – kontrollera ca tv
- å veckor innan.
+SEQUENCE:0
+SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campus (oklart syfte) [
+ RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=05&year=2027#calendar_event_119268
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Magnus Johansson.</p><p>Oklart syf
+ te – bokningen ligger efter kursens studieperiod (v. 3–12). Kanske ome
+ xamination eller seminarium\; fråga läraren.</p><p><em>Preliminär bokni
+ ng i TimeEdit – kontrollera ca två veckor innan.</em></p>
 END:VEVENT
 BEGIN:VEVENT
-UID:rhad31-vt27-campus-maj28@rhad-kalender
-DTSTAMP:20261103T160000Z
-DTSTART;TZID=Europe/Stockholm:20270528T081500
-DTEND;TZID=Europe/Stockholm:20270528T170000
-SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campus (oklart syfte)
+DTSTAMP:20261103T092600Z
+UID:event-calendar-event-119269
+DTSTART:20270528T061500Z
+DTEND:20270528T150000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Magnus Johansson.\n\nOklart syfte – bokningen ligger
+  efter kursens studieperiod (v. 3–12). Kanske omexamination eller semina
+ rium\; fråga läraren.\n\nPreliminär bokning i TimeEdit – kontrollera 
+ ca två veckor innan.
 LOCATION:Karlstads universitet\, sal 3C511
-DESCRIPTION:Lärare: Magnus Johansson. Oklart syfte – bokningen ligger ef
- ter kursens studieperiod (v. 3–12). Kanske omexamination eller seminariu
- m\; fråga läraren. Preliminär bokning i TimeEdit – kontrollera ca tv
- å veckor innan.
+SEQUENCE:0
+SUMMARY:RHAD31: Hantering av naturkatastrofer 2 – campus (oklart syfte) [
+ RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=05&year=2027#calendar_event_119269
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Magnus Johansson.</p><p>Oklart syf
+ te – bokningen ligger efter kursens studieperiod (v. 3–12). Kanske ome
+ xamination eller seminarium\; fråga läraren.</p><p><em>Preliminär bokni
+ ng i TimeEdit – kontrollera ca två veckor innan.</em></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119261
+DTSTART:20270602T110000Z
+DTEND:20270602T150000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Magnus Johansson. Föreläsning enligt TimeEdit (bokni
+ ngen står på grupp "55260" – troligen skrivfel för 56260).\n\nPrelimi
+ när bokning i TimeEdit (gäller först två veckor före kursstart) – k
+ ontrollera salen ca två veckor innan.
+LOCATION:Karlstads universitet\, sal 21A259 Risklabb
+SEQUENCE:0
+SUMMARY:RHAD03: Klimatanpassning och riskreducering – föreläsning (camp
+ us) [RHAD14\, ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=06&year=2027#calendar_event_119261
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Magnus Johansson. Föreläsning en
+ ligt TimeEdit (bokningen står på grupp "55260" – troligen skrivfel fö
+ r 56260).</p><p><em>Preliminär bokning i TimeEdit (gäller först två ve
+ ckor före kursstart) – kontrollera salen ca två veckor innan.</em></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261103T092100Z
+UID:event-calendar-event-119262
+DTSTART:20270603T111500Z
+DTEND:20270603T140000Z
+CLASS:PUBLIC
+DESCRIPTION:Lärare: Jenni Koivisto.\n\nPreliminär bokning i TimeEdit (gä
+ ller först två veckor före kursstart) – kontrollera salen ca två vec
+ kor innan.
+LOCATION:Karlstads universitet\, sal 3C510
+SEQUENCE:0
+SUMMARY:RHAD02: Teoribildning inom riskhantering – campusträff [RHAD14\,
+  ht26]
+URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
+ month=06&year=2027#calendar_event_119262
+X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Jenni Koivisto.</p><p><em>Prelimin
+ är bokning i TimeEdit (gäller först två veckor före kursstart) – ko
+ ntrollera salen ca två veckor innan.</em></p>
 END:VEVENT
 END:VCALENDAR
