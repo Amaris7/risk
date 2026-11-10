@@ -6,6 +6,9 @@ Kör:  python3 skript/bygg_sida.py
 Utseende och texter ändrar du i skript/mall.html. Platshållaren __DATA__ ersätts med datan.
 """
 import datetime, json, os, re
+from zoneinfo import ZoneInfo
+
+SVENSK_TID = ZoneInfo("Europe/Stockholm")
 
 ROT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MALL = os.path.join(ROT, "skript", "mall.html")
@@ -26,6 +29,9 @@ def las_ics(sokvag):
     def tid(nyckel, v):
         if "VALUE=DATE" in nyckel or len(v) == 8:
             return datetime.date(int(v[:4]), int(v[4:6]), int(v[6:8])).isoformat(), True
+        if v.endswith("Z"):  # UTC (t.ex. Canvas-export) → svensk tid
+            t = datetime.datetime.strptime(v, "%Y%m%dT%H%M%SZ").replace(tzinfo=datetime.timezone.utc)
+            return t.astimezone(SVENSK_TID).strftime("%Y-%m-%dT%H:%M"), False
         return f"{v[:4]}-{v[4:6]}-{v[6:8]}T{v[9:11]}:{v[11:13]}", False
     handelser, h, namn = [], None, ""
     for rad in rader:
@@ -46,18 +52,28 @@ def las_ics(sokvag):
     ut = []
     for h in handelser:
         titel = h.get("SUMMARY", "")
+        # Canvas lägger kurskoden sist: "Inlämning PM [RHAD12, ht26]"
+        mb = re.search(r"\s*\[([A-ZÅÄÖ]{2,6}\d{2,3})[^\]]*\]\s*$", titel)
+        if mb:
+            titel = titel[:mb.start()]
+        # Egna händelser har koden först: "RHAD12: Campusträff". Den vinner över Canvas-koden.
         m = re.match(r"([A-ZÅÄÖ]{2,6}\d{2,3})\s*:\s*(.*)", titel)
-        kod, titel = (m.group(1), m.group(2)) if m else ("", titel)
+        kod, titel = (m.group(1), m.group(2)) if m else ((mb.group(1) if mb else ""), titel)
+        # Canvas-uppgifter: ingen egen kurskod först och ingen plats
+        uppgift = not m and not h.get("LOCATION")
+        titel = re.sub(r"^[^\wÅÄÖåäö(]+", "", titel)  # ta bort ikoner som 🔔 🎯
         info, url = h.get("DESCRIPTION", ""), h.get("URL", "")
         if DOLJ_ZOOMLANKAR:
             info = re.sub(r"\n?Anslut via Zoom:\s*https?://\S*zoom\S*", "", info)
             info = re.sub(r"https?://\S*zoom\.us\S*", "(länk i Canvas)", info)
             if "zoom" in url: url = ""
         ut.append({"kod": kod, "titel": titel.strip(), "start": h.get("DTSTART", ""), "slut": h.get("DTEND", ""),
-                   "heldag": h.get("heldag", False), "plats": h.get("LOCATION", ""), "info": info.strip(), "url": url})
+                   "heldag": h.get("heldag", False), "plats": h.get("LOCATION", ""), "info": info.strip(), "url": url,
+                   "uppgift": uppgift})
     ut.sort(key=lambda e: e["start"])
     andrad = datetime.date.fromtimestamp(os.path.getmtime(sokvag)).isoformat()
-    return {"namn": namn, "andrad": andrad, "handelser": ut}
+    # Kalenderns namn tas inte med: i Canvas-exporter innehåller det ditt namn
+    return {"andrad": andrad, "handelser": ut}
 
 
 with open(DATA, encoding="utf-8") as f:

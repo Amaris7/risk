@@ -480,7 +480,7 @@ function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: 
     t = t.replace(/^Kursstart\s*[–-]\s*.*/, "Kursstart");
     t = t.charAt(0).toUpperCase() + t.slice(1);
     const txt = (e.titel + " " + e.plats).toLowerCase();
-    const typ = /inlämning|deadline/.test(txt) ? ["Inlämning", "typ-inl"] : /kursstart/.test(txt) ? ["Kursstart", ""] : /zoom|webbinar|canvas/.test(txt) && !/campus|sal /.test(txt) ? ["Distans", "plain"] : /campus|sal |universitet/.test(txt) ? ["Campus", "typ-campus"] : ["Övrigt", "plain"];
+    const typ = e.uppgift || /inlämning|deadline/.test(txt) ? ["Uppgift/inlämning", "typ-inl"] : /kursstart/.test(txt) ? ["Kursstart", ""] : /zoom|webbinar|canvas/.test(txt) && !/campus|sal /.test(txt) ? ["Distans", "plain"] : /campus|sal |universitet/.test(txt) ? ["Campus", "typ-campus"] : ["Övrigt", "plain"];
     return { ...e, dag: e.start.slice(0, 10), rubrik: t, kurs: name(e.kod), typ };
   });
   const sv = (d, o) => new Date(d + (d.length === 10 ? "T12:00" : "")).toLocaleDateString("sv-SE", o);
