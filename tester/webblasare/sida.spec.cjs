@@ -22,7 +22,7 @@ test("sidan laddar med titel, nyckeltal och översikt", async ({ page }) => {
 
 test("alla flikar går att nå, i mobilen via Mer-menyn", async ({ page }) => {
   await page.goto("/index.html");
-  for (const [hash, rubrik] of [["utbildningen", "Riskhantering i samhället"], ["kalender", "Kurskalender"], ["yrkesroller", "Yrkesroller"],
+  for (const [hash, rubrik] of [["utbildningen", "Riskhantering i samhället"], ["valbara", "Valbara kurser"], ["kalender", "Kurskalender"], ["yrkesroller", "Yrkesroller"],
     ["annonser", "Jobbannonser"], ["efterfragat", "Vad efterfrågas"], ["om", "Om datan"]]) {
     const flik = page.locator(`#tabs a[href="#${hash}"]`);
     if (await flik.isVisible()) {
@@ -119,6 +119,22 @@ test("yrkesrollerna visar hela titlar och vanliga krav", async ({ page }) => {
   await page.goto("/index.html#yrkesroller");
   await expect(page.locator(".role dd").first()).not.toContainText(/·\s*Säkerhets\s*(·|$)/);
   expect(await page.locator(".role .kravlist").count()).toBe(await page.locator(".role").count());
+});
+
+test("valbara kurser visar kompetensprofil och leder till annonser", async ({ page }) => {
+  await page.goto("/index.html#valbara");
+  expect(await page.locator(".komp-r").count()).toBe(8);
+  expect(await page.locator(".vkurs").count()).toBe(5);
+  expect(await page.locator(".komp-r").first().locator(".kbar").count()).toBe(4);
+  await expect(page.locator(".komp-r .kbar .kb-n").first()).toHaveText(/^\d[\d\s]* av alla \d[\d\s]* annonser nämner det$/);
+  await expect(page.locator(".komp-r").first().locator(".kbar .kb-n").nth(3)).toHaveText(/^\d+ av \d+ klimatannonser nämner det, [\d,]+ % av alla \d[\d\s]* annonser$/);
+  await expect(page.locator("#komp-klim-not")).toContainText("procentenheter");
+  await expect(page.locator(".vkurs h3").first()).toHaveText("Klimatanpassning och riskreducering");
+  await expect(page.locator("#v-valbara")).not.toContainText(/\bRHA[DE]\d{2}\b|MVAE/);
+  await page.locator(".vkurs button.go").first().click();
+  await expect(page).toHaveURL(/#annonser$/);
+  await expect(page.locator("#count")).toContainText("hela annonstexten");
+  expect(await antal(page)).toBeGreaterThan(50);
 });
 
 test("färgtemat går att välja och sparas", async ({ page }) => {

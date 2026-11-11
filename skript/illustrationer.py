@@ -306,7 +306,36 @@ def dataflode():
     return _slut(ut, "flode")
 
 
+def profil():
+    """Valbara kurser: spindeldiagram, kompetensprofil med bara obligatoriska kurser och med valbara."""
+    import kompetenser
+    ut = _start("profil")
+    _rutnat(ut)
+    K = kompetenser.KOMPETENSER
+    cx, cy, R = 905, 122, 92
+    n = len(K)
+    vinkel = lambda i: -math.pi / 2 + 2 * math.pi * i / n
+    P = lambda i, r: (cx + r * math.cos(vinkel(i)), cy + r * math.sin(vinkel(i)))
+    for niva in (1, 2, 3):
+        ring = " ".join(f"{x:.1f},{y:.1f}" for x, y in (P(i, R * niva / 3) for i in range(n)))
+        ut.append(f'<polygon points="{ring}" fill="none" stroke="var(--hero-line)" stroke-opacity=".18"/>')
+    korta = {"rsa": "RSA", "kontinuitet": "Kontinuitet", "utredning": "Olycksutredning", "larande": "Lärande",
+             "implementering": "Åtgärder", "kommunikation": "Riskkommunikation", "klimat": "Klimat", "hallbarhet": "Hållbarhet"}
+    for i, k in enumerate(K):
+        x, y = P(i, R)
+        ut.append(f'<line x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}" stroke="var(--hero-line)" stroke-opacity=".18"/>')
+        lx, ly = P(i, R + 16)
+        anchor = "middle" if abs(lx - cx) < 10 else ("start" if lx > cx else "end")
+        ut.append(_txt(f"{lx:.0f}", f"{ly + 4:.0f}", korta[k[0]], 11, anchor=anchor))
+    for idx, farg, op, bredd in ((4, "var(--hero-warn)", .28, 2.2), (3, "var(--hero-line)", .22, 1.8)):
+        pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in (P(i, R * K[i][idx] / 3) for i in range(n)))
+        ut.append(f'<polygon points="{pts}" fill="{farg}" fill-opacity="{op}" stroke="{farg}" stroke-width="{bredd}" stroke-linejoin="round"/>')
+    ut.append(f'<rect x="1040" y="176" width="12" height="4" rx="2" fill="var(--hero-line)"/>' + _txt(1058, 182, "Bara obligatoriska", 11))
+    ut.append(f'<rect x="1040" y="196" width="12" height="4" rx="2" fill="var(--hero-warn)"/>' + _txt(1058, 202, "Med valbara kurser", 11, "var(--hero-fg)"))
+    return _slut(ut, "profil")
+
+
 def alla(data, texter):
     """Alla illustrationer, nyckel = namnet i mallens <!--GRAFIK:namn-->."""
     return {"hero": hero(), "matris": riskmatris(), "tidslinje": tidslinje(data.get("kalender")), "natverk": natverk(),
-            "karta": karta(data.get("annonser", [])), "hot": hot(texter), "flode": dataflode()}
+            "karta": karta(data.get("annonser", [])), "hot": hot(texter), "flode": dataflode(), "profil": profil()}

@@ -134,7 +134,7 @@ class Sakerhet(unittest.TestCase):
         self.assertNotIn("__LOGIK__", self.html)
         self.assertNotIn("module.exports", self.html)
         self.assertNotIn("<!--GRAFIK:", self.html)
-        self.assertEqual(self.html.count('class="banner-art"'), 6, "varje flik ska ha sin illustration")
+        self.assertEqual(self.html.count('class="banner-art"'), 7, "varje flik ska ha sin illustration")
         self.assertEqual(self.html.count('class="hero-art"'), 1)
 
     def test_inbaddad_data_kan_inte_bryta_ut(self):

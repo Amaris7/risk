@@ -10,7 +10,7 @@
 :root {
   --bg: #f2f5f6; --surface: #ffffff; --surface-2: #f6f9fa; --fg: #13272d; --muted: #536a70; --line: #dde6e8; --line-strong: #c6d4d7;
   --accent: #1f5f6e; --accent-soft: #e2eef0; --on-accent: #ffffff; --signal: #b8540f; --signal-soft: #fbe7d7;
-  --good: #2f7a4f; --good-soft: #e1f1e6;
+  --good: #2f7a4f; --good-soft: #e1f1e6; --klim: #2b7fa8;
   --hdr: #12303a; --hdr-fg: #eef5f6; --hdr-muted: #a6c2c8; --hdr-mark: #f08a3c;
   --hero-bg: #0c2229; --hero-fg: #eef5f6; --hero-muted: #a3bec4; --hero-grid: rgba(127, 199, 210, .07); --hero-line: #7fc7d2; --hero-line-2: #c9e6eb;
   --risk-1: #3f7f6a; --risk-2: #8f9b45; --risk-3: #d39a32; --risk-4: #e0743a; --risk-5: #c4473d;
@@ -25,13 +25,13 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0d1619; --surface: #142127; --surface-2: #18282f; --fg: #e2edef; --muted: #95adb3; --line: #223238; --line-strong: #2e444b;
   --accent: #7fc7d2; --accent-soft: #183139; --on-accent: #0b1a1e; --signal: #f0a066; --signal-soft: #3a2517;
-  --good: #8fd0a5; --good-soft: #19322a;
+  --good: #8fd0a5; --good-soft: #19322a; --klim: #6db6da;
   --hdr: #081418; --hdr-fg: #e2edef; --hdr-muted: #8ba7ad; --hdr-mark: #f08a3c;
   --shadow: none; --shadow-hover: 0 0 0 1px var(--line-strong); color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: #0d1619; --surface: #142127; --surface-2: #18282f; --fg: #e2edef; --muted: #95adb3; --line: #223238; --line-strong: #2e444b;
   --accent: #7fc7d2; --accent-soft: #183139; --on-accent: #0b1a1e; --signal: #f0a066; --signal-soft: #3a2517;
-  --good: #8fd0a5; --good-soft: #19322a;
+  --good: #8fd0a5; --good-soft: #19322a; --klim: #6db6da;
   --hdr: #081418; --hdr-fg: #e2edef; --hdr-muted: #8ba7ad; --hdr-mark: #f08a3c;
   --shadow: none; --shadow-hover: 0 0 0 1px var(--line-strong); color-scheme: dark }
 
@@ -254,6 +254,45 @@ button.reset { font: 600 .9rem var(--f-body); background: none; border: 0; color
 @media (max-width: 960px) { .kws-grid { grid-template-columns: 1fr } }
 .kws-grid h4, .sub-h { margin: 0 0 6px; font: 600 .72rem var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
 
+/* ---------- Valbara kurser ---------- */
+.komp { display: grid }
+.komp-h, .komp-r { display: grid; grid-template-columns: minmax(190px, 1.2fr) 110px minmax(160px, 1fr) minmax(320px, 1.9fr); gap: 16px 24px; align-items: center }
+.komp-h { font: 600 .72rem var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding-bottom: 10px; border-bottom: 2px solid var(--accent) }
+.komp-r { padding: 16px 0; border-bottom: 1px solid var(--line) }
+.komp-r:last-child { border-bottom: 0 }
+.komp-n { display: grid; gap: 2px }
+.komp-c { display: grid; gap: 4px; justify-items: start }
+.komp-lbl { display: none }
+.dots { display: inline-flex; gap: 5px; align-items: center }
+.dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; box-shadow: inset 0 0 0 1.5px var(--line-strong) }
+.dot.on { background: var(--accent); box-shadow: none }
+.kbar { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "l v" "t t" "n n"; gap: 3px 10px; align-items: center; font-size: .84rem; color: var(--fg) }
+.kbar .kb-lbl { grid-area: l } .kbar .v { grid-area: v } .kbar .track { grid-area: t } .kbar .kb-n { grid-area: n }
+.kbar .track { display: block; height: 7px; background: var(--accent-soft); border-radius: 99px; overflow: hidden }
+.kbar .fill { display: block; height: 100%; border-radius: 99px }
+.kbar .v { font: 600 .85rem var(--f-mono); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap }
+.komp-s { display: grid; gap: 12px }
+.sw-alla { background: var(--muted) } .sw-sak { background: var(--accent) } .sw-ber { background: var(--signal) } .sw-klim { background: var(--klim) }
+.kb-n { font-size: .76rem; color: var(--muted) }
+.komp-legend .dot { width: 9px; height: 9px }
+.komp-legend .dots { gap: 3px; margin-right: 2px }
+.legend .sw { width: 12px; height: 7px; border-radius: 99px; display: inline-block }
+.komp-legend { padding-top: 12px; border-top: 1px solid var(--line) }
+.valbara { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(460px, 100%), 1fr)); gap: 24px }
+.vkurs { gap: 20px }
+.vk-ger { display: grid; gap: 18px }
+.vk-k { display: grid; gap: 8px; padding-top: 16px; border-top: 1px solid var(--line) }
+.vk-kh { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: center }
+.vk-lyft { display: inline-flex; gap: 8px; align-items: center; color: var(--muted) }
+.vkurs button.go { justify-self: start; font: 600 .88rem var(--f-body); background: var(--accent-soft); border: 1px solid transparent; border-radius: var(--r-sm); padding: 8px 14px; color: var(--accent); cursor: pointer; margin-top: 4px }
+.vkurs button.go:hover { border-color: var(--accent) }
+@media (max-width: 900px) {
+  .komp-h { display: none }
+  .komp-r { grid-template-columns: 1fr 1fr; gap: 10px 16px }
+  .komp-n, .komp-s { grid-column: 1 / -1 }
+  .komp-lbl { display: block; font: 600 .7rem var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+}
+
 /* ---------- Kalender ---------- */
 .kal-next { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px }
 .kal-next .panel { gap: 6px; border-top: 4px solid var(--accent); padding: 22px 24px }
@@ -334,6 +373,7 @@ button.reset { font: 600 .9rem var(--f-body); background: none; border: 0; color
     <nav class="tabs" id="tabs" aria-label="Flikar">
       <a href="#oversikt">Översikt</a>
       <a href="#utbildningen">Utbildningen</a>
+      <a href="#valbara">Valbara kurser</a>
       <a href="#kalender">Kurskalender</a>
       <a href="#yrkesroller">Yrkesroller</a>
       <a href="#annonser">Jobbannonser <span class="n" id="n-ads"></span></a>
@@ -401,6 +441,22 @@ button.reset { font: 600 .9rem var(--f-body); background: none; border: 0; color
   </div>
   <div class="terms" id="terms"></div>
   <p class="note">Källa: <a href="https://www.kau.se/utbildning/program-och-kurser/program/SARHS" target="_blank" rel="noopener">kau.se/…/program/SARHS</a> och respektive kurssida. Kurssammanfattningarna är förkortade. Kontrollera alltid aktuell utbildningsplan hos KAU.</p>
+</section>
+
+<section class="view" id="v-valbara" hidden>
+  <div class="vbanner"><!--GRAFIK:profil--><div class="vb-text">
+    <span class="eyebrow">30 hp av 120 hp är valbara kurser</span>
+    <h2>Valbara kurser</h2>
+    <p>Valen gör stor skillnad för vilken kompetens du bygger upp. Här ser du vad varje valbar kurs lägger till och hur ofta annonserna efterfrågar det.</p>
+  </div></div>
+  <div class="panel">
+    <div class="phead"><h3>Vad de valbara kurserna lägger till</h3><p>Nivå med bara de obligatoriska kurserna jämfört med om du läser den valbara kursen, och hur stor andel av annonserna som nämner kompetensen.</p></div>
+    <div class="komp" id="komp-tabell"></div>
+    <div class="legend komp-legend"><span><span class="dots"><i class="dot on"></i><i class="dot on"></i><i class="dot on"></i></span>Fördjupning</span><span><span class="dots"><i class="dot on"></i><i class="dot on"></i><i class="dot"></i></span>Grund</span><span><span class="dots"><i class="dot on"></i><i class="dot"></i><i class="dot"></i></span>Berörs</span><span><span class="dots"><i class="dot"></i><i class="dot"></i><i class="dot"></i></span>Berörs inte</span><span><i class="sw sw-alla"></i>Alla annonser</span><span><i class="sw sw-sak"></i>Säkerhetssamordnare</span><span><i class="sw sw-ber"></i>Beredskapssamordnare</span><span><i class="sw sw-klim"></i>Klimatrisker och naturolyckor</span></div>
+    <p class="note" id="komp-klim-not"></p>
+  </div>
+  <div class="valbara" id="valbara"></div>
+  <p class="note">Nivåerna är en förenklad bedömning utifrån kursbeskrivningarna på kau.se och synpunkter från en lärare på programmet. Andelarna räknas ur annonstexterna och visar hur ofta kompetensen nämns, inte om den är ett krav.</p>
 </section>
 
 <section class="view" id="v-kalender" hidden>
@@ -720,7 +776,41 @@ $("more").onclick = () => { st.shown += 50; renderList(); };
 $("ftoggle").onclick = () => { const o = $("more-filters").classList.toggle("open"); $("ftoggle").setAttribute("aria-expanded", o); };
 function fcount() { const n = aktivaFilter(st); $("fcount").hidden = !n; $("fcount").textContent = n; }
 $("reset").onclick = () => { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", status: "alla", match: "alla", shown: 50 }); syncControls(); renderList(); };
-function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", shown: 50 }, f); syncControls(); renderList(); location.hash = "annonser"; window.scrollTo(0, 0); }
+function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", shown: 50 }, f); syncControls(); renderList(); if (st.q && TEXT_STATUS === "ej laddad") loadText().then(renderList); location.hash = "annonser"; window.scrollTo(0, 0); }
+
+// Valbara kurser: kompetensprofil och kort per kurs
+(function () {
+  const K = DATA.kompetens; if (!K) return;
+  const G = K.grupper, KOMP = Object.fromEntries(K.kompetenser.map(k => [k.id, k]));
+  const VNAMN = Object.fromEntries(K.valbara.map(v => [v.kod, v.namn]));
+  const prickar = n => `<span class="dots" aria-label="nivå ${n} av 3">${[1, 2, 3].map(i => `<i class="dot${i <= n ? " on" : ""}"></i>`).join("")}</span>`;
+  const pct = x => Math.round(x * 100) + " %";
+  const GR = ["alla", "sak", "ber", "klim"].filter(g => G[g]);
+  const TOT = G.alla ? G.alla.antal : 0, sv = x => x.toLocaleString("sv-SE");
+  const GRUPP_ORD = { alla: n => `av alla ${sv(n)} annonser`, sak: n => `av ${sv(n)} annonser för säkerhetssamordnare`,
+    ber: n => `av ${sv(n)} annonser för beredskapssamordnare`, klim: n => `av ${sv(n)} klimatannonser` };
+  const kbText = (g, t, n) => `${sv(t)} ${(GRUPP_ORD[g] || (m => `av ${sv(m)} annonser`))(n)} nämner det` +
+    (g !== "alla" && TOT ? `, ${andelTot(t / TOT)} av alla ${sv(TOT)} annonser` : "");
+  const andelTot = x => x < 0.1 ? (x * 100).toLocaleString("sv-SE", { maximumFractionDigits: 1 }) + " %" : pct(x);
+  const staplar = id => GR.map(g => { const t = (G[g].traff || {})[id] ?? Math.round(G[g].andel[id] * G[g].antal), n = G[g].antal;
+    return `<div class="kbar"><span class="kb-lbl">${esc(G[g].namn)}</span><span class="v">${pct(G[g].andel[id])}</span><span class="track"><span class="fill sw-${g}" style="width:${Math.max(1, G[g].andel[id] * 100).toFixed(1)}%"></span></span><span class="kb-n">${kbText(g, t, n)}</span></div>`; }).join("");
+  $("komp-tabell").innerHTML = `<div class="komp-h"><span>Kompetens</span><span>Bara obligatoriska</span><span>Med valbar kurs</span><span>Hur stor del av annonserna som nämner den</span></div>` +
+    K.kompetenser.map(k => `<div class="komp-r">
+      <div class="komp-n"><b>${esc(k.namn)}</b><span class="muted small">Viktig för ${esc(k.viktig.toLowerCase())}</span></div>
+      <div class="komp-c"><span class="komp-lbl">Bara obligatoriska</span>${prickar(k.obl)}</div>
+      <div class="komp-c"><span class="komp-lbl">Med valbar kurs</span>${prickar(k.val)}<span class="small">${esc(VNAMN[k.kurs] || "")}</span></div>
+      <div class="komp-s">${staplar(k.id)}</div></div>`).join("");
+  $("valbara").innerHTML = K.valbara.map(v => `<article class="panel vkurs">
+      <div class="phead"><span class="eyebrow">Valbar kurs · 7,5 hp</span><h3>${esc(v.namn)}</h3><p>${esc(v.text)}</p></div>
+      <div class="vk-ger">${v.ger.map(id => `<div class="vk-k"><div class="vk-kh"><b>${esc(KOMP[id].namn)}</b><span class="vk-lyft">${prickar(KOMP[id].obl)}<span aria-hidden="true">→</span>${prickar(KOMP[id].val)}</span></div>${staplar(id)}
+        <button class="go" type="button" data-q="${esc(KOMP[id].sok)}">Visa annonser som nämner ${esc(KOMP[id].namn.split(" (")[0].toLowerCase())}</button></div>`).join("")}</div>
+    </article>`).join("");
+  $("valbara").querySelectorAll("button.go").forEach(b => b.onclick = () => go({ q: b.dataset.q }));
+  if (G.klim) {
+    const n = G.klim.antal, fel = Math.round(100 * 1.96 * Math.sqrt(0.25 / Math.max(1, n)));
+    $("komp-klim-not").textContent = `Gruppen klimatrisker och naturolyckor bygger på ${n} annonser (${G.klim.aktuella} aktuella just nu), så andelarna där är osäkrare, ungefär ±${fel} procentenheter. Att klimatanpassning nämns ofta beror delvis på att gruppen är utvald med klimatord.`;
+  }
+})();
 
 // Kurskalender
 (function () {
@@ -776,7 +866,7 @@ function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: 
 })();
 
 // Flikar
-const VIEWS = ["oversikt", "utbildningen", "kalender", "yrkesroller", "annonser", "efterfragat", "om"];
+const VIEWS = ["oversikt", "utbildningen", "valbara", "kalender", "yrkesroller", "annonser", "efterfragat", "om"];
 function route() {
   const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "oversikt";
   VIEWS.forEach(x => $("v-" + x).hidden = x !== v);

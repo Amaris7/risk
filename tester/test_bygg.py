@@ -128,7 +128,7 @@ class Illustrationer(unittest.TestCase):
 
     def test_alla_illustrationer_ar_giltig_svg(self):
         import xml.etree.ElementTree as ET
-        self.assertEqual(set(self.bilder), {"hero", "matris", "tidslinje", "natverk", "karta", "hot", "flode"})
+        self.assertEqual(set(self.bilder), {"hero", "matris", "tidslinje", "natverk", "karta", "hot", "flode", "profil"})
         for namn, svg in self.bilder.items():
             with self.subTest(namn):
                 rot = ET.fromstring(svg)
@@ -147,6 +147,45 @@ class Illustrationer(unittest.TestCase):
 
     def test_platshallare_byts(self):
         self.assertEqual(B.grafik("a<!--GRAFIK:x-->b<!--GRAFIK:okand-->c", {"x": "<svg/>"}), "a<svg/>bc")
+
+
+class Kompetenser(unittest.TestCase):
+    def test_statistik_per_rollgrupp(self):
+        import kompetenser as K
+        ads = [{"id": "1", "rubrik": "Beredskapssamordnare"}, {"id": "2", "rubrik": "Säkerhetssamordnare"}, {"id": "3", "rubrik": "Analytiker"}]
+        texter = {"1": "du arbetar med kontinuitetshantering och risk- och sårbarhetsanalys", "2": "rsa och incidenthantering", "3": ""}
+        s = K.statistik(ads, texter)
+        self.assertEqual(s["grupper"]["alla"]["antal"], 3)
+        self.assertEqual(s["grupper"]["ber"]["andel"]["kontinuitet"], 1.0)
+        self.assertEqual(s["grupper"]["sak"]["andel"]["rsa"], 1.0)
+        self.assertEqual(s["grupper"]["sak"]["andel"]["utredning"], 1.0)
+        self.assertAlmostEqual(s["grupper"]["alla"]["andel"]["rsa"], 0.667)
+        self.assertEqual(s["grupper"]["alla"]["traff"]["rsa"], 2, "antal träffar ska sparas bredvid andelen")
+        for g in s["grupper"].values():
+            for k, t in g["traff"].items():
+                self.assertLessEqual(t, g["antal"])
+                self.assertAlmostEqual(g["andel"][k], round(t / g["antal"], 3) if g["antal"] else 0)
+
+    def test_varje_valbar_kurs_ger_kompetenser_som_finns(self):
+        import kompetenser as K
+        ids = {k[0] for k in K.KOMPETENSER}
+        for kod, (_, ger, _) in K.VALBARA.items():
+            self.assertTrue(ger and set(ger) <= ids, kod)
+        for k, _, _, obl, val, kurs, _ in K.KOMPETENSER:
+            self.assertLess(obl, val, k)
+            self.assertIn(kurs, K.VALBARA)
+
+    def test_klimatgruppen_valjs_pa_rubrik_eller_text(self):
+        import kompetenser as K
+        ads = [{"id": "1", "rubrik": "Klimatanpassningssamordnare"}, {"id": "2", "rubrik": "Handläggare"},
+               {"id": "3", "rubrik": "Handläggare"}]
+        texter = {"1": "", "2": "risk för översvämning och skred vid skyfall", "3": "en översvämning nämns en gång"}
+        g = K.statistik(ads, texter)["grupper"]["klim"]
+        self.assertEqual(g["antal"], 2)
+
+    def test_tom_rollgrupp_ger_noll(self):
+        import kompetenser as K
+        self.assertEqual(K.statistik([], {})["grupper"]["ber"]["andel"]["rsa"], 0)
 
 
 if __name__ == "__main__":

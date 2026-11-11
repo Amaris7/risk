@@ -9,6 +9,7 @@ import datetime, json, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import illustrationer  # noqa: E402
+import kompetenser  # noqa: E402
 from zoneinfo import ZoneInfo
 
 SVENSK_TID = ZoneInfo("Europe/Stockholm")
@@ -128,6 +129,7 @@ def main():
     if os.path.exists(sokvag):
         with open(sokvag, encoding="utf-8") as f:
             texter = json.load(f)
+    data["kompetens"] = kompetenser.statistik(data["annonser"], texter)
     html = bygg(mall, data, logik, illustrationer.alla(data, texter))
     with open(UT, "w", encoding="utf-8") as f:
         f.write(html)

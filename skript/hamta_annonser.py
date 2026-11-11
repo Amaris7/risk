@@ -29,6 +29,8 @@ TERMS = [
     "trafiksäkerhet", "säkerhetsfrämjande", "riskkommunikation", "krisledning", "krisstöd samordnare",
     "säkerhetsskyddschef", "verksamhetsskydd", "räddningstjänst förebyggande", "olycksutredare",
     "säkerhetsanalytiker", "risk manager", "riskingenjör", "försörjningsberedskap",
+    # klimatrisker och naturolyckor
+    "klimatstrateg", "klimatrisk", "klimatsamordnare", "naturolyckor", "översvämning", "skred", "skyfall", "naturkatastrof",
 ]
 
 AREAS = [
@@ -48,13 +50,12 @@ COURSES = [
     ("RHAD01/RHAD02", "Riskhantering, teori & lagstiftning", r"riskhantering|riskanalys|riskbedömning|sårbarhet|riskbild|hotbild|lagen om extraordinära|\bLEH\b|\bLSO\b|skydd mot olyckor"),
     ("RHAD12/RHAD22", "Personsäkerhet & skadeförebyggande", r"skadeförebygg|olycksförebygg|trafiksäkerhet|säkerhetsfrämj|suicidprevent|våldsprevent|brandskydd|äldresäkerhet|skadestatistik|personsäkerhet|trygghetsskapande|brottsförebygg"),
     ("RHAD21/RHAD31", "Naturkatastrofer & krisberedskap", r"naturolyck|översvämning|skred|extremväder|katastrof|krisberedskap|höjd beredskap|civilt försvar|totalförsvar|krisledning|stab|risk- och sårbarhetsanalys|\bRSA\b|beredskapsplan|varningssystem"),
-    ("RHAD14", "Riskperception & riskkommunikation", r"riskkommunikation|kriskommunikation|information till allmänheten|befolkningens beredskap|riskperception"),
-    ("RHAD03", "Klimatanpassning & riskreducering", r"klimatanpass|klimatförändring|klimat- och sårbarhet"),
+    ("RHAD14", "Riskperception & riskkommunikation", r"riskkommunikation|kriskommunikation|krisinformation|information till allmänheten|befolkningens beredskap|riskperception"),
+    ("RHAD03", "Klimatanpassning & riskreducering", r"klimatanpass|klimatförändring|klimat- och sårbarhet|risk- och sårbarhetsanalys|\bRSA\b|kontinuitet"),
     ("MVAE34", "Hållbarhet & säkerhet (SHM)", r"hållbar utveckling|hållbarhet|miljö och säkerhet|arbetsmiljö"),
-    ("RHAD38", "Implementering & utvärdering av åtgärder", r"utvärder|uppfölj|implementer|åtgärdsplan|handlingsplan|styrdokument"),
-    ("RHAD39", "Olycksutredning & organisatoriskt lärande", r"olycksutredning|händelseanalys|erfarenhetsåterföring|säkerhetskultur|avvikelse|lärande|övning"),
+    ("RHAD38", "Implementering & utvärdering av åtgärder", r"utvärder|uppfölj|följa upp|implementer|åtgärdsplan|handlingsplan|styrdokument"),
+    ("RHAD39", "Olycksutredning & organisatoriskt lärande", r"olycksutred|händelseanalys|incidenthantering|avvikelsehantering|tillbud|erfarenhetsåterföring|säkerhetskultur|organisatoriskt lärande|övning"),
     ("RHAD35", "Vetenskaplig metod & analys", r"\banalys|utredning|statistik|omvärldsbevakning|kvalitativ|kvantitativ|lägesbild"),
-    ("Kontinuitet", "Kontinuitetshantering", r"kontinuitet"),
 ]
 STRONG = re.compile(r"beredskap|sårbarhet|riskanalytiker|riskhantering|säkerhetssamordn|säkerhetsstrateg|kris|klimatanpass|kontinuitet|skadeförebygg|olycksförebygg|trygghetssamordn|trafiksäkerhet|civil[at]? försvar|totalförsvar|riskkonsult|brottsförebygg|säkerhetsfrämj|risk ?manager|olycksutred", re.I)
 FIN = re.compile(r"\bbank|finans|kreditrisk|marknadsrisk|försäkring|aktuari|quantitative|fintech|AML|penningtvätt", re.I)

@@ -37,10 +37,6 @@
   [
    "RHAD35",
    "Vetenskaplig metod & analys"
-  ],
-  [
-   "Kontinuitet",
-   "Kontinuitetshantering"
   ]
  ],
  "annonser": [
@@ -72,11 +68,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -124,6 +122,64 @@
    ]
   },
   {
+   "id": "31717539",
+   "rubrik": "Drift- och säkerhetskoordinator till MQ",
+   "arbetsgivare": "Retail Recruitment - Rekrytering chefer/specialister inom Retail/E-commerce/FMCG",
+   "kommun": "Göteborg",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-11-11",
+   "sista": "2026-11-24",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [],
+   "utdrag": "Vill du spela en nyckelroll i att skapa trygga och välfungerande butiksmiljöer i en av Sveriges mest välkända modekedjor? MQ Marqet söker nu en Drift- och Säkerhetskoordinator som vill medverka till a",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31717539",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
+   "id": "31716073",
+   "rubrik": "Erfaren CE-chaufför till kund i Kristianstad!",
+   "arbetsgivare": "Transera",
+   "kommun": "Kristianstad",
+   "lan": "Skåne län",
+   "publicerad": "2026-11-11",
+   "sista": "2027-05-10",
+   "omraden": [
+    "Skadeförebyggande & personsäkerhet"
+   ],
+   "nyckelord": [
+    "körkort"
+   ],
+   "utdrag": "Vi söker en erfaren CE-chaufför för ett deltidsuppdrag hos vår kund i Kristianstad. Du får möjlighet att arbeta med distributionskörning, ekipagehantering och lastningshantering i en varierad roll där",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31716073",
+   "status": "aktuell",
+   "omfattning": null,
+   "kurser": [
+    "RHAD12/RHAD22"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Körkort",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "31708900",
    "rubrik": "Beredskapssamordnare till Heby kommun",
    "arbetsgivare": "Kommunchefens stab",
@@ -147,8 +203,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -225,11 +281,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -265,11 +321,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -316,36 +372,6 @@
     "Erfarenhet av beredskap/kris",
     "Erfarenhet av säkerhet/risk",
     "Projektledning"
-   ]
-  },
-  {
-   "id": "31712994",
-   "rubrik": "Säkerhetsrådgivare – transport av farligt gods",
-   "arbetsgivare": "Agile Resources AB",
-   "kommun": "Alingsås",
-   "lan": "Västra Götalands län",
-   "publicerad": "2026-11-10",
-   "sista": "2026-11-12",
-   "omraden": [
-    "Riskanalys & riskkonsult"
-   ],
-   "nyckelord": [
-    "utbildning"
-   ],
-   "utdrag": "Stöd industriell verksamhet med farligt gods, avvikelseutredning och hållbara förbättringar av internationella transportflöden. Om uppdraget Planera, leda och dokumentera rotorsaksanalys (RCA) utifrån",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31712994",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Engelska i tal och skrift",
-    "Tidigare erfarenhet"
    ]
   },
   {
@@ -839,11 +865,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -948,12 +974,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Svenska i tal och skrift",
@@ -1002,6 +1029,40 @@
    ]
   },
   {
+   "id": "31693841",
+   "rubrik": "Utvecklingsledare Trygghet till Socialförvaltningen Nordost",
+   "arbetsgivare": "Socialförvaltningen Nordost",
+   "kommun": "Göteborg",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-11-06",
+   "sista": "2026-11-19",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan",
+    "trygghetsskapande",
+    "brottsförebyggande",
+    "krisstöd"
+   ],
+   "utdrag": "Om jobbet Är du ett samverkansproffs med ett brinnande engagemang för trygghetsskapande och brottförebyggande arbete? Då är det dig vi söker! Vi söker nu utvecklingsledare till enheten för samhällsutv",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31693841",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD12/RHAD22",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "31695874",
    "rubrik": "Trygghetsstrateg till Skärholmens stadsdelsförvaltning",
    "arbetsgivare": "Stockholms stad, Skärholmens stadsdelsförvaltning",
@@ -1025,11 +1086,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Grundläggande",
-   "poang": 4,
+   "poang": 3,
    "krav": [
     "Akademisk examen",
     "Flera års erfarenhet",
@@ -1099,6 +1159,35 @@
    ]
   },
   {
+   "id": "31695053",
+   "rubrik": "Bli vår nästa säkerhetsspecialist!",
+   "arbetsgivare": "Chas Visual Management AB",
+   "kommun": "Nacka",
+   "lan": "Stockholms län",
+   "publicerad": "2026-11-06",
+   "sista": "2026-12-31",
+   "omraden": [
+    "Riskanalys & riskkonsult"
+   ],
+   "nyckelord": [],
+   "utdrag": "Vill du ta en ledande roll inom informationssäkerhet och bidra med din spetskompetens hos några av våra kunder? Då kan du vara vår nästa säkerhetsspecialist, anställd hos oss men verksam som konsult u",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31695053",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Erfarenhet av säkerhet/risk",
+    "Flera års erfarenhet"
+   ]
+  },
+  {
    "id": "31687701",
    "rubrik": "Beredskapssamordnare",
    "arbetsgivare": "Myndigheten för civilt försvar",
@@ -1127,11 +1216,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -1216,6 +1305,42 @@
     "Svenskt medborgarskap",
     "Erfarenhet av säkerhet/risk",
     "Flera års erfarenhet"
+   ]
+  },
+  {
+   "id": "31689478",
+   "rubrik": "Klimat - och energistrateg",
+   "arbetsgivare": "LÄNSSTYRELSEN I SÖDERMANLANDS LÄN",
+   "kommun": "Nyköping",
+   "lan": "Södermanlands län",
+   "publicerad": "2026-11-05",
+   "sista": "2026-11-26",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Länsstyrelsen är en expertmyndighet inom områden som natur och miljö, samhällsbyggnad och landsbygd, direkt underställd regeringen. Vi fungerar som en länk mellan människor, kommuner, regioner och oli",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31689478",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Säkerhetsprövning",
+    "Körkort",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
    ]
   },
   {
@@ -1321,11 +1446,12 @@
    "status": "aktuell",
    "omfattning": "Heltid",
    "kurser": [
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -1367,9 +1493,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -1413,11 +1539,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -1455,10 +1581,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -1537,9 +1664,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -1605,11 +1732,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -1698,6 +1826,40 @@
    ]
   },
   {
+   "id": "31670192",
+   "rubrik": "Säkerhetsskyddsspecialist - tillsyn",
+   "arbetsgivare": "Svenska Kraftnät",
+   "kommun": "Sundbyberg",
+   "lan": "Stockholms län",
+   "publicerad": "2026-11-02",
+   "sista": "2026-11-23",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "säkerhetsskydd",
+    "utbildning",
+    "säkerhetsprövning"
+   ],
+   "utdrag": "Vill du använda din kompetens inom säkerhetsskydd för att göra verklig skillnad för Sveriges säkerhet? På Svenska kraftnät får du en viktig roll i arbetet med att stärka säkerhetsskyddet inom elförsör",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31670192",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Erfarenhet av säkerhet/risk"
+   ]
+  },
+  {
    "id": "31673589",
    "rubrik": "Kommunikatör med uppdrag inom brottsförebyggande arbete",
    "arbetsgivare": "Malmö Stad",
@@ -1725,10 +1887,11 @@
     "RHAD12/RHAD22",
     "RHAD14",
     "MVAE34",
+    "RHAD38",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Svenska i tal och skrift",
@@ -1788,11 +1951,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -1827,11 +1991,10 @@
     "RHAD21/RHAD31",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Hög",
-   "poang": 7,
+   "match": "Medel",
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -2110,9 +2273,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -2165,6 +2328,40 @@
    ]
   },
   {
+   "id": "31659605",
+   "rubrik": "Risk- och möjlighetsingenjör",
+   "arbetsgivare": "Centio",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-10-29",
+   "sista": "2026-11-30",
+   "omraden": [
+    "Riskanalys & riskkonsult"
+   ],
+   "nyckelord": [
+    "riskanalys",
+    "projektledning",
+    "kandidatexamen"
+   ],
+   "utdrag": "Vi söker en risk- och möjlighetsingenjör till ett konsultuppdrag i Luleå. Omfattning: 100 %. Arbetsbeskrivning Du identifierar, analyserar och följer upp risker, möjligheter och hot under projektets l",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31659605",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Erfarenhet av säkerhet/risk",
+    "Flera års erfarenhet",
+    "Projektledning"
+   ]
+  },
+  {
    "id": "31656091",
    "rubrik": "Beredskapshandläggare till Lunds stiftskansli",
    "arbetsgivare": "Lunds stift, Direktorsavdelningen",
@@ -2191,9 +2388,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -2229,9 +2426,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -2376,12 +2573,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -2423,6 +2621,43 @@
    ]
   },
   {
+   "id": "31650039",
+   "rubrik": "Säkerhetsskyddshandläggare inriktning kontroll",
+   "arbetsgivare": "Försvarets Materielverk (FMV)",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-10-27",
+   "sista": "2026-11-15",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "säkerhetsskydd",
+    "utbildning",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Nu söker vi flera säkerhetsskyddshandläggare som vill stärka FMV:s säkerhetsskydd genom att kontrollera att våra leverantörer, underleverantörer och andra motparter följer sina säkerhetsskyddsavtal. I",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31650039",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Körkort",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "31647861",
    "rubrik": "Enhetschef/CISO till säkerhetsenheten",
    "arbetsgivare": "Havs- och Vattenmyndigheten",
@@ -2446,10 +2681,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -2528,10 +2763,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -2616,10 +2851,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -2655,11 +2890,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -2693,11 +2929,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Körkort",
     "Tidigare erfarenhet"
@@ -2830,9 +3065,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -2878,9 +3113,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -3113,11 +3348,12 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -3149,11 +3385,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av beredskap/kris",
@@ -3191,11 +3428,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Körkort",
@@ -3241,6 +3479,35 @@
    ]
   },
   {
+   "id": "31632185",
+   "rubrik": "Uppdragsledare och handläggare – riskanalys och vibrationsmätning",
+   "arbetsgivare": "Centio",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-10-22",
+   "sista": "2026-11-18",
+   "omraden": [
+    "Riskanalys & riskkonsult"
+   ],
+   "nyckelord": [
+    "riskanalys"
+   ],
+   "utdrag": "Vi söker uppdragsledare, handläggare och biträdande handläggare inom riskanalys och vibrationsmätning till en offentlig aktör med ansvar för stadsutveckling i Stockholm. Detta är ett konsultuppdrag me",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31632185",
+   "status": "aktuell",
+   "omfattning": "Deltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Flera års erfarenhet"
+   ]
+  },
+  {
    "id": "31633584",
    "rubrik": "Säkerhetshandläggare till frivården Mälardalen/Nyköping",
    "arbetsgivare": "VO F Mälardalen, frivården Nyköping",
@@ -3263,10 +3530,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 3,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -3297,11 +3566,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -3400,11 +3671,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -3619,11 +3890,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -3868,12 +4140,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -3911,9 +4184,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -3988,6 +4261,43 @@
    ]
   },
   {
+   "id": "fb16746ce1d4dc6e5cea6c18130d8bf9cbbed4d2",
+   "rubrik": "Avdelningschef till Digitaliseringsmyndighetens säkerhetsavdelning",
+   "arbetsgivare": "Post- och telestyrelsen",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-10-24",
+   "sista": "2026-11-08",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "säkerhetsskydd",
+    "utbildning",
+    "samverkan"
+   ],
+   "utdrag": "Som avdelningschef på Digitaliseringsmyndigheten får du en central roll i uppbyggnaden av en ny myndighet med ett viktigt uppdrag för Sveriges digitalisering och säkerhet. Du leder och utvecklar en av",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/fb16746ce1d4dc6e5cea6c18130d8bf9cbbed4d2",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Erfarenhet av beredskap/kris",
+    "Erfarenhet av säkerhet/risk",
+    "Flera års erfarenhet",
+    "Engelska i tal och skrift"
+   ]
+  },
+  {
    "id": "12ee22f7dafb589b770b32d2d7b39469793b923b",
    "rubrik": "Säkerhetssamordnare till Enskede-Årsta-Vantörs stadsdelsförvaltning",
    "arbetsgivare": "Stockholms stad, Enskede-Årsta-Vantörs stadsdelsförvaltning, HR, stab & stadsmiljö",
@@ -4014,12 +4324,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Erfarenhet av beredskap/kris",
     "Svenska i tal och skrift"
@@ -4051,9 +4362,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -4101,6 +4412,36 @@
    ]
   },
   {
+   "id": "dba1f041226b15313fc9885c93db452427329312",
+   "rubrik": "Kommunstrateg inriktning klimat",
+   "arbetsgivare": "Eskilstuna kommun, Kommunledningskontoret",
+   "kommun": "Eskilstuna",
+   "lan": "Södermanlands län",
+   "publicerad": "2026-10-22",
+   "sista": "2026-11-03",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "samverkan"
+   ],
+   "utdrag": "Hos oss är klimatarbetet en självklar del av kommunens utveckling. Vi har ambitiösa mål med ett stort engagemang i organisationen. Nu söker vi dig som vill samordna och tillsammans med andra utveckla ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/dba1f041226b15313fc9885c93db452427329312",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "d6245660d19632ac1521d501aecb9ac0a061e2ad",
    "rubrik": "Chef för gruppen UW och Skadeförebygg",
    "arbetsgivare": "LF Uppsala",
@@ -4133,6 +4474,36 @@
    ]
   },
   {
+   "id": "194f57a1fafb77dcadb246d0f6d7d56dd54ad168",
+   "rubrik": "Risk & Compliance Manager",
+   "arbetsgivare": "Flex Applications Sverige AB",
+   "kommun": "Örebro",
+   "lan": "Örebro län",
+   "publicerad": "2026-10-21",
+   "sista": "2026-11-08",
+   "omraden": [
+    "Riskanalys & riskkonsult"
+   ],
+   "nyckelord": [],
+   "utdrag": "Är du vår nästa Risk & Compliance Manager? Flex Applications är ett företag i frammarsch, där innovation och förändring är kärnan i allt vi gör. Nu söker vi dig som vill följa med oss på vår spännande",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/194f57a1fafb77dcadb246d0f6d7d56dd54ad168",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Erfarenhet av säkerhet/risk",
+    "Projektledning",
+    "Engelska i tal och skrift"
+   ]
+  },
+  {
    "id": "c00df5e7c1569842bf4f48c4f6bebc18558ff2e5",
    "rubrik": "Ulricehamns Energi AB söker beredskaps- och säkerhetssamordnare",
    "arbetsgivare": "Ulricehamns Energi AB",
@@ -4157,10 +4528,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -4232,10 +4603,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -4346,10 +4717,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -4393,11 +4764,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -4475,10 +4847,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -4551,10 +4924,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -4663,8 +5036,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -4830,40 +5203,6 @@
    ]
   },
   {
-   "id": "1cfae29acec03c379c54742ec71f4b9e705ffe8d",
-   "rubrik": "Sektionschef främjande och förebyggande",
-   "arbetsgivare": "Skolutveckling Sektionen för främjande och förebyggande",
-   "kommun": "Solna",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-12",
-   "sista": "2026-10-26",
-   "omraden": [
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "samverkan",
-    "brottsförebyggande",
-    "styrdokument"
-   ],
-   "utdrag": "Är du en erfaren chef som har lett utvecklings- och förändringsarbete inom skolväsendet? Har du också erfarenhet av att leda arbete med inriktning mot brottsförebyggande eller förebyggande arbete? Vi ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/1cfae29acec03c379c54742ec71f4b9e705ffe8d",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Akademisk examen",
-    "Flera års erfarenhet",
-    "Engelska i tal och skrift"
-   ]
-  },
-  {
    "id": "4dac9fd9b65932c09a08ee858c3d888619210248",
    "rubrik": "Sektionschef vid sektionen för individsäkerhet",
    "arbetsgivare": "Säkerhetsavdelningen",
@@ -4929,11 +5268,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -4999,10 +5339,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -5043,9 +5383,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -5083,10 +5423,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -5261,9 +5601,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -5309,40 +5649,6 @@
     "Svenskt medborgarskap",
     "Erfarenhet av säkerhet/risk",
     "Projektledning"
-   ]
-  },
-  {
-   "id": "564e4b8ec2c14c2ae318d6038dc7262983232b95",
-   "rubrik": "Specialist Inom Fysisk Säkerhet Till Saab",
-   "arbetsgivare": "Saab",
-   "kommun": "Linköping",
-   "lan": "Östergötlands län",
-   "publicerad": "2026-10-07",
-   "sista": "2026-10-28",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "säkerhetsskydd",
-    "utbildning",
-    "körkort"
-   ],
-   "utdrag": "Drivs du av att se dina idéer bli verklighet? Välkommen till vår spännande och teknikintensiva värld. Din roll Som Säkerhetsspecialist med inriktning mot säkerhetsskydd arbetar du i en unik och komple",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/564e4b8ec2c14c2ae318d6038dc7262983232b95",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Akademisk examen",
-    "Körkort",
-    "Erfarenhet av säkerhet/risk",
-    "Engelska i tal och skrift"
    ]
   },
   {
@@ -5531,13 +5837,14 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -5576,10 +5883,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -5644,8 +5952,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -5683,11 +5991,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -5760,10 +6069,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -5805,10 +6114,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -5854,11 +6163,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -5931,9 +6241,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -5967,8 +6277,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -6002,10 +6312,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -6040,11 +6350,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Erfarenhet av beredskap/kris",
@@ -6114,10 +6425,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -6186,13 +6497,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -6233,11 +6545,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -6279,13 +6591,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -6379,9 +6692,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -6423,9 +6736,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -6498,8 +6811,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -6536,10 +6849,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -6577,10 +6890,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -6620,11 +6933,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -6694,7 +7008,7 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
-    "RHAD39",
+    "RHAD38",
     "RHAD35"
    ],
    "match": "Hög",
@@ -6733,9 +7047,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -6879,8 +7193,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -6920,12 +7234,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -6968,9 +7283,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -7009,12 +7324,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -7044,11 +7360,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Engelska i tal och skrift",
@@ -7188,11 +7503,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -7258,11 +7574,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -7297,11 +7613,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD35"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av säkerhet/risk",
@@ -7332,8 +7649,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -7407,10 +7724,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -7490,8 +7807,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Medel",
    "poang": 6,
@@ -7530,8 +7847,8 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "RHAD14",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -7570,10 +7887,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -7728,10 +8045,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -7796,10 +8113,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -7865,10 +8182,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
-    "MVAE34"
+    "MVAE34",
+    "RHAD38"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -7912,11 +8230,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 10,
@@ -7957,11 +8275,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -8030,9 +8348,9 @@
    "kurser": [
     "RHAD21/RHAD31",
     "RHAD14",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -8150,11 +8468,12 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Körkort",
@@ -8264,8 +8583,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -8302,11 +8621,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -8342,11 +8662,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Körkort",
@@ -8454,11 +8775,10 @@
     "RHAD12/RHAD22",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Hög",
-   "poang": 7,
+   "match": "Medel",
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av säkerhet/risk",
@@ -8550,11 +8870,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av säkerhet/risk"
@@ -8581,11 +8902,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39",
+    "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Erfarenhet av beredskap/kris",
     "Projektledning",
@@ -8617,10 +8939,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -8687,9 +9010,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -8732,9 +9055,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -8796,9 +9119,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -8951,11 +9274,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -8999,11 +9322,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -9077,13 +9400,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38"
    ],
-   "match": "Hög",
-   "poang": 7,
+   "match": "Medel",
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -9226,11 +9548,12 @@
    "kurser": [
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -9415,14 +9738,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 10,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av beredskap/kris"
@@ -9456,11 +9778,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -9528,9 +9851,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 5,
@@ -9566,9 +9889,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 5,
@@ -9604,9 +9927,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 5,
@@ -9683,11 +10006,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -9729,11 +10052,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -9766,12 +10089,13 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
+    "RHAD03",
     "MVAE34",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD35"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Körkort",
     "Projektledning",
@@ -9914,9 +10238,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -9948,9 +10272,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -9981,12 +10305,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Svenskt medborgarskap",
@@ -10055,9 +10378,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -10195,9 +10518,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -10271,9 +10594,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -10311,10 +10634,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -10353,10 +10676,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -10393,11 +10716,10 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Hög",
-   "poang": 7,
+   "match": "Medel",
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Svenskt medborgarskap",
@@ -10430,9 +10752,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -10477,6 +10799,45 @@
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
     "Erfarenhet av säkerhet/risk"
+   ]
+  },
+  {
+   "id": "74b0955369f3a780476d422488cb2b14df9227ba",
+   "rubrik": "Vikarierande hållbarhetsstrateg med huvudinriktning klimat",
+   "arbetsgivare": "Kommunledningsförvaltningen",
+   "kommun": "Örnsköldsvik",
+   "lan": "Västernorrlands län",
+   "publicerad": "2026-08-31",
+   "sista": "2026-09-16",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "säkerhetsprövning",
+    "körkort",
+    "samhällsvetenskap",
+    "styrdokument"
+   ],
+   "utdrag": "Staben är en avdelning inom kommunledningsförvaltningen. På enheten för strategisk hållbar utveckling, som är en del av staben, har vi fokus ekologisk och social hållbarhet. Agenda 2030, lagar och sty",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/74b0955369f3a780476d422488cb2b14df9227ba",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Körkort",
+    "Tidigare erfarenhet"
    ]
   },
   {
@@ -10656,10 +11017,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "MVAE34"
+    "MVAE34",
+    "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Körkort",
     "Erfarenhet av säkerhet/risk"
@@ -10764,8 +11126,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD35"
    ],
    "match": "Grundläggande",
    "poang": 3,
@@ -10906,11 +11268,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -10945,11 +11307,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -11058,10 +11421,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -11146,10 +11509,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -11367,9 +11730,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -11446,13 +11809,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -11514,10 +11878,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -11625,9 +11989,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -11667,10 +12031,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -11753,6 +12117,37 @@
    ]
   },
   {
+   "id": "80a071b8f75638ea0cbb96f70e9fd96cce95a7ae",
+   "rubrik": "Klimatstrateg till Miljöstrategienheten",
+   "arbetsgivare": "Länsstyrelsen i Uppsala län, Miljöavdelningen , Miljöstrategienheten",
+   "kommun": "Uppsala",
+   "lan": "Uppsala län",
+   "publicerad": "2026-08-21",
+   "sista": "2026-09-03",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "omvärldsbevakning",
+    "utbildning",
+    "samverkan"
+   ],
+   "utdrag": "Vill du arbeta tillsammans med oss för klimatomställning i Uppsala län? Vill du arbete tillsammans med kollegor som diskuterar och stöttar varandra i vardagen. Nu har du chansen! Miljöstrategienheten ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/80a071b8f75638ea0cbb96f70e9fd96cce95a7ae",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Flera års erfarenhet"
+   ]
+  },
+  {
    "id": "98b27270c268fdaa34d3b9be119b00dac8427a55",
    "rubrik": "Projektledare – övning och beredskap till PTS",
    "arbetsgivare": "Post- och telestyrelsen",
@@ -11820,10 +12215,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -11928,9 +12323,9 @@
    "omfattning": null,
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -12031,7 +12426,7 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD12/RHAD22",
-    "RHAD39"
+    "RHAD38"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -12104,9 +12499,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -12176,11 +12571,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -12216,11 +12612,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -12263,10 +12660,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -12346,10 +12743,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -12388,11 +12785,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -12427,11 +12824,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -12513,11 +12910,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -12636,10 +13033,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Svenska i tal och skrift",
@@ -12712,10 +13110,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -12869,9 +13268,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -12909,12 +13308,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -13097,9 +13497,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -13174,10 +13574,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -13327,10 +13727,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -13525,12 +13926,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -13602,11 +14004,10 @@
     "RHAD01/RHAD02",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Hög",
-   "poang": 7,
+   "match": "Medel",
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Flera års erfarenhet",
@@ -13788,9 +14189,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -13836,9 +14237,9 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "RHAD14",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 9,
@@ -13915,9 +14316,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -14055,14 +14456,50 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "RHAD14",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
    "krav": [
     "Akademisk examen",
     "Flera års erfarenhet"
+   ]
+  },
+  {
+   "id": "72045efba7d8502dfb47a590c3ed606ac2bd5dfc",
+   "rubrik": "Miljö- och klimatstrateg",
+   "arbetsgivare": "LÄNSSTYRELSEN I SÖDERMANLANDS LÄN, Miljöavdelningen",
+   "kommun": "Nyköping",
+   "lan": "Södermanlands län",
+   "publicerad": "2026-07-16",
+   "sista": "2026-08-09",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Länsstyrelsen är en expertmyndighet inom områden som natur och miljö, samhällsbyggnad och landsbygd, direkt underställd regeringen. Vi fungerar som en länk mellan människor, kommuner, regioner och oli",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/72045efba7d8502dfb47a590c3ed606ac2bd5dfc",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Säkerhetsprövning",
+    "Körkort",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
    ]
   },
   {
@@ -14091,11 +14528,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -14133,9 +14570,9 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "RHAD14",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -14177,12 +14614,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -14224,10 +14662,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -14271,10 +14709,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -14318,12 +14756,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -14361,11 +14800,12 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "RHAD14",
+    "RHAD03",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Flera års erfarenhet"
@@ -14400,8 +14840,8 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "RHAD14",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -14440,10 +14880,11 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -14512,10 +14953,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -14586,9 +15027,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -14625,8 +15066,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -14666,10 +15107,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -14702,10 +15143,11 @@
     "RHAD01/RHAD02",
     "MVAE34",
     "RHAD38",
+    "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av säkerhet/risk",
@@ -14776,11 +15218,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -14912,11 +15354,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av beredskap/kris",
@@ -14958,11 +15401,10 @@
     "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 9,
+   "poang": 8,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -15002,11 +15444,10 @@
     "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 9,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -15042,8 +15483,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -15083,9 +15524,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -15207,16 +15648,52 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
    "krav": [
     "Akademisk examen",
     "Flera års erfarenhet"
+   ]
+  },
+  {
+   "id": "82adda833389fc836d4db2893b3b9f515ca85897",
+   "rubrik": "Enhetschef till ny kommunal trygghetscentral",
+   "arbetsgivare": "Växjö kommun, Kommunledningsförvaltningen",
+   "kommun": "Växjö",
+   "lan": "Kronobergs län",
+   "publicerad": "2026-07-03",
+   "sista": "2026-07-21",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "krisberedskap",
+    "utbildning",
+    "samverkan",
+    "projektledning",
+    "säkerhetsprövning"
+   ],
+   "utdrag": "Ingen arbetsdag är den andra lik hos oss på Växjö kommun. Ibland tar vi hand om de små sakerna och ibland om de riktigt stora. Oavsett vilket innebär det en arbetsdag som betyder något på riktigt. Vi ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/82adda833389fc836d4db2893b3b9f515ca85897",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Erfarenhet av beredskap/kris",
+    "Projektledning"
    ]
   },
   {
@@ -15245,10 +15722,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -15423,11 +15900,12 @@
     "RHAD21/RHAD31",
     "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -15464,11 +15942,12 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av säkerhet/risk"
@@ -15508,12 +15987,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -15547,12 +16027,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Säkerhetsprövning",
     "Körkort",
@@ -15582,9 +16063,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -15654,9 +16135,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -15697,10 +16178,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -15781,10 +16262,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -15846,10 +16327,10 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -15965,7 +16446,7 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
-    "RHAD39",
+    "RHAD38",
     "RHAD35"
    ],
    "match": "Hög",
@@ -16033,10 +16514,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Säkerhetsprövning",
     "Tidigare erfarenhet"
@@ -16072,10 +16554,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -16193,10 +16675,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -16237,10 +16719,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -16354,8 +16836,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -16436,11 +16918,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -16539,10 +17021,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -16653,10 +17136,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -16692,8 +17175,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -16769,10 +17252,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -16879,10 +17362,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -16953,11 +17436,12 @@
    "kurser": [
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -17179,9 +17663,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -17260,8 +17744,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -17302,8 +17786,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -17355,37 +17839,6 @@
    ]
   },
   {
-   "id": "06fed067a2cc44b4638376716f2138444629152c",
-   "rubrik": "Produktionsingenjör inom riskbedömning",
-   "arbetsgivare": "Avaron AB",
-   "kommun": "Västerås",
-   "lan": "Västmanlands län",
-   "publicerad": "2026-06-18",
-   "sista": "2026-07-02",
-   "omraden": [
-    "Riskanalys & riskkonsult"
-   ],
-   "nyckelord": [
-    "riskbedömning",
-    "projektledning"
-   ],
-   "utdrag": "Om företaget Hos Avaron får du tryggheten i en fast anställning kombinerat med variationen av att arbeta ute hos olika kunder. Vi tillsätter specialister inom allt från teknik, IT och industri till pr",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/06fed067a2cc44b4638376716f2138444629152c",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "MVAE34",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Projektledning",
-    "Tidigare erfarenhet"
-   ]
-  },
-  {
    "id": "8bb460776561559247fb4f51b44257adb91cca52",
    "rubrik": "Säkerhets- och beredskapschef till Region Kronoberg",
    "arbetsgivare": "Telin Rekrytering & Konsult",
@@ -17414,11 +17867,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -17555,10 +18009,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -17603,11 +18057,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -17721,8 +18176,8 @@
    "omfattning": "Deltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -17761,10 +18216,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -17802,10 +18257,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -17996,12 +18451,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -18044,10 +18500,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 9,
@@ -18085,10 +18541,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -18233,10 +18689,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -18275,13 +18731,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -18317,11 +18774,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -18389,10 +18846,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av beredskap/kris"
@@ -18468,10 +18927,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -18513,11 +18972,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -18555,10 +19014,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -18596,9 +19055,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -18805,11 +19264,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -18851,10 +19310,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -18998,11 +19457,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -19080,8 +19540,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -19193,10 +19653,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -19233,13 +19693,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19277,11 +19738,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -19317,13 +19779,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19433,9 +19896,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -19505,13 +19968,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19548,13 +20012,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19591,13 +20056,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19634,13 +20100,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19677,13 +20144,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19720,13 +20188,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -19762,13 +20231,14 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 9,
+   "poang": 10,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -20001,10 +20471,11 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -20035,13 +20506,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD39",
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -20049,6 +20521,35 @@
     "Flera års erfarenhet",
     "Projektledning",
     "Svenska i tal och skrift"
+   ]
+  },
+  {
+   "id": "c57658a20c70cfbefcb55a031d9534f60fe15862",
+   "rubrik": "Klimatanalytiker till Karolinska Universitetssjukhuset",
+   "arbetsgivare": "Karolinska Universitetssjukhuset,  Stab Juridik",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-05-27",
+   "sista": "2026-06-17",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [],
+   "utdrag": "Vill du vara med och minska klimatpåverkan genom att visualisera och förenkla arbetssätt? Är du en fena på att sammanställa och analysera data som gör att vi både minskar påverkar på miljö, människor ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/c57658a20c70cfbefcb55a031d9534f60fe15862",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Akademisk examen",
+    "Tidigare erfarenhet"
    ]
   },
   {
@@ -20152,10 +20653,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -20190,10 +20691,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -20232,11 +20733,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -20298,11 +20799,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD12/RHAD22",
-    "MVAE34",
-    "RHAD39"
+    "MVAE34"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Körkort",
     "Svenska i tal och skrift",
@@ -20339,9 +20839,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -20381,8 +20881,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -20423,10 +20923,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -20466,10 +20966,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -20652,12 +21152,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -20696,12 +21197,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -20740,12 +21242,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -20850,10 +21353,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -20988,10 +21491,11 @@
    "omfattning": "Deltid",
    "kurser": [
     "MVAE34",
-    "RHAD38"
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Körkort",
     "Flera års erfarenhet"
@@ -21021,10 +21525,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Tidigare erfarenhet"
@@ -21056,10 +21561,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -21358,9 +21863,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -21402,10 +21907,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -21446,12 +21951,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -21490,12 +21996,13 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -21644,8 +22151,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -21928,6 +22435,43 @@
    ]
   },
   {
+   "id": "49f34bf9fcc95b526ef278bb15d9dece1d958645",
+   "rubrik": "Klimat- och energistrateg",
+   "arbetsgivare": "LÄNSSTYRELSEN I VÄSTERBOTTENS LÄN, Samhällsutveckling",
+   "kommun": "Umeå",
+   "lan": "Västerbottens län",
+   "publicerad": "2026-05-11",
+   "sista": "2026-05-25",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "höjd beredskap",
+    "klimatanpassning",
+    "utbildning",
+    "samverkan",
+    "körkort"
+   ],
+   "utdrag": "Med tanke på elektrifiering, samhällsomvandling och energiförsörjning. Vi söker en klimat- och energistrateg. Hos oss kännetecknas arbetsmiljön av hjälpsamhet och villkoren av livspusselvänlighet. Vår",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/49f34bf9fcc95b526ef278bb15d9dece1d958645",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Akademisk examen",
+    "Körkort",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "f0e1e83eee131c6227dc94912e6ae9cdd81a245f",
    "rubrik": "Beredskapsplanerare analys - Eskilstuna",
    "arbetsgivare": "Fortifikationsverket",
@@ -21990,9 +22534,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -22106,9 +22650,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -22144,11 +22688,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -22180,10 +22724,11 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
-    "RHAD21/RHAD31"
+    "RHAD21/RHAD31",
+    "RHAD38"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Svenska i tal och skrift",
@@ -22224,12 +22769,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -22300,10 +22846,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Tidigare erfarenhet"
@@ -22405,10 +22952,11 @@
     "RHAD21/RHAD31",
     "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -22646,10 +23194,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -22801,12 +23349,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -22887,9 +23436,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -23066,8 +23615,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -23111,10 +23660,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -23497,10 +24046,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -23609,12 +24159,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -23648,9 +24199,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -23762,7 +24313,7 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
-    "Kontinuitet"
+    "RHAD03"
    ],
    "match": "Grundläggande",
    "poang": 3,
@@ -23834,10 +24385,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -23942,12 +24494,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -24024,10 +24577,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -24062,13 +24615,14 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 9,
+   "poang": 10,
    "krav": [
     "Akademisk examen",
     "Tidigare erfarenhet"
@@ -24098,9 +24652,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -24140,12 +24694,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -24220,13 +24775,14 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 9,
+   "poang": 10,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -24262,10 +24818,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -24301,10 +24857,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -24480,8 +25036,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Grundläggande",
    "poang": 3,
@@ -24558,10 +25114,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -24598,10 +25154,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -24638,10 +25194,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -24681,11 +25237,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 10,
@@ -24879,9 +25435,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -24920,10 +25476,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -24961,11 +25517,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -25038,12 +25594,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -25115,9 +25672,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -25187,11 +25744,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 10,
@@ -25363,7 +25920,7 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "Kontinuitet"
+    "RHAD03"
    ],
    "match": "Medel",
    "poang": 5,
@@ -25554,9 +26111,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -25836,11 +26393,10 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
-    "RHAD38",
-    "RHAD39"
+    "RHAD38"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Projektledning",
@@ -25939,10 +26495,11 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
-    "RHAD12/RHAD22"
+    "RHAD12/RHAD22",
+    "RHAD38"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -26050,11 +26607,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -26130,10 +26687,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -26210,8 +26767,8 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "RHAD14",
-    "RHAD38",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Hög",
    "poang": 8,
@@ -26494,10 +27051,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 5,
@@ -26576,10 +27133,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -26619,11 +27176,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -26853,10 +27411,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -26898,10 +27456,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -26943,10 +27501,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -27094,10 +27652,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -27105,6 +27663,37 @@
     "Akademisk examen",
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
+   "id": "d2043a5efcccbd0c3b0ca3d0d537a36331c5043f",
+   "rubrik": "Klimat- och miljösamordnare till Södermalm",
+   "arbetsgivare": "Stockholm",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-04-09",
+   "sista": "2026-04-23",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "projektledning"
+   ],
+   "utdrag": "Stockholm – vår huvudstad med miljoner drömmar, förväntningar och ambitioner. Vi jobbar för alla som lever här idag och i framtiden. Nu söker vi dig som vill tänka stort, nytt och annorlunda med oss –",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/d2043a5efcccbd0c3b0ca3d0d537a36331c5043f",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Projektledning",
     "Tidigare erfarenhet"
    ]
   },
@@ -27181,10 +27770,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -27224,10 +27813,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -27387,11 +27976,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -27429,12 +28017,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -27474,8 +28063,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Medel",
    "poang": 6,
@@ -27589,11 +28178,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -27632,8 +28221,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -27674,11 +28263,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 10,
@@ -27823,10 +28412,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -27859,13 +28448,14 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -27899,9 +28489,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD12/RHAD22",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -28048,10 +28638,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Säkerhetsprövning",
     "Engelska i tal och skrift",
@@ -28082,10 +28673,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -28126,11 +28717,12 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -28323,10 +28915,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -28363,11 +28955,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -28405,8 +28997,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -28700,10 +29292,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -28734,12 +29326,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD39",
+    "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av säkerhet/risk",
@@ -28771,10 +29364,11 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
-    "RHAD12/RHAD22"
+    "RHAD12/RHAD22",
+    "RHAD38"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Körkort",
     "Tidigare erfarenhet"
@@ -28821,6 +29415,40 @@
    ]
   },
   {
+   "id": "e3d14be0ca1bb582246e61c10a491a0ff096f05d",
+   "rubrik": "Miljö- och klimatstrateg till förskoleförvaltningen",
+   "arbetsgivare": "Stockholms stad Förskoleförvaltningen ",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-03-26",
+   "sista": "2026-04-09",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan"
+   ],
+   "utdrag": "Stockholm – vår huvudstad med miljoner drömmar, förväntningar och ambitioner. Vi jobbar för alla som lever här idag och i framtiden. Nu söker vi dig som vill tänka stort, nytt och annorlunda med oss –",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/e3d14be0ca1bb582246e61c10a491a0ff096f05d",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Akademisk examen",
+    "Flera års erfarenhet",
+    "Projektledning"
+   ]
+  },
+  {
    "id": "8878835fecfe77d9e26c04784c3ec48b90bd46d6",
    "rubrik": "Beredskaps- och säkerhetssamordnare",
    "arbetsgivare": "NSR AB",
@@ -28850,10 +29478,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -28894,10 +29522,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -28973,11 +29601,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -29080,8 +29708,8 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD35"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -29111,11 +29739,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -29322,11 +29950,10 @@
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 10,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -29391,7 +30018,7 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "Kontinuitet"
+    "RHAD03"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -29400,6 +30027,44 @@
     "Svenska i tal och skrift",
     "Engelska i tal och skrift",
     "Tidigare erfarenhet"
+   ]
+  },
+  {
+   "id": "ed04bfe1848374e729341967297bc352d899fe5f",
+   "rubrik": "Klimat- och energistrateg",
+   "arbetsgivare": "Länsstyrelsen Kalmar län , Avdelning samhälle, Samhällsbyggnadsenheten ",
+   "kommun": "Kalmar",
+   "lan": "Kalmar län",
+   "publicerad": "2026-03-20",
+   "sista": "2026-04-12",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan",
+    "säkerhetsprövning",
+    "körkort",
+    "styrdokument"
+   ],
+   "utdrag": "Tycker du att det är spännande att samverka med andra myndigheter och organisationer? Då kan du vara den vi söker! Länsstyrelsen har en central roll i det regionala energi- och klimatarbetet. Samhälls",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/ed04bfe1848374e729341967297bc352d899fe5f",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Körkort",
+    "Flera års erfarenhet"
    ]
   },
   {
@@ -29429,9 +30094,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -29507,13 +30172,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -29549,10 +30215,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -29587,15 +30254,46 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
     "Körkort",
     "Engelska i tal och skrift",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
+   "id": "0316464f870d269d8eff9b2cb4b837242627b2b7",
+   "rubrik": "Klimatstrateg",
+   "arbetsgivare": "Region Uppsala",
+   "kommun": "Uppsala",
+   "lan": "Uppsala län",
+   "publicerad": "2026-03-19",
+   "sista": "2026-04-23",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan"
+   ],
+   "utdrag": "Miljöenheten Region Uppsalas ledningskontor är en del av Region Uppsala, en av Uppsala läns största arbetsgivare. Ledningskontoret leds av regiondirektören och består av cirka ett tusen medarbetare. M",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/0316464f870d269d8eff9b2cb4b837242627b2b7",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
     "Tidigare erfarenhet"
    ]
   },
@@ -29653,10 +30351,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -29691,10 +30390,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -29849,11 +30548,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Erfarenhet av säkerhet/risk",
     "Flera års erfarenhet"
@@ -29955,10 +30653,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -30070,8 +30769,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -30116,10 +30815,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -30158,13 +30857,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -30239,11 +30939,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -30585,11 +31285,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -30621,9 +31320,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -30659,9 +31358,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -30700,9 +31399,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -30736,9 +31435,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -30807,11 +31506,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -30961,11 +31660,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -31007,12 +31706,14 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning"
@@ -31049,9 +31750,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -31090,9 +31791,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -31128,11 +31829,12 @@
    "kurser": [
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -31167,10 +31869,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -31316,12 +32018,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -31356,13 +32059,14 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av beredskap/kris",
@@ -31473,10 +32177,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -31522,12 +32226,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -31561,12 +32266,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Svenska i tal och skrift",
@@ -31640,10 +32346,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -31717,8 +32423,8 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "RHAD14",
-    "RHAD38",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Hög",
    "poang": 8,
@@ -31756,9 +32462,9 @@
    "kurser": [
     "RHAD21/RHAD31",
     "RHAD14",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -31836,11 +32542,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -31882,9 +32588,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -31892,6 +32598,38 @@
     "Akademisk examen",
     "Säkerhetsprövning",
     "Körkort"
+   ]
+  },
+  {
+   "id": "ed61d97150ee5652ed75e060279c5489faa00831",
+   "rubrik": "Utredare till Klimatomställning Malmö på miljöstrategiska avdelningen",
+   "arbetsgivare": "Malmö stad",
+   "kommun": "Malmö",
+   "lan": "Skåne län",
+   "publicerad": "2026-02-27",
+   "sista": "2026-03-15",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samhällsvetenskap"
+   ],
+   "utdrag": "Ref: **** Arbetsuppgifter Malmö är en föregångare i klimat- och miljöarbetet, och hållbarhet genomsyrar hela vår organisation och stad. Vi ställer om - för Malmö och för planeten. Vill du vara med på ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/ed61d97150ee5652ed75e060279c5489faa00831",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
    ]
   },
   {
@@ -31955,11 +32693,12 @@
    "kurser": [
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -31993,10 +32732,11 @@
    "kurser": [
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -32030,11 +32770,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -32114,10 +32855,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -32391,9 +33132,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -32434,11 +33175,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -32572,6 +33313,43 @@
    ]
   },
   {
+   "id": "650fd9edcc8bb35692655687d35919e618baf95e",
+   "rubrik": "Klimat- och energistrateg",
+   "arbetsgivare": "LÄNSSTYRELSEN I BLEKINGE LÄN",
+   "kommun": "Karlskrona",
+   "lan": "Blekinge län",
+   "publicerad": "2026-02-25",
+   "sista": "2026-03-15",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "civilt försvar",
+    "samverkan",
+    "säkerhetsprövning"
+   ],
+   "utdrag": "Länsstyrelsen Blekinge är en myndighet med brett ansvarsområde och spännande uppdrag. I vår roll som regeringens företrädare i länet ingår att arbeta med allt från miljöskydd, naturvård, planering och",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/650fd9edcc8bb35692655687d35919e618baf95e",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Körkort",
+    "Projektledning",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "f0bbe6a2e7cab383cb9f1b3c857fc4ece7d586a9",
    "rubrik": "Senior handläggare, inriktning av förebyggande och räddningstjänst",
    "arbetsgivare": "Myndigheten för civilt försvar",
@@ -32597,11 +33375,12 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -32634,11 +33413,12 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -32673,8 +33453,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -32710,10 +33490,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -32752,10 +33532,11 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "RHAD14",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -32789,7 +33570,7 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "Kontinuitet"
+    "RHAD03"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -32936,9 +33717,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -32978,11 +33759,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -33022,11 +33804,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -33063,9 +33846,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -33137,11 +33920,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -33175,10 +33959,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -33328,13 +34112,14 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -33369,10 +34154,11 @@
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -33407,9 +34193,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -33438,10 +34224,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "MVAE34",
-    "RHAD38"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Erfarenhet av säkerhet/risk",
     "Flera års erfarenhet"
@@ -33551,13 +34338,14 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 9,
+   "poang": 10,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -33596,12 +34384,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -33796,10 +34585,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 9,
@@ -33838,10 +34627,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -33875,8 +34664,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD38",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Hög",
    "poang": 7,
@@ -33911,10 +34700,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -33958,11 +34747,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -33970,6 +34759,83 @@
     "Akademisk examen",
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
+    "Körkort",
+    "Projektledning",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
+   "id": "16858204eaf4f3c83728a8bf30cbc4c9c2e924de",
+   "rubrik": "Strategisk partner säkerhet och beredskap med fokus på Systemansvar",
+   "arbetsgivare": "Svenska Kraftnät",
+   "kommun": "Sundbyberg",
+   "lan": "Stockholms län",
+   "publicerad": "2026-02-12",
+   "sista": "2026-03-05",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "krisberedskap",
+    "totalförsvar",
+    "säkerhetsskydd",
+    "utbildning",
+    "systematiskt säkerhetsarbete",
+    "säkerhetsprövning"
+   ],
+   "utdrag": "Är du vår nya strategiska partner? Avdelningen Säkerhet och beredskap, som består av två sektioner med åtta enheter, ansvarar för att inrikta, vägleda, samordna och följa upp Svenska kraftnäts interna",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/16858204eaf4f3c83728a8bf30cbc4c9c2e924de",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 7,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Erfarenhet av beredskap/kris",
+    "Erfarenhet av säkerhet/risk",
+    "Engelska i tal och skrift"
+   ]
+  },
+  {
+   "id": "26716e97168d4af9d8e9425b59731b2b5934a332",
+   "rubrik": "Projektledare inom ras- och skredförebyggande arbete",
+   "arbetsgivare": "Exploateringsförvaltningen",
+   "kommun": "Göteborg",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-02-12",
+   "sista": "2026-03-08",
+   "omraden": [
+    "Klimatanpassning & naturolyckor",
+    "Skadeförebyggande & personsäkerhet"
+   ],
+   "nyckelord": [
+    "samverkan",
+    "projektledning",
+    "körkort"
+   ],
+   "utdrag": "Beskrivning Vi söker dig som vill ta nästa steg i din utveckling och arbeta som projektledare/samordnare med fokus på förebyggande insatser mot ras och skred. Här får du en bred och varierande roll dä",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/26716e97168d4af9d8e9425b59731b2b5934a332",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Akademisk examen",
     "Körkort",
     "Projektledning",
     "Tidigare erfarenhet"
@@ -34002,10 +34868,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -34080,11 +34946,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Erfarenhet av beredskap/kris"
@@ -34187,10 +35054,11 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
-    "RHAD12/RHAD22"
+    "RHAD12/RHAD22",
+    "RHAD38"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Tidigare erfarenhet"
@@ -34257,10 +35125,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -34300,11 +35168,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34416,11 +35285,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -34453,11 +35323,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -34564,12 +35435,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34603,11 +35475,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34639,9 +35513,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -34708,12 +35582,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34750,12 +35625,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34794,11 +35670,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 10,
@@ -34838,13 +35714,14 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34873,10 +35750,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 5,
@@ -34909,11 +35786,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34944,11 +35822,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -34988,11 +35867,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -35032,9 +35911,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -35075,9 +35954,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -35114,10 +35993,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -35150,9 +36029,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
+    "RHAD03",
     "MVAE34",
-    "RHAD38",
-    "Kontinuitet"
+    "RHAD38"
    ],
    "match": "Medel",
    "poang": 6,
@@ -35194,6 +36073,40 @@
    ]
   },
   {
+   "id": "cc8ac829190f4843de5294b94f9118f49ab22ea5",
+   "rubrik": "Strateg inom energi och klimat",
+   "arbetsgivare": "LÄNSSTYRELSEN I DALARNAS LÄN",
+   "kommun": "Falun",
+   "lan": "Dalarnas län",
+   "publicerad": "2026-02-05",
+   "sista": "2026-02-26",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "projektledning",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Välkommen att arbeta hos oss vid Länsstyrelsen i Dalarnas län! Vi samverkar med länets olika aktörer och arbetar mot visionen ”Tillsammans för Dalarnas framtid”. Vi är en viktig länk mellan länet och ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/cc8ac829190f4843de5294b94f9118f49ab22ea5",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "MVAE34",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Säkerhetsprövning",
+    "Körkort",
+    "Projektledning",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "7863557d54df5024fcc997bf02009acb8be38eb3",
    "rubrik": "Enhetschef Krisberedskap och Civilt försvar",
    "arbetsgivare": "Läkemedelsverket",
@@ -35216,10 +36129,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
-    "RHAD21/RHAD31"
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av beredskap/kris",
@@ -35326,11 +36241,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Körkort",
@@ -35361,7 +36275,7 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "Kontinuitet"
+    "RHAD03"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -35438,12 +36352,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Säkerhetsprövning",
     "Körkort",
@@ -35556,10 +36471,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Flera års erfarenhet"
@@ -35587,10 +36503,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Flera års erfarenhet"
@@ -35661,9 +36578,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -35705,7 +36622,7 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "Kontinuitet"
+    "RHAD03"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -35785,9 +36702,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -35822,8 +36739,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -35932,10 +36849,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Körkort"
@@ -36070,11 +36988,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -36161,11 +37080,13 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -36243,11 +37164,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -36308,11 +37231,10 @@
     "RHAD21/RHAD31",
     "RHAD03",
     "MVAE34",
-    "RHAD38",
-    "RHAD39"
+    "RHAD38"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Projektledning"
@@ -36378,11 +37300,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -36419,11 +37341,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -36467,6 +37389,38 @@
    ]
   },
   {
+   "id": "8fc66a9c7d274e60202e0b600971ff64819a2fd3",
+   "rubrik": "Vikarierande klimat- och energistrateg",
+   "arbetsgivare": "Avesta kommun, Kommunkansliet",
+   "kommun": "Avesta",
+   "lan": "Dalarnas län",
+   "publicerad": "2026-01-28",
+   "sista": "2026-02-10",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan",
+    "projektledning",
+    "samhällsvetenskap"
+   ],
+   "utdrag": "Det är något speciellt med Avesta! Här finns inte bara dalahästar och brusande forsar. Här finns också vilja och mod, handlingskraft och framtidstro. Tillsammans bygger vi Avestas framtid – vill du va",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/8fc66a9c7d274e60202e0b600971ff64819a2fd3",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen"
+   ]
+  },
+  {
    "id": "666a01fd94a4d8524ec5bd64979de14e3494e24c",
    "rubrik": "Säkerhetssamordnare med fastighetsfokus",
    "arbetsgivare": "Ekerö kommun",
@@ -36491,10 +37445,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 9,
@@ -36571,12 +37525,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -36795,9 +37750,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -36906,11 +37861,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Tidigare erfarenhet"
    ]
@@ -37042,10 +37996,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -37138,6 +38092,40 @@
    ]
   },
   {
+   "id": "80b784051e1aae1640b4c66d2f072037e012240f",
+   "rubrik": "Hållbarhetsutvecklare med inriktning klimat (vikariat)",
+   "arbetsgivare": "Strängnäs kommun, Kansliavdelningen",
+   "kommun": "Strängnäs",
+   "lan": "Södermanlands län",
+   "publicerad": "2026-01-22",
+   "sista": "2026-02-06",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "samverkan",
+    "projektledning",
+    "brottsförebyggande",
+    "krisstöd"
+   ],
+   "utdrag": "Vill du vara med och skapa en hållbar framtid för vår kommun? Är du redo att göra verklig skillnad och ta oss ett steg närmare en fossilfri och klimatneutral framtid? Då kan detta vara rollen för dig!",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/80b784051e1aae1640b4c66d2f072037e012240f",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD12/RHAD22",
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Akademisk examen",
+    "Projektledning"
+   ]
+  },
+  {
    "id": "a45a4bbc3e8dd0bf408df5fad8867945850769cf",
    "rubrik": "Utredare inom krisberedskap och civilt försvar",
    "arbetsgivare": "Folkhälsomyndigheten",
@@ -37167,9 +38155,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -37212,12 +38200,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -37256,10 +38245,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -37298,11 +38287,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -37343,10 +38333,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -37388,10 +38378,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 9,
@@ -37468,6 +38458,38 @@
    ]
   },
   {
+   "id": "a3b4430662d5cef9e8cd0084518b493d609fd245",
+   "rubrik": "Vikarierande hållbarhetsstrateg med fokus på klimatfrågor",
+   "arbetsgivare": "Teknik- och samhällsbyggnadsförvaltningen",
+   "kommun": "Håbo",
+   "lan": "Uppsala län",
+   "publicerad": "2026-01-19",
+   "sista": "2026-02-09",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "projektledning",
+    "styrdokument"
+   ],
+   "utdrag": "Vill du vara med och driva Håbo kommuns klimatarbete framåt? Vi söker nu en strukturerad och ansvarstagande hållbarhetsstrateg för ett vikariat som sträcker sig till 31 december 2026. Rollen passar di",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/a3b4430662d5cef9e8cd0084518b493d609fd245",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD03",
+    "MVAE34",
+    "RHAD38"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Projektledning"
+   ]
+  },
+  {
    "id": "d025fbe9254243aafedacebc09c131eb895f08d0",
    "rubrik": "Beredskapsstrateg",
    "arbetsgivare": "Sollentuna kommun",
@@ -37496,11 +38518,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -37568,10 +38592,11 @@
    "status": "arkiverad",
    "omfattning": "Heltid",
    "kurser": [
-    "RHAD12/RHAD22"
+    "RHAD12/RHAD22",
+    "RHAD38"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Svenska i tal och skrift"
@@ -37675,9 +38700,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -37742,10 +38767,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD01/RHAD02",
-    "RHAD38"
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Svenska i tal och skrift",
@@ -37859,6 +38885,38 @@
    ]
   },
   {
+   "id": "e8059a71fe3e3650e30948f7245aa19d0079a95e",
+   "rubrik": "Utåtriktad klimat- och energiutvecklare",
+   "arbetsgivare": "Länsstyrelsen i Jönköpings län, Enheten för ekologisk hållbarhet",
+   "kommun": "Jönköping",
+   "lan": "Jönköpings län",
+   "publicerad": "2026-01-14",
+   "sista": "2026-02-04",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "klimatanpassning",
+    "utbildning",
+    "samverkan"
+   ],
+   "utdrag": "Vi söker dig som vill vara en del i arbetet med att minska klimatpåverkan och främja fossilfri energi! Enheten På enheten för ekologisk hållbarhet arbetar vi brett med miljömässig hållbarhet i nära sa",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/e8059a71fe3e3650e30948f7245aa19d0079a95e",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD03",
+    "MVAE34",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Svenska i tal och skrift"
+   ]
+  },
+  {
    "id": "122dc7236f13d24c9233b1021f5f4c4c4140e441",
    "rubrik": "Kommerskollegium söker en beredskapshandläggare (vikariat)",
    "arbetsgivare": "Kommerskollegium",
@@ -37883,11 +38941,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -37960,10 +39019,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -37998,10 +39057,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -38073,11 +39132,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD39"
+    "MVAE34"
    ],
    "match": "Grundläggande",
-   "poang": 4,
+   "poang": 3,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -38309,8 +39367,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -38347,10 +39405,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -38390,9 +39448,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -38532,11 +39590,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -38606,8 +39665,8 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -38682,10 +39741,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -38721,11 +39780,12 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -38841,10 +39901,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -38893,6 +39953,46 @@
    ]
   },
   {
+   "id": "9bb9b75b8b74a2d431fd9cbb1ca7f23f17819fac",
+   "rubrik": "Säkerhetssamordnare till VA SYD",
+   "arbetsgivare": "Teknik och säkerhet",
+   "kommun": "Malmö",
+   "lan": "Skåne län",
+   "publicerad": "2026-01-02",
+   "sista": "2026-01-25",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "civilt försvar",
+    "säkerhetsskydd",
+    "utbildning",
+    "säkerhetsprövning",
+    "säkerhetsskyddsanalys"
+   ],
+   "utdrag": "Vill du arbeta som säkerhetssamordnare i en av samhällets viktigaste funktioner? Gillar du att arbeta med frågeställningar av komplex karaktär tillsammans med andra? Drivs du av att skapa förutsättnin",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/9bb9b75b8b74a2d431fd9cbb1ca7f23f17819fac",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 9,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "6eedadc35ef3d364c25c2153e50bdb96e48d00f2",
    "rubrik": "Krisberedskapssamordnare",
    "arbetsgivare": "Klippans kommun, Kommunledningsstab",
@@ -38918,8 +40018,8 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -38952,8 +40052,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -38986,9 +40086,9 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD38",
-    "Kontinuitet"
+    "RHAD38"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39059,11 +40159,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -39099,10 +40200,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -39141,9 +40242,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -39184,11 +40285,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39233,11 +40334,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39354,9 +40455,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -39393,10 +40494,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39438,10 +40539,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39479,10 +40580,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39524,10 +40625,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39764,11 +40865,12 @@
    "kurser": [
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -39835,10 +40937,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -39873,9 +40975,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -39950,11 +41052,12 @@
     "RHAD21/RHAD31",
     "RHAD14",
     "MVAE34",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -40057,11 +41160,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -40100,9 +41204,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -40173,10 +41277,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -40239,10 +41344,11 @@
    "kurser": [
     "RHAD12/RHAD22",
     "MVAE34",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Grundläggande",
-   "poang": 3,
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -40352,10 +41458,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -40393,10 +41499,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -40436,11 +41542,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -40560,12 +41667,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Säkerhetsprövning",
     "Körkort",
@@ -40629,9 +41737,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -40667,9 +41775,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -40706,11 +41814,12 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning"
@@ -40876,9 +41985,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -40963,9 +42072,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -41007,9 +42116,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -41270,9 +42379,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -41306,10 +42415,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "MVAE34"
+    "MVAE34",
+    "RHAD38"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Erfarenhet av beredskap/kris",
@@ -41340,8 +42450,8 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -41585,9 +42695,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Grundläggande",
    "poang": 4,
@@ -41597,6 +42707,52 @@
     "Erfarenhet av beredskap/kris",
     "Erfarenhet av säkerhet/risk",
     "Svenska i tal och skrift",
+    "Engelska i tal och skrift"
+   ]
+  },
+  {
+   "id": "89df3196261fcf9814d1ba2bcf6f5768e8f203ce",
+   "rubrik": "Beredskapssamordnare",
+   "arbetsgivare": "Sundsvalls kommun,Kommunstyrelsekontoret,Avdelningen för säkerhet- och ber",
+   "kommun": "Sundsvall",
+   "lan": "Västernorrlands län",
+   "publicerad": "2025-12-15",
+   "sista": "2026-01-18",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "krisberedskap",
+    "civilt försvar",
+    "säkerhetsskydd",
+    "övningar",
+    "utbildning",
+    "projektledning",
+    "brottsförebyggande",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Välkommen till Sundsvalls kommun! Sundsvalls kommun är en av Norrlands största arbetsgivare med runt 8 000 medarbetare och över 300 yrken. Tillsammans fyller vi ett av de viktigaste uppdragen i samhäl",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/89df3196261fcf9814d1ba2bcf6f5768e8f203ce",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD12/RHAD22",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Hög",
+   "poang": 9,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Körkort",
+    "Erfarenhet av säkerhet/risk",
+    "Projektledning",
     "Engelska i tal och skrift"
    ]
   },
@@ -41627,10 +42783,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -41819,10 +42975,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -41861,10 +43017,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -41993,11 +43149,11 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 10,
@@ -42074,10 +43230,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 9,
@@ -42182,10 +43338,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
    "poang": 6,
@@ -42265,12 +43421,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -42308,8 +43465,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -42641,11 +43798,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -42681,11 +43839,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -42796,9 +43955,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD38",
-    "Kontinuitet"
+    "RHAD38"
    ],
    "match": "Hög",
    "poang": 7,
@@ -42874,6 +44033,42 @@
    ]
   },
   {
+   "id": "9074453e0f6073d4f5215879394905ee83d61626",
+   "rubrik": "Samordnare inom klimat och energi",
+   "arbetsgivare": "Länsstyrelsen Kronoberg",
+   "kommun": "Växjö",
+   "lan": "Kronobergs län",
+   "publicerad": "2025-12-03",
+   "sista": "2026-01-05",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "höjd beredskap",
+    "utbildning",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Är du vår nya samordnare inom klimat och energi? Vi erbjuder ett spännande arbete i en stimulerande miljö tillsammans med erfarna och kompetenta kollegor. Du blir en av nio medarbetare på enheten för ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/9074453e0f6073d4f5215879394905ee83d61626",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD39"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Körkort",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
+   ]
+  },
+  {
    "id": "11a2cb9f13ebfcfd9ce859c3f2977b197231fa7b",
    "rubrik": "Beredskapshandläggare till Mellersta civilområdeskansliet",
    "arbetsgivare": "LÄNSSTYRELSEN I ÖREBRO LÄN, Civilområdeskansliet",
@@ -42901,10 +44096,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -42949,11 +44144,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -42986,9 +44181,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -43020,11 +44215,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD38",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -43171,9 +44365,9 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -43184,6 +44378,35 @@
     "Körkort",
     "Projektledning",
     "Svenska i tal och skrift"
+   ]
+  },
+  {
+   "id": "b5b19442466f9854a8326b4fe910eb750a8b62cf",
+   "rubrik": "Senior Riskingenjör",
+   "arbetsgivare": "Edge of Talent",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2025-12-01",
+   "sista": "2026-05-20",
+   "omraden": [
+    "Riskanalys & riskkonsult"
+   ],
+   "nyckelord": [],
+   "utdrag": "Vi söker en erfaren och analytisk riskingenjör som kan säkerställa att nya och ombyggda anläggningar tas i drift på ett säkert, lagstadgat och strukturerat sätt. Detta är ett långsiktigt och samhällsv",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/b5b19442466f9854a8326b4fe910eb750a8b62cf",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD12/RHAD22",
+    "RHAD38"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Erfarenhet av säkerhet/risk",
+    "Flera års erfarenhet",
+    "Projektledning"
    ]
   },
   {
@@ -43215,9 +44438,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -43256,12 +44479,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -43325,9 +44549,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -43408,10 +44632,11 @@
     "RHAD12/RHAD22",
     "MVAE34",
     "RHAD38",
+    "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Erfarenhet av säkerhet/risk",
     "Projektledning"
@@ -43472,11 +44697,11 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -43547,8 +44772,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -43695,10 +44920,11 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Säkerhetsprövning",
     "Svenskt medborgarskap",
@@ -43726,11 +44952,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD12/RHAD22",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -43758,11 +44983,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD12/RHAD22",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -43790,11 +45014,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD12/RHAD22",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -43822,11 +45045,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD12/RHAD22",
-    "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 5,
+   "match": "Grundläggande",
+   "poang": 4,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -43932,10 +45154,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -43972,8 +45194,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -44080,6 +45302,38 @@
    ]
   },
   {
+   "id": "c5366fb8d513c28fe68eb7c15329af1166f89127",
+   "rubrik": "Hållbarhetsstrateg inriktning klimat och miljö 50%",
+   "arbetsgivare": "Eda kommun , Kommunledningsstaben",
+   "kommun": "Eda",
+   "lan": "Värmlands län",
+   "publicerad": "2025-11-21",
+   "sista": "2025-12-31",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan"
+   ],
+   "utdrag": "Välkommen till en kommun med positiv laganda och gränslösa framtidsutsikter! Kommunledningsstaben är ett verksamhetsområde med fokus på stöd och service till våra medarbetare. Inom staben arbetar vi m",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/c5366fb8d513c28fe68eb7c15329af1166f89127",
+   "status": "arkiverad",
+   "omfattning": "Deltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Körkort",
+    "Svenska i tal och skrift"
+   ]
+  },
+  {
    "id": "19e37a49872683f00d8d6569e8e031e208235cc1",
    "rubrik": "Säkerhetssamordnare/biträdande säkerhetsskyddsansvarig",
    "arbetsgivare": "Intraservice",
@@ -44108,11 +45362,12 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "RHAD14",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 8,
+   "poang": 9,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -44145,10 +45400,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -44184,8 +45439,8 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 6,
@@ -44315,12 +45570,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
+    "RHAD03",
+    "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Medel",
-   "poang": 5,
+   "poang": 6,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -44359,10 +45615,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 8,
@@ -44397,12 +45653,13 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD38",
+    "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -44434,10 +45691,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -44475,8 +45732,8 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
-    "RHAD38",
-    "Kontinuitet"
+    "RHAD03",
+    "RHAD38"
    ],
    "match": "Hög",
    "poang": 7,
@@ -44621,9 +45878,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -44661,11 +45918,10 @@
    "kurser": [
     "RHAD12/RHAD22",
     "MVAE34",
-    "RHAD39",
     "RHAD35"
    ],
    "match": "Medel",
-   "poang": 6,
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -44881,12 +46137,13 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Erfarenhet av beredskap/kris",
     "Erfarenhet av säkerhet/risk",
@@ -45030,9 +46287,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -45068,9 +46325,9 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Hög",
    "poang": 7,
@@ -45105,10 +46362,10 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 8,
@@ -45144,13 +46401,14 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
    "match": "Hög",
-   "poang": 9,
+   "poang": 10,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -45182,12 +46440,13 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
     "RHAD38",
     "RHAD39"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -45300,9 +46559,9 @@
    "kurser": [
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "MVAE34",
-    "RHAD39",
-    "Kontinuitet"
+    "RHAD39"
    ],
    "match": "Medel",
    "poang": 5,
@@ -45463,10 +46722,11 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD39"
    ],
    "match": "Hög",
-   "poang": 7,
+   "poang": 8,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -45503,10 +46763,10 @@
     "RHAD01/RHAD02",
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 9,
@@ -45541,10 +46801,10 @@
    "omfattning": "Heltid",
    "kurser": [
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39",
-    "RHAD35",
-    "Kontinuitet"
+    "RHAD35"
    ],
    "match": "Hög",
    "poang": 7,
@@ -45656,11 +46916,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD38",
     "RHAD39",
     "RHAD35"
    ],
-   "match": "Medel",
-   "poang": 6,
+   "match": "Hög",
+   "poang": 7,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -45693,11 +46954,12 @@
    "kurser": [
     "RHAD01/RHAD02",
     "RHAD21/RHAD31",
+    "RHAD03",
     "RHAD38",
     "RHAD39"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Akademisk examen",
     "Säkerhetsprövning",
@@ -45731,10 +46993,11 @@
     "RHAD12/RHAD22",
     "RHAD21/RHAD31",
     "MVAE34",
+    "RHAD38",
     "RHAD35"
    ],
-   "match": "Grundläggande",
-   "poang": 4,
+   "match": "Medel",
+   "poang": 5,
    "krav": [
     "Tidigare erfarenhet"
    ]
@@ -45810,6 +47073,39 @@
     "Körkort",
     "Engelska i tal och skrift",
     "Tidigare erfarenhet"
+   ]
+  },
+  {
+   "id": "813e342e712c6c2627f72776e3f7dfdec8466f83",
+   "rubrik": "Miljöstrateg med fokus klimatomställning och förändringsledning",
+   "arbetsgivare": "Borås Stad",
+   "kommun": "Borås",
+   "lan": "Västra Götalands län",
+   "publicerad": "2025-11-11",
+   "sista": "2025-11-21",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan",
+    "projektledning"
+   ],
+   "utdrag": "Vill du arbeta med Borås klimatomställning i bred samverkan och vara en del av ett team som nu står redo att växla upp arbetet? Avdelningen samordnar och stöttar hela kommunkoncernens arbete genom att",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/813e342e712c6c2627f72776e3f7dfdec8466f83",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD03",
+    "MVAE34",
+    "RHAD38"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Flera års erfarenhet",
+    "Projektledning"
    ]
   }
  ]
