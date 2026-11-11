@@ -36,7 +36,19 @@ header.top { background: var(--hdr); color: var(--hdr-fg); position: sticky; top
 .brand h1 { font: 800 1.4rem/1.15 var(--f-display); margin: 0; letter-spacing: -0.01em; text-wrap: balance; display: flex; align-items: center; gap: 10px }
 .brand h1 svg { flex: none }
 .brand .sub { color: var(--hdr-muted); font-size: .85rem }
-nav.tabs { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-bottom: 0 }
+.tabrow { display: flex; align-items: stretch; gap: 4px; position: relative }
+nav.tabs { display: flex; gap: 4px; overflow: hidden; flex: 1; min-width: 0 }
+.tabmore { position: relative; flex: none; display: flex }
+.tabmore > button { font: 600 .9rem var(--f-body); color: var(--hdr-muted); background: none; border: 0; border-bottom: 3px solid transparent; padding: 11px 12px 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; border-radius: 6px 6px 0 0 }
+.tabmore > button:hover, .tabmore > button[aria-expanded="true"] { color: var(--hdr-fg); background: rgba(255, 255, 255, .08) }
+.tabmore > button.active { color: var(--hdr-fg); border-bottom-color: var(--hdr-mark) }
+.tabmore > button:focus-visible { outline: 2px solid var(--hdr-mark); outline-offset: -2px }
+.tabmore .dots { font-size: 1.1rem; line-height: 1; letter-spacing: 1px }
+.tabmenu { position: absolute; right: 0; top: calc(100% + 6px); min-width: 210px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, .18); padding: 6px; display: grid; z-index: 20 }
+.tabmenu a { color: var(--fg); text-decoration: none; padding: 11px 12px; border-radius: 6px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; gap: 10px }
+.tabmenu a:hover, .tabmenu a:focus-visible { background: var(--accent-soft); outline: none }
+.tabmenu a[aria-current="page"] { color: var(--accent); font-weight: 700; background: var(--accent-soft) }
+.tabmenu .n { font: 500 .72rem var(--f-mono); color: var(--on-accent); background: var(--accent); border-radius: 10px; padding: 1px 6px }
 nav.tabs a { font: 600 .9rem var(--f-body); color: var(--hdr-muted); text-decoration: none; padding: 11px 14px 10px; border-bottom: 3px solid transparent; white-space: nowrap; border-radius: 6px 6px 0 0 }
 nav.tabs a:hover { color: var(--hdr-fg); background: rgba(255, 255, 255, .06) }
 nav.tabs a[aria-current="page"] { color: var(--hdr-fg); border-bottom-color: var(--hdr-mark) }
@@ -55,7 +67,7 @@ a { color: var(--accent) }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; box-shadow: var(--shadow) }
 .intro { display: grid; gap: 10px; padding: 22px 24px; border-radius: 10px; background: var(--accent-soft); border: 1px solid var(--line) }
 .intro .eyebrow { color: var(--accent) }
-.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 16px }
 .grid2 > * { min-width: 0 }
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
 .facts div { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px }
@@ -79,12 +91,46 @@ ul.clean { margin: 0; padding-left: 18px; display: grid; gap: 4px }
 .course .t { font-weight: 600 }
 
 /* Filter */
-.filters { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 10px; align-items: end }
+.fhead { display: flex; gap: 10px; align-items: end }
+.fhead .q { flex: 1 }
+.fhead label, .filters label { display: grid; gap: 4px; font: 500 .75rem var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; min-width: 0 }
+.fhead input { font: 400 .95rem var(--f-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; width: 100%; min-width: 0 }
+.fhead input:focus { border-color: var(--accent); outline: 2px solid var(--accent-soft); outline-offset: 0 }
+.ftoggle { display: none; font: 600 .9rem var(--f-body); color: var(--accent); background: var(--accent-soft); border: 1px solid transparent; border-radius: 8px; padding: 10px 12px; cursor: pointer; white-space: nowrap; align-items: center; gap: 6px }
+.ftoggle[aria-expanded="true"] { border-color: var(--accent) }
+.fcount { font: 600 .72rem var(--f-mono); background: var(--accent); color: var(--on-accent); border-radius: 10px; padding: 1px 7px }
+.more-filters { display: grid; gap: 14px }
+.filters { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; align-items: end }
 .filters label { display: grid; gap: 4px; font: 500 .75rem var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; min-width: 0 }
 .filters input, .filters select { font: 400 .95rem var(--f-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; width: 100%; min-width: 0 }
 .filters input:hover, .filters select:hover { border-color: var(--accent) }
 .filters input:focus, .filters select:focus { border-color: var(--accent); outline: 2px solid var(--accent-soft); outline-offset: 0 }
-@media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr } .filters .q { grid-column: 1 / -1 } }
+@media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr } }
+/* Mobil: kompakt sidhuvud, svepbara flikar, filter bakom en knapp */
+@media (max-width: 700px) {
+  .brand { padding-block: 12px 2px }
+  .brand h1 { font-size: 1.12rem }
+  .brand h1 svg { width: 17px; height: 20px }
+  .brand .sub { display: none }
+  nav.tabs a { padding: 10px 10px 9px; font-size: .88rem }
+  main { padding-block: 18px 48px }
+  section.view { gap: 18px }
+  h2 { font-size: 1.3rem }
+  .ftoggle { display: inline-flex }
+  .more-filters:not(.open) { display: none }
+  .panel { padding: 16px }
+  .intro { padding: 18px }
+  .bar { gap: 8px }
+  .seg { width: 100% } .seg button { flex: 1; padding: 9px 6px }
+  .legend { display: none }
+  .chip { white-space: normal; max-width: 100% }
+  .ad { padding: 14px }
+  .kal-next { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: 78%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 4px }
+  .kal-next .panel { scroll-snap-align: start }
+  .ev { grid-template-columns: 44px 1fr; gap: 4px 12px }
+  .ev .d b { font-size: 1.25rem }
+  button.brow, .brow { grid-template-columns: minmax(90px, 40%) 1fr 36px }
+}
 .bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
 .seg button { font: 500 .85rem var(--f-body); background: var(--surface); color: var(--muted); border: 0; padding: 8px 13px; cursor: pointer }
@@ -114,7 +160,7 @@ button.reset { font: 500 .82rem var(--f-body); background: none; border: 0; colo
 .legend i { width: 4px; height: 14px; border-radius: 2px; display: inline-block }
 .empty { padding: 32px; text-align: center; color: var(--muted) }
 /* Roller */
-.roles { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px }
+.roles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 16px }
 .role { display: grid; gap: 10px; align-content: start }
 .role .head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline }
 .role .num { font: 700 1.1rem var(--f-display); font-variant-numeric: tabular-nums; color: var(--accent); background: var(--accent-soft); border-radius: 8px; padding: 2px 10px }
@@ -162,6 +208,7 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
       <h1><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M11 1 3 11h4l-5 7h6v7h6v-7h6l-5-7h4z" fill="var(--hdr-mark)"/></svg>Karriär i riskhantering</h1>
       <span class="sub">Masterprogrammet Riskhantering i samhället (SARHS), Karlstads universitet, matchat mot jobbannonser i hela Sverige</span>
     </div>
+    <div class="tabrow">
     <nav class="tabs" id="tabs" aria-label="Flikar">
       <a href="#oversikt">Översikt</a>
       <a href="#utbildningen">Utbildningen</a>
@@ -171,6 +218,11 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
       <a href="#efterfragat">Vad efterfrågas</a>
       <a href="#om">Om datan</a>
     </nav>
+    <div class="tabmore" id="tabmore" hidden>
+      <button id="tabmore-btn" aria-expanded="false" aria-haspopup="true" aria-controls="tabmenu">Mer <span class="dots" aria-hidden="true">⋯</span></button>
+      <div class="tabmenu" id="tabmenu" role="menu" hidden></div>
+    </div>
+    </div>
   </div>
 </header>
 
@@ -263,8 +315,12 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
     <p class="muted">Aktuella annonser och arkiverade annonser upp till ett år gamla. Länken till en arkiverad annons kan sluta fungera när den tagits bort ur Platsbanken.</p>
   </div>
   <div class="panel" style="display:grid;gap:14px">
-    <div class="filters">
+    <div class="fhead">
       <label class="q">Sök<input id="f-q" type="search" placeholder="Titel, arbetsgivare, ort…"></label>
+      <button class="ftoggle" id="ftoggle" aria-expanded="false" aria-controls="more-filters">Filter<span class="fcount" id="fcount" hidden></span></button>
+    </div>
+    <div class="more-filters" id="more-filters">
+    <div class="filters">
       <label>Län<select id="f-lan"></select></label>
       <label>Ort<select id="f-kommun"></select></label>
       <label>Arbetsområde<select id="f-omr"></select></label>
@@ -289,6 +345,7 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
           <option value="sista">Sista ansökningsdag</option>
         </select>
       </label>
+    </div>
     </div>
     <div class="bar"><span class="count" id="count"></span>
       <span class="legend"><span><i style="background:var(--good)"></i>Hög matchning</span><span><i style="background:var(--signal)"></i>Medel</span><span><i style="background:var(--line)"></i>Grundläggande</span></span>
@@ -451,6 +508,7 @@ function renderList() {
     <div class="chips"><span class="chip ${a.match === "Hög" ? "good" : a.match === "Medel" ? "" : "plain"}">Matchning: ${a.match}</span>${a.omraden.map(o => `<span class="chip sig">${esc(o)}</span>`).join("")}${a.kurser.filter(isCourse).slice(0, 3).map(k => `<span class="chip plain">${esc(cname(k))}</span>`).join("")}</div>
   </article>`).join("") : `<div class="empty">Inga annonser matchar filtren. Prova att rensa ett filter.</div>`;
   $("more").hidden = r.length <= st.shown;
+  if (typeof fcount === "function") fcount();
   $("more").textContent = `Visa fler (${(r.length - st.shown).toLocaleString("sv-SE")} kvar)`;
 }
 function syncControls() {
@@ -462,6 +520,8 @@ $("f-q").oninput = e => upd("q", e.target.value);
 ["lan", "kommun", "omr", "roll", "sort"].forEach(k => $("f-" + k).onchange = e => upd(k, e.target.value));
 ["status", "match"].forEach(k => $("f-" + k).querySelectorAll("button").forEach(b => b.onclick = () => { upd(k, b.dataset.v); syncControls(); }));
 $("more").onclick = () => { st.shown += 50; renderList(); };
+$("ftoggle").onclick = () => { const o = $("more-filters").classList.toggle("open"); $("ftoggle").setAttribute("aria-expanded", o); };
+function fcount() { const n = ["lan", "kommun", "omr", "roll"].filter(k => st[k]).length + (st.status !== "alla") + (st.match !== "alla"); $("fcount").hidden = !n; $("fcount").textContent = n; }
 $("reset").onclick = () => { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", status: "alla", match: "alla", shown: 50 }); syncControls(); renderList(); };
 function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", shown: 50 }, f); syncControls(); renderList(); location.hash = "annonser"; window.scrollTo(0, 0); }
 
@@ -517,7 +577,32 @@ function route() {
   const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "oversikt";
   VIEWS.forEach(x => $("v-" + x).hidden = x !== v);
   document.querySelectorAll("#tabs a").forEach(a => a.getAttribute("href") === "#" + v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  layoutTabs();
 }
+// Flikar som inte får plats flyttas till menyn "Mer"
+function layoutTabs() {
+  const nav = $("tabs"), more = $("tabmore"), menu = $("tabmenu"), btn = $("tabmore-btn");
+  const links = [...nav.querySelectorAll("a")];
+  links.forEach(a => a.hidden = false); more.hidden = true;
+  const hiddenLinks = [];
+  if (nav.scrollWidth > nav.clientWidth + 1) {
+    more.hidden = false;
+    // Göm från slutet, men aldrig fliken du står på
+    for (let i = links.length - 1; i >= 0 && nav.scrollWidth > nav.clientWidth + 1; i--) {
+      if (links[i].hasAttribute("aria-current")) continue;
+      links[i].hidden = true; hiddenLinks.unshift(links[i]);
+    }
+  }
+  menu.innerHTML = hiddenLinks.map(a => `<a role="menuitem" href="${a.getAttribute("href")}"${a.hasAttribute("aria-current") ? ' aria-current="page"' : ""}>${a.innerHTML}</a>`).join("");
+  btn.classList.toggle("active", hiddenLinks.some(a => a.hasAttribute("aria-current")));
+}
+function closeMenu() { $("tabmenu").hidden = true; $("tabmore-btn").setAttribute("aria-expanded", "false"); }
+$("tabmore-btn").onclick = e => { e.stopPropagation(); const open = $("tabmenu").hidden; $("tabmenu").hidden = !open; $("tabmore-btn").setAttribute("aria-expanded", open); if (open) $("tabmenu").querySelector("a")?.focus(); };
+$("tabmenu").onclick = e => { if (e.target.closest("a")) closeMenu(); };
+document.addEventListener("click", e => { if (!e.target.closest("#tabmore")) closeMenu(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("tabmenu").hidden) { closeMenu(); $("tabmore-btn").focus(); } });
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(layoutTabs, 100); });
+if (document.fonts) document.fonts.ready.then(layoutTabs);
 addEventListener("hashchange", () => { route(); window.scrollTo(0, 0); });
 route(); renderList();
 </script>
