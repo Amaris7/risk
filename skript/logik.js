@@ -1,5 +1,5 @@
 /* Ren logik för sidan (ingen DOM). Bäddas in i index.html av skript/bygg_sida.py
-   och testas med Node: node --test tester/ */
+   och testas med Node: node --test tester/*.test.cjs */
 
 /** Gör text säker att lägga in i HTML (även i attribut). Allt från datan ska gå genom esc(). */
 function esc(s) {

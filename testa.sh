@@ -11,7 +11,7 @@ echo "== Python: hämtning, bygge, validering och säkerhet"
 
 if command -v node >/dev/null; then
   echo "== JavaScript: sidans logik"
-  node --test tester/
+  node --test tester/*.test.cjs
 else
   echo "!! Node saknas, hoppar över JavaScript-testerna"
 fi

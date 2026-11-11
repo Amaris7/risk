@@ -1,4 +1,4 @@
-// Funktions- och säkerhetstester för sidans logik (skript/logik.js). Kör: node --test tester/
+// Funktions- och säkerhetstester för sidans logik (skript/logik.js). Kör: node --test tester/*.test.cjs
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const L = require("../skript/logik.js");
