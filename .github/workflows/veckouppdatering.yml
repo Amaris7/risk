@@ -22,6 +22,7 @@ concurrency:
 jobs:
   uppdatera:
     runs-on: ubuntu-latest
+    timeout-minutes: 25          # inget ska kunna hänga i timmar
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -40,9 +41,29 @@ jobs:
           node-version: "22"
           cache: npm
       - name: Installera testverktyg
-        run: npm ci && npx playwright install --with-deps chromium
+        id: install
+        timeout-minutes: 15
+        # Testwebbläsaren behöver paket från Ubuntu. Svarar deras servrar inte försöker vi tre gånger
+        # (max 4 minuter per försök). Går det ändå inte körs resten av testerna och sidan publiceras.
+        run: |
+          npm ci
+          for i in 1 2 3; do
+            if timeout 240 npx playwright install --with-deps --only-shell chromium; then
+              echo "ok=1" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+            echo "Försök $i att installera testwebbläsaren misslyckades, väntar och försöker igen"
+            sleep 20
+          done
+          echo "ok=0" >> "$GITHUB_OUTPUT"
       - name: Testa (funktion, validering, säkerhet, webbläsare)
-        run: ./testa.sh
+        timeout-minutes: 8
+        run: |
+          if [ "${{ steps.install.outputs.ok }}" = "1" ]; then
+            ./testa.sh
+          else
+            echo "::warning title=Webbläsartesterna hoppades över::Testwebbläsaren gick inte att installera (nätverksfel hos GitHub). Python- och JavaScript-testerna, med validering och säkerhet, kördes som vanligt."
+            ./testa.sh snabb
+          fi
       - name: Spara testresultat om något gick fel
         if: failure()
         uses: actions/upload-artifact@v4
