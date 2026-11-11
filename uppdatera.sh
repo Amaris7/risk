@@ -12,3 +12,5 @@ NY_KAL="$(ls -t "$HOME"/rhad-kalender/*.ics 2>/dev/null | head -1 || true)"
 if [ -n "$NY_KAL" ] && [ "$NY_KAL" -nt data/kurskalender.ics ]; then cp "$NY_KAL" data/kurskalender.ics; echo "== Kalender: $(basename "$NY_KAL")"; fi
 echo "== Bygger index.html"
 "$PY" skript/bygg_sida.py
+echo "== Testar"
+./testa.sh

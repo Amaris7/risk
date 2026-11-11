@@ -11,7 +11,9 @@ En webbsida som matchar Karlstads universitets masterprogram **Riskhantering i s
 | `skript/hamta_annonser.py` | Hämtar och filtrerar annonser. Sökord, filter, arbetsområden och kurskoppling står överst i filen |
 | `skript/bygg_sida.py` | Lägger in datan i mallen och skriver `index.html` |
 | `skript/mall.html` | Sidans utseende, texter och flikar. `__DATA__` ersätts med annonsdatan |
+| `skript/logik.js` | Sidans rena logik (sökning, escaping, kalender). Bäddas in i sidan vid bygget och testas separat |
 | `data/annonser.json`, `data/annonser.csv` | Senast hämtade annonser (CSV går att öppna i Excel) |
+| `data/annonstext.json` | Hela annonstexterna (gemener), som sidan laddar först när någon söker. Måste publiceras bredvid `index.html` i mappen `data/` |
 | `data/kurskalender.ics` | Kurskalendern som visas under fliken Kurskalender. `uppdatera.sh` kopierar in den senaste `.ics`-filen från `~/rhad-kalender` om den finns |
 | `.github/workflows/veckouppdatering.yml` | Veckovis automatisk uppdatering och publicering på GitHub Pages |
 | `schema-mac/` | Alternativ: veckovis uppdatering på din egen Mac |
@@ -58,6 +60,20 @@ Om mappen ligger i Dokument, Skrivbord eller Hämtade filer kan macOS blockera k
 ## Kurskalendern
 
 Byt kalender genom att lägga en ny `.ics`-fil i `~/rhad-kalender` (den nyaste används) eller direkt som `data/kurskalender.ics`, och kör `python3 skript/bygg_sida.py`. Personliga Zoom-länkar tas bort från sidan eftersom den kan vara publik. Vill du behålla dem, sätt `DOLJ_ZOOMLANKAR = False` i `skript/bygg_sida.py`. På GitHub används den kalenderfil som ligger i repot, så ladda upp en ny `data/kurskalender.ics` när kalendern ändras.
+
+## Tester
+
+`./testa.sh` kör alla tester. `./uppdatera.sh` och GitHub-workflowen kör dem automatiskt efter bygget. Går ett test sönder på GitHub sparas ingen ny data och sidan publiceras inte, så den gamla versionen ligger kvar.
+
+| Del | Verktyg | Vad som testas |
+|---|---|---|
+| `tester/test_hamta.py` | Python `unittest` | Urval och klassning av annonser, dubbletter, säkra länkar, sparade filer |
+| `tester/test_bygg.py` | Python `unittest` | Kalenderläsning (Canvas-format, tidszoner, Zoom-länkar och namn tas bort), säker inbäddning av data, CSP |
+| `tester/test_validering.py` | Python `unittest` | Validering av den riktiga datan och `index.html`: fält, datum, länkar, kalender, hemligheter, escaping |
+| `tester/logik.test.cjs` | Node `node:test` | Sidans logik i `skript/logik.js`: sökning, escaping, kalender, länkar |
+| `tester/webblasare/` | Playwright | Riktig webbläsare i dator- och mobilbredd: flikar och Mer-meny, filter, sökord, kalender, XSS-försök |
+
+Första gången på en ny dator: `npm install && npx playwright install chromium`. Snabb körning utan webbläsare: `./testa.sh snabb`.
 
 ## Ändra innehållet
 

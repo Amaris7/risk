@@ -5,7 +5,10 @@ och kurskalendern i data/kurskalender.ics (om den finns).
 Kör:  python3 skript/bygg_sida.py
 Utseende och texter ändrar du i skript/mall.html. Platshållaren __DATA__ ersätts med datan.
 """
-import datetime, json, os, re
+import datetime, json, os, re, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import illustrationer  # noqa: E402
 from zoneinfo import ZoneInfo
 
 SVENSK_TID = ZoneInfo("Europe/Stockholm")
@@ -76,24 +79,62 @@ def las_ics(sokvag):
     return {"andrad": andrad, "handelser": ut}
 
 
-with open(DATA, encoding="utf-8") as f:
-    data = json.load(f)
-data["kalender"] = las_ics(KALENDER) if os.path.exists(KALENDER) else None
-with open(MALL, encoding="utf-8") as f:
-    mall = f.read()
+LOGIK = os.path.join(ROT, "skript", "logik.js")
 
-js = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-html = mall.replace("__DATA__", js)
+# Säkerhet: sidan får bara ladda skript/data från sig själv och typsnitt från Google Fonts
+CSP = ("default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
+       "font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'")
 
-# Mallen saknar <!doctype>/<head>, så lägg på ett skal som gör filen fristående
-if not html.lstrip().lower().startswith("<!doctype"):
-    html = ('<!doctype html>\n<html lang="sv">\n<head>\n<meta charset="utf-8">\n'
-            '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-            '<style>html{color-scheme:light dark}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>\n'
-            '</head>\n<body>\n' + html + '\n</body>\n</html>\n')
 
-with open(UT, "w", encoding="utf-8") as f:
-    f.write(html)
-kal = data["kalender"]
-print(f"Skrev {UT} ({len(html) // 1024} KB, {len(data['annonser'])} annonser, hämtade {data['hamtad']}, "
-      f"{len(kal['handelser']) if kal else 0} kalenderhändelser)")
+def data_som_js(data):
+    """JSON som säkert kan bäddas in i <script>: alla < skrivs som \\u003c så att ingen text kan avsluta taggen."""
+    return json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+
+
+def logik_som_js(kod):
+    """logik.js inbäddad i sidan: exportraden för Node tas bort."""
+    return re.sub(r"(?s)/\* node-export \*/.*$", "", kod)
+
+
+def grafik(html, bilder):
+    """Byter <!--GRAFIK:namn--> mot illustrationen med det namnet. Okända namn lämnas som tomma."""
+    return re.sub(r"<!--GRAFIK:(\w+)-->", lambda m: bilder.get(m.group(1), ""), html)
+
+
+def bygg(mall, data, logik, bilder=None):
+    html = grafik(mall, bilder or {})
+    html = html.replace("/*__LOGIK__*/", logik_som_js(logik)).replace("__DATA__", data_som_js(data))
+    # Mallen saknar <!doctype>/<head>, så lägg på ett skal som gör filen fristående
+    if not html.lstrip().lower().startswith("<!doctype"):
+        html = ('<!doctype html>\n<html lang="sv">\n<head>\n<meta charset="utf-8">\n'
+                '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+                f'<meta http-equiv="Content-Security-Policy" content="{CSP}">\n'
+                '<meta name="referrer" content="strict-origin-when-cross-origin">\n'
+                '<style>html{color-scheme:light dark}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>\n'
+                '</head>\n<body>\n' + html + '\n</body>\n</html>\n')
+    return html
+
+
+def main():
+    with open(DATA, encoding="utf-8") as f:
+        data = json.load(f)
+    data["kalender"] = las_ics(KALENDER) if os.path.exists(KALENDER) else None
+    with open(MALL, encoding="utf-8") as f:
+        mall = f.read()
+    with open(LOGIK, encoding="utf-8") as f:
+        logik = f.read()
+    texter = {}
+    sokvag = os.path.join(ROT, "data", "annonstext.json")
+    if os.path.exists(sokvag):
+        with open(sokvag, encoding="utf-8") as f:
+            texter = json.load(f)
+    html = bygg(mall, data, logik, illustrationer.alla(data, texter))
+    with open(UT, "w", encoding="utf-8") as f:
+        f.write(html)
+    kal = data["kalender"]
+    print(f"Skrev {UT} ({len(html) // 1024} KB, {len(data['annonser'])} annonser, hämtade {data['hamtad']}, "
+          f"{len(kal['handelser']) if kal else 0} kalenderhändelser)")
+
+
+if __name__ == "__main__":
+    main()

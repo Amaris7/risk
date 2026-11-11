@@ -1,212 +1,334 @@
 <title>Karriär i riskhantering</title>
+<script>try { var t = localStorage.getItem("tema"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: arbetsverktyg — smal sidhuvudsrad med flikar, innehåll i en 1100px kolumn; annonslistan som täta rader med filterpanel ovanför */
-/* Färg: tallgrönt som bärande färg, björknäver/lav som neutraler, ockra för arbetsområden, mossgrönt för god matchning */
+/* Layout: lugn 1160px-spalt under ett mörkt petrolfärgat sidhuvud. Varje flik börjar med rubrik + ingress,
+   därefter kort som får sin naturliga höjd (inga utsträckta kort). Rytm: 8px-skala, 40px mellan sektioner. */
+/* Färg: petrol som bärande färg (kartor, lägesbilder), signalorange för varningar och viktiga siffror, grönt bara för god matchning */
 :root {
-  --bg: #f3f5f1; --surface: #ffffff; --fg: #1b2a22; --muted: #5d6b62; --line: #dbe2db;
-  --accent: #2c5a43; --accent-soft: #e4eee7; --on-accent: #ffffff; --signal: #9a6416; --signal-soft: #f6ecda;
-  --good: #3b7a3f; --good-soft: #e3f0df;
-  --hdr: #1f3d2f; --hdr-fg: #f1f5ef; --hdr-muted: #b4c8b9; --hdr-mark: #c9dc8f;
-  --shadow: 0 1px 2px rgba(27, 42, 34, .06), 0 2px 8px rgba(27, 42, 34, .04);
+  --bg: #f2f5f6; --surface: #ffffff; --surface-2: #f6f9fa; --fg: #13272d; --muted: #536a70; --line: #dde6e8; --line-strong: #c6d4d7;
+  --accent: #1f5f6e; --accent-soft: #e2eef0; --on-accent: #ffffff; --signal: #b8540f; --signal-soft: #fbe7d7;
+  --good: #2f7a4f; --good-soft: #e1f1e6;
+  --hdr: #12303a; --hdr-fg: #eef5f6; --hdr-muted: #a6c2c8; --hdr-mark: #f08a3c;
+  --hero-bg: #0c2229; --hero-fg: #eef5f6; --hero-muted: #a3bec4; --hero-grid: rgba(127, 199, 210, .07); --hero-line: #7fc7d2; --hero-line-2: #c9e6eb;
+  --risk-1: #3f7f6a; --risk-2: #8f9b45; --risk-3: #d39a32; --risk-4: #e0743a; --risk-5: #c4473d;
+  --hero-warn: #f08a3c; --hero-ground: #10303a; --hero-street: #174049; --hero-house: #21505c; --hero-water: #4fa3c9;
+  --shadow: 0 1px 2px rgba(15, 40, 48, .05), 0 4px 16px rgba(15, 40, 48, .05);
+  --shadow-hover: 0 2px 4px rgba(15, 40, 48, .06), 0 10px 28px rgba(15, 40, 48, .09);
+  --r: 14px; --r-sm: 10px;
   --f-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --f-body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
   --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #111914; --surface: #18231c; --fg: #e3ebe4; --muted: #98aa9d; --line: #2a3a2f;
-  --accent: #86c29d; --accent-soft: #1f3528; --on-accent: #0f1a13; --signal: #ddb067; --signal-soft: #372a15;
-  --good: #9fd08f; --good-soft: #213320;
-  --hdr: #0c140f; --hdr-fg: #e3ebe4; --hdr-muted: #8fa595; --hdr-mark: #b5cf7a;
-  --shadow: none; color-scheme: dark } }
+  --bg: #0d1619; --surface: #142127; --surface-2: #18282f; --fg: #e2edef; --muted: #95adb3; --line: #223238; --line-strong: #2e444b;
+  --accent: #7fc7d2; --accent-soft: #183139; --on-accent: #0b1a1e; --signal: #f0a066; --signal-soft: #3a2517;
+  --good: #8fd0a5; --good-soft: #19322a;
+  --hdr: #081418; --hdr-fg: #e2edef; --hdr-muted: #8ba7ad; --hdr-mark: #f08a3c;
+  --shadow: none; --shadow-hover: 0 0 0 1px var(--line-strong); color-scheme: dark } }
 :root[data-theme="dark"] {
-  --bg: #111914; --surface: #18231c; --fg: #e3ebe4; --muted: #98aa9d; --line: #2a3a2f;
-  --accent: #86c29d; --accent-soft: #1f3528; --on-accent: #0f1a13; --signal: #ddb067; --signal-soft: #372a15;
-  --good: #9fd08f; --good-soft: #213320;
-  --hdr: #0c140f; --hdr-fg: #e3ebe4; --hdr-muted: #8fa595; --hdr-mark: #b5cf7a;
-  --shadow: none; color-scheme: dark }
+  --bg: #0d1619; --surface: #142127; --surface-2: #18282f; --fg: #e2edef; --muted: #95adb3; --line: #223238; --line-strong: #2e444b;
+  --accent: #7fc7d2; --accent-soft: #183139; --on-accent: #0b1a1e; --signal: #f0a066; --signal-soft: #3a2517;
+  --good: #8fd0a5; --good-soft: #19322a;
+  --hdr: #081418; --hdr-fg: #e2edef; --hdr-muted: #8ba7ad; --hdr-mark: #f08a3c;
+  --shadow: none; --shadow-hover: 0 0 0 1px var(--line-strong); color-scheme: dark }
+
+/* ---------- Grund ---------- */
 * { box-sizing: border-box }
-body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--f-body); }
+body { background: var(--bg); color: var(--fg); font: 16px/1.65 var(--f-body); -webkit-font-smoothing: antialiased }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--hdr) }
-.wrap { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-header.top { background: var(--hdr); color: var(--hdr-fg); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5 }
-.brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding-block: 18px 8px }
-.brand h1 { font: 800 1.4rem/1.15 var(--f-display); margin: 0; letter-spacing: -0.01em; text-wrap: balance; display: flex; align-items: center; gap: 10px }
+.wrap { max-width: 1160px; margin: 0 auto; padding-left: max(28px, env(safe-area-inset-left, 0px)); padding-right: max(28px, env(safe-area-inset-right, 0px)) }
+main { padding-block: 44px 96px }
+section.view { display: grid; gap: 40px }
+h2 { font: 800 clamp(1.6rem, 1.2rem + 1.4vw, 2.15rem)/1.15 var(--f-display); letter-spacing: -.015em; margin: 0; text-wrap: balance }
+h3 { font: 700 1.12rem/1.3 var(--f-display); letter-spacing: -.005em; margin: 0; text-wrap: balance }
+h4 { margin: 0 }
+p { margin: 0; max-width: 66ch }
+.lead { font-size: 1.1rem; line-height: 1.6; color: var(--muted) }
+.muted { color: var(--muted) }
+.small { font-size: .9rem }
+.eyebrow { font: 600 .72rem/1.4 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--accent) }
+a { color: var(--accent); text-underline-offset: 3px }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.vhead { display: grid; gap: 12px; max-width: 760px }
+.vbanner { position: relative; overflow: hidden; border-radius: calc(var(--r) + 4px); background: var(--hero-bg); color: var(--hero-fg); min-height: 240px; display: grid; align-content: center; padding: 36px 44px }
+.vbanner .vb-text { position: relative; z-index: 1; display: grid; gap: 12px; max-width: 500px }
+.vbanner h2 { font-weight: 300; font-size: clamp(1.7rem, 1.2rem + 1.6vw, 2.4rem); line-height: 1.12 }
+.vbanner p { color: var(--hero-muted); font-size: 1.02rem }
+.vbanner .eyebrow { color: var(--hero-line) }
+.vbanner svg.banner-art { position: absolute; top: 0; right: 0; width: min(56%, 720px); height: 100%; z-index: 0; max-width: none }
+@media (max-width: 960px) { .vbanner .vb-text { max-width: 44% } }
+.vhead p { color: var(--muted); font-size: 1.05rem }
+
+/* ---------- Sidhuvud och flikar ---------- */
+header.top { background: var(--hdr); color: var(--hdr-fg); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; box-shadow: 0 1px 0 rgba(0, 0, 0, .15) }
+.brand { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding-block: 20px 10px }
+.brand h1 { font: 800 1.45rem/1.15 var(--f-display); margin: 0; letter-spacing: -.01em; display: flex; align-items: center; gap: 10px }
 .brand h1 svg { flex: none }
-.brand .sub { color: var(--hdr-muted); font-size: .85rem }
+.brand .sub { color: var(--hdr-muted); font-size: .88rem }
+.theme { margin-left: auto; align-self: center; display: inline-flex; align-items: center; gap: 8px; font: 600 .85rem var(--f-body); color: var(--hdr-fg); background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .16); border-radius: 999px; padding: 6px 14px 6px 10px; cursor: pointer; transition: background .15s }
+.theme:hover { background: rgba(255, 255, 255, .16) }
+.theme:focus-visible { outline: 2px solid var(--hdr-mark); outline-offset: 2px }
+.theme .ic { width: 18px; height: 18px; display: none }
+.theme[data-mode="auto"] .ic-auto, .theme[data-mode="light"] .ic-light, .theme[data-mode="dark"] .ic-dark { display: block }
 .tabrow { display: flex; align-items: stretch; gap: 4px; position: relative }
-nav.tabs { display: flex; gap: 4px; overflow: hidden; flex: 1; min-width: 0 }
+nav.tabs { display: flex; gap: 2px; overflow: hidden; flex: 1; min-width: 0 }
+nav.tabs a, .tabmore > button { font: 600 .92rem var(--f-body); color: var(--hdr-muted); text-decoration: none; padding: 12px 14px 11px; border: 0; border-bottom: 3px solid transparent; white-space: nowrap; border-radius: 8px 8px 0 0; background: none; cursor: pointer; transition: color .15s, background .15s }
+nav.tabs a:hover, .tabmore > button:hover, .tabmore > button[aria-expanded="true"] { color: var(--hdr-fg); background: rgba(255, 255, 255, .07) }
+nav.tabs a[aria-current="page"], .tabmore > button.active { color: var(--hdr-fg); border-bottom-color: var(--hdr-mark) }
+nav.tabs a:focus-visible, .tabmore > button:focus-visible { outline: 2px solid var(--hdr-mark); outline-offset: -2px }
+nav.tabs .n { font: 600 .7rem var(--f-mono); color: var(--hdr); background: var(--hdr-mark); border-radius: 10px; padding: 1px 7px; margin-left: 6px }
 .tabmore { position: relative; flex: none; display: flex }
-.tabmore > button { font: 600 .9rem var(--f-body); color: var(--hdr-muted); background: none; border: 0; border-bottom: 3px solid transparent; padding: 11px 12px 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; border-radius: 6px 6px 0 0 }
-.tabmore > button:hover, .tabmore > button[aria-expanded="true"] { color: var(--hdr-fg); background: rgba(255, 255, 255, .08) }
-.tabmore > button.active { color: var(--hdr-fg); border-bottom-color: var(--hdr-mark) }
-.tabmore > button:focus-visible { outline: 2px solid var(--hdr-mark); outline-offset: -2px }
+.tabmore > button { display: inline-flex; align-items: center; gap: 6px }
 .tabmore .dots { font-size: 1.1rem; line-height: 1; letter-spacing: 1px }
-.tabmenu { position: absolute; right: 0; top: calc(100% + 6px); min-width: 210px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, .18); padding: 6px; display: grid; z-index: 20 }
-.tabmenu a { color: var(--fg); text-decoration: none; padding: 11px 12px; border-radius: 6px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; gap: 10px }
+.tabmenu { position: absolute; right: 0; top: calc(100% + 8px); min-width: 220px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm); box-shadow: 0 12px 32px rgba(0, 0, 0, .18); padding: 6px; display: grid; z-index: 20 }
+.tabmenu a { color: var(--fg); text-decoration: none; padding: 11px 14px; border-radius: 8px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; gap: 10px }
 .tabmenu a:hover, .tabmenu a:focus-visible { background: var(--accent-soft); outline: none }
 .tabmenu a[aria-current="page"] { color: var(--accent); font-weight: 700; background: var(--accent-soft) }
-.tabmenu .n { font: 500 .72rem var(--f-mono); color: var(--on-accent); background: var(--accent); border-radius: 10px; padding: 1px 6px }
-nav.tabs a { font: 600 .9rem var(--f-body); color: var(--hdr-muted); text-decoration: none; padding: 11px 14px 10px; border-bottom: 3px solid transparent; white-space: nowrap; border-radius: 6px 6px 0 0 }
-nav.tabs a:hover { color: var(--hdr-fg); background: rgba(255, 255, 255, .06) }
-nav.tabs a[aria-current="page"] { color: var(--hdr-fg); border-bottom-color: var(--hdr-mark) }
-nav.tabs .n { font: 500 .72rem var(--f-mono); color: var(--hdr); background: var(--hdr-mark); border-radius: 10px; padding: 1px 6px; margin-left: 6px }
-nav.tabs a:focus-visible { outline-color: var(--hdr-mark) }
-main { padding-block: 24px 64px }
-section.view { display: grid; gap: 24px }
-h2 { font: 700 1.5rem/1.2 var(--f-display); margin: 0; text-wrap: balance }
-h3 { font: 700 1.05rem/1.3 var(--f-display); margin: 0 }
-p { margin: 0; max-width: 68ch }
-.lead { font-size: 1.05rem; color: var(--fg) }
-.muted { color: var(--muted) }
-.eyebrow { font: 500 .72rem var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
-a { color: var(--accent) }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
-.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; box-shadow: var(--shadow) }
-.intro { display: grid; gap: 10px; padding: 22px 24px; border-radius: 10px; background: var(--accent-soft); border: 1px solid var(--line) }
-.intro .eyebrow { color: var(--accent) }
-.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 16px }
-.grid2 > * { min-width: 0 }
-.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
-.facts div { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px }
-.facts b { font: 700 1.4rem var(--f-display); font-variant-numeric: tabular-nums; color: var(--accent) }
-.facts span { color: var(--muted); font-size: .82rem }
-ul.clean { margin: 0; padding-left: 18px; display: grid; gap: 4px }
-.chip { display: inline-flex; align-items: center; gap: 4px; font: 500 .75rem/1.2 var(--f-mono); padding: 3px 7px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); white-space: nowrap }
+.tabmenu .n { font: 600 .7rem var(--f-mono); color: var(--on-accent); background: var(--accent); border-radius: 10px; padding: 1px 7px }
+
+/* ---------- Kort och rutnät ---------- */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 28px; box-shadow: var(--shadow); display: grid; gap: 16px; align-content: start; min-width: 0 }
+.panel > .phead { display: grid; gap: 6px }
+.panel > .phead p { color: var(--muted); font-size: .95rem }
+.panel > a, .panel .more-link { font-weight: 600; text-decoration: none; justify-self: start; display: inline-flex; gap: 6px; align-items: center }
+.panel > a::after, .panel .more-link::after { content: "→"; transition: transform .15s }
+.panel > a:hover::after, .panel .more-link:hover::after { transform: translateX(3px) }
+.grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start }
+.grid2.stretch { align-items: stretch }
+@media (max-width: 860px) { .grid2 { grid-template-columns: 1fr } }
+.stack { display: grid; gap: 14px }
+.stack.lg { gap: 28px }
+.prose { gap: 18px; max-width: 820px }
+.prose p { line-height: 1.7 }
+.note { font-size: .88rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px }
+ul.clean { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px }
+ul.clean li { padding-left: 22px; position: relative; max-width: 72ch }
+ul.clean li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 8px; height: 8px; border-radius: 50%; background: var(--accent) }
+
+/* ---------- Översikt: hero med värmländskt landskap ---------- */
+.hero { position: relative; overflow: hidden; border-radius: calc(var(--r) + 4px); background: var(--hero-bg); color: var(--hero-fg); padding: 56px 56px 200px; display: grid; gap: 18px; min-height: 460px; align-content: start }
+.hero > * { position: relative; z-index: 1; max-width: 620px }
+.hero .eyebrow { color: var(--hero-line) }
+.hero h2 { font-weight: 300; font-size: clamp(1.9rem, 1.3rem + 2vw, 2.9rem); letter-spacing: -.01em; line-height: 1.1 }
+.hero .lead { color: var(--hero-muted); max-width: 54ch }
+.hero svg.hero-art { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; max-width: none }
+.facts { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px }
+.facts div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); padding: 20px 22px; display: grid; gap: 4px; align-content: start }
+.facts b { font: 800 2rem/1.1 var(--f-display); font-variant-numeric: tabular-nums; color: var(--accent); letter-spacing: -.02em }
+.facts span { color: var(--muted); font-size: .88rem; line-height: 1.35 }
+@media (max-width: 960px) { .facts { grid-template-columns: repeat(3, minmax(0, 1fr)) } }
+
+/* ---------- Etiketter ---------- */
+.chip { display: inline-flex; align-items: center; gap: 4px; font: 500 .8rem/1.3 var(--f-body); padding: 4px 11px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; max-width: 100% }
 .chip.sig { background: var(--signal-soft); color: var(--signal) }
 .chip.good { background: var(--good-soft); color: var(--good) }
-.chip.plain { background: transparent; border: 1px solid var(--line); color: var(--muted) }
-.chip.now { background: var(--accent); color: var(--on-accent) }
-.chips { display: flex; flex-wrap: wrap; gap: 6px }
-/* Kurser */
-.term { display: grid; gap: 10px }
-.term-h { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--accent); padding-bottom: 6px }
-.term-h h3 { color: var(--accent) }
-.course { display: grid; grid-template-columns: 1fr auto; gap: 4px 14px; padding: 12px 0; border-bottom: 1px solid var(--line) }
-.course code { font: 500 .85rem var(--f-mono); color: var(--accent) }
-.course .hp { font: 500 .82rem var(--f-mono); color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums }
-.course p { grid-column: 1 / 3; color: var(--muted); font-size: .9rem }
-.course .t { font-weight: 600 }
-
-/* Filter */
-.fhead { display: flex; gap: 10px; align-items: end }
-.fhead .q { flex: 1 }
-.fhead label, .filters label { display: grid; gap: 4px; font: 500 .75rem var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; min-width: 0 }
-.fhead input { font: 400 .95rem var(--f-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; width: 100%; min-width: 0 }
-.fhead input:focus { border-color: var(--accent); outline: 2px solid var(--accent-soft); outline-offset: 0 }
-.ftoggle { display: none; font: 600 .9rem var(--f-body); color: var(--accent); background: var(--accent-soft); border: 1px solid transparent; border-radius: 8px; padding: 10px 12px; cursor: pointer; white-space: nowrap; align-items: center; gap: 6px }
-.ftoggle[aria-expanded="true"] { border-color: var(--accent) }
-.fcount { font: 600 .72rem var(--f-mono); background: var(--accent); color: var(--on-accent); border-radius: 10px; padding: 1px 7px }
-.more-filters { display: grid; gap: 14px }
-.filters { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; align-items: end }
-.filters label { display: grid; gap: 4px; font: 500 .75rem var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; min-width: 0 }
-.filters input, .filters select { font: 400 .95rem var(--f-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; width: 100%; min-width: 0 }
-.filters input:hover, .filters select:hover { border-color: var(--accent) }
-.filters input:focus, .filters select:focus { border-color: var(--accent); outline: 2px solid var(--accent-soft); outline-offset: 0 }
-@media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr } }
-/* Mobil: kompakt sidhuvud, svepbara flikar, filter bakom en knapp */
-@media (max-width: 700px) {
-  .brand { padding-block: 12px 2px }
-  .brand h1 { font-size: 1.12rem }
-  .brand h1 svg { width: 17px; height: 20px }
-  .brand .sub { display: none }
-  nav.tabs a { padding: 10px 10px 9px; font-size: .88rem }
-  main { padding-block: 18px 48px }
-  section.view { gap: 18px }
-  h2 { font-size: 1.3rem }
-  .ftoggle { display: inline-flex }
-  .more-filters:not(.open) { display: none }
-  .panel { padding: 16px }
-  .intro { padding: 18px }
-  .bar { gap: 8px }
-  .seg { width: 100% } .seg button { flex: 1; padding: 9px 6px }
-  .legend { display: none }
-  .chip { white-space: normal; max-width: 100% }
-  .ad { padding: 14px }
-  .kal-next { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: 78%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 4px }
-  .kal-next .panel { scroll-snap-align: start }
-  .ev { grid-template-columns: 44px 1fr; gap: 4px 12px }
-  .ev .d b { font-size: 1.25rem }
-  button.brow, .brow { grid-template-columns: minmax(90px, 40%) 1fr 36px }
-}
-.bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px }
-.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
-.seg button { font: 500 .85rem var(--f-body); background: var(--surface); color: var(--muted); border: 0; padding: 8px 13px; cursor: pointer }
-.seg button:hover { color: var(--fg); background: var(--accent-soft) }
-.seg button + button { border-left: 1px solid var(--line) }
-.seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent) }
-button.reset { font: 500 .82rem var(--f-body); background: none; border: 0; color: var(--accent); cursor: pointer; text-decoration: underline; padding: 4px }
-.count { font: 500 .85rem var(--f-mono); font-variant-numeric: tabular-nums }
-.list { display: grid; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow) }
-.ad { display: grid; grid-template-columns: 1fr auto; gap: 6px 16px; padding: 16px 18px; border-bottom: 1px solid var(--line); border-left: 4px solid transparent }
-.ad:hover { background: var(--bg) }
-.ad:last-child { border-bottom: 0 }
-.ad.m-Hög { border-left-color: var(--good) } .ad.m-Medel { border-left-color: var(--signal) }
-.ad h3 { font-size: 1.05rem } .ad.m-Grundläggande { border-left-color: var(--line) }
-.ad > * { min-width: 0 }
-.ad h3 a { color: var(--fg); text-decoration: none } .ad h3 a:hover { color: var(--accent); text-decoration: underline }
-.ad .meta { color: var(--muted); font-size: .86rem }
-.ad .right { text-align: right; display: grid; gap: 4px; justify-items: end; align-content: start }
-.ad .date { font: 400 .8rem var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap }
-.ad .ex { grid-column: 1 / -1; color: var(--muted); font-size: .86rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden }
-.ad .chips { grid-column: 1 / -1 }
-@media (max-width: 560px) { .ad { grid-template-columns: 1fr } .ad .right { justify-items: start; text-align: left; grid-row: 1; display: flex; flex-wrap: wrap; gap: 6px } }
-.more { justify-self: center; font: 600 .92rem var(--f-body); background: var(--accent); color: var(--on-accent); border: 0; border-radius: 8px; padding: 11px 22px; cursor: pointer }
-.more:hover { filter: brightness(1.1) }
-.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .8rem; color: var(--muted) }
-.legend span { display: inline-flex; align-items: center; gap: 6px }
-.legend i { width: 4px; height: 14px; border-radius: 2px; display: inline-block }
-.empty { padding: 32px; text-align: center; color: var(--muted) }
-/* Roller */
-.roles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 16px }
-.role { display: grid; gap: 10px; align-content: start }
-.role .head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline }
-.role .num { font: 700 1.1rem var(--f-display); font-variant-numeric: tabular-nums; color: var(--accent); background: var(--accent-soft); border-radius: 8px; padding: 2px 10px }
-.role button.go { justify-self: start; font: 600 .85rem var(--f-body); background: var(--accent-soft); border: 1px solid transparent; border-radius: 8px; padding: 7px 14px; color: var(--accent); cursor: pointer }
-.role button.go:hover { border-color: var(--accent) }
-.panel > a, .role-link { font-weight: 600; text-decoration: none } .panel > a:hover { text-decoration: underline }
-/* Staplar */
-.bars { display: grid; gap: 6px }
-.brow { display: grid; grid-template-columns: minmax(110px, 200px) 1fr 44px; gap: 10px; align-items: center; font-size: .88rem }
-.brow .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
-.brow .track { height: 12px; background: var(--accent-soft); border-radius: 6px; overflow: hidden }
-.brow .fill { height: 100%; background: var(--accent); border-radius: 6px }
-.brow .fill.sig { background: var(--signal) }
-.brow .v { font: 500 .8rem var(--f-mono); text-align: right; font-variant-numeric: tabular-nums; color: var(--muted) }
-button.brow { all: unset; display: grid; grid-template-columns: minmax(110px, 200px) 1fr 44px; gap: 10px; align-items: center; font-size: .88rem; cursor: pointer; border-radius: 4px }
-button.brow:hover .lbl { color: var(--accent); text-decoration: underline }
-button.brow:focus-visible { outline: 2px solid var(--accent) }
-/* Kalender */
-.kal-next { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px }
-.kal-next .panel { display: grid; gap: 6px; align-content: start; border-top: 4px solid var(--accent) }
-.kal-next .when { font: 500 .8rem var(--f-mono); color: var(--accent); text-transform: uppercase; letter-spacing: .04em }
-.month { display: grid; gap: 0 }
-.month h3 { font: 700 1rem var(--f-display); color: var(--accent); padding: 18px 0 8px; border-bottom: 2px solid var(--accent); text-transform: capitalize }
-.ev { display: grid; grid-template-columns: 64px 1fr; gap: 4px 16px; padding: 14px 4px; border-bottom: 1px solid var(--line) }
-.ev.past { opacity: .55 }
-.ev.today { background: var(--accent-soft); border-radius: 8px; padding-inline: 10px; border-bottom-color: transparent }
-.ev .d { display: grid; justify-items: center; align-content: start; line-height: 1.1 }
-.ev .d b { font: 700 1.5rem var(--f-display); font-variant-numeric: tabular-nums }
-.ev .d span { font: 500 .72rem var(--f-mono); color: var(--muted); text-transform: uppercase }
-.ev .body { display: grid; gap: 5px; min-width: 0 }
-.ev .t { font-weight: 600; font-size: 1rem }
-.ev .meta { color: var(--muted); font-size: .86rem; display: flex; flex-wrap: wrap; gap: 4px 14px }
-.ev details { font-size: .86rem; color: var(--muted) }
-.ev details summary { cursor: pointer; color: var(--accent); font-weight: 500; width: fit-content }
-.ev details p { white-space: pre-line; margin-top: 6px; overflow-wrap: anywhere }
+.chip.plain { background: transparent; box-shadow: inset 0 0 0 1px var(--line-strong); color: var(--muted) }
+.chip.now { background: var(--accent); color: var(--on-accent); font-weight: 600 }
 .chip.typ-campus { background: var(--signal-soft); color: var(--signal) }
 .chip.typ-inl { background: var(--good-soft); color: var(--good) }
-.note { font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px }
+.chips { display: flex; flex-wrap: wrap; gap: 8px }
+button.chip { cursor: pointer; border: 0; font: 500 .82rem/1.3 var(--f-body); transition: box-shadow .15s, color .15s }
+button.chip:hover { box-shadow: inset 0 0 0 1px var(--accent); color: var(--accent) }
+
+/* ---------- Staplar ---------- */
+.bars { display: grid; gap: 4px }
+.brow, button.brow { display: grid; grid-template-columns: minmax(120px, 42%) 1fr 48px; gap: 14px; align-items: center; font-size: .93rem; padding: 6px 0; border-radius: 6px }
+button.brow { all: unset; display: grid; grid-template-columns: minmax(120px, 42%) 1fr 48px; gap: 14px; align-items: center; font-size: .93rem; padding: 6px 8px; margin-inline: -8px; border-radius: 8px; cursor: pointer; transition: background .15s }
+button.brow:hover { background: var(--surface-2) }
+button.brow:hover .lbl { color: var(--accent) }
+button.brow:focus-visible { outline: 2px solid var(--accent) }
+.brow .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.brow .track { display: block; height: 8px; background: var(--accent-soft); border-radius: 99px; overflow: hidden }
+.brow .track > .fill { display: block }
+.brow .fill { height: 100%; background: var(--accent); border-radius: 99px }
+.brow .fill.sig { background: var(--signal) }
+.brow .v { font: 500 .85rem var(--f-mono); text-align: right; font-variant-numeric: tabular-nums; color: var(--muted) }
+.bars.cols { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 48px }
+@media (max-width: 860px) { .bars.cols { grid-template-columns: 1fr } }
+/* Staplade rader för långa etiketter (t.ex. kursnamn) */
+.bars.stack { gap: 14px }
+.bars.stack .brow { grid-template-columns: 1fr 48px; grid-template-areas: "lbl v" "track track"; gap: 6px 14px; padding: 0 }
+.bars.stack .lbl { grid-area: lbl; white-space: normal; line-height: 1.35 }
+.bars.stack .track { grid-area: track }
+.bars.stack .v { grid-area: v }
+
+/* ---------- Utbildningen ---------- */
+.terms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start }
+@media (max-width: 860px) { .terms { grid-template-columns: 1fr } }
+.term { gap: 4px }
+.term-h { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-bottom: 14px; border-bottom: 2px solid var(--accent) }
+.term-h h3 { color: var(--accent); font-size: 1.25rem }
+.term-h .eyebrow { color: var(--muted) }
+.course { display: grid; gap: 4px; padding: 18px 0; border-bottom: 1px solid var(--line) }
+.course:last-child { border-bottom: 0; padding-bottom: 0 }
+.course .t { font-weight: 600; font-size: 1.02rem; line-height: 1.4 }
+.course .hp { font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums }
+.course p { color: var(--muted); font-size: .94rem; margin-top: 4px }
+
+/* ---------- Jobbannonser: filter ---------- */
+.filterpanel { gap: 20px }
+.fhead { display: flex; gap: 12px; align-items: end }
+.fhead .q { flex: 1 }
+.flabel, .fhead label, .filters label, .kws-in { display: grid; gap: 6px; font: 600 .74rem var(--f-body); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; min-width: 0 }
+.field, .fhead input, .filters input, .filters select, .kws-in input { font: 400 1rem var(--f-body); color: var(--fg); background: var(--surface-2); border: 1px solid var(--line-strong); border-radius: var(--r-sm); padding: 12px 14px; width: 100%; min-width: 0; text-transform: none; letter-spacing: 0; transition: border-color .15s, box-shadow .15s }
+.field:hover, .fhead input:hover, .filters select:hover, .kws-in input:hover { border-color: var(--accent) }
+.field:focus, .fhead input:focus, .filters select:focus, .kws-in input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); outline: none }
+.field.sm { padding: 9px 12px; font-size: .92rem; width: auto; max-width: 100% }
+.inline-label { min-width: 0; max-width: 100% }
+.ftoggle { display: none; font: 600 .95rem var(--f-body); color: var(--accent); background: var(--accent-soft); border: 1px solid transparent; border-radius: var(--r-sm); padding: 12px 16px; cursor: pointer; white-space: nowrap; align-items: center; gap: 8px }
+.ftoggle[aria-expanded="true"] { border-color: var(--accent) }
+.fcount { font: 600 .72rem var(--f-mono); background: var(--accent); color: var(--on-accent); border-radius: 10px; padding: 1px 7px }
+.more-filters { display: grid; gap: 20px }
+.filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; align-items: end }
+@media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr } }
+.bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 16px }
+.bar.end { padding-top: 16px; border-top: 1px solid var(--line) }
+.inline-label { font-size: .9rem; color: var(--muted); display: inline-flex; gap: 10px; align-items: center; flex-wrap: wrap }
+.seg { display: inline-flex; background: var(--surface-2); border: 1px solid var(--line-strong); border-radius: var(--r-sm); padding: 3px; gap: 2px }
+.seg button { font: 500 .9rem var(--f-body); background: none; color: var(--muted); border: 0; border-radius: 7px; padding: 8px 14px; cursor: pointer; transition: background .15s, color .15s }
+.seg button:hover { color: var(--fg) }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); box-shadow: 0 1px 2px rgba(0, 0, 0, .12) }
+button.reset { font: 600 .9rem var(--f-body); background: none; border: 0; color: var(--accent); cursor: pointer; padding: 6px 2px; text-decoration: underline; text-underline-offset: 3px }
+.count { font: 600 .95rem var(--f-body); font-variant-numeric: tabular-nums }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .85rem; color: var(--muted) }
+.legend span { display: inline-flex; align-items: center; gap: 7px }
+.legend i { width: 4px; height: 16px; border-radius: 2px; display: inline-block }
+
+/* ---------- Jobbannonser: lista ---------- */
+.list { display: grid; gap: 14px }
+.ad { display: grid; grid-template-columns: 1fr auto; gap: 10px 24px; padding: 24px 26px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line-strong); border-radius: var(--r); box-shadow: var(--shadow); transition: box-shadow .15s }
+.ad:hover { box-shadow: var(--shadow-hover) }
+.ad.m-Hög { border-left-color: var(--good) } .ad.m-Medel { border-left-color: var(--signal) }
+.ad > * { min-width: 0 }
+.ad .head { display: grid; gap: 4px }
+.ad h3 { font-size: 1.15rem; line-height: 1.35 }
+.ad h3 a { color: var(--fg); text-decoration: none } .ad h3 a:hover { color: var(--accent); text-decoration: underline }
+.ad .meta { color: var(--muted); font-size: .93rem }
+.ad .right { text-align: right; display: grid; gap: 6px; justify-items: end; align-content: start }
+.ad .date { font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap }
+.ad .ex { grid-column: 1 / -1; color: var(--muted); font-size: .95rem; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; max-width: 80ch }
+
+.ad .ex { min-height: 3.2em }
+.adfacts { grid-column: 1 / -1; margin: 0; display: grid; gap: 10px; padding-top: 14px; border-top: 1px solid var(--line) }
+.adfacts > div { display: grid; grid-template-columns: 76px 1fr; gap: 12px; align-items: start }
+.adfacts dt { font: 600 .72rem/2.1 var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
+.adfacts dd { margin: 0; display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; min-width: 0 }
+.chip.krav { background: var(--surface-2); color: var(--fg); box-shadow: inset 0 0 0 1px var(--line-strong) }
+.kravlist { display: flex; flex-wrap: wrap; gap: 8px 14px }
+.kravlist > span { display: inline-flex; align-items: center; gap: 6px }
+.kravlist .pct { font: 500 .82rem var(--f-mono); color: var(--muted) }
+.more, .btn { justify-self: start; font: 600 .95rem var(--f-body); background: var(--accent); color: var(--on-accent); border: 0; border-radius: var(--r-sm); padding: 12px 22px; cursor: pointer; transition: filter .15s }
+.more { justify-self: center; margin-top: 8px }
+.more:hover, .btn:hover { filter: brightness(1.1) }
+.empty { padding: 48px; text-align: center; color: var(--muted); background: var(--surface); border: 1px dashed var(--line-strong); border-radius: var(--r) }
+
+/* ---------- Yrkesroller ---------- */
+.roles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(440px, 100%), 1fr)); gap: 24px }
+.role { gap: 18px; grid-template-rows: auto auto 1fr auto auto }
+.role .head { display: flex; justify-content: space-between; gap: 12px; align-items: start }
+.role .rtitle { display: flex; gap: 14px; align-items: center; min-width: 0 }
+.ricon { flex: none; width: 44px; height: 44px; border-radius: 12px; background: var(--hero-bg); display: grid; place-items: center }
+.ricon svg { width: 24px; height: 24px; fill: none; stroke: var(--hero-warn); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round }
+.role .head { align-items: center }
+.role .num { font: 700 .95rem var(--f-body); font-variant-numeric: tabular-nums; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 3px 12px; white-space: nowrap }
+.role .desc { color: var(--muted); font-size: .95rem }
+.role dl { margin: 0; display: grid; gap: 12px; padding-top: 16px; border-top: 1px solid var(--line); align-content: start }
+.role dt { font: 600 .72rem var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
+.role dd { margin: 2px 0 0; font-size: .93rem; line-height: 1.5 }
+.role button.go { justify-self: start; font: 600 .92rem var(--f-body); background: var(--accent-soft); border: 1px solid transparent; border-radius: var(--r-sm); padding: 10px 16px; color: var(--accent); cursor: pointer; transition: border-color .15s }
+.role button.go:hover { border-color: var(--accent) }
+
+/* ---------- Vad efterfrågas: sökordsräknare ---------- */
+.kwsok { gap: 22px; background: linear-gradient(180deg, var(--accent-soft), var(--surface) 70%) }
+.kws-in { max-width: 560px }
+.kws-in input { font-size: 1.05rem; padding: 14px 16px; background: var(--surface) }
+.kws-res { display: grid; gap: 24px }
+.kws-res:empty { display: none }
+.kws-big { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; padding-top: 20px; border-top: 1px solid var(--line) }
+.kws-big b { font: 800 3rem/1 var(--f-display); color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: -.02em }
+.kws-big span { color: var(--muted); max-width: 60ch }
+.kws-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; align-items: start }
+@media (max-width: 960px) { .kws-grid { grid-template-columns: 1fr } }
+.kws-grid h4, .sub-h { margin: 0 0 6px; font: 600 .72rem var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
+
+/* ---------- Kalender ---------- */
+.kal-next { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px }
+.kal-next .panel { gap: 6px; border-top: 4px solid var(--accent); padding: 22px 24px }
+.kal-next .when { font: 600 .78rem var(--f-body); color: var(--accent); text-transform: uppercase; letter-spacing: .08em }
+.kal-next b { font-size: 1.05rem; line-height: 1.35 }
+.kal-tools { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 16px; padding: 20px 24px }
+.kal-list { display: grid; gap: 28px }
+.month { display: grid }
+.month h3 { font-size: 1.05rem; color: var(--accent); padding-bottom: 10px; border-bottom: 2px solid var(--accent); text-transform: capitalize }
+.ev { display: grid; grid-template-columns: 64px 1fr; gap: 6px 20px; padding: 20px 8px; border-bottom: 1px solid var(--line) }
+.ev.past { opacity: .55 }
+.ev.today { background: var(--accent-soft); border-radius: var(--r-sm); padding-inline: 14px; border-bottom-color: transparent; margin-top: 6px }
+.ev .d { display: grid; justify-items: center; align-content: start; line-height: 1.1 }
+.ev .d b { font: 800 1.6rem var(--f-display); font-variant-numeric: tabular-nums }
+.ev .d span { font: 600 .72rem var(--f-body); color: var(--muted); text-transform: uppercase; letter-spacing: .06em }
+.ev .body { display: grid; gap: 8px; min-width: 0 }
+.ev .t { font-weight: 600; font-size: 1.05rem; line-height: 1.4 }
+.ev .meta { color: var(--muted); font-size: .92rem; display: flex; flex-wrap: wrap; gap: 4px 18px }
+.ev details { font-size: .92rem; color: var(--muted) }
+.ev details summary { cursor: pointer; color: var(--accent); font-weight: 600; width: fit-content }
+.ev details p { white-space: pre-line; margin-top: 8px; overflow-wrap: anywhere; line-height: 1.6 }
+
+/* ---------- Mobil ---------- */
+@media (max-width: 700px) {
+  .wrap { padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)) }
+  body { font-size: 15.5px }
+  .brand { padding-block: 13px 4px }
+  .brand h1 { font-size: 1.15rem }
+  .brand h1 svg { width: 19px; height: 19px }
+  .brand .sub { display: none }
+  .brand { align-items: center }
+  .theme { padding: 6px 10px } .theme .theme-lbl { display: none }
+  nav.tabs a, .tabmore > button { padding: 11px 11px 10px; font-size: .9rem }
+  main { padding-block: 28px 64px }
+  section.view { gap: 28px }
+  .panel { padding: 20px; gap: 14px }
+  .hero { padding: 30px 22px 170px; min-height: 0 }
+  .vbanner { padding: 26px 22px; min-height: 200px }
+  .vbanner svg.banner-art { opacity: .28; width: 100% }
+  .vbanner .vb-text { max-width: none }
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px }
+  .facts div { padding: 16px 18px }
+  .facts div:first-child { grid-column: 1 / -1 }
+  .facts b { font-size: 1.6rem }
+  .ftoggle { display: inline-flex }
+  .more-filters:not(.open) { display: none }
+  .seg { width: 100% } .seg button { flex: 1; padding: 9px 6px }
+  .legend { display: none }
+  .chip { white-space: normal }
+  .ad { grid-template-columns: 1fr; padding: 20px }
+  .ad .right { justify-items: start; text-align: left; grid-row: 1; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center }
+  .kal-next { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: 82%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px }
+  .kal-next .panel { scroll-snap-align: start }
+  .kal-tools { padding: 18px 20px }
+  .kal-tools .inline-label { width: 100% } .kal-tools .field.sm { flex: 1; min-width: 0 }
+  .ev { grid-template-columns: 46px 1fr; gap: 6px 14px; padding: 18px 4px }
+  .ev .d b { font-size: 1.3rem }
+  .brow, button.brow { grid-template-columns: 1fr 44px; grid-template-areas: "lbl v" "track track"; gap: 6px 12px; padding-block: 8px }
+  .brow .lbl { grid-area: lbl; white-space: normal; line-height: 1.35 } .brow .track { grid-area: track } .brow .v { grid-area: v }
+}
 @media (prefers-reduced-motion: no-preference) { .fill { transition: width .4s ease } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
 </style>
 
 <header class="top">
   <div class="wrap">
     <div class="brand">
-      <h1><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M11 1 3 11h4l-5 7h6v7h6v-7h6l-5-7h4z" fill="var(--hdr-mark)"/></svg>Karriär i riskhantering</h1>
+      <h1><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="10" height="10" rx="2.5" fill="var(--hdr-mark)"/><rect x="13" y="1" width="10" height="10" rx="2.5" fill="var(--hdr-mark)" fill-opacity=".55"/><rect x="1" y="13" width="10" height="10" rx="2.5" fill="var(--hdr-muted)" fill-opacity=".55"/><rect x="13" y="13" width="10" height="10" rx="2.5" fill="var(--hdr-mark)"/></svg>Karriär i riskhantering</h1>
       <span class="sub">Masterprogrammet Riskhantering i samhället (SARHS), Karlstads universitet, matchat mot jobbannonser i hela Sverige</span>
+      <button class="theme" id="theme-btn" type="button" aria-label="Färgtema: följer datorn. Klicka för att byta.">
+        <svg class="ic ic-auto" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>
+        <svg class="ic ic-light" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>
+        <svg class="ic ic-dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
+        <span class="theme-lbl" id="theme-lbl">Auto</span>
+      </button>
     </div>
     <div class="tabrow">
     <nav class="tabs" id="tabs" aria-label="Flikar">
@@ -229,25 +351,26 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
 <main class="wrap">
 
 <section class="view" id="v-oversikt">
-  <div class="intro">
+  <div class="hero">
+    <!--GRAFIK:hero-->
     <span class="eyebrow">Filosofie masterexamen · huvudområde riskhantering · 120 hp</span>
     <h2>Vilka jobb passar efter en master i riskhantering?</h2>
     <p class="lead">Programmet utbildar för det förebyggande och förberedande arbetet i samhället, från vardagsolyckor till storskaliga kriser. Annonserna visar att den största efterfrågan finns inom krisberedskap och civilt försvar, följt av säkerhets- och trygghetsarbete. Det är roller som i dag växer i kommuner, regioner, länsstyrelser och statliga myndigheter.</p>
   </div>
   <div class="facts" id="facts"></div>
-  <div class="grid2">
-    <div class="panel" style="display:grid;gap:12px">
-      <h3>Vanligaste yrkesrollerna i annonserna</h3>
+  <div class="grid2 stretch">
+    <div class="panel">
+      <div class="phead"><h3>Vanligaste yrkesrollerna</h3><p>Antal annonser senaste året per roll.</p></div>
       <div class="bars" id="ov-roles"></div>
       <a href="#yrkesroller">Se alla yrkesroller</a>
     </div>
-    <div class="panel" style="display:grid;gap:12px">
-      <h3>Arbetsområden</h3>
+    <div class="panel">
+      <div class="phead"><h3>Arbetsområden</h3><p>Klicka på ett område för att se annonserna.</p></div>
       <div class="bars" id="ov-areas"></div>
       <a href="#annonser">Bläddra bland annonserna</a>
     </div>
   </div>
-  <div class="panel" style="display:grid;gap:10px">
+  <div class="panel">
     <h3>Så hänger utbildningen ihop med jobben</h3>
     <ul class="clean">
       <li><b>Krisberedskap och civilt försvar</b> bygger på kurserna <i>Hantering av naturkatastrofer 1 och 2</i> och <i>Teoribildning inom riskhantering</i>: risk- och sårbarhetsanalyser, beredskapsplanering, stabsarbete och övningar.</li>
@@ -256,65 +379,65 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
       <li><b>Klimatanpassning</b> motsvarar den valbara kursen <i>Klimatanpassning och riskreducering</i> och är ett mindre men tydligt eget spår i kommuner och myndigheter.</li>
       <li><b>Riskanalys och konsultuppdrag</b> kräver metodkunskapen från <i>Vetenskaplig metodik</i> och den kvantitativa skadeanalysen från <i>Personsäkerhet I</i>.</li>
     </ul>
-    <p class="muted" style="font-size:.88rem">Säkerhetsskyddsroller och tunga tekniska riskroller (t.ex. riskingenjör, IT-säkerhet) efterfrågar ofta kompletterande kunskap. De visas med lägre matchning i listan.</p>
+    <p class="note">Säkerhetsskyddsroller och tunga tekniska riskroller (t.ex. riskingenjör, IT-säkerhet) efterfrågar ofta kompletterande kunskap. De visas med lägre matchning i listan.</p>
   </div>
 </section>
 
 <section class="view" id="v-utbildningen" hidden>
-  <div style="display:grid;gap:10px">
+  <div class="vbanner"><!--GRAFIK:matris--><div class="vb-text">
     <span class="eyebrow">Programkod SARHS · distans med närträffar i Karlstad</span>
     <h2>Riskhantering i samhället, 120 hp</h2>
     <p>Tvärvetenskapligt masterprogram med två fokusområden: förebyggande och förberedande arbete mot mindre olyckor, och mot storskaliga kriser och katastrofer. Undervisningen är kopplad till Centrum för forskning om samhällsrisker (CRS). Kurserna läses oftast på halvfart, två parallellt, med två–tre campusträffar per termin.</p>
-  </div>
-  <div class="grid2">
-    <div class="panel" style="display:grid;gap:8px">
+  </div></div>
+  <div class="grid2 stretch">
+    <div class="panel">
       <h3>Behörighet</h3>
       <p class="muted">Kandidatexamen om minst 180 hp inom samhällsvetenskap, naturvetenskap, teknik eller vård och omsorg, med självständigt arbete om minst 15 hp. Svenska 3 och Engelska 6.</p>
     </div>
-    <div class="panel" style="display:grid;gap:8px">
+    <div class="panel">
       <h3>Yrkesroller enligt KAU</h3>
       <p class="muted">Säkerhets- eller beredskapssamordnare, säkerhetsstrateg, verksamhetsutvecklare, krisberedskapssamordnare och riskkonsult. Tidigare studenter arbetar bland annat på kommuner, MSB (i dag Myndigheten för civilt försvar), länsstyrelser, Trafikverket, Strålsäkerhetsmyndigheten, SOS Alarm, regioner och konsultbolag som WSP, Sweco och Ramböll.</p>
     </div>
   </div>
-  <div class="grid2" id="terms"></div>
+  <div class="terms" id="terms"></div>
   <p class="note">Källa: <a href="https://www.kau.se/utbildning/program-och-kurser/program/SARHS" target="_blank" rel="noopener">kau.se/…/program/SARHS</a> och respektive kurssida. Kurssammanfattningarna är förkortade. Kontrollera alltid aktuell utbildningsplan hos KAU.</p>
 </section>
 
 <section class="view" id="v-kalender" hidden>
-  <div style="display:grid;gap:10px">
+  <div class="vbanner"><!--GRAFIK:tidslinje--><div class="vb-text">
     <h2>Kurskalender</h2>
-    <p class="muted" id="kal-sub"></p>
-  </div>
-  <div id="kal-wrap">
-    <div style="display:grid;gap:10px"><span class="eyebrow">Härnäst</span><div class="kal-next" id="kal-next"></div></div>
-    <div class="panel bar" style="margin-top:20px">
-      <label class="muted" style="font-size:.85rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap">Kurs
-        <select id="kal-kurs" style="font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;max-width:100%"></select>
+    <p class="muted" id="kal-sub" hidden></p>
+  </div></div>
+  <div id="kal-wrap" class="stack lg">
+    <div class="stack"><span class="sub-h">Härnäst</span><div class="kal-next" id="kal-next"></div></div>
+    <div class="panel kal-tools">
+      <label class="inline-label">Kurs
+        <select id="kal-kurs" class="field sm"></select>
       </label>
       <div class="seg" role="group" aria-label="Tidsperiod" id="kal-tid">
         <button data-v="kommande" aria-pressed="true">Kommande</button>
         <button data-v="alla" aria-pressed="false">Hela terminen</button>
       </div>
     </div>
-    <div id="kal-list"></div>
+    <div id="kal-list" class="kal-list"></div>
   </div>
   <p class="note">Tider och salar är preliminära enligt TimeEdit. Kontrollera alltid i Canvas och TimeEdit inför varje träff. Länkar till Zoom finns i Canvas.</p>
 </section>
 
 <section class="view" id="v-yrkesroller" hidden>
-  <div style="display:grid;gap:10px">
+  <div class="vbanner"><!--GRAFIK:natverk--><div class="vb-text">
     <h2>Yrkesroller</h2>
     <p>Annonsrubrikerna grupperade i yrkesroller. Antalet är annonser senaste året. Klicka för att se annonserna för en roll.</p>
-  </div>
+  </div></div>
   <div class="roles" id="roles"></div>
 </section>
 
 <section class="view" id="v-annonser" hidden>
-  <div style="display:grid;gap:10px">
+  <div class="vbanner"><!--GRAFIK:karta--><div class="vb-text">
     <h2>Jobbannonser</h2>
     <p class="muted">Aktuella annonser och arkiverade annonser upp till ett år gamla. Länken till en arkiverad annons kan sluta fungera när den tagits bort ur Platsbanken.</p>
-  </div>
-  <div class="panel" style="display:grid;gap:14px">
+  </div></div>
+  <div class="panel filterpanel">
     <div class="fhead">
       <label class="q">Sök<input id="f-q" type="search" placeholder="Titel, arbetsgivare, ort…"></label>
       <button class="ftoggle" id="ftoggle" aria-expanded="false" aria-controls="more-filters">Filter<span class="fcount" id="fcount" hidden></span></button>
@@ -337,8 +460,8 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
         <button data-v="Hög" aria-pressed="false">Hög</button>
         <button data-v="Medel+" aria-pressed="false">Medel+</button>
       </div>
-      <label class="muted" style="font-size:.85rem;display:flex;gap:6px;align-items:center">Sortera
-        <select id="f-sort" style="font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:5px 8px">
+      <label class="inline-label">Sortera
+        <select id="f-sort" class="field sm">
           <option value="datum">Senast publicerad</option>
           <option value="match">Bäst matchning</option>
           <option value="ort">Ort A–Ö</option>
@@ -347,7 +470,7 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
       </label>
     </div>
     </div>
-    <div class="bar"><span class="count" id="count"></span>
+    <div class="bar end"><span class="count" id="count"></span>
       <span class="legend"><span><i style="background:var(--good)"></i>Hög matchning</span><span><i style="background:var(--signal)"></i>Medel</span><span><i style="background:var(--line)"></i>Grundläggande</span></span>
       <button class="reset" id="reset">Rensa filter</button></div>
   </div>
@@ -356,21 +479,33 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
 </section>
 
 <section class="view" id="v-efterfragat" hidden>
-  <div style="display:grid;gap:10px">
+  <div class="vbanner"><!--GRAFIK:hot--><div class="vb-text">
     <h2>Vad efterfrågas i annonserna?</h2>
     <p>Hur ofta centrala begrepp och krav nämns i annonstexterna, och vilka kurser i programmet de motsvarar. Klicka på en arbetsgivare eller ett län för att filtrera annonserna.</p>
+  </div></div>
+  <div class="panel kwsok">
+    <div class="phead">
+      <h3>Hur många annonser nämner ett ord?</h3>
+      <p>Söker i rubrik, arbetsgivare, ort och hela annonstexten bland de <span id="kws-tot"></span> annonserna i urvalet. Flera ord betyder att alla måste finnas med.</p>
+    </div>
+    <label class="kws-in">Sökord<input id="kws-q" type="search" placeholder="t.ex. krisledning, GIS, säkerhetsprövning" autocomplete="off"></label>
+    <div class="chips" id="kws-sugg"></div>
+    <div id="kws-res" class="kws-res" aria-live="polite"></div>
   </div>
-  <div class="grid2">
-    <div class="panel" style="display:grid;gap:12px"><h3>Begrepp och krav i annonstexten</h3><div class="bars" id="kw"></div></div>
-    <div class="panel" style="display:grid;gap:12px"><h3>Kurser som annonserna anknyter till</h3><div class="bars" id="kc"></div></div>
-    <div class="panel" style="display:grid;gap:12px"><h3>Flest annonser per arbetsgivare</h3><div class="bars" id="emp"></div></div>
-    <div class="panel" style="display:grid;gap:12px"><h3>Annonser per län</h3><div class="bars" id="lan"></div></div>
+  <div class="grid2 stretch">
+    <div class="panel"><div class="phead"><h3>Vanliga krav</h3><p>Andel av annonserna som ställer kravet. Meriterande räknas inte.</p></div><div class="bars stack" id="krav"></div></div>
+    <div class="panel"><div class="phead"><h3>Kurser som annonserna anknyter till</h3><p>Antal annonser vars innehåll motsvarar kursen.</p></div><div class="bars stack" id="kc"></div></div>
   </div>
+  <div class="grid2 stretch">
+    <div class="panel"><div class="phead"><h3>Begrepp i annonstexten</h3><p>De 12 vanligaste begreppen, antal annonser som nämner dem.</p></div><div class="bars" id="kw"></div></div>
+    <div class="panel"><div class="phead"><h3>Flest annonser per arbetsgivare</h3><p>Klicka för att se arbetsgivarens annonser.</p></div><div class="bars" id="emp"></div></div>
+  </div>
+  <div class="panel"><div class="phead"><h3>Annonser per län</h3><p>Klicka för att se annonserna i länet.</p></div><div class="bars cols" id="lan"></div></div>
 </section>
 
 <section class="view" id="v-om" hidden>
-  <h2>Om datan</h2>
-  <div class="panel" style="display:grid;gap:12px">
+  <div class="vbanner"><!--GRAFIK:flode--><div class="vb-text"><h2>Om datan</h2><p>Varifrån annonserna kommer, hur urvalet görs och hur matchningen räknas.</p></div></div>
+  <div class="panel prose">
     <p>Annonserna kommer från Arbetsförmedlingens öppna API:er (JobTech JobSearch för aktuella annonser och Historical Ads för arkiverade). De hämtades <b id="om-date"></b> och omfattar annonser publicerade från <b id="om-from"></b>.</p>
     <p>Urval: sökning på ett 40-tal begrepp kopplade till utbildningen (t.ex. beredskapssamordnare, risk- och sårbarhetsanalys, kontinuitetsplanering, klimatanpassning, skadeförebyggande, trygghetssamordnare). Rubriker utan koppling till området och rena IT-säkerhets-, vakt-, brandmans- och vårdtjänster sorterades bort. Dubbletter med samma titel, arbetsgivare och ort slogs ihop.</p>
     <p><b>Matchning</b> räknas ut från hur många av programmets kursområden som annonstexten anknyter till, plus en bonus om titeln är en tydlig riskhanteringsroll. Hög betyder bred överlapp med utbildningen. Grundläggande betyder att rollen ligger i området men kräver annat i första hand. Måttet är en tumregel och ingen bedömning av behörighet.</p>
@@ -381,6 +516,7 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
 </main>
 
 <script>
+/*__LOGIK__*/
 const DATA = __DATA__;
 const ADS = DATA.annonser;
 // Kursnamn som visas på sidan (annonsdatan använder kurskoder internt)
@@ -427,15 +563,26 @@ const ROLES = [
   ["Krisledning & krisstöd", /kris/i, "Krishantering, krisledning och krisstöd, ofta i regioner, myndigheter och företag."],
   ["Analytiker & utredare", /analytiker|utredare|handläggare|strateg|samordnare|specialist|expert|projektledare/i, "Andra analytiker-, utredar- och samordnarroller med koppling till risk, beredskap eller säkerhet."],
 ];
-ADS.forEach(a => { const r = ROLES.find(r => r[1].test(a.rubrik)); a.roll = r ? r[0] : "Övrigt"; a._s = (a.rubrik + " " + a.arbetsgivare + " " + a.kommun + " " + a.lan).toLowerCase(); });
+ADS.forEach(a => { const r = ROLES.find(r => r[1].test(a.rubrik)); a.roll = r ? r[0] : "Övrigt"; a._s = (a.rubrik + " " + a.arbetsgivare + " " + a.kommun + " " + a.lan + " " + a.utdrag).toLowerCase(); });
+// Hela annonstexterna ligger i data/annonstext.json och laddas först när någon söker
+let TEXT_STATUS = "ej laddad", textPromise = null;
+function loadText() {
+  if (!textPromise) {
+    TEXT_STATUS = "laddar";
+    textPromise = fetch("data/annonstext.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(t => { ADS.forEach(a => { if (t[a.id]) a._s += " " + t[a.id]; }); TEXT_STATUS = "klar"; })
+      .catch(() => { TEXT_STATUS = "fel"; });
+  }
+  return textPromise;
+}
+// Alla ord måste finnas med (OCH-sökning)
+const matchQ = (a, q) => makeMatcher(q)(a._s);
 
 const $ = id => document.getElementById(id);
-const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const count = (arr, f) => { const m = new Map(); arr.forEach(x => [].concat(f(x)).forEach(k => k && m.set(k, (m.get(k) || 0) + 1))); return [...m].sort((a, b) => b[1] - a[1]); };
 function bars(el, rows, opts = {}) {
-  const max = Math.max(1, ...rows.map(r => r[1]));
+  const max = opts.max || Math.max(1, ...rows.map(r => r[1]));
   el.innerHTML = rows.map(([k, v]) => {
-    const inner = `<span class="lbl" title="${esc(k)}">${esc(opts.label ? opts.label(k) : k)}</span><span class="track"><span class="fill${opts.sig ? " sig" : ""}" style="width:${(v / max * 100).toFixed(1)}%"></span></span><span class="v">${v}</span>`;
+    const inner = `<span class="lbl" title="${esc(k)}">${esc(opts.label ? opts.label(k) : k)}</span><span class="track"><span class="fill${opts.sig ? " sig" : ""}" style="width:${(v / max * 100).toFixed(1)}%"></span></span><span class="v">${esc(opts.val ? opts.val(v) : v)}</span>`;
     return opts.click ? `<button class="brow" data-k="${esc(k)}">${inner}</button>` : `<div class="brow">${inner}</div>`;
   }).join("");
   if (opts.click) el.querySelectorAll("button").forEach(b => b.onclick = () => opts.click(b.dataset.k));
@@ -454,6 +601,25 @@ bars($("ov-areas"), count(ADS, a => a.omraden), { click: k => go({ omr: k }), si
 $("terms").innerHTML = TERMS.map(([t, cs]) => `<div class="panel term"><div class="term-h"><h3>${t}</h3><span class="eyebrow">${cs.reduce((s, c) => s + (c[3] === "Obl." ? c[2] : 0), 0)} hp obl.</span></div>` +
   cs.map(c => `<div class="course"><span class="t">${esc(c[1])}</span><span class="hp">${String(c[2]).replace(".", ",")} hp · ${c[3] === "Obl." ? "Obligatorisk" : "Valfri"}</span><p>${esc(c[4])}</p></div>`).join("") + `</div>`).join("");
 
+// Ikoner för yrkesrollerna (linjeikoner, 24 x 24)
+const ROLL_IKON = {
+  "Beredskapssamordnare": "M7 18v-5a5 5 0 0 1 10 0v5M5 18h14v3H5zM12 3v2M4.6 7.5 3 6.6M19.4 7.5 21 6.6",
+  "Beredskapshandläggare & -planerare": "M9 3h6v3H9zM7 4.5H5V21h14V4.5h-2M8.5 11h7M8.5 15h4",
+  "Civilt försvar & totalförsvar": "M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z",
+  "Säkerhetssamordnare": "M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6zM8.5 12l2.5 2.5 4.5-5",
+  "Säkerhetsstrateg & säkerhetschef": "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM15.5 8.5 13.5 13.5 8.5 15.5 10.5 10.5z",
+  "Säkerhetsskydd": "M5 11h14v10H5zM8 11V8a4 4 0 0 1 8 0v3M12 15v2",
+  "Trygghet & brottsförebyggande": "M3 11l9-7 9 7M5 10v10h14V10M10 20v-5h4v5",
+  "Kontinuitetshantering": "M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9M18.5 3v4.5H14M5.5 21v-4.5H10",
+  "Riskanalytiker & riskkonsult": "M4 20V4M4 20h16M7.5 15l4-5 3 3 5-7",
+  "Klimatanpassning": "M7 15a4 4 0 0 1 0-8 5 5 0 0 1 9.6-1.5A3.5 3.5 0 0 1 17 15zM8 18.5l-1 2.5M12 18.5l-1 2.5M16 18.5l-1 2.5",
+  "Skadeförebyggande & räddningstjänst": "M9.5 3h5v6.5H21v5h-6.5V21h-5v-6.5H3v-5h6.5z",
+  "Krisledning & krisstöd": "M3 10v4h4l7 5V5L7 10zM17.5 9a4 4 0 0 1 0 6M20 6.5a7.5 7.5 0 0 1 0 11",
+  "Analytiker & utredare": "M10.5 4a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM20 20l-4.8-4.8",
+  "Övrigt": "M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z",
+};
+const rollIkon = n => `<span class="ricon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="${ROLL_IKON[n] || ROLL_IKON["Övrigt"]}"/></svg></span>`;
+
 // Yrkesroller
 $("roles").innerHTML = [...ROLES.map(r => r[0]), "Övrigt"].map(name => {
   const ads = ADS.filter(a => a.roll === name); if (!ads.length) return "";
@@ -461,21 +627,49 @@ $("roles").innerHTML = [...ROLES.map(r => r[0]), "Övrigt"].map(name => {
   const emps = count(ads, a => a.arbetsgivare).slice(0, 3).map(e => e[0]);
   const kurser = count(ads, a => a.kurser.filter(isCourse)).slice(0, 3).map(k => k[0]);
   const ak = ads.filter(a => a.status === "aktuell").length;
-  const titles = count(ads, a => a.rubrik.replace(/\s+(till|sökes|på|i|vid|inom|för)\s.*$/i, "").replace(/[,–-]\s.*$/, "").trim()).slice(0, 4).map(t => t[0]);
-  return `<div class="panel role"><div class="head"><h3>${esc(name)}</h3><span class="num">${ads.length}</span></div>
-    <p class="muted" style="font-size:.9rem">${esc(r ? r[2] : "Annonser som inte passade in i någon av grupperna ovan.")}</p>
-    <div style="font-size:.86rem"><span class="eyebrow">Exempel på titlar</span><br>${titles.map(esc).join(" · ")}</div>
-    <div style="font-size:.86rem"><span class="eyebrow">Vanliga arbetsgivare</span><br>${emps.map(esc).join(" · ")}</div>
+  const titles = count(ads, a => kortTitel(a.rubrik)).slice(0, 4).map(t => t[0]);
+  return `<div class="panel role"><div class="head"><div class="rtitle">${rollIkon(name)}<h3>${esc(name)}</h3></div><span class="num">${ads.length} annonser</span></div>
+    <p class="desc">${esc(r ? r[2] : "Annonser som inte passade in i någon av grupperna ovan.")}</p>
+    <dl><div><dt>Exempel på titlar</dt><dd>${titles.map(esc).join(" · ")}</dd></div>
+    <div><dt>Vanliga krav</dt><dd class="kravlist">${count(ads, a => a.krav).slice(0, 4).map(([k, v]) => `<span><span class="chip krav">${esc(k)}</span><span class="pct">${procent(v, ads.length)}</span></span>`).join("")}</dd></div>
+    <div><dt>Vanliga arbetsgivare</dt><dd>${emps.map(esc).join(" · ")}</dd></div></dl>
     <div class="chips">${kurser.map(k => `<span class="chip">${esc(cname(k))}</span>`).join("")}${ak ? `<span class="chip good">${ak} aktuella</span>` : ""}</div>
     <button class="go" data-r="${esc(name)}">Visa annonserna</button></div>`;
 }).join("");
 $("roles").querySelectorAll("button.go").forEach(b => b.onclick = () => go({ roll: b.dataset.r }));
 
 // Efterfrågat
-bars($("kw"), count(ADS, a => a.nyckelord).slice(0, 18));
+bars($("kw"), count(ADS, a => a.nyckelord).slice(0, 12));
+
+// Sökordsräknare
+$("kws-tot").textContent = ADS.length.toLocaleString("sv-SE");
+const KWS_SUGG = ["krisledning", "risk- och sårbarhetsanalys", "kontinuitet", "säkerhetsprövning", "körkort", "projektledning", "GIS", "statistik", "klimatanpassning", "övningar"];
+$("kws-sugg").innerHTML = KWS_SUGG.map(w => `<button class="chip plain" type="button" data-w="${esc(w)}">${esc(w)}</button>`).join("");
+$("kws-sugg").querySelectorAll("button").forEach(b => b.onclick = () => { $("kws-q").value = b.dataset.w; kwsRun(); });
+function kwsRun() {
+  const q = $("kws-q").value.trim();
+  if (!q) { $("kws-res").innerHTML = ""; return; }
+  if (TEXT_STATUS !== "klar" && TEXT_STATUS !== "fel") { $("kws-res").innerHTML = `<p class="muted">Laddar annonstexterna…</p>`; loadText().then(kwsRun); return; }
+  const hits = ADS.filter(a => matchQ(a, q));
+  const n = hits.length, akt = hits.filter(a => a.status === "aktuell").length, pct = (n / ADS.length * 100);
+  const top = (f, k = 5) => count(hits, f).slice(0, k);
+  const list = rows => rows.length ? `<div class="bars">${rows.map(([k, v]) => `<div class="brow"><span class="lbl" title="${esc(k)}">${esc(k)}</span><span class="track"><span class="fill" style="width:${(v / rows[0][1] * 100).toFixed(1)}%"></span></span><span class="v">${v}</span></div>`).join("")}</div>` : `<p class="muted">–</p>`;
+  $("kws-res").innerHTML = `
+    <div class="kws-big"><b>${n.toLocaleString("sv-SE")}</b><span>annonser av ${ADS.length.toLocaleString("sv-SE")} (${pct.toLocaleString("sv-SE", { maximumFractionDigits: 1 })} %) nämner <b style="font:inherit;color:var(--fg)">”${esc(q)}”</b>. ${akt} av dem är aktuella just nu.</span></div>
+    ${TEXT_STATUS === "fel" ? `<p class="muted small">Annonstexterna kunde inte laddas, så sökningen gäller bara rubrik, arbetsgivare, ort och utdrag.</p>` : ""}
+    ${n ? `<div class="kws-grid">
+      <div><h4>Yrkesroller</h4>${list(top(a => a.roll))}</div>
+      <div><h4>Arbetsområden</h4>${list(top(a => a.omraden))}</div>
+      <div><h4>Län</h4>${list(top(a => a.lan))}</div>
+    </div>
+    <button class="btn" type="button" id="kws-go">Visa de ${n.toLocaleString("sv-SE")} annonserna</button>` : ""}`;
+  if (n) $("kws-go").onclick = () => go({ q });
+}
+let kwsT; $("kws-q").oninput = () => { clearTimeout(kwsT); kwsT = setTimeout(kwsRun, 200); };
 bars($("kc"), count(ADS, a => a.kurser.filter(isCourse)), { label: cname, sig: true });
-bars($("emp"), count(ADS, a => a.arbetsgivare).slice(0, 15), { click: k => go({ q: k }) });
+bars($("emp"), count(ADS, a => a.arbetsgivare).slice(0, 12), { click: k => go({ q: k }) });
 bars($("lan"), count(ADS, a => a.lan), { click: k => go({ lan: k }) });
+bars($("krav"), count(ADS, a => a.krav), { max: ADS.length, val: v => procent(v, ADS.length) });
 $("om-date").textContent = DATA.hamtad; $("om-date2").textContent = DATA.hamtad; $("om-from").textContent = DATA.fran;
 
 // Annonser
@@ -489,7 +683,7 @@ kommunOpts();
 const MR = { "Hög": 3, "Medel": 2, "Grundläggande": 1 };
 function filtered() {
   const q = st.q.toLowerCase().trim();
-  let r = ADS.filter(a => (!q || a._s.includes(q)) && (!st.lan || a.lan === st.lan) && (!st.kommun || a.kommun === st.kommun) && (!st.omr || a.omraden.includes(st.omr)) && (!st.roll || a.roll === st.roll)
+  let r = ADS.filter(a => (!q || matchQ(a, q)) && (!st.lan || a.lan === st.lan) && (!st.kommun || a.kommun === st.kommun) && (!st.omr || a.omraden.includes(st.omr)) && (!st.roll || a.roll === st.roll)
     && (st.status === "alla" || a.status === st.status) && (st.match === "alla" || (st.match === "Hög" ? a.match === "Hög" : a.match !== "Grundläggande")));
   const s = { datum: (a, b) => b.publicerad.localeCompare(a.publicerad), match: (a, b) => b.poang - a.poang || b.publicerad.localeCompare(a.publicerad),
     ort: (a, b) => a.kommun.localeCompare(b.kommun, "sv") || b.publicerad.localeCompare(a.publicerad), sista: (a, b) => (a.status !== "aktuell") - (b.status !== "aktuell") || (a.sista || "9").localeCompare(b.sista || "9") }[st.sort];
@@ -498,14 +692,17 @@ function filtered() {
 const fmt = d => d ? new Date(d).toLocaleDateString("sv-SE", { day: "numeric", month: "short", year: "numeric" }) : "";
 function renderList() {
   const r = filtered();
-  $("count").textContent = `${r.length.toLocaleString("sv-SE")} annonser`;
+  $("count").textContent = `${r.length.toLocaleString("sv-SE")} annonser` + (st.q.trim() ? (TEXT_STATUS === "klar" ? " (sökt i hela annonstexten)" : TEXT_STATUS === "laddar" ? " (laddar annonstexterna…)" : TEXT_STATUS === "fel" ? " (sökt i rubrik och utdrag)" : "") : "");
   $("list").innerHTML = r.length ? r.slice(0, st.shown).map(a => `<article class="ad m-${a.match}">
-    <div style="display:grid;gap:3px;min-width:0"><h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.rubrik)}</a></h3>
+    <div class="head"><h3>${sakerAnnonsUrl(a.url) ? `<a href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">${esc(a.rubrik)}</a>` : esc(a.rubrik)}</h3>
       <div class="meta">${esc(a.arbetsgivare)} · <b>${esc(a.kommun)}</b>, ${esc(a.lan)}${a.omfattning ? " · " + esc(a.omfattning) : ""}</div></div>
     <div class="right"><span class="chip ${a.status === "aktuell" ? "now" : "plain"}">${a.status === "aktuell" ? "Aktuell" : "Arkiverad"}</span>
-      <span class="date">Publ. ${fmt(a.publicerad)}</span>${a.status === "aktuell" && a.sista ? `<span class="date">Sista dag ${fmt(a.sista)}</span>` : ""}</div>
-    ${a.utdrag ? `<p class="ex">${esc(a.utdrag)}</p>` : ""}
-    <div class="chips"><span class="chip ${a.match === "Hög" ? "good" : a.match === "Medel" ? "" : "plain"}">Matchning: ${a.match}</span>${a.omraden.map(o => `<span class="chip sig">${esc(o)}</span>`).join("")}${a.kurser.filter(isCourse).slice(0, 3).map(k => `<span class="chip plain">${esc(cname(k))}</span>`).join("")}</div>
+      <span class="date">Publicerad ${fmt(a.publicerad)}</span><span class="date">${a.status === "aktuell" && a.sista ? `Sista dag ${fmt(a.sista)}` : "Ansökan stängd"}</span></div>
+    <p class="ex">${esc(a.utdrag || "Ingen beskrivning i annonsen.")}</p>
+    <dl class="adfacts">
+      <div><dt>Krav</dt><dd>${(a.krav || []).length ? a.krav.map(k => `<span class="chip krav">${esc(k)}</span>`).join("") : `<span class="muted small">Inga tydliga krav i annonstexten</span>`}</dd></div>
+      <div><dt>Passar</dt><dd><span class="chip ${a.match === "Hög" ? "good" : a.match === "Medel" ? "sig" : "plain"}">Matchning: ${a.match}</span>${a.omraden.slice(0, 1).map(o => `<span class="chip">${esc(o)}</span>`).join("")}${a.kurser.filter(isCourse).slice(0, 2).map(k => `<span class="chip plain">${esc(cname(k))}</span>`).join("")}</dd></div>
+    </dl>
   </article>`).join("") : `<div class="empty">Inga annonser matchar filtren. Prova att rensa ett filter.</div>`;
   $("more").hidden = r.length <= st.shown;
   if (typeof fcount === "function") fcount();
@@ -516,40 +713,34 @@ function syncControls() {
   ["status", "match"].forEach(k => $("f-" + k).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === st[k])));
 }
 const upd = (k, v) => { st[k] = v; st.shown = 50; if (k === "lan") { st.kommun = ""; kommunOpts(); } renderList(); };
-$("f-q").oninput = e => upd("q", e.target.value);
+$("f-q").oninput = e => { upd("q", e.target.value); if (TEXT_STATUS === "ej laddad") loadText().then(renderList); };
 ["lan", "kommun", "omr", "roll", "sort"].forEach(k => $("f-" + k).onchange = e => upd(k, e.target.value));
 ["status", "match"].forEach(k => $("f-" + k).querySelectorAll("button").forEach(b => b.onclick = () => { upd(k, b.dataset.v); syncControls(); }));
 $("more").onclick = () => { st.shown += 50; renderList(); };
 $("ftoggle").onclick = () => { const o = $("more-filters").classList.toggle("open"); $("ftoggle").setAttribute("aria-expanded", o); };
-function fcount() { const n = ["lan", "kommun", "omr", "roll"].filter(k => st[k]).length + (st.status !== "alla") + (st.match !== "alla"); $("fcount").hidden = !n; $("fcount").textContent = n; }
+function fcount() { const n = aktivaFilter(st); $("fcount").hidden = !n; $("fcount").textContent = n; }
 $("reset").onclick = () => { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", status: "alla", match: "alla", shown: 50 }); syncControls(); renderList(); };
 function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", shown: 50 }, f); syncControls(); renderList(); location.hash = "annonser"; window.scrollTo(0, 0); }
 
 // Kurskalender
 (function () {
   const K = DATA.kalender;
-  if (!K || !K.handelser.length) { $("kal-sub").textContent = "Ingen kalenderfil hittades. Lägg den som data/kurskalender.ics och bygg om sidan."; $("kal-wrap").hidden = true; return; }
+  if (!K || !K.handelser.length) { $("kal-sub").hidden = false; $("kal-sub").textContent = "Ingen kalenderfil hittades. Lägg den som data/kurskalender.ics och bygg om sidan."; $("kal-wrap").hidden = true; return; }
   const FULL = Object.fromEntries(TERMS.flatMap(t => t[1].map(c => [c[0], c[1]])));
   const name = k => FULL[k] || k || "Övrigt";
   const pad = n => String(n).padStart(2, "0");
   const now = new Date(); const today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
   const EV = K.handelser.map(e => {
-    let t = e.titel;
-    const n = name(e.kod).split(":")[0];
-    if (t.toLowerCase().startsWith(n.toLowerCase())) t = t.slice(n.length).replace(/^\s*[–-]\s*/, "");
-    t = t.replace(/^Kursstart\s*[–-]\s*.*/, "Kursstart");
-    t = t.charAt(0).toUpperCase() + t.slice(1);
-    const txt = (e.titel + " " + e.plats).toLowerCase();
-    const typ = e.uppgift || /inlämning|deadline/.test(txt) ? ["Uppgift/inlämning", "typ-inl"] : /kursstart/.test(txt) ? ["Kursstart", ""] : /zoom|webbinar|canvas/.test(txt) && !/campus|sal /.test(txt) ? ["Distans", "plain"] : /campus|sal |universitet/.test(txt) ? ["Campus", "typ-campus"] : ["Övrigt", "plain"];
-    return { ...e, dag: e.start.slice(0, 10), rubrik: t, kurs: name(e.kod), typ };
+    const kurs = name(e.kod);
+    return { ...e, dag: e.start.slice(0, 10), rubrik: kalRubrik(e.titel, kurs), kurs, typ: kalTyp(e) };
   });
   const sv = (d, o) => new Date(d + (d.length === 10 ? "T12:00" : "")).toLocaleDateString("sv-SE", o);
-  const klock = e => e.heldag ? "Heldag" : e.start.slice(11) === e.slut.slice(11) ? `senast ${e.start.slice(11)}` : `${e.start.slice(11)}–${e.slut.slice(11)}`;
-  $("kal-sub").textContent = `${K.handelser.length} händelser från ${sv(EV[0].dag, { day: "numeric", month: "long", year: "numeric" })} till ${sv(EV[EV.length - 1].dag, { day: "numeric", month: "long", year: "numeric" })}. Kalenderfilen ändrades senast ${sv(K.andrad, { day: "numeric", month: "long", year: "numeric" })}.`;
+  $("kal-sub").hidden = false;
+  $("kal-sub").textContent = `Kalendern uppdaterades senast ${sv(K.andrad, { day: "numeric", month: "long", year: "numeric" })}.`;
   const kurser = [...new Set(EV.map(e => e.kurs))].sort((a, b) => a.localeCompare(b, "sv"));
   $("kal-kurs").innerHTML = `<option value="">Alla kurser</option>` + kurser.map(k => `<option>${esc(k)}</option>`).join("");
   const ks = { kurs: "", tid: "kommande" };
-  const card = e => `<div class="panel"><span class="when">${e.dag === today ? "Idag" : sv(e.dag, { weekday: "short", day: "numeric", month: "short" })} · ${klock(e)}</span><b>${esc(e.rubrik)}</b><span class="muted" style="font-size:.86rem">${esc(e.kurs)}</span><span class="muted" style="font-size:.86rem">${esc(e.plats)}</span></div>`;
+  const card = e => `<div class="panel"><span class="when">${e.dag === today ? "Idag" : sv(e.dag, { weekday: "short", day: "numeric", month: "short" })} · ${klock(e)}</span><b>${esc(e.rubrik)}</b><span class="muted small">${esc(e.kurs)}</span><span class="muted small">${esc(e.plats)}</span></div>`;
   function render() {
     const up = EV.filter(e => e.dag >= today);
     $("kal-next").innerHTML = up.length ? up.slice(0, 3).map(card).join("") : `<p class="muted">Inga kommande händelser i kalenderfilen.</p>`;
@@ -571,11 +762,25 @@ function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: 
   render();
 })();
 
+// Färgtema: Auto (följer datorn) → Ljust → Mörkt. Sparas i webbläsaren.
+(function () {
+  const btn = $("theme-btn"), NAMN = { auto: "Auto", light: "Ljust", dark: "Mörkt" }, NASTA = { auto: "light", light: "dark", dark: "auto" };
+  const las = () => { try { return localStorage.getItem("tema") || "auto"; } catch (e) { return "auto"; } };
+  function satt(m) {
+    if (m === "auto") document.documentElement.removeAttribute("data-theme"); else document.documentElement.setAttribute("data-theme", m);
+    btn.dataset.mode = m; $("theme-lbl").textContent = NAMN[m];
+    btn.setAttribute("aria-label", `Färgtema: ${m === "auto" ? "följer datorn" : NAMN[m].toLowerCase()}. Klicka för att byta till ${NAMN[NASTA[m]].toLowerCase()}.`);
+  }
+  btn.onclick = () => { const m = NASTA[btn.dataset.mode || "auto"]; try { m === "auto" ? localStorage.removeItem("tema") : localStorage.setItem("tema", m); } catch (e) {} satt(m); };
+  satt(las());
+})();
+
 // Flikar
 const VIEWS = ["oversikt", "utbildningen", "kalender", "yrkesroller", "annonser", "efterfragat", "om"];
 function route() {
   const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "oversikt";
   VIEWS.forEach(x => $("v-" + x).hidden = x !== v);
+  if (v === "efterfragat" && TEXT_STATUS === "ej laddad") loadText();
   document.querySelectorAll("#tabs a").forEach(a => a.getAttribute("href") === "#" + v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   layoutTabs();
 }

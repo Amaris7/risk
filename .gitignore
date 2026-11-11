@@ -3,3 +3,7 @@ _site/
 __pycache__/
 .DS_Store
 .claude/
+node_modules/
+test-results/
+playwright-report/
+tester/webblasare/_xss.html
