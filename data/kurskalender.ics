@@ -1059,13 +1059,14 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20261103T092200Z
 UID:event-calendar-event-119265
-DTSTART:20270111T071500Z
-DTEND:20270111T111500Z
+DTSTART:20270114T071500Z
+DTEND:20270114T111500Z
 CLASS:PUBLIC
 DESCRIPTION:Obligatorisk digital salstentamen (Inspera). Kontrollera om du 
- behöver anmäla dig till tentan.\n\nSal publiceras ca 1 vecka innan i [te
- ntamenslistan] (https://www3.kau.se/tentamenslista/tentamenslista_vecka.ht
- ml). Omtenta preliminärt 25/3 2027.
+ behöver anmäla dig till tentan.\n\nFlyttad från 11/1 till 14/1 enligt u
+ ppdaterad studiehandledning (11 nov).\n\nSal publiceras ca 1 vecka innan i
+  [tentamenslistan] (https://www3.kau.se/tentamenslista/tentamenslista_veck
+ a.html). Omtenta preliminärt 25/3 2027.
 LOCATION:Karlstads universitet / KAU lärcenter (sal meddelas 1 v innan)
 SEQUENCE:0
 SUMMARY:RHAD12: Salstentamen (campus) [RHAD14\, ht26]
@@ -1073,9 +1074,10 @@ URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
  month=01&year=2027#calendar_event_119265
 X-ALT-DESC;FMTTYPE=text/html:<p><strong>Obligatorisk</strong> digital salst
  entamen (Inspera). Kontrollera om du behöver anmäla dig till tentan.</p>
- <p>Sal publiceras ca 1 vecka innan i <a href="https://www3.kau.se/tentamen
- slista/tentamenslista_vecka.html">tentamenslistan</a>. Omtenta preliminär
- t 25/3 2027.</p>
+ <p>Flyttad från 11/1 till 14/1 enligt uppdaterad studiehandledning (11 no
+ v).</p><p>Sal publiceras ca 1 vecka innan i <a href="https://www3.kau.se/t
+ entamenslista/tentamenslista_vecka.html">tentamenslistan</a>. Omtenta prel
+ iminärt 25/3 2027.</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20261103T092200Z
@@ -1555,10 +1557,9 @@ UID:event-calendar-event-119261
 DTSTART:20270602T110000Z
 DTEND:20270602T150000Z
 CLASS:PUBLIC
-DESCRIPTION:Lärare: Magnus Johansson. Föreläsning enligt TimeEdit (bokni
- ngen står på grupp "55260" – troligen skrivfel för 56260).\n\nPrelimi
- när bokning i TimeEdit (gäller först två veckor före kursstart) – k
- ontrollera salen ca två veckor innan.
+DESCRIPTION:Lärare: Magnus Johansson. Föreläsning enligt TimeEdit.\n\nPr
+ eliminär bokning i TimeEdit (gäller först två veckor före kursstart) 
+ – kontrollera salen ca två veckor innan.
 LOCATION:Karlstads universitet\, sal 21A259 Risklabb
 SEQUENCE:0
 SUMMARY:RHAD03: Klimatanpassning och riskreducering – föreläsning (camp
@@ -1566,9 +1567,9 @@ SUMMARY:RHAD03: Klimatanpassning och riskreducering – föreläsning (camp
 URL;VALUE=URI:https://canvas.kau.se/calendar?include_contexts=group_128539&
  month=06&year=2027#calendar_event_119261
 X-ALT-DESC;FMTTYPE=text/html:<p>Lärare: Magnus Johansson. Föreläsning en
- ligt TimeEdit (bokningen står på grupp "55260" – troligen skrivfel fö
- r 56260).</p><p><em>Preliminär bokning i TimeEdit (gäller först två ve
- ckor före kursstart) – kontrollera salen ca två veckor innan.</em></p>
+ ligt TimeEdit.</p><p><em>Preliminär bokning i TimeEdit (gäller först tv
+ å veckor före kursstart) – kontrollera salen ca två veckor innan.</em
+ ></p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20261103T092100Z
