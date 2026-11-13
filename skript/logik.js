@@ -54,7 +54,7 @@ function klock(e) {
 
 /** Antal aktiva filter (sökningen räknas inte). */
 function aktivaFilter(st) {
-  return ["lan", "kommun", "omr", "roll"].filter(k => st[k]).length + (st.status !== "alla") + (st.match !== "alla");
+  return ["lan", "kommun", "omr", "roll"].filter(k => st[k]).length + (st.status !== "alla") + (st.match !== "alla") + (!!st.erf && st.erf !== "alla") + !!st.klim;
 }
 
 /** Säker länk: bara https-adresser till Platsbanken, annars ingen länk. */
@@ -62,21 +62,17 @@ function sakerAnnonsUrl(url) {
   return /^https:\/\/arbetsformedlingen\.se\/platsbanken\/annonser\/[\w-]+$/.test(String(url || "")) ? url : "";
 }
 
-/** Kort yrkestitel ur en annonsrubrik: "Säkerhetssamordnare till Heby kommun" → "Säkerhetssamordnare".
-    Klipper vid " till/sökes/på/vid ...", " i <Ort>", " – ", " | " och kommatecken, men aldrig vid "Säkerhets- och ...". */
-function kortTitel(rubrik) {
-  let t = String(rubrik || "").trim().replace(/[!.:]+$/, "");
-  t = t.replace(/\s+[–—|]\s.*$/, "").replace(/\s+-\s.*$/, "").replace(/,\s.*$/, "");
-  t = t.replace(/\s+(till|sökes|söks|på|vid|hos)(\s.*)?$/i, "");
-  t = t.replace(/\s+i\s+[A-ZÅÄÖ].*$/, "");
-  t = t.replace(/[!.:]+$/, "").trim();
-  return t.charAt(0).toUpperCase() + t.slice(1);
-}
+// Titlar, procent och all annan statistik räknas i Python: skript/statistik.py
 
-/** Andel i procent, avrundad: 0,4 → "0 %" och 37,6 → "38 %". */
-function procent(del, hel) {
-  return hel ? Math.round(del / hel * 100) + " %" : "–";
+/** Erfarenhetsfiltret. "ja": annonsen kräver erfarenhet (se a.erfarenheter för vilken). "nej": inga erfarenhetskrav.
+    "ny": annonsen vänder sig uttryckligen till nyexaminerade eller juniora. Samma regel som kraver_erfarenhet() i Python. */
+const kraverErfarenhet = a => (a.erfarenheter || []).length > 0;
+function erfarenhetOk(a, val) {
+  if (val === "ja") return kraverErfarenhet(a);
+  if (val === "nej") return !kraverErfarenhet(a);
+  if (val === "ny") return !!a.junior;
+  return true;
 }
 
 /* node-export */
-if (typeof module !== "undefined") module.exports = { esc, count, makeMatcher, kalTyp, kalRubrik, klock, aktivaFilter, sakerAnnonsUrl, kortTitel, procent };
+if (typeof module !== "undefined") module.exports = { esc, count, makeMatcher, kalTyp, kalRubrik, klock, aktivaFilter, sakerAnnonsUrl, erfarenhetOk };

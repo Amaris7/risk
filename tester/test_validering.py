@@ -166,7 +166,7 @@ class Sakerhet(unittest.TestCase):
         falt = re.compile(r"\.(rubrik|arbetsgivare|kommun|lan|utdrag|titel|plats|info|url|kurs|roll|omfattning|omraden|krav)\b")
         sakra = re.compile(r"^\s*(esc|sakerAnnonsUrl|fmt|klock|sv|list|cname)\(")
         farliga = [u for u in self.uttryck(self.mall)
-                   if "`" not in u and falt.search(u) and not sakra.match(u) and "esc(" not in u]
+                   if "`" not in u and falt.search(u) and not sakra.match(u) and "esc(" not in u and ".map(esc)" not in u]
         self.assertEqual(farliga, [], "oescapade data i HTML-mallen")
 
     def test_escape_kontrollen_hittar_fel(self):

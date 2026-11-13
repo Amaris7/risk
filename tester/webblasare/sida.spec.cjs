@@ -6,8 +6,8 @@ const antal = async page => parseInt((await page.locator("#count").textContent()
 // Samla fel i webbläsaren: JavaScript-fel och CSP-blockeringar ska aldrig förekomma
 test.beforeEach(async ({ page }, info) => {
   info.fel = [];
-  page.on("pageerror", e => info.fel.push(String(e)));
-  page.on("console", m => { if (m.type() === "error" && !/annonstext\.json|404/.test(m.text())) info.fel.push(m.text()); });
+  page.on("pageerror", e => info.fel && info.fel.push(String(e)));
+  page.on("console", m => { if (info.fel && m.type() === "error" && !/annonstext\.json|404/.test(m.text())) info.fel.push(m.text()); });
 });
 test.afterEach(async ({}, info) => {
   if (info.fel !== null) expect(info.fel, "fel i webbläsarens konsol").toEqual([]);
@@ -105,12 +105,59 @@ test("annonslänkar går bara till Platsbanken och öppnas säkert", async ({ pa
   }
 });
 
+test("erfarenhetsfiltret minskar antalet och visar nyexaminerade", async ({ page, isMobile }) => {
+  await page.goto("/index.html#annonser");
+  const alla = await antal(page);
+  if (isMobile) await page.locator("#ftoggle").click();
+  await page.locator("#f-erf").selectOption("ja");
+  const ja = await antal(page);
+  await expect(page.locator(".ad ul.erf").first()).toBeVisible();
+  await page.locator("#f-erf").selectOption("nej");
+  const nej = await antal(page);
+  expect(ja + nej).toBe(alla);
+  await expect(page.locator(".ad .adfacts").first()).toContainText("Kräver inte erfarenhet");
+  await page.locator("#f-erf").selectOption("ny");
+  const ny = await antal(page);
+  expect(ny).toBeGreaterThan(0);
+  expect(ny).toBeLessThanOrEqual(nej);
+  expect(await page.locator(".ad .chip:text('Passar nyexaminerade')").count()).toBe(Math.min(ny, 50));
+});
+
+test("klimatfiltret visar klimatrisker och omställning och nås från yrkesrollerna", async ({ page, isMobile }) => {
+  await page.goto("/index.html#yrkesroller");
+  const tal = async sel => parseInt((await page.locator(sel).textContent()).match(/: ([\d\s]+) av/)[1].replace(/\D/g, ""), 10);
+  const risk = await tal("#roles-klim b >> nth=0"), omst = await tal("#roles-klim b >> nth=1");
+  expect(risk).toBeGreaterThan(0);
+  expect(omst).toBeGreaterThan(0);
+  // Rollkortens klimatantal summerar till totalerna
+  for (const [t, tot] of [["risk", risk], ["omst", omst]]) {
+    const perRoll = await page.locator(`.role button.klim-go[data-t="${t}"]`).allTextContents();
+    expect(perRoll.reduce((s, x) => s + parseInt(x, 10), 0)).toBe(tot);
+  }
+  // En roll leder till rollens klimatriskannonser
+  const knapp = page.locator('.role button.klim-go[data-t="risk"]').first();
+  const n = parseInt(await knapp.textContent(), 10);
+  await knapp.click();
+  await expect(page).toHaveURL(/#annonser$/);
+  expect(await antal(page)).toBe(n);
+  if (isMobile) await page.locator("#ftoggle").click();
+  await expect(page.locator("#f-klim")).toHaveValue("risk");
+  await page.locator("#f-roll").selectOption("");
+  expect(await antal(page)).toBe(risk);
+  expect(await page.locator(".ad .chip.klim").count()).toBe(Math.min(risk, 50));
+  await page.locator("#f-klim").selectOption("omst");
+  expect(await antal(page)).toBe(omst);
+  expect(await page.locator(".ad .chip.klim-omst").count()).toBe(Math.min(omst, 50));
+  await page.locator("#f-klim").selectOption("");
+  expect(await antal(page)).toBeGreaterThan(risk + omst);
+});
+
 test("alla annonskort har samma struktur med krav och matchning", async ({ page }) => {
   await page.goto("/index.html#annonser");
   const kort = page.locator(".ad");
   const n = await kort.count();
   expect(n).toBeGreaterThan(10);
-  for (const del of [".head h3", ".right .chip", ".ex", ".adfacts dt:text('Krav')", ".adfacts dt:text('Passar')"]) {
+  for (const del of [".head h3", ".right .chip", ".ex", ".adfacts dt:text('Krav')", ".adfacts dt:text('Erfarenhet')", ".adfacts dt:text('Passar')"]) {
     expect(await page.locator(`.ad ${del}`).count(), del).toBe(n);
   }
 });

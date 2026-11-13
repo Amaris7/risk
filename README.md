@@ -11,6 +11,9 @@ En webbsida som matchar Karlstads universitets masterprogram **Riskhantering i s
 | `skript/hamta_annonser.py` | Hämtar och filtrerar annonser. Sökord, filter, arbetsområden och kurskoppling står överst i filen |
 | `skript/bygg_sida.py` | Lägger in datan i mallen och skriver `index.html` |
 | `skript/mall.html` | Sidans utseende, texter och flikar. `__DATA__` ersätts med annonsdatan |
+| `skript/statistik.py` | **All statistik på sidan** (antal, andelar, topplistor, yrkesroller). Räknas i Python vid bygget. Kör `python3 skript/statistik.py` för att se rapporten |
+| `skript/kompetenser.py` | Kompetenser och valbara kurser, andelar per grupp |
+| `data/statistik.md`, `data/statistik.json` | Granskningsbar rapport med varje siffra som sidan visar, med antal och nämnare |
 | `skript/logik.js` | Sidans rena logik (sökning, escaping, kalender). Bäddas in i sidan vid bygget och testas separat |
 | `data/annonser.json`, `data/annonser.csv` | Senast hämtade annonser (CSV går att öppna i Excel) |
 | `data/annonstext.json` | Hela annonstexterna (gemener), som sidan laddar först när någon söker. Måste publiceras bredvid `index.html` i mappen `data/` |
@@ -70,6 +73,7 @@ Byt kalender genom att lägga en ny `.ics`-fil i `~/rhad-kalender` (den nyaste a
 | `tester/test_hamta.py` | Python `unittest` | Urval och klassning av annonser, dubbletter, säkra länkar, sparade filer |
 | `tester/test_bygg.py` | Python `unittest` | Kalenderläsning (Canvas-format, tidszoner, Zoom-länkar och namn tas bort), säker inbäddning av data, CSP |
 | `tester/test_validering.py` | Python `unittest` | Validering av den riktiga datan och `index.html`: fält, datum, länkar, kalender, hemligheter, escaping |
+| `tester/test_statistik.py` | Python `unittest` | Avrundning, rollindelning, att varje siffra går att räkna om från datan, och att sökordsräknaren i webbläsaren ger exakt samma antal som Python |
 | `tester/logik.test.cjs` | Node `node:test` | Sidans logik i `skript/logik.js`: sökning, escaping, kalender, länkar |
 | `tester/webblasare/` | Playwright | Riktig webbläsare i dator- och mobilbredd: flikar och Mer-meny, filter, sökord, kalender, XSS-försök |
 

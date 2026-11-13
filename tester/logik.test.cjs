@@ -85,19 +85,19 @@ test("sakerAnnonsUrl släpper bara igenom Platsbanken över https", () => {
   }
 });
 
-test("kortTitel kortar rubriker utan att klippa sammansatta ord", () => {
-  assert.equal(L.kortTitel("Säkerhets- och beredskapshandläggare"), "Säkerhets- och beredskapshandläggare");
-  assert.equal(L.kortTitel("Beredskapssamordnare till Heby kommun"), "Beredskapssamordnare");
-  assert.equal(L.kortTitel("Säkerhetssamordnare i Botkyrka"), "Säkerhetssamordnare");
-  assert.equal(L.kortTitel("Handläggare inom krisberedskap"), "Handläggare inom krisberedskap");
-  assert.equal(L.kortTitel("Säkerhetsstrateg – Helsingborgs stad"), "Säkerhetsstrateg");
-  assert.equal(L.kortTitel("Riskanalytiker, Göteborg"), "Riskanalytiker");
-  assert.equal(L.kortTitel("Beredskapssamordnare sökes!"), "Beredskapssamordnare");
-  assert.equal(L.kortTitel("Samordnare - beredskap inom kommunal hälso- och sjukvård"), "Samordnare");
-  assert.equal(L.kortTitel("risk manager"), "Risk manager");
+
+test("erfarenhetsfiltret", () => {
+  const kraver = { erfarenheter: ["Erfarenhet av SimCorp"] };
+  const ny = { erfarenheter: [], junior: true };
+  assert.equal(L.erfarenhetOk(kraver, "alla"), true);
+  assert.equal(L.erfarenhetOk(kraver, "ja"), true);
+  assert.equal(L.erfarenhetOk(kraver, "nej"), false);
+  assert.equal(L.erfarenhetOk(ny, "nej"), true);
+  assert.equal(L.erfarenhetOk(ny, "ny"), true);
+  assert.equal(L.erfarenhetOk(kraver, "ny"), false);
+  assert.equal(L.erfarenhetOk({}, "nej"), true);
+  assert.equal(L.aktivaFilter({ status: "alla", match: "alla", erf: "ny" }), 1);
+  assert.equal(L.aktivaFilter({ status: "alla", match: "alla", klim: "risk" }), 1);
+  assert.equal(L.aktivaFilter({ status: "alla", match: "alla", klim: "" }), 0);
 });
 
-test("procent avrundar och tål noll", () => {
-  assert.equal(L.procent(1, 3), "33 %");
-  assert.equal(L.procent(0, 0), "–");
-});

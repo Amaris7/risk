@@ -1,0 +1,3132 @@
+{
+ "statistik": {
+  "antal": 1225,
+  "fakta": {
+   "annonser": 1225,
+   "aktuella": 116,
+   "hog_matchning": 477,
+   "orter": 177,
+   "arbetsgivare": 657,
+   "nyexaminerade": 27,
+   "klimat": 39,
+   "klimat_procent": 3,
+   "klimat_omst": 22,
+   "klimat_omst_procent": 2,
+   "kraver_erfarenhet": 1165,
+   "kraver_inte_erfarenhet": 60,
+   "erfarenhet_ospecificerad": 201
+  },
+  "roller": [
+   {
+    "namn": "Säkerhets- och beredskapssamordnare",
+    "beskrivning": "Kombinerade roller där säkerhetsarbete och krisberedskap ligger på samma person, vanligt i mindre kommuner, bolag och förvaltningar.",
+    "antal": 24,
+    "aktuella": 2,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Beredskaps- och säkerhetssamordnare",
+     "Säkerhetssamordnare",
+     "Säkerhetssamordnare med fokus",
+     "Beredskaps- & säkerhetssamordnare"
+    ],
+    "arbetsgivare": [
+     "Hylte kommun",
+     "Kommunledningsförvaltningen, Stabsavdelningen",
+     "Telge Nät"
+    ],
+    "kurser": [
+     "RHAD21/RHAD31",
+     "RHAD03",
+     "RHAD39"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      19,
+      79
+     ],
+     [
+      "Erfarenhet av beredskap/kris",
+      12,
+      50
+     ],
+     [
+      "Säkerhetsprövning",
+      11,
+      46
+     ],
+     [
+      "Körkort",
+      10,
+      42
+     ]
+    ]
+   },
+   {
+    "namn": "Beredskapssamordnare",
+    "beskrivning": "Samordnar kommunens, regionens eller myndighetens krisberedskap och civila försvar: RSA, beredskapsplaner, krisledningsorganisation, övningar och utbildning.",
+    "antal": 150,
+    "aktuella": 14,
+    "klimat": [
+     3,
+     2
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Beredskapssamordnare",
+     "Säkerhets- och beredskapssamordnare",
+     "Krisberedskapssamordnare",
+     "Samordnare"
+    ],
+    "arbetsgivare": [
+     "Livsmedelsverket",
+     "Region Västernorrland",
+     "Tillväxtverket"
+    ],
+    "kurser": [
+     "RHAD21/RHAD31",
+     "RHAD39",
+     "RHAD03"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      115,
+      77
+     ],
+     [
+      "Säkerhetsprövning",
+      111,
+      74
+     ],
+     [
+      "Erfarenhet av beredskap/kris",
+      83,
+      55
+     ],
+     [
+      "Körkort",
+      81,
+      54
+     ]
+    ]
+   },
+   {
+    "namn": "Beredskapshandläggare & -planerare",
+    "beskrivning": "Handlägger och utvecklar beredskapsplanering på länsstyrelser, civilområden och statliga myndigheter, ofta med fokus på höjd beredskap.",
+    "antal": 131,
+    "aktuella": 3,
+    "klimat": [
+     1,
+     1
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Beredskapshandläggare",
+     "Beredskapsstrateg",
+     "Säkerhets- och beredskapschef",
+     "Kvalificerad Beredskapshandläggare"
+    ],
+    "arbetsgivare": [
+     "Tillväxtverket",
+     "Livsmedelsverket",
+     "LÄNSSTYRELSEN SKÅNE, Civilområdeskansliet"
+    ],
+    "kurser": [
+     "RHAD21/RHAD31",
+     "RHAD39",
+     "RHAD35"
+    ],
+    "krav": [
+     [
+      "Säkerhetsprövning",
+      96,
+      73
+     ],
+     [
+      "Akademisk examen",
+      93,
+      71
+     ],
+     [
+      "Erfarenhet av beredskap/kris",
+      73,
+      56
+     ],
+     [
+      "Svenskt medborgarskap",
+      70,
+      53
+     ]
+    ]
+   },
+   {
+    "namn": "Civilt försvar & totalförsvar",
+    "beskrivning": "Roller som bygger upp det civila försvaret: planering för höjd beredskap, krigsorganisation, försörjningsberedskap och samverkan med Försvarsmakten.",
+    "antal": 83,
+    "aktuella": 3,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Bli en del av Sveriges totalförsvar",
+     "Specialist med inriktning krisberedskap och civilt försvar",
+     "Specialist inom beredskap och civilt försvar",
+     "Handläggare med inriktning totalförsvar"
+    ],
+    "arbetsgivare": [
+     "Myndigheten för civilt försvar",
+     "FOI Totalförsvarets Forskningsinstitut",
+     "Socialstyrelsen"
+    ],
+    "kurser": [
+     "RHAD21/RHAD31",
+     "RHAD39",
+     "RHAD35"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      64,
+      77
+     ],
+     [
+      "Säkerhetsprövning",
+      52,
+      63
+     ],
+     [
+      "Erfarenhet av beredskap/kris",
+      44,
+      53
+     ],
+     [
+      "Svenskt medborgarskap",
+      33,
+      40
+     ]
+    ]
+   },
+   {
+    "namn": "Säkerhetssamordnare",
+    "beskrivning": "Samordnar en organisations säkerhetsarbete: riskbedömningar, incidenthantering, säkerhetsrutiner och ofta även krisberedskap.",
+    "antal": 169,
+    "aktuella": 15,
+    "klimat": [
+     1,
+     1
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Säkerhetssamordnare",
+     "Säkerhetssamordnare med fokus",
+     "Trygghets- och säkerhetssamordnare",
+     "Socionom säkerhetssamordnare skyddat boende"
+    ],
+    "arbetsgivare": [
+     "Statens institutionsstyrelse",
+     "Migrationsverket, Huvudkontor, Säkerhetsavdelningen",
+     "Infranord AB, Syd Underhåll"
+    ],
+    "kurser": [
+     "RHAD39",
+     "RHAD38",
+     "RHAD21/RHAD31"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      124,
+      73
+     ],
+     [
+      "Säkerhetsprövning",
+      111,
+      66
+     ],
+     [
+      "Körkort",
+      86,
+      51
+     ],
+     [
+      "Erfarenhet av säkerhet/risk",
+      76,
+      45
+     ]
+    ]
+   },
+   {
+    "namn": "Säkerhetsstrateg & säkerhetschef",
+    "beskrivning": "Strategiskt ansvar för säkerhet, beredskap och kontinuitet. Ofta krav på erfarenhet och ledningsförmåga.",
+    "antal": 165,
+    "aktuella": 18,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Säkerhetsstrateg",
+     "Säkerhetschef",
+     "Säkerhetsspecialist",
+     "Säkerhetsansvarig"
+    ],
+    "arbetsgivare": [
+     "Försvarsmakten",
+     "Regeringskansliet",
+     "Centio"
+    ],
+    "kurser": [
+     "RHAD39",
+     "RHAD38",
+     "RHAD21/RHAD31"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      113,
+      68
+     ],
+     [
+      "Säkerhetsprövning",
+      105,
+      64
+     ],
+     [
+      "Erfarenhet av säkerhet/risk",
+      91,
+      55
+     ],
+     [
+      "Körkort",
+      61,
+      37
+     ]
+    ]
+   },
+   {
+    "namn": "Säkerhetsskydd",
+    "beskrivning": "Säkerhetsskyddschefer och handläggare som skyddar säkerhetskänslig verksamhet. Kräver oftast kompletterande kunskap om säkerhetsskyddslagen.",
+    "antal": 43,
+    "aktuella": 7,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Säkerhetsskyddsspecialist",
+     "Säkerhetsskyddschef",
+     "Biträdande säkerhetsskyddschef",
+     "Säkerhets- och säkerhetsskyddschef"
+    ],
+    "arbetsgivare": [
+     "Svenska Kraftnät",
+     "Combitech AB",
+     "IT-avdelningen, Enheten för säkerhet IT"
+    ],
+    "kurser": [
+     "RHAD39",
+     "RHAD21/RHAD31",
+     "RHAD38"
+    ],
+    "krav": [
+     [
+      "Säkerhetsprövning",
+      38,
+      88
+     ],
+     [
+      "Erfarenhet av säkerhet/risk",
+      33,
+      77
+     ],
+     [
+      "Akademisk examen",
+      28,
+      65
+     ],
+     [
+      "Svenskt medborgarskap",
+      25,
+      58
+     ]
+    ]
+   },
+   {
+    "namn": "Trygghet & brottsförebyggande",
+    "beskrivning": "Arbetar lokalt med trygghetsskapande och brottsförebyggande åtgärder, ofta i kommuner och bostadsbolag.",
+    "antal": 92,
+    "aktuella": 12,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Trygghetssamordnare",
+     "Brottsförebyggande samordnare",
+     "Verksamhetsutvecklare",
+     "Trygghetsstrateg"
+    ],
+    "arbetsgivare": [
+     "Bolagsverket, Brottsförebyggande avdelningen",
+     "Malmö Stad",
+     "Skatteverket"
+    ],
+    "kurser": [
+     "RHAD12/RHAD22",
+     "RHAD35",
+     "RHAD38"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      66,
+      72
+     ],
+     [
+      "Tidigare erfarenhet",
+      54,
+      59
+     ],
+     [
+      "Säkerhetsprövning",
+      36,
+      39
+     ],
+     [
+      "Körkort",
+      26,
+      28
+     ]
+    ]
+   },
+   {
+    "namn": "Kontinuitetshantering",
+    "beskrivning": "Ser till att verksamheten fungerar vid störningar: kontinuitetsplaner, beroendeanalyser och övningar.",
+    "antal": 11,
+    "aktuella": 0,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Kontinuitetsspecialist",
+     "Kontinuitetsansvarig",
+     "Verksamhetsutvecklare inom säkerhet",
+     "Verksamhetsutvecklare inom kontinuitets- och beredskap"
+    ],
+    "arbetsgivare": [
+     "Riksbanken",
+     "Försäkringskassan",
+     "Peab Sweden AB"
+    ],
+    "kurser": [
+     "RHAD21/RHAD31",
+     "RHAD03",
+     "RHAD38"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      9,
+      82
+     ],
+     [
+      "Tidigare erfarenhet",
+      6,
+      55
+     ],
+     [
+      "Säkerhetsprövning",
+      4,
+      36
+     ],
+     [
+      "Svenskt medborgarskap",
+      4,
+      36
+     ]
+    ]
+   },
+   {
+    "namn": "Riskanalytiker & riskkonsult",
+    "beskrivning": "Analyserar och bedömer risker, på myndighet, i industri eller som konsult. Inkluderar även finansiella riskroller, som är mer angränsande.",
+    "antal": 45,
+    "aktuella": 6,
+    "klimat": [
+     1,
+     2
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Risk Manager",
+     "Senior riskkonsult",
+     "Riskanalytiker",
+     "Senior Risk Manager"
+    ],
+    "arbetsgivare": [
+     "Swedbank",
+     "Ernst & Young AB",
+     "Centio"
+    ],
+    "kurser": [
+     "RHAD01/RHAD02",
+     "RHAD38",
+     "RHAD35"
+    ],
+    "krav": [
+     [
+      "Erfarenhet av säkerhet/risk",
+      19,
+      42
+     ],
+     [
+      "Akademisk examen",
+      19,
+      42
+     ],
+     [
+      "Tidigare erfarenhet",
+      18,
+      40
+     ],
+     [
+      "Engelska i tal och skrift",
+      16,
+      36
+     ]
+    ]
+   },
+   {
+    "namn": "Klimatanpassning",
+    "beskrivning": "Strateger och projektledare som arbetar med klimatanpassning, översvämnings- och skredrisker i fysisk planering.",
+    "antal": 29,
+    "aktuella": 0,
+    "klimat": [
+     29,
+     100
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Expert inom klimatanpassning",
+     "Konsult inom klimatanpassning",
+     "VA- och dagvattenutredare inom klimatanpassning",
+     "Hydraulisk VA-modellör med inriktning mot klimatanpassning"
+    ],
+    "arbetsgivare": [
+     "Ramboll Sverige AB, UMEÅ",
+     "Ramboll Sverige AB, LULEÅ",
+     "Goodpoint"
+    ],
+    "kurser": [
+     "RHAD03",
+     "MVAE34",
+     "RHAD35"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      25,
+      86
+     ],
+     [
+      "Tidigare erfarenhet",
+      21,
+      72
+     ],
+     [
+      "Projektledning",
+      14,
+      48
+     ],
+     [
+      "Engelska i tal och skrift",
+      13,
+      45
+     ]
+    ]
+   },
+   {
+    "namn": "Klimatomställning & energi",
+    "beskrivning": "Klimat-, miljö- och energistrateger som arbetar med att minska utsläpp och energianvändning. Angränsande till programmet: klimatfrågan är gemensam, men fokus är omställning snarare än risk.",
+    "antal": 22,
+    "aktuella": 2,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     22,
+     100
+    ],
+    "titlar": [
+     "Klimat- och energistrateg",
+     "Klimatstrateg",
+     "Miljö- och klimatstrateg",
+     "Handläggare"
+    ],
+    "arbetsgivare": [
+     "Naturvårdsverket",
+     "LÄNSSTYRELSEN I SÖDERMANLANDS LÄN",
+     "Eskilstuna kommun, Kommunledningskontoret"
+    ],
+    "kurser": [
+     "MVAE34",
+     "RHAD38",
+     "RHAD35"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      16,
+      73
+     ],
+     [
+      "Tidigare erfarenhet",
+      13,
+      59
+     ],
+     [
+      "Körkort",
+      9,
+      41
+     ],
+     [
+      "Säkerhetsprövning",
+      7,
+      32
+     ]
+    ]
+   },
+   {
+    "namn": "Skadeförebyggande & räddningstjänst",
+    "beskrivning": "Förebyggande arbete mot olyckor och skador: trafiksäkerhet, räddningstjänstens förebyggande verksamhet och olycksutredning.",
+    "antal": 80,
+    "aktuella": 9,
+    "klimat": [
+     2,
+     3
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Brandingenjör",
+     "Räddningschef",
+     "Brandinspektör/Brandingenjör",
+     "Depåmedarbetare inom trafiksäkerhet"
+    ],
+    "arbetsgivare": [
+     "Myndigheten för civilt försvar",
+     "Räddningstjänsten Storgöteborg",
+     "Räddningstjänsten"
+    ],
+    "kurser": [
+     "RHAD39",
+     "RHAD01/RHAD02",
+     "RHAD12/RHAD22"
+    ],
+    "krav": [
+     [
+      "Körkort",
+      57,
+      71
+     ],
+     [
+      "Tidigare erfarenhet",
+      57,
+      71
+     ],
+     [
+      "Säkerhetsprövning",
+      36,
+      45
+     ],
+     [
+      "Svenskt medborgarskap",
+      21,
+      26
+     ]
+    ]
+   },
+   {
+    "namn": "Krisledning & krisstöd",
+    "beskrivning": "Krishantering, krisledning och krisstöd, ofta i regioner, myndigheter och företag.",
+    "antal": 19,
+    "aktuella": 3,
+    "klimat": [
+     0,
+     0
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Kommunikatör inom kriskommunikation",
+     "Biträdande avdelningschef krisberedskap och civilförsvar",
+     "Kommunikatör med fokus",
+     "Kommunikatör med ansvar för press- och kriskommunikation"
+    ],
+    "arbetsgivare": [
+     "Funktionsrätt Sverige",
+     "Avaron AB",
+     "Jordbruksverket, Avdelningen för krisberedskap och civilt försvar"
+    ],
+    "kurser": [
+     "RHAD21/RHAD31",
+     "RHAD39",
+     "RHAD01/RHAD02"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      15,
+      79
+     ],
+     [
+      "Erfarenhet av beredskap/kris",
+      11,
+      58
+     ],
+     [
+      "Flera års erfarenhet",
+      8,
+      42
+     ],
+     [
+      "Säkerhetsprövning",
+      7,
+      37
+     ]
+    ]
+   },
+   {
+    "namn": "Analytiker & utredare",
+    "beskrivning": "Andra analytiker-, utredar- och samordnarroller med koppling till risk, beredskap eller säkerhet.",
+    "antal": 79,
+    "aktuella": 9,
+    "klimat": [
+     1,
+     1
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Säkerhetshandläggare",
+     "Utredare inriktning kvalitet och produktsäkerhet",
+     "Säkerhetsanalytiker",
+     "Expert inom civil beredskap"
+    ],
+    "arbetsgivare": [
+     "Fortifikationsverket",
+     "Migrationsverket, Operativ verksamhet, Nationella operativa avdelningen",
+     "Riksbanken"
+    ],
+    "kurser": [
+     "RHAD39",
+     "RHAD38",
+     "RHAD21/RHAD31"
+    ],
+    "krav": [
+     [
+      "Säkerhetsprövning",
+      62,
+      78
+     ],
+     [
+      "Akademisk examen",
+      57,
+      72
+     ],
+     [
+      "Svenskt medborgarskap",
+      55,
+      70
+     ],
+     [
+      "Engelska i tal och skrift",
+      31,
+      39
+     ]
+    ]
+   },
+   {
+    "namn": "Övrigt",
+    "beskrivning": "Annonser som inte passade in i någon av grupperna ovan.",
+    "antal": 83,
+    "aktuella": 13,
+    "klimat": [
+     1,
+     1
+    ],
+    "omst": [
+     0,
+     0
+    ],
+    "titlar": [
+     "Risk & Compliance Manager",
+     "Verksamhetsutvecklare",
+     "Säkerhetsrådgivare inom operativ säkerhet",
+     "Enhetschef"
+    ],
+    "arbetsgivare": [
+     "Livsmedelsverket",
+     "Försäkringskassan",
+     "Techrytera AB"
+    ],
+    "kurser": [
+     "RHAD21/RHAD31",
+     "RHAD35",
+     "RHAD39"
+    ],
+    "krav": [
+     [
+      "Akademisk examen",
+      46,
+      55
+     ],
+     [
+      "Tidigare erfarenhet",
+      33,
+      40
+     ],
+     [
+      "Säkerhetsprövning",
+      30,
+      36
+     ],
+     [
+      "Svenska i tal och skrift",
+      28,
+      34
+     ]
+    ]
+   }
+  ],
+  "omraden": [
+   [
+    "Krisberedskap & civilt försvar",
+    598
+   ],
+   [
+    "Säkerhet & trygghet",
+    452
+   ],
+   [
+    "Skadeförebyggande & personsäkerhet",
+    157
+   ],
+   [
+    "Riskanalys & riskkonsult",
+    72
+   ],
+   [
+    "Klimatanpassning & naturolyckor",
+    54
+   ],
+   [
+    "Finansiell & operativ risk (angränsande)",
+    26
+   ],
+   [
+    "Kontinuitetshantering",
+    24
+   ],
+   [
+    "Riskkommunikation",
+    4
+   ]
+  ],
+  "nyckelord": [
+   [
+    "utbildning",
+    924
+   ],
+   [
+    "säkerhetsprövning",
+    701
+   ],
+   [
+    "samverkan",
+    632
+   ],
+   [
+    "krisberedskap",
+    506
+   ],
+   [
+    "civilt försvar",
+    442
+   ],
+   [
+    "körkort",
+    432
+   ],
+   [
+    "säkerhetsskydd",
+    407
+   ],
+   [
+    "höjd beredskap",
+    285
+   ],
+   [
+    "övningar",
+    282
+   ],
+   [
+    "totalförsvar",
+    230
+   ],
+   [
+    "brottsförebyggande",
+    219
+   ],
+   [
+    "kontinuitetsplanering",
+    181
+   ]
+  ],
+  "kurser": [
+   [
+    "RHAD39",
+    937
+   ],
+   [
+    "RHAD21/RHAD31",
+    932
+   ],
+   [
+    "RHAD38",
+    815
+   ],
+   [
+    "RHAD35",
+    773
+   ],
+   [
+    "RHAD01/RHAD02",
+    681
+   ],
+   [
+    "RHAD03",
+    499
+   ],
+   [
+    "MVAE34",
+    498
+   ],
+   [
+    "RHAD12/RHAD22",
+    402
+   ],
+   [
+    "RHAD14",
+    24
+   ]
+  ],
+  "arbetsgivare": [
+   [
+    "Myndigheten för civilt försvar",
+    31
+   ],
+   [
+    "Livsmedelsverket",
+    19
+   ],
+   [
+    "Tillväxtverket",
+    18
+   ],
+   [
+    "Försvarsmakten",
+    14
+   ],
+   [
+    "Fortifikationsverket",
+    14
+   ],
+   [
+    "Malmö Stad",
+    13
+   ],
+   [
+    "Migrationsverket, Huvudkontor, Säkerhetsavdelningen",
+    12
+   ],
+   [
+    "Centio",
+    12
+   ],
+   [
+    "Svenska Kraftnät",
+    12
+   ],
+   [
+    "Avaron AB",
+    12
+   ],
+   [
+    "Regeringskansliet",
+    11
+   ],
+   [
+    "Bolagsverket, Brottsförebyggande avdelningen",
+    10
+   ]
+  ],
+  "lan": [
+   [
+    "Stockholms län",
+    377
+   ],
+   [
+    "Västra Götalands län",
+    152
+   ],
+   [
+    "Skåne län",
+    112
+   ],
+   [
+    "Östergötlands län",
+    62
+   ],
+   [
+    "Uppsala län",
+    53
+   ],
+   [
+    "Västernorrlands län",
+    51
+   ],
+   [
+    "Värmlands län",
+    47
+   ],
+   [
+    "Norrbottens län",
+    42
+   ],
+   [
+    "Jönköpings län",
+    37
+   ],
+   [
+    "Örebro län",
+    33
+   ],
+   [
+    "Västmanlands län",
+    31
+   ],
+   [
+    "Västerbottens län",
+    31
+   ],
+   [
+    "Hallands län",
+    30
+   ],
+   [
+    "Södermanlands län",
+    28
+   ],
+   [
+    "Jämtlands län",
+    26
+   ],
+   [
+    "Blekinge län",
+    25
+   ],
+   [
+    "Kronobergs län",
+    22
+   ],
+   [
+    "Gävleborgs län",
+    16
+   ],
+   [
+    "Kalmar län",
+    14
+   ],
+   [
+    "Ospecificerat",
+    13
+   ],
+   [
+    "Gotlands län",
+    12
+   ],
+   [
+    "Dalarnas län",
+    11
+   ]
+  ],
+  "krav": [
+   [
+    "Akademisk examen",
+    827,
+    68
+   ],
+   [
+    "Säkerhetsprövning",
+    717,
+    59
+   ],
+   [
+    "Körkort",
+    480,
+    39
+   ],
+   [
+    "Tidigare erfarenhet",
+    438,
+    36
+   ],
+   [
+    "Svenskt medborgarskap",
+    416,
+    34
+   ],
+   [
+    "Erfarenhet av beredskap/kris",
+    345,
+    28
+   ],
+   [
+    "Erfarenhet av säkerhet/risk",
+    332,
+    27
+   ],
+   [
+    "Svenska i tal och skrift",
+    329,
+    27
+   ],
+   [
+    "Engelska i tal och skrift",
+    307,
+    25
+   ],
+   [
+    "Flera års erfarenhet",
+    262,
+    21
+   ],
+   [
+    "Projektledning",
+    191,
+    16
+   ]
+  ],
+  "filter": {
+   "kommuner": {
+    "": [
+     [
+      "Ale",
+      1
+     ],
+     [
+      "Alingsås",
+      3
+     ],
+     [
+      "Arboga",
+      1
+     ],
+     [
+      "Arvidsjaur",
+      2
+     ],
+     [
+      "Askersund",
+      1
+     ],
+     [
+      "Avesta",
+      1
+     ],
+     [
+      "Berg",
+      1
+     ],
+     [
+      "Boden",
+      3
+     ],
+     [
+      "Bollnäs",
+      1
+     ],
+     [
+      "Borlänge",
+      3
+     ],
+     [
+      "Borås",
+      11
+     ],
+     [
+      "Botkyrka",
+      3
+     ],
+     [
+      "Bromölla",
+      1
+     ],
+     [
+      "Bräcke",
+      2
+     ],
+     [
+      "Burlöv",
+      3
+     ],
+     [
+      "Degerfors",
+      2
+     ],
+     [
+      "Eda",
+      1
+     ],
+     [
+      "Ekerö",
+      3
+     ],
+     [
+      "Eksjö",
+      4
+     ],
+     [
+      "Enköping",
+      1
+     ],
+     [
+      "Eskilstuna",
+      11
+     ],
+     [
+      "Eslöv",
+      2
+     ],
+     [
+      "Falkenberg",
+      2
+     ],
+     [
+      "Falköping",
+      2
+     ],
+     [
+      "Falun",
+      3
+     ],
+     [
+      "Finspång",
+      1
+     ],
+     [
+      "Flen",
+      1
+     ],
+     [
+      "Gislaved",
+      2
+     ],
+     [
+      "Gotland",
+      12
+     ],
+     [
+      "Grästorp",
+      1
+     ],
+     [
+      "Gullspång",
+      1
+     ],
+     [
+      "Gällivare",
+      4
+     ],
+     [
+      "Gävle",
+      12
+     ],
+     [
+      "Göteborg",
+      79
+     ],
+     [
+      "Habo",
+      1
+     ],
+     [
+      "Hallstahammar",
+      1
+     ],
+     [
+      "Halmstad",
+      18
+     ],
+     [
+      "Haninge",
+      4
+     ],
+     [
+      "Haparanda",
+      1
+     ],
+     [
+      "Heby",
+      1
+     ],
+     [
+      "Helsingborg",
+      7
+     ],
+     [
+      "Huddinge",
+      5
+     ],
+     [
+      "Hudiksvall",
+      1
+     ],
+     [
+      "Hylte",
+      4
+     ],
+     [
+      "Härjedalen",
+      1
+     ],
+     [
+      "Härnösand",
+      10
+     ],
+     [
+      "Härryda",
+      3
+     ],
+     [
+      "Hässleholm",
+      2
+     ],
+     [
+      "Håbo",
+      2
+     ],
+     [
+      "Höganäs",
+      2
+     ],
+     [
+      "Högsby",
+      1
+     ],
+     [
+      "Höör",
+      1
+     ],
+     [
+      "Järfälla",
+      3
+     ],
+     [
+      "Jönköping",
+      23
+     ],
+     [
+      "Kalix",
+      2
+     ],
+     [
+      "Kalmar",
+      8
+     ],
+     [
+      "Karlshamn",
+      2
+     ],
+     [
+      "Karlskoga",
+      4
+     ],
+     [
+      "Karlskrona",
+      19
+     ],
+     [
+      "Karlstad",
+      41
+     ],
+     [
+      "Katrineholm",
+      1
+     ],
+     [
+      "Kinda",
+      3
+     ],
+     [
+      "Kiruna",
+      1
+     ],
+     [
+      "Klippan",
+      3
+     ],
+     [
+      "Kramfors",
+      4
+     ],
+     [
+      "Kristianstad",
+      4
+     ],
+     [
+      "Kristinehamn",
+      2
+     ],
+     [
+      "Krokom",
+      1
+     ],
+     [
+      "Kumla",
+      1
+     ],
+     [
+      "Kungsör",
+      1
+     ],
+     [
+      "Kungälv",
+      7
+     ],
+     [
+      "Kävlinge",
+      1
+     ],
+     [
+      "Köping",
+      1
+     ],
+     [
+      "Laholm",
+      1
+     ],
+     [
+      "Landskrona",
+      2
+     ],
+     [
+      "Leksand",
+      1
+     ],
+     [
+      "Lerum",
+      1
+     ],
+     [
+      "Lessebo",
+      1
+     ],
+     [
+      "Lidingö",
+      1
+     ],
+     [
+      "Lidköping",
+      3
+     ],
+     [
+      "Linköping",
+      22
+     ],
+     [
+      "Luleå",
+      25
+     ],
+     [
+      "Lund",
+      16
+     ],
+     [
+      "Lysekil",
+      1
+     ],
+     [
+      "Malmö",
+      50
+     ],
+     [
+      "Malå",
+      1
+     ],
+     [
+      "Mariestad",
+      1
+     ],
+     [
+      "Markaryd",
+      1
+     ],
+     [
+      "Mellerud",
+      1
+     ],
+     [
+      "Mjölby",
+      2
+     ],
+     [
+      "Mora",
+      1
+     ],
+     [
+      "Motala",
+      2
+     ],
+     [
+      "Mullsjö",
+      1
+     ],
+     [
+      "Munkedal",
+      2
+     ],
+     [
+      "Munkfors",
+      1
+     ],
+     [
+      "Mölndal",
+      3
+     ],
+     [
+      "Nacka",
+      3
+     ],
+     [
+      "Norrköping",
+      30
+     ],
+     [
+      "Norrtälje",
+      5
+     ],
+     [
+      "Nybro",
+      2
+     ],
+     [
+      "Nykvarn",
+      1
+     ],
+     [
+      "Nyköping",
+      10
+     ],
+     [
+      "Nynäshamn",
+      2
+     ],
+     [
+      "Ockelbo",
+      1
+     ],
+     [
+      "Olofström",
+      2
+     ],
+     [
+      "Oskarshamn",
+      2
+     ],
+     [
+      "Ospecificerad",
+      13
+     ],
+     [
+      "Oxelösund",
+      1
+     ],
+     [
+      "Piteå",
+      4
+     ],
+     [
+      "Rättvik",
+      1
+     ],
+     [
+      "Sala",
+      1
+     ],
+     [
+      "Salem",
+      3
+     ],
+     [
+      "Sigtuna",
+      7
+     ],
+     [
+      "Sjöbo",
+      1
+     ],
+     [
+      "Skara",
+      2
+     ],
+     [
+      "Skellefteå",
+      4
+     ],
+     [
+      "Skövde",
+      4
+     ],
+     [
+      "Sollefteå",
+      4
+     ],
+     [
+      "Sollentuna",
+      4
+     ],
+     [
+      "Solna",
+      26
+     ],
+     [
+      "Stenungsund",
+      3
+     ],
+     [
+      "Stockholm",
+      265
+     ],
+     [
+      "Strängnäs",
+      4
+     ],
+     [
+      "Strömstad",
+      1
+     ],
+     [
+      "Sundbyberg",
+      25
+     ],
+     [
+      "Sundsvall",
+      21
+     ],
+     [
+      "Svalöv",
+      3
+     ],
+     [
+      "Svedala",
+      4
+     ],
+     [
+      "Svenljunga",
+      1
+     ],
+     [
+      "Säffle",
+      1
+     ],
+     [
+      "Säter",
+      1
+     ],
+     [
+      "Söderhamn",
+      1
+     ],
+     [
+      "Södertälje",
+      7
+     ],
+     [
+      "Sölvesborg",
+      2
+     ],
+     [
+      "Tierp",
+      1
+     ],
+     [
+      "Timrå",
+      1
+     ],
+     [
+      "Tingsryd",
+      1
+     ],
+     [
+      "Tjörn",
+      1
+     ],
+     [
+      "Tomelilla",
+      3
+     ],
+     [
+      "Torsby",
+      1
+     ],
+     [
+      "Tranemo",
+      1
+     ],
+     [
+      "Tranås",
+      2
+     ],
+     [
+      "Trelleborg",
+      1
+     ],
+     [
+      "Trollhättan",
+      6
+     ],
+     [
+      "Uddevalla",
+      3
+     ],
+     [
+      "Ulricehamn",
+      1
+     ],
+     [
+      "Umeå",
+      24
+     ],
+     [
+      "Upplands Väsby",
+      2
+     ],
+     [
+      "Upplands-Bro",
+      1
+     ],
+     [
+      "Uppsala",
+      45
+     ],
+     [
+      "Uppvidinge",
+      2
+     ],
+     [
+      "Vaggeryd",
+      1
+     ],
+     [
+      "Vara",
+      2
+     ],
+     [
+      "Varberg",
+      5
+     ],
+     [
+      "Vaxholm",
+      2
+     ],
+     [
+      "Vetlanda",
+      1
+     ],
+     [
+      "Vilhelmina",
+      1
+     ],
+     [
+      "Vimmerby",
+      1
+     ],
+     [
+      "Vänersborg",
+      5
+     ],
+     [
+      "Vännäs",
+      1
+     ],
+     [
+      "Värmdö",
+      1
+     ],
+     [
+      "Värnamo",
+      2
+     ],
+     [
+      "Västerås",
+      26
+     ],
+     [
+      "Växjö",
+      17
+     ],
+     [
+      "Ydre",
+      1
+     ],
+     [
+      "Ystad",
+      3
+     ],
+     [
+      "Ängelholm",
+      2
+     ],
+     [
+      "Ånge",
+      1
+     ],
+     [
+      "Åre",
+      3
+     ],
+     [
+      "Åtvidaberg",
+      1
+     ],
+     [
+      "Öckerö",
+      2
+     ],
+     [
+      "Örebro",
+      25
+     ],
+     [
+      "Örkelljunga",
+      1
+     ],
+     [
+      "Örnsköldsvik",
+      10
+     ],
+     [
+      "Östersund",
+      18
+     ],
+     [
+      "Österåker",
+      4
+     ],
+     [
+      "Östhammar",
+      3
+     ]
+    ],
+    "Blekinge län": [
+     [
+      "Karlshamn",
+      2
+     ],
+     [
+      "Karlskrona",
+      19
+     ],
+     [
+      "Olofström",
+      2
+     ],
+     [
+      "Sölvesborg",
+      2
+     ]
+    ],
+    "Dalarnas län": [
+     [
+      "Avesta",
+      1
+     ],
+     [
+      "Borlänge",
+      3
+     ],
+     [
+      "Falun",
+      3
+     ],
+     [
+      "Leksand",
+      1
+     ],
+     [
+      "Mora",
+      1
+     ],
+     [
+      "Rättvik",
+      1
+     ],
+     [
+      "Säter",
+      1
+     ]
+    ],
+    "Gotlands län": [
+     [
+      "Gotland",
+      12
+     ]
+    ],
+    "Gävleborgs län": [
+     [
+      "Bollnäs",
+      1
+     ],
+     [
+      "Gävle",
+      12
+     ],
+     [
+      "Hudiksvall",
+      1
+     ],
+     [
+      "Ockelbo",
+      1
+     ],
+     [
+      "Söderhamn",
+      1
+     ]
+    ],
+    "Hallands län": [
+     [
+      "Falkenberg",
+      2
+     ],
+     [
+      "Halmstad",
+      18
+     ],
+     [
+      "Hylte",
+      4
+     ],
+     [
+      "Laholm",
+      1
+     ],
+     [
+      "Varberg",
+      5
+     ]
+    ],
+    "Jämtlands län": [
+     [
+      "Berg",
+      1
+     ],
+     [
+      "Bräcke",
+      2
+     ],
+     [
+      "Härjedalen",
+      1
+     ],
+     [
+      "Krokom",
+      1
+     ],
+     [
+      "Åre",
+      3
+     ],
+     [
+      "Östersund",
+      18
+     ]
+    ],
+    "Jönköpings län": [
+     [
+      "Eksjö",
+      4
+     ],
+     [
+      "Gislaved",
+      2
+     ],
+     [
+      "Habo",
+      1
+     ],
+     [
+      "Jönköping",
+      23
+     ],
+     [
+      "Mullsjö",
+      1
+     ],
+     [
+      "Tranås",
+      2
+     ],
+     [
+      "Vaggeryd",
+      1
+     ],
+     [
+      "Vetlanda",
+      1
+     ],
+     [
+      "Värnamo",
+      2
+     ]
+    ],
+    "Kalmar län": [
+     [
+      "Högsby",
+      1
+     ],
+     [
+      "Kalmar",
+      8
+     ],
+     [
+      "Nybro",
+      2
+     ],
+     [
+      "Oskarshamn",
+      2
+     ],
+     [
+      "Vimmerby",
+      1
+     ]
+    ],
+    "Kronobergs län": [
+     [
+      "Lessebo",
+      1
+     ],
+     [
+      "Markaryd",
+      1
+     ],
+     [
+      "Tingsryd",
+      1
+     ],
+     [
+      "Uppvidinge",
+      2
+     ],
+     [
+      "Växjö",
+      17
+     ]
+    ],
+    "Norrbottens län": [
+     [
+      "Arvidsjaur",
+      2
+     ],
+     [
+      "Boden",
+      3
+     ],
+     [
+      "Gällivare",
+      4
+     ],
+     [
+      "Haparanda",
+      1
+     ],
+     [
+      "Kalix",
+      2
+     ],
+     [
+      "Kiruna",
+      1
+     ],
+     [
+      "Luleå",
+      25
+     ],
+     [
+      "Piteå",
+      4
+     ]
+    ],
+    "Ospecificerat": [
+     [
+      "Ospecificerad",
+      13
+     ]
+    ],
+    "Skåne län": [
+     [
+      "Bromölla",
+      1
+     ],
+     [
+      "Burlöv",
+      3
+     ],
+     [
+      "Eslöv",
+      2
+     ],
+     [
+      "Helsingborg",
+      7
+     ],
+     [
+      "Hässleholm",
+      2
+     ],
+     [
+      "Höganäs",
+      2
+     ],
+     [
+      "Höör",
+      1
+     ],
+     [
+      "Klippan",
+      3
+     ],
+     [
+      "Kristianstad",
+      4
+     ],
+     [
+      "Kävlinge",
+      1
+     ],
+     [
+      "Landskrona",
+      2
+     ],
+     [
+      "Lund",
+      16
+     ],
+     [
+      "Malmö",
+      50
+     ],
+     [
+      "Sjöbo",
+      1
+     ],
+     [
+      "Svalöv",
+      3
+     ],
+     [
+      "Svedala",
+      4
+     ],
+     [
+      "Tomelilla",
+      3
+     ],
+     [
+      "Trelleborg",
+      1
+     ],
+     [
+      "Ystad",
+      3
+     ],
+     [
+      "Ängelholm",
+      2
+     ],
+     [
+      "Örkelljunga",
+      1
+     ]
+    ],
+    "Stockholms län": [
+     [
+      "Botkyrka",
+      3
+     ],
+     [
+      "Ekerö",
+      3
+     ],
+     [
+      "Haninge",
+      4
+     ],
+     [
+      "Huddinge",
+      5
+     ],
+     [
+      "Järfälla",
+      3
+     ],
+     [
+      "Lidingö",
+      1
+     ],
+     [
+      "Nacka",
+      3
+     ],
+     [
+      "Norrtälje",
+      5
+     ],
+     [
+      "Nykvarn",
+      1
+     ],
+     [
+      "Nynäshamn",
+      2
+     ],
+     [
+      "Salem",
+      3
+     ],
+     [
+      "Sigtuna",
+      7
+     ],
+     [
+      "Sollentuna",
+      4
+     ],
+     [
+      "Solna",
+      26
+     ],
+     [
+      "Stockholm",
+      265
+     ],
+     [
+      "Sundbyberg",
+      25
+     ],
+     [
+      "Södertälje",
+      7
+     ],
+     [
+      "Upplands Väsby",
+      2
+     ],
+     [
+      "Upplands-Bro",
+      1
+     ],
+     [
+      "Vaxholm",
+      2
+     ],
+     [
+      "Värmdö",
+      1
+     ],
+     [
+      "Österåker",
+      4
+     ]
+    ],
+    "Södermanlands län": [
+     [
+      "Eskilstuna",
+      11
+     ],
+     [
+      "Flen",
+      1
+     ],
+     [
+      "Katrineholm",
+      1
+     ],
+     [
+      "Nyköping",
+      10
+     ],
+     [
+      "Oxelösund",
+      1
+     ],
+     [
+      "Strängnäs",
+      4
+     ]
+    ],
+    "Uppsala län": [
+     [
+      "Enköping",
+      1
+     ],
+     [
+      "Heby",
+      1
+     ],
+     [
+      "Håbo",
+      2
+     ],
+     [
+      "Tierp",
+      1
+     ],
+     [
+      "Uppsala",
+      45
+     ],
+     [
+      "Östhammar",
+      3
+     ]
+    ],
+    "Värmlands län": [
+     [
+      "Eda",
+      1
+     ],
+     [
+      "Karlstad",
+      41
+     ],
+     [
+      "Kristinehamn",
+      2
+     ],
+     [
+      "Munkfors",
+      1
+     ],
+     [
+      "Säffle",
+      1
+     ],
+     [
+      "Torsby",
+      1
+     ]
+    ],
+    "Västerbottens län": [
+     [
+      "Malå",
+      1
+     ],
+     [
+      "Skellefteå",
+      4
+     ],
+     [
+      "Umeå",
+      24
+     ],
+     [
+      "Vilhelmina",
+      1
+     ],
+     [
+      "Vännäs",
+      1
+     ]
+    ],
+    "Västernorrlands län": [
+     [
+      "Härnösand",
+      10
+     ],
+     [
+      "Kramfors",
+      4
+     ],
+     [
+      "Sollefteå",
+      4
+     ],
+     [
+      "Sundsvall",
+      21
+     ],
+     [
+      "Timrå",
+      1
+     ],
+     [
+      "Ånge",
+      1
+     ],
+     [
+      "Örnsköldsvik",
+      10
+     ]
+    ],
+    "Västmanlands län": [
+     [
+      "Arboga",
+      1
+     ],
+     [
+      "Hallstahammar",
+      1
+     ],
+     [
+      "Kungsör",
+      1
+     ],
+     [
+      "Köping",
+      1
+     ],
+     [
+      "Sala",
+      1
+     ],
+     [
+      "Västerås",
+      26
+     ]
+    ],
+    "Västra Götalands län": [
+     [
+      "Ale",
+      1
+     ],
+     [
+      "Alingsås",
+      3
+     ],
+     [
+      "Borås",
+      11
+     ],
+     [
+      "Falköping",
+      2
+     ],
+     [
+      "Grästorp",
+      1
+     ],
+     [
+      "Gullspång",
+      1
+     ],
+     [
+      "Göteborg",
+      79
+     ],
+     [
+      "Härryda",
+      3
+     ],
+     [
+      "Kungälv",
+      7
+     ],
+     [
+      "Lerum",
+      1
+     ],
+     [
+      "Lidköping",
+      3
+     ],
+     [
+      "Lysekil",
+      1
+     ],
+     [
+      "Mariestad",
+      1
+     ],
+     [
+      "Mellerud",
+      1
+     ],
+     [
+      "Munkedal",
+      2
+     ],
+     [
+      "Mölndal",
+      3
+     ],
+     [
+      "Skara",
+      2
+     ],
+     [
+      "Skövde",
+      4
+     ],
+     [
+      "Stenungsund",
+      3
+     ],
+     [
+      "Strömstad",
+      1
+     ],
+     [
+      "Svenljunga",
+      1
+     ],
+     [
+      "Tjörn",
+      1
+     ],
+     [
+      "Tranemo",
+      1
+     ],
+     [
+      "Trollhättan",
+      6
+     ],
+     [
+      "Uddevalla",
+      3
+     ],
+     [
+      "Ulricehamn",
+      1
+     ],
+     [
+      "Vara",
+      2
+     ],
+     [
+      "Vänersborg",
+      5
+     ],
+     [
+      "Öckerö",
+      2
+     ]
+    ],
+    "Örebro län": [
+     [
+      "Askersund",
+      1
+     ],
+     [
+      "Degerfors",
+      2
+     ],
+     [
+      "Karlskoga",
+      4
+     ],
+     [
+      "Kumla",
+      1
+     ],
+     [
+      "Örebro",
+      25
+     ]
+    ],
+    "Östergötlands län": [
+     [
+      "Finspång",
+      1
+     ],
+     [
+      "Kinda",
+      3
+     ],
+     [
+      "Linköping",
+      22
+     ],
+     [
+      "Mjölby",
+      2
+     ],
+     [
+      "Motala",
+      2
+     ],
+     [
+      "Norrköping",
+      30
+     ],
+     [
+      "Ydre",
+      1
+     ],
+     [
+      "Åtvidaberg",
+      1
+     ]
+    ]
+   },
+   "lan": [
+    [
+     "Blekinge län",
+     25
+    ],
+    [
+     "Dalarnas län",
+     11
+    ],
+    [
+     "Gotlands län",
+     12
+    ],
+    [
+     "Gävleborgs län",
+     16
+    ],
+    [
+     "Hallands län",
+     30
+    ],
+    [
+     "Jämtlands län",
+     26
+    ],
+    [
+     "Jönköpings län",
+     37
+    ],
+    [
+     "Kalmar län",
+     14
+    ],
+    [
+     "Kronobergs län",
+     22
+    ],
+    [
+     "Norrbottens län",
+     42
+    ],
+    [
+     "Ospecificerat",
+     13
+    ],
+    [
+     "Skåne län",
+     112
+    ],
+    [
+     "Stockholms län",
+     377
+    ],
+    [
+     "Södermanlands län",
+     28
+    ],
+    [
+     "Uppsala län",
+     53
+    ],
+    [
+     "Värmlands län",
+     47
+    ],
+    [
+     "Västerbottens län",
+     31
+    ],
+    [
+     "Västernorrlands län",
+     51
+    ],
+    [
+     "Västmanlands län",
+     31
+    ],
+    [
+     "Västra Götalands län",
+     152
+    ],
+    [
+     "Örebro län",
+     33
+    ],
+    [
+     "Östergötlands län",
+     62
+    ]
+   ],
+   "omraden": [
+    [
+     "Krisberedskap & civilt försvar",
+     598
+    ],
+    [
+     "Säkerhet & trygghet",
+     452
+    ],
+    [
+     "Skadeförebyggande & personsäkerhet",
+     157
+    ],
+    [
+     "Riskanalys & riskkonsult",
+     72
+    ],
+    [
+     "Klimatanpassning & naturolyckor",
+     54
+    ],
+    [
+     "Finansiell & operativ risk (angränsande)",
+     26
+    ],
+    [
+     "Kontinuitetshantering",
+     24
+    ],
+    [
+     "Riskkommunikation",
+     4
+    ]
+   ],
+   "roller": [
+    [
+     "Säkerhetssamordnare",
+     169
+    ],
+    [
+     "Säkerhetsstrateg & säkerhetschef",
+     165
+    ],
+    [
+     "Beredskapssamordnare",
+     150
+    ],
+    [
+     "Beredskapshandläggare & -planerare",
+     131
+    ],
+    [
+     "Trygghet & brottsförebyggande",
+     92
+    ],
+    [
+     "Övrigt",
+     83
+    ],
+    [
+     "Civilt försvar & totalförsvar",
+     83
+    ],
+    [
+     "Skadeförebyggande & räddningstjänst",
+     80
+    ],
+    [
+     "Analytiker & utredare",
+     79
+    ],
+    [
+     "Riskanalytiker & riskkonsult",
+     45
+    ],
+    [
+     "Säkerhetsskydd",
+     43
+    ],
+    [
+     "Klimatanpassning",
+     29
+    ],
+    [
+     "Säkerhets- och beredskapssamordnare",
+     24
+    ],
+    [
+     "Klimatomställning & energi",
+     22
+    ],
+    [
+     "Krisledning & krisstöd",
+     19
+    ],
+    [
+     "Kontinuitetshantering",
+     11
+    ]
+   ]
+  }
+ },
+ "kompetens": {
+  "kompetenser": [
+   {
+    "id": "rsa",
+    "namn": "Risk- och sårbarhetsanalys (RSA)",
+    "sok": "risk- och sårbarhetsanalys",
+    "obl": 2,
+    "val": 3,
+    "kurs": "RHAD03",
+    "viktig": "Säkerhetssamordnare"
+   },
+   {
+    "id": "kontinuitet",
+    "namn": "Kontinuitetshantering",
+    "sok": "kontinuitet",
+    "obl": 1,
+    "val": 3,
+    "kurs": "RHAD03",
+    "viktig": "Beredskapssamordnare"
+   },
+   {
+    "id": "utredning",
+    "namn": "Olycksutredning och incidenthantering",
+    "sok": "incidenthantering",
+    "obl": 1,
+    "val": 3,
+    "kurs": "RHAD39",
+    "viktig": "Säkerhets- och beredskapssamordnare"
+   },
+   {
+    "id": "larande",
+    "namn": "Organisatoriskt lärande och säkerhetskultur",
+    "sok": "erfarenhetsåterföring",
+    "obl": 0,
+    "val": 3,
+    "kurs": "RHAD39",
+    "viktig": "Säkerhets- och beredskapssamordnare"
+   },
+   {
+    "id": "implementering",
+    "namn": "Implementering och uppföljning av åtgärder",
+    "sok": "implementering",
+    "obl": 1,
+    "val": 3,
+    "kurs": "RHAD38",
+    "viktig": "Säkerhets- och beredskapssamordnare"
+   },
+   {
+    "id": "kommunikation",
+    "namn": "Riskkommunikation",
+    "sok": "kriskommunikation",
+    "obl": 1,
+    "val": 3,
+    "kurs": "RHAD14",
+    "viktig": "Kommunikativa roller i kris och beredskap"
+   },
+   {
+    "id": "klimat",
+    "namn": "Klimatanpassning",
+    "sok": "klimatanpassning",
+    "obl": 2,
+    "val": 3,
+    "kurs": "RHAD03",
+    "viktig": "Klimatstrateger och klimatanpassningssamordnare"
+   },
+   {
+    "id": "hallbarhet",
+    "namn": "Hållbarhet, säkerhet, hälsa och miljö",
+    "sok": "arbetsmiljöarbete",
+    "obl": 1,
+    "val": 3,
+    "kurs": "MVAE34",
+    "viktig": "Klimat- och hållbarhetsroller, säkerhets- och miljösamordnare"
+   }
+  ],
+  "valbara": [
+   {
+    "kod": "RHAD03",
+    "namn": "Klimatanpassning och riskreducering",
+    "ger": [
+     "rsa",
+     "kontinuitet",
+     "klimat"
+    ],
+    "text": "Kopplar risk- och sårbarhetsanalys till klimat- och sårbarhetsanalys och ger verktyg för kontinuitetshantering. RSA är centralt för säkerhetssamordnare och kontinuitetshantering för beredskapssamordnare."
+   },
+   {
+    "kod": "RHAD39",
+    "namn": "Olycksutredning och organisatoriskt lärande",
+    "ger": [
+     "utredning",
+     "larande"
+    ],
+    "text": "Ger verktyg för att utreda olyckor och tillbud och för att leda det organisatoriska lärandet efteråt. Viktigt för både säkerhets- och beredskapssamordnare."
+   },
+   {
+    "kod": "RHAD38",
+    "namn": "Implementering och utvärdering av riskhanteringsåtgärder",
+    "ger": [
+     "implementering"
+    ],
+    "text": "Ger verktyg för att genomföra, följa upp och utvärdera åtgärder i praktiken. Viktigt för både säkerhets- och beredskapssamordnare."
+   },
+   {
+    "kod": "RHAD14",
+    "namn": "Riskperception och riskkommunikation",
+    "ger": [
+     "kommunikation"
+    ],
+    "text": "Hur människor uppfattar risker och hur man når fram med information före och under en kris."
+   },
+   {
+    "kod": "MVAE34",
+    "namn": "Hållbar utveckling ur ett säkerhetsperspektiv",
+    "ger": [
+     "hallbarhet"
+    ],
+    "text": "Hållbarhet i säkerhetsarbetet och sambandet mellan säkerhet, hälsa och miljö."
+   }
+  ],
+  "grupper": {
+   "alla": {
+    "namn": "Alla annonser",
+    "antal": 1225,
+    "aktuella": 116,
+    "andel": {
+     "rsa": 0.222,
+     "kontinuitet": 0.319,
+     "utredning": 0.069,
+     "larande": 0.071,
+     "implementering": 0.633,
+     "kommunikation": 0.019,
+     "klimat": 0.041,
+     "hallbarhet": 0.082
+    },
+    "traff": {
+     "rsa": 272,
+     "kontinuitet": 391,
+     "utredning": 84,
+     "larande": 87,
+     "implementering": 776,
+     "kommunikation": 23,
+     "klimat": 50,
+     "hallbarhet": 100
+    },
+    "procent": {
+     "rsa": 22,
+     "kontinuitet": 32,
+     "utredning": 7,
+     "larande": 7,
+     "implementering": 63,
+     "kommunikation": 2,
+     "klimat": 4,
+     "hallbarhet": 8
+    },
+    "procent_av_alla": {
+     "rsa": 22,
+     "kontinuitet": 32,
+     "utredning": 6.9,
+     "larande": 7.1,
+     "implementering": 63,
+     "kommunikation": 1.9,
+     "klimat": 4.1,
+     "hallbarhet": 8.2
+    }
+   },
+   "sak": {
+    "namn": "Säkerhetssamordnare",
+    "antal": 193,
+    "aktuella": 17,
+    "andel": {
+     "rsa": 0.311,
+     "kontinuitet": 0.383,
+     "utredning": 0.104,
+     "larande": 0.067,
+     "implementering": 0.731,
+     "kommunikation": 0.005,
+     "klimat": 0.005,
+     "hallbarhet": 0.073
+    },
+    "traff": {
+     "rsa": 60,
+     "kontinuitet": 74,
+     "utredning": 20,
+     "larande": 13,
+     "implementering": 141,
+     "kommunikation": 1,
+     "klimat": 1,
+     "hallbarhet": 14
+    },
+    "procent": {
+     "rsa": 31,
+     "kontinuitet": 38,
+     "utredning": 10,
+     "larande": 7,
+     "implementering": 73,
+     "kommunikation": 1,
+     "klimat": 1,
+     "hallbarhet": 7
+    },
+    "procent_av_alla": {
+     "rsa": 4.9,
+     "kontinuitet": 6.0,
+     "utredning": 1.6,
+     "larande": 1.1,
+     "implementering": 12,
+     "kommunikation": 0.1,
+     "klimat": 0.1,
+     "hallbarhet": 1.1
+    }
+   },
+   "ber": {
+    "namn": "Beredskapssamordnare",
+    "antal": 174,
+    "aktuella": 16,
+    "andel": {
+     "rsa": 0.511,
+     "kontinuitet": 0.707,
+     "utredning": 0.04,
+     "larande": 0.098,
+     "implementering": 0.626,
+     "kommunikation": 0.023,
+     "klimat": 0.011,
+     "hallbarhet": 0.04
+    },
+    "traff": {
+     "rsa": 89,
+     "kontinuitet": 123,
+     "utredning": 7,
+     "larande": 17,
+     "implementering": 109,
+     "kommunikation": 4,
+     "klimat": 2,
+     "hallbarhet": 7
+    },
+    "procent": {
+     "rsa": 51,
+     "kontinuitet": 71,
+     "utredning": 4,
+     "larande": 10,
+     "implementering": 63,
+     "kommunikation": 2,
+     "klimat": 1,
+     "hallbarhet": 4
+    },
+    "procent_av_alla": {
+     "rsa": 7.3,
+     "kontinuitet": 10,
+     "utredning": 0.6,
+     "larande": 1.4,
+     "implementering": 8.9,
+     "kommunikation": 0.3,
+     "klimat": 0.2,
+     "hallbarhet": 0.6
+    }
+   },
+   "klim": {
+    "namn": "Klimatrisker och naturolyckor",
+    "antal": 39,
+    "aktuella": 1,
+    "andel": {
+     "rsa": 0.154,
+     "kontinuitet": 0.051,
+     "utredning": 0.0,
+     "larande": 0.0,
+     "implementering": 0.487,
+     "kommunikation": 0.0,
+     "klimat": 0.974,
+     "hallbarhet": 0.359
+    },
+    "traff": {
+     "rsa": 6,
+     "kontinuitet": 2,
+     "utredning": 0,
+     "larande": 0,
+     "implementering": 19,
+     "kommunikation": 0,
+     "klimat": 38,
+     "hallbarhet": 14
+    },
+    "procent": {
+     "rsa": 15,
+     "kontinuitet": 5,
+     "utredning": 0,
+     "larande": 0,
+     "implementering": 49,
+     "kommunikation": 0,
+     "klimat": 97,
+     "hallbarhet": 36
+    },
+    "procent_av_alla": {
+     "rsa": 0.5,
+     "kontinuitet": 0.2,
+     "utredning": 0.0,
+     "larande": 0.0,
+     "implementering": 1.6,
+     "kommunikation": 0.0,
+     "klimat": 3.1,
+     "hallbarhet": 1.1
+    }
+   }
+  }
+ }
+}

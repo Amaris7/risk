@@ -35,6 +35,14 @@ class Urval(unittest.TestCase):
         self.assertIn("RHAD21/RHAD31", r["kurser"])
         self.assertIn(r["match"], ("Hög", "Medel", "Grundläggande"))
 
+    def test_kris_i_ortnamn_raknas_inte(self):
+        for rubrik in ("Budbilsförare Kristianstad", "Erfaren CE-chaufför till kund i Kristianstad!", "Lagerarbetare Kristinehamn"):
+            with self.subTest(rubrik=rubrik):
+                self.assertIsNone(H.CORE.search(rubrik))
+        for rubrik in ("Krisberedskapssamordnare", "Kris- och kontinuitetsledare", "Krisstöd till Kristianstads kommun"):
+            with self.subTest(rubrik=rubrik):
+                self.assertIsNotNone(H.CORE.search(rubrik))
+
     def test_rubrik_utan_koppling_sorteras_bort(self):
         self.assertIsNone(H.bearbeta(annons(headline="Lagerarbetare"), "aktuell", "x", fran="2026-01-01"))
 
@@ -66,6 +74,73 @@ class Urval(unittest.TestCase):
         self.assertLessEqual(len(r["text"]), H.TEXT_MAX)
 
 
+class AnnanUtbildning(unittest.TestCase):
+    """Tjänster som kräver doktorsexamen eller är doktorandtjänster i andra ämnen sorteras bort."""
+    RSA = "Du arbetar med krisberedskap, risk- och sårbarhetsanalys (RSA), krisledning, övningar och utvärderar åtgärder. "
+
+    def ta_med(self, rubrik, text=""):
+        return H.bearbeta(annons(headline=rubrik, description={"text": self.RSA + text}), "aktuell", "x", fran="2026-01-01") is not None
+
+    def test_postdoktor_och_lektor_sorteras_alltid_bort(self):
+        for rubrik in ("Postdoktor i krisberedskap", "Universitetslektor i krisberedskap och civilt försvar",
+                       "Biträdande universitetslektor i Riskhantering"):
+            with self.subTest(rubrik=rubrik):
+                self.assertFalse(self.ta_med(rubrik))
+
+    def test_forskare_bara_om_doktorsexamen_kravs(self):
+        self.assertFalse(self.ta_med("Forskare inom riskhantering", "Du ska ha avlagt doktorsexamen i ett relevant ämne."))
+        self.assertTrue(self.ta_med("Forskare eller analytiker inom krisberedskap", "Doktorsexamen är meriterande."))
+        self.assertTrue(self.ta_med("Forskare eller analytiker inom krisberedskap"))
+        # Kravet ska hittas även efter ett långt inledande stycke som slutar med kolon och innehåller "Välkommen"
+        intro = "Välkommen att söka anställning som forskare. Våra sex forskningsavdelningar:\nGeofysik\n"
+        self.assertFalse(self.ta_med("Forskare inom klimathändelser", intro + "Kvalifikationskrav\nDoktorsexamen i klimatvetenskap."))
+        self.assertTrue(self.ta_med("Forskare eller analytiker inom krisberedskap", "Det är meriterande för tjänsten om du har:\ndoktorsexamen"))
+
+    def test_doktorand_bara_i_programmets_amnen(self):
+        self.assertTrue(self.ta_med("Doktorand i trafiksäkerhet"))
+        self.assertTrue(self.ta_med("Doktorand i krisberedskap"))
+        self.assertFalse(self.ta_med("Doktorand i fysiologi och modellering av ärftlig klimatanpassning"))
+
+    def test_andra_forskningsroller_finns_kvar(self):
+        for rubrik in ("Forskningsassistent inom krisberedskap", "Universitetsadjunkt i risk och miljöstudier",
+                       "Forskningssamordnare för totalförsvar"):
+            with self.subTest(rubrik=rubrik):
+                self.assertTrue(self.ta_med(rubrik))
+
+    def test_sakerhetsarkitekt_ar_it_sakerhet(self):
+        self.assertFalse(self.ta_med("Säkerhetsarkitekt inom krisberedskap"))
+
+
+class Kravavsnitt(unittest.TestCase):
+    """Exempel från riktiga annonser: rubriken för en meriterande lista står ofta sist på en lång rad."""
+
+    def test_meriterande_rubrik_sist_pa_raden(self):
+        text = ("Vi vill också att du har:\nB-körkort. Det är meriterande om du har\n"
+                "erfarenhet av att hantera säkerhetsskyddsklassificerade uppgifter\n\nAnställningsform: tillsvidare")
+        self.assertEqual(H.hitta_erfarenheter(text), [])
+        self.assertIn("Körkort", H.hitta_krav(text))
+
+    def test_lista_under_meriterande_hoppas_over_till_tom_rad(self):
+        text = "Minst 2 års erfarenhet av arbete med våldsutsatta.\nMeriterande\nErfarenhet från socialtjänstens arbete"
+        self.assertEqual(H.hitta_erfarenheter(text), ["Minst 2 års erfarenhet av arbete med våldsutsatta"])
+
+    def test_valkomsttext_med_kolon_doljer_inte_kraven(self):
+        text = ("Välkommen att söka anställning hos oss. Våra sex avdelningar:\nGeofysik\n"
+                "Kvalifikationskrav\nErfarenhet av krisledning och kontinuitetsplanering.")
+        self.assertEqual(H.hitta_erfarenheter(text), ["Erfarenhet av krisledning och kontinuitetsplanering"])
+
+    def test_vanlig_mening_med_garna_ar_ingen_rubrik(self):
+        text = "Skicka gärna in din ansökan redan idag!\nErfarenhet av beredskapsarbete."
+        self.assertEqual(H.hitta_erfarenheter(text), ["Erfarenhet av beredskapsarbete"])
+
+    def test_ser_vi_som_vardefullt_ar_meriterande(self):
+        self.assertEqual(H.hitta_erfarenheter("Erfarenhet av sannolikhetsanalyser ser vi som värdefullt."), [])
+
+    def test_arbetsgivarens_historia_ar_inget_krav(self):
+        text = "Om Studsvik:\nStudsvik har över 75 års erfarenhet av kärnteknik.\nMinst 3 års erfarenhet av säkerhetsarbete."
+        self.assertEqual(H.hitta_erfarenheter(text), ["Minst 3 års erfarenhet av säkerhetsarbete"])
+
+
 class Krav(unittest.TestCase):
     def test_krav_hittas_i_fast_ordning(self):
         text = ("Vi söker dig som har en akademisk examen inom samhällsvetenskap. Du har B-körkort. "
@@ -82,6 +157,18 @@ class Krav(unittest.TestCase):
         self.assertEqual(H.hitta_krav("Inget särskilt.", korkort_kravs=True, erfarenhet_kravs=True), ["Körkort", "Tidigare erfarenhet"])
         self.assertNotIn("Tidigare erfarenhet", H.hitta_krav("Du har flerårig erfarenhet.", erfarenhet_kravs=True))
 
+    def test_mjuka_formuleringar_ar_inte_krav(self):
+        for text in ("Har du erfarenhet av krisberedskap från dina studier är det bra.",
+                     "Du har gärna erfarenhet av riskanalys.",
+                     "Erfarenhet av beredskap genom praktik eller examensarbete är välkommen."):
+            with self.subTest(text=text):
+                self.assertEqual(H.hitta_krav(text), [])
+
+    def test_nyexaminerade_far_inga_erfarenhetskrav(self):
+        text = "Du har akademisk examen. Du har minst 2 års erfarenhet av krisberedskap."
+        self.assertEqual(H.hitta_krav(text, erfarenhet_kravs=True, nyexad=True), ["Akademisk examen"])
+        self.assertIn("Erfarenhet av beredskap/kris", H.hitta_krav(text))
+
     def test_tom_text(self):
         self.assertEqual(H.hitta_krav(""), [])
         self.assertEqual(H.hitta_krav(None), [])
@@ -89,6 +176,45 @@ class Krav(unittest.TestCase):
     def test_krav_finns_i_posten(self):
         r = H.bearbeta(annons(driving_license_required=True), "aktuell", "x", fran="2026-01-01")
         self.assertIn("Körkort", r["krav"])
+
+
+class Nyexaminerade(unittest.TestCase):
+    def test_uttryckliga_formuleringar(self):
+        for text in ("Vi söker dig som är nyexaminerad.", "Rollen passar dig i början av din karriär.", "Vi söker juniora utredare.",
+                     "Traineeprogram för civilt försvar."):
+            with self.subTest(text=text):
+                self.assertTrue(H.passar_nyexad("Handläggare", text.lower()))
+        self.assertTrue(H.passar_nyexad("Junior beredskapshandläggare", ""))
+
+    def test_inte_nar_juniora_bara_namns(self):
+        for text in ("du coachar våra mer juniora konsulter", "vi har både erfarna och mer juniora medarbetare"):
+            with self.subTest(text=text):
+                self.assertFalse(H.passar_nyexad("Säkerhetskonsult", text))
+
+
+class Erfarenheter(unittest.TestCase):
+    def test_fraser_plockas_ut(self):
+        text = ("Du har minst 3 års erfarenhet av riskhantering. Vi söker dig med erfarenhet av SimCorp. "
+                "Erfarenhet av projektledning är meriterande.")
+        self.assertEqual(H.hitta_erfarenheter(text), ["Minst 3 års erfarenhet av riskhantering", "Erfarenhet av SimCorp"])
+
+    def test_meriterande_lista_och_arbetsgivarens_text_ar_inte_krav(self):
+        text = ("Kvalifikationer:\nErfarenhet av krisberedskap\n\nDet är meriterande om du har:\nErfarenhet av GIS\n"
+                "Erfarenhet av SimCorp\n\nVi erbjuder:\nDu får erfarenhet av internationellt arbete")
+        self.assertEqual(H.hitta_erfarenheter(text), ["Erfarenhet av krisberedskap"])
+
+    def test_ospecificerad_nar_bara_faltet_sager_erfarenhet(self):
+        self.assertEqual(H.hitta_erfarenheter("Inget om det.", erfarenhet_kravs=True), [H.ERF_OSPEC])
+        self.assertEqual(H.hitta_erfarenheter("Inget om det."), [])
+
+    def test_nyexaminerade_och_mjuka_formuleringar(self):
+        self.assertEqual(H.hitta_erfarenheter("Du har erfarenhet av beredskap.", erfarenhet_kravs=True, nyexad=True), [])
+        self.assertEqual(H.hitta_erfarenheter("Har du erfarenhet av beredskap från dina studier är det bra."), [])
+
+    def test_langa_fraser_kortas_vid_ordgrans(self):
+        f = H.hitta_erfarenheter("Du har erfarenhet av " + "mycket långa och detaljerade beskrivningar " * 6 + "av saker.")[0]
+        self.assertLessEqual(len(f), 112)
+        self.assertTrue(f.endswith(" …"))
 
 
 class SakraLankar(unittest.TestCase):

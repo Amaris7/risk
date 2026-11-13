@@ -10,6 +10,8 @@ import datetime, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import illustrationer  # noqa: E402
 import kompetenser  # noqa: E402
+import statistik  # noqa: E402
+import hamta_annonser  # noqa: E402
 from zoneinfo import ZoneInfo
 
 SVENSK_TID = ZoneInfo("Europe/Stockholm")
@@ -129,7 +131,13 @@ def main():
     if os.path.exists(sokvag):
         with open(sokvag, encoding="utf-8") as f:
             texter = json.load(f)
+    # All statistik räknas här i Python och sparas även som granskningsbara filer i data/
+    data["statistik"] = statistik.berakna(data["annonser"], {c for c, _, _ in hamta_annonser.COURSES}, texter)
     data["kompetens"] = kompetenser.statistik(data["annonser"], texter)
+    with open(os.path.join(ROT, "data", "statistik.json"), "w", encoding="utf-8") as f:
+        json.dump({"statistik": data["statistik"], "kompetens": data["kompetens"]}, f, ensure_ascii=False, indent=1)
+    with open(os.path.join(ROT, "data", "statistik.md"), "w", encoding="utf-8") as f:
+        f.write(statistik.rapport(data["statistik"], data["kompetens"]) + "\n")
     html = bygg(mall, data, logik, illustrationer.alla(data, texter))
     with open(UT, "w", encoding="utf-8") as f:
         f.write(html)

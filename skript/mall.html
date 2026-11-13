@@ -125,6 +125,11 @@ ul.clean li::before { content: ""; position: absolute; left: 2px; top: .62em; wi
 .chip { display: inline-flex; align-items: center; gap: 4px; font: 500 .8rem/1.3 var(--f-body); padding: 4px 11px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; max-width: 100% }
 .chip.sig { background: var(--signal-soft); color: var(--signal) }
 .chip.good { background: var(--good-soft); color: var(--good) }
+.chip.klim { background: color-mix(in srgb, var(--klim) 14%, transparent); color: var(--klim) }
+.chip.klim-omst { background: transparent; color: var(--klim); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--klim) 45%, transparent) }
+.klimrad { display: flex; flex-direction: column; gap: 2px }
+.linkbtn { background: none; border: 0; padding: 0; font: inherit; color: var(--klim); text-decoration: underline; text-underline-offset: 2px; cursor: pointer }
+.klim-sum { margin: 0 0 18px; border-top: 0; padding-top: 0 }
 .chip.plain { background: transparent; box-shadow: inset 0 0 0 1px var(--line-strong); color: var(--muted) }
 .chip.now { background: var(--accent); color: var(--on-accent); font-weight: 600 }
 .chip.typ-campus { background: var(--signal-soft); color: var(--signal) }
@@ -182,7 +187,8 @@ button.brow:focus-visible { outline: 2px solid var(--accent) }
 .ftoggle[aria-expanded="true"] { border-color: var(--accent) }
 .fcount { font: 600 .72rem var(--f-mono); background: var(--accent); color: var(--on-accent); border-radius: 10px; padding: 1px 7px }
 .more-filters { display: grid; gap: 20px }
-.filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; align-items: end }
+.filters { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; align-items: end }
+@media (max-width: 1100px) { .filters { grid-template-columns: repeat(3, minmax(0, 1fr)) } }
 @media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr } }
 .bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 16px }
 .bar.end { padding-top: 16px; border-top: 1px solid var(--line) }
@@ -216,6 +222,8 @@ button.reset { font: 600 .9rem var(--f-body); background: none; border: 0; color
 .adfacts > div { display: grid; grid-template-columns: 76px 1fr; gap: 12px; align-items: start }
 .adfacts dt { font: 600 .72rem/2.1 var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
 .adfacts dd { margin: 0; display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; min-width: 0 }
+.adfacts ul.erf { margin: 0; padding-left: 18px; display: grid; gap: 2px; font-size: .9rem; line-height: 1.45 }
+.adfacts ul.erf li::marker { color: var(--accent) }
 .chip.krav { background: var(--surface-2); color: var(--fg); box-shadow: inset 0 0 0 1px var(--line-strong) }
 .kravlist { display: flex; flex-wrap: wrap; gap: 8px 14px }
 .kravlist > span { display: inline-flex; align-items: center; gap: 6px }
@@ -485,6 +493,7 @@ button.reset { font: 600 .9rem var(--f-body); background: none; border: 0; color
     <h2>Yrkesroller</h2>
     <p>Annonsrubrikerna grupperade i yrkesroller. Antalet är annonser senaste året. Klicka för att se annonserna för en roll.</p>
   </div></div>
+  <p class="note klim-sum" id="roles-klim"></p>
   <div class="roles" id="roles"></div>
 </section>
 
@@ -504,6 +513,17 @@ button.reset { font: 600 .9rem var(--f-body); background: none; border: 0; color
       <label>Ort<select id="f-kommun"></select></label>
       <label>Arbetsområde<select id="f-omr"></select></label>
       <label>Yrkesroll<select id="f-roll"></select></label>
+      <label>Erfarenhet<select id="f-erf">
+        <option value="alla">Alla annonser</option>
+        <option value="nej">Kräver inte erfarenhet</option>
+        <option value="ja">Kräver erfarenhet</option>
+        <option value="ny">Passar nyexaminerade</option>
+      </select></label>
+      <label>Klimat<select id="f-klim">
+        <option value="">Alla annonser</option>
+        <option value="risk">Klimatrisker och naturolyckor</option>
+        <option value="omst">Klimatomställning, energi och utsläpp</option>
+      </select></label>
     </div>
     <div class="bar">
       <div class="seg" role="group" aria-label="Status" id="f-status">
@@ -604,22 +624,9 @@ const TERMS = [
     ["RHAD39","Olycksutredning och organisatoriskt lärande",7.5,"Valfri","Hur organisationer lär av olyckor och tillbud. Säkerhetskultur, högtillförlitliga organisationer och erfarenhetsåterföring."]]],
   ["Termin 4", [["RHAE01","Riskhantering – masterarbete",30,"Obl.","Självständigt vetenskapligt arbete om samhällets systematiska säkerhetsarbete, inklusive hotbildsanalys."]]],
 ];
-const ROLES = [
-  ["Beredskapssamordnare", /beredskapssamordn|beredskapskoordinator|samordnare.*beredskap|beredskaps.*samordn/i, "Samordnar kommunens, regionens eller myndighetens krisberedskap och civila försvar: RSA, beredskapsplaner, krisledningsorganisation, övningar och utbildning."],
-  ["Beredskapshandläggare & -planerare", /beredskapshandl|beredskapsplaner|handläggare.*beredskap|beredskapsspecialist|beredskapsexpert|beredskapsstrateg|beredskapsansvarig|beredskapschef/i, "Handlägger och utvecklar beredskapsplanering på länsstyrelser, civilområden och statliga myndigheter, ofta med fokus på höjd beredskap."],
-  ["Civilt försvar & totalförsvar", /civil[at]? försvar|totalförsvar|civilområde|försörjningsberedskap/i, "Roller som bygger upp det civila försvaret: planering för höjd beredskap, krigsorganisation, försörjningsberedskap och samverkan med Försvarsmakten."],
-  ["Säkerhetssamordnare", /säkerhetssamordn|säkerhetskoordinator/i, "Samordnar en organisations säkerhetsarbete: riskbedömningar, incidenthantering, säkerhetsrutiner och ofta även krisberedskap."],
-  ["Säkerhetsstrateg & säkerhetschef", /säkerhetsstrateg|säkerhetschef|säkerhetsspecialist|säkerhetsansvarig|chef.*säkerhet/i, "Strategiskt ansvar för säkerhet, beredskap och kontinuitet. Ofta krav på erfarenhet och ledningsförmåga."],
-  ["Säkerhetsskydd", /säkerhetsskydd/i, "Säkerhetsskyddschefer och handläggare som skyddar säkerhetskänslig verksamhet. Kräver oftast kompletterande kunskap om säkerhetsskyddslagen."],
-  ["Trygghet & brottsförebyggande", /trygghet|brottsförebygg/i, "Arbetar lokalt med trygghetsskapande och brottsförebyggande åtgärder, ofta i kommuner och bostadsbolag."],
-  ["Kontinuitetshantering", /kontinuitet/i, "Ser till att verksamheten fungerar vid störningar: kontinuitetsplaner, beroendeanalyser och övningar."],
-  ["Riskanalytiker & riskkonsult", /riskanaly|riskkonsult|risk ?manager|riskhanter|riskingenjör|riskspecialist|riskstrateg/i, "Analyserar och bedömer risker, på myndighet, i industri eller som konsult. Inkluderar även finansiella riskroller, som är mer angränsande."],
-  ["Klimatanpassning", /klimat/i, "Strateger och projektledare som arbetar med klimatanpassning, översvämnings- och skredrisker i fysisk planering."],
-  ["Skadeförebyggande & räddningstjänst", /skadeförebygg|olycksförebygg|förebyggande|trafiksäkerhet|räddning|brandskydd|säkerhetsfrämj|olycksutred/i, "Förebyggande arbete mot olyckor och skador: trafiksäkerhet, räddningstjänstens förebyggande verksamhet och olycksutredning."],
-  ["Krisledning & krisstöd", /kris/i, "Krishantering, krisledning och krisstöd, ofta i regioner, myndigheter och företag."],
-  ["Analytiker & utredare", /analytiker|utredare|handläggare|strateg|samordnare|specialist|expert|projektledare/i, "Andra analytiker-, utredar- och samordnarroller med koppling till risk, beredskap eller säkerhet."],
-];
-ADS.forEach(a => { const r = ROLES.find(r => r[1].test(a.rubrik)); a.roll = r ? r[0] : "Övrigt"; a._s = (a.rubrik + " " + a.arbetsgivare + " " + a.kommun + " " + a.lan + " " + a.utdrag).toLowerCase(); });
+// Statistiken räknas i Python (skript/statistik.py) och ligger i DATA.statistik. Här visas den bara.
+const S = DATA.statistik;
+ADS.forEach(a => { a._s = (a.rubrik + " " + a.arbetsgivare + " " + a.kommun + " " + a.lan + " " + a.utdrag).toLowerCase(); });
 // Hela annonstexterna ligger i data/annonstext.json och laddas först när någon söker
 let TEXT_STATUS = "ej laddad", textPromise = null;
 function loadText() {
@@ -637,21 +644,19 @@ const matchQ = (a, q) => makeMatcher(q)(a._s);
 const $ = id => document.getElementById(id);
 function bars(el, rows, opts = {}) {
   const max = opts.max || Math.max(1, ...rows.map(r => r[1]));
-  el.innerHTML = rows.map(([k, v]) => {
-    const inner = `<span class="lbl" title="${esc(k)}">${esc(opts.label ? opts.label(k) : k)}</span><span class="track"><span class="fill${opts.sig ? " sig" : ""}" style="width:${(v / max * 100).toFixed(1)}%"></span></span><span class="v">${esc(opts.val ? opts.val(v) : v)}</span>`;
+  el.innerHTML = rows.map(([k, v, vis]) => {
+    const inner = `<span class="lbl" title="${esc(k)}">${esc(opts.label ? opts.label(k) : k)}</span><span class="track"><span class="fill${opts.sig ? " sig" : ""}" style="width:${(v / max * 100).toFixed(1)}%"></span></span><span class="v">${esc(vis !== undefined ? vis : v)}</span>`;
     return opts.click ? `<button class="brow" data-k="${esc(k)}">${inner}</button>` : `<div class="brow">${inner}</div>`;
   }).join("");
   if (opts.click) el.querySelectorAll("button").forEach(b => b.onclick = () => opts.click(b.dataset.k));
 }
 
 // Översikt
-const akt = ADS.filter(a => a.status === "aktuell").length;
-$("n-ads").textContent = ADS.length;
-$("facts").innerHTML = [[ADS.length, "annonser senaste året"], [akt, "aktuella just nu"], [ADS.filter(a => a.match === "Hög").length, "med hög matchning"], [new Set(ADS.map(a => a.kommun)).size, "orter"], [new Set(ADS.map(a => a.arbetsgivare)).size, "arbetsgivare"]]
+$("n-ads").textContent = S.antal;
+$("facts").innerHTML = [[S.fakta.annonser, "annonser senaste året"], [S.fakta.aktuella, "aktuella just nu"], [S.fakta.hog_matchning, "med hög matchning"], [S.fakta.orter, "orter"], [S.fakta.arbetsgivare, "arbetsgivare"]]
   .map(([v, l]) => `<div><b>${v.toLocaleString("sv-SE")}</b><span>${l}</span></div>`).join("");
-const roleCounts = count(ADS, a => a.roll).filter(r => r[0] !== "Övrigt");
-bars($("ov-roles"), roleCounts.slice(0, 8), { click: k => go({ roll: k }) });
-bars($("ov-areas"), count(ADS, a => a.omraden), { click: k => go({ omr: k }), sig: true });
+bars($("ov-roles"), S.roller.filter(r => r.namn !== "Övrigt").map(r => [r.namn, r.antal]).sort((a, b) => b[1] - a[1]).slice(0, 8), { click: k => go({ roll: k }) });
+bars($("ov-areas"), S.omraden, { click: k => go({ omr: k }), sig: true });
 
 // Utbildningen
 $("terms").innerHTML = TERMS.map(([t, cs]) => `<div class="panel term"><div class="term-h"><h3>${t}</h3><span class="eyebrow">${cs.reduce((s, c) => s + (c[3] === "Obl." ? c[2] : 0), 0)} hp obl.</span></div>` +
@@ -663,12 +668,14 @@ const ROLL_IKON = {
   "Beredskapshandläggare & -planerare": "M9 3h6v3H9zM7 4.5H5V21h14V4.5h-2M8.5 11h7M8.5 15h4",
   "Civilt försvar & totalförsvar": "M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z",
   "Säkerhetssamordnare": "M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6zM8.5 12l2.5 2.5 4.5-5",
+  "Säkerhets- och beredskapssamordnare": "M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6zM12 8v4M12 15.5v.5",
   "Säkerhetsstrateg & säkerhetschef": "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM15.5 8.5 13.5 13.5 8.5 15.5 10.5 10.5z",
   "Säkerhetsskydd": "M5 11h14v10H5zM8 11V8a4 4 0 0 1 8 0v3M12 15v2",
   "Trygghet & brottsförebyggande": "M3 11l9-7 9 7M5 10v10h14V10M10 20v-5h4v5",
   "Kontinuitetshantering": "M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9M18.5 3v4.5H14M5.5 21v-4.5H10",
   "Riskanalytiker & riskkonsult": "M4 20V4M4 20h16M7.5 15l4-5 3 3 5-7",
   "Klimatanpassning": "M7 15a4 4 0 0 1 0-8 5 5 0 0 1 9.6-1.5A3.5 3.5 0 0 1 17 15zM8 18.5l-1 2.5M12 18.5l-1 2.5M16 18.5l-1 2.5",
+  "Klimatomställning & energi": "M13 2 4 14h7l-1 8 9-12h-7z",
   "Skadeförebyggande & räddningstjänst": "M9.5 3h5v6.5H21v5h-6.5V21h-5v-6.5H3v-5h6.5z",
   "Krisledning & krisstöd": "M3 10v4h4l7 5V5L7 10zM17.5 9a4 4 0 0 1 0 6M20 6.5a7.5 7.5 0 0 1 0 11",
   "Analytiker & utredare": "M10.5 4a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM20 20l-4.8-4.8",
@@ -677,28 +684,30 @@ const ROLL_IKON = {
 const rollIkon = n => `<span class="ricon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="${ROLL_IKON[n] || ROLL_IKON["Övrigt"]}"/></svg></span>`;
 
 // Yrkesroller
-$("roles").innerHTML = [...ROLES.map(r => r[0]), "Övrigt"].map(name => {
-  const ads = ADS.filter(a => a.roll === name); if (!ads.length) return "";
-  const r = ROLES.find(r => r[0] === name);
-  const emps = count(ads, a => a.arbetsgivare).slice(0, 3).map(e => e[0]);
-  const kurser = count(ads, a => a.kurser.filter(isCourse)).slice(0, 3).map(k => k[0]);
-  const ak = ads.filter(a => a.status === "aktuell").length;
-  const titles = count(ads, a => kortTitel(a.rubrik)).slice(0, 4).map(t => t[0]);
-  return `<div class="panel role"><div class="head"><div class="rtitle">${rollIkon(name)}<h3>${esc(name)}</h3></div><span class="num">${ads.length} annonser</span></div>
-    <p class="desc">${esc(r ? r[2] : "Annonser som inte passade in i någon av grupperna ovan.")}</p>
-    <dl><div><dt>Exempel på titlar</dt><dd>${titles.map(esc).join(" · ")}</dd></div>
-    <div><dt>Vanliga krav</dt><dd class="kravlist">${count(ads, a => a.krav).slice(0, 4).map(([k, v]) => `<span><span class="chip krav">${esc(k)}</span><span class="pct">${procent(v, ads.length)}</span></span>`).join("")}</dd></div>
-    <div><dt>Vanliga arbetsgivare</dt><dd>${emps.map(esc).join(" · ")}</dd></div></dl>
-    <div class="chips">${kurser.map(k => `<span class="chip">${esc(cname(k))}</span>`).join("")}${ak ? `<span class="chip good">${ak} aktuella</span>` : ""}</div>
+$("roles").innerHTML = S.roller.map(ro => {
+  const name = ro.namn;
+  return `<div class="panel role"><div class="head"><div class="rtitle">${rollIkon(name)}<h3>${esc(name)}</h3></div><span class="num">${ro.antal} annonser</span></div>
+    <p class="desc">${esc(ro.beskrivning)}</p>
+    <dl><div><dt>Exempel på titlar</dt><dd>${ro.titlar.map(esc).join(" · ")}</dd></div>
+    <div><dt>Vanliga krav</dt><dd class="kravlist">${ro.krav.map(([k, n, p]) => `<span title="${n} av ${ro.antal} annonser"><span class="chip krav">${esc(k)}</span><span class="pct">${p} %</span></span>`).join("")}</dd></div>
+    <div><dt>Vanliga arbetsgivare</dt><dd>${ro.arbetsgivare.map(esc).join(" · ")}</dd></div>
+    <div><dt>Klimat</dt><dd class="klimrad">${[["risk", ro.klimat, "klimatrisker"], ["omst", ro.omst, "omställning"]].filter(([, [n]]) => n).map(([t, [n, p], ord]) =>
+      `<span><button class="linkbtn klim-go" data-r="${esc(name)}" data-t="${t}">${n} av ${ro.antal}</button> ${ord} <span class="muted small">(${p} %)</span></span>`).join("") || `<span class="muted small">Ingen av rollens ${ro.antal} annonser</span>`}</dd></div></dl>
+    <div class="chips">${ro.kurser.map(k => `<span class="chip">${esc(cname(k))}</span>`).join("")}${ro.aktuella ? `<span class="chip good">${ro.aktuella} aktuella</span>` : ""}</div>
     <button class="go" data-r="${esc(name)}">Visa annonserna</button></div>`;
 }).join("");
 $("roles").querySelectorAll("button.go").forEach(b => b.onclick = () => go({ roll: b.dataset.r }));
+const tot = S.antal.toLocaleString("sv-SE");
+$("roles-klim").innerHTML = `Klimat delas i två grupper. <b>Klimatrisker och naturolyckor: ${S.fakta.klimat} av ${tot} annonser (${S.fakta.klimat_procent} %)</b>, det vill säga klimatanpassning, översvämning, skred, skyfall och liknande i rubriken, eller minst två sådana omnämnanden i texten. <button class="linkbtn" id="roles-klim-risk">Visa dem</button><br><b>Klimatomställning, energi och utsläpp: ${S.fakta.klimat_omst} av ${tot} annonser (${S.fakta.klimat_omst_procent} %)</b>, alltså klimat-, energi- och miljöstrateger som arbetar med att minska utsläpp. <button class="linkbtn" id="roles-klim-omst">Visa dem</button><br>Raden <i>Klimat</i> på varje roll visar hur många av rollens annonser som hör till respektive grupp.`;
+$("roles-klim-risk").onclick = () => go({ klim: "risk" });
+$("roles-klim-omst").onclick = () => go({ klim: "omst" });
+$("roles").querySelectorAll("button.klim-go").forEach(b => b.onclick = () => go({ roll: b.dataset.r, klim: b.dataset.t }));
 
 // Efterfrågat
-bars($("kw"), count(ADS, a => a.nyckelord).slice(0, 12));
+bars($("kw"), S.nyckelord);
 
 // Sökordsräknare
-$("kws-tot").textContent = ADS.length.toLocaleString("sv-SE");
+$("kws-tot").textContent = S.antal.toLocaleString("sv-SE");
 const KWS_SUGG = ["krisledning", "risk- och sårbarhetsanalys", "kontinuitet", "säkerhetsprövning", "körkort", "projektledning", "GIS", "statistik", "klimatanpassning", "övningar"];
 $("kws-sugg").innerHTML = KWS_SUGG.map(w => `<button class="chip plain" type="button" data-w="${esc(w)}">${esc(w)}</button>`).join("");
 $("kws-sugg").querySelectorAll("button").forEach(b => b.onclick = () => { $("kws-q").value = b.dataset.w; kwsRun(); });
@@ -722,29 +731,32 @@ function kwsRun() {
   if (n) $("kws-go").onclick = () => go({ q });
 }
 let kwsT; $("kws-q").oninput = () => { clearTimeout(kwsT); kwsT = setTimeout(kwsRun, 200); };
-bars($("kc"), count(ADS, a => a.kurser.filter(isCourse)), { label: cname, sig: true });
-bars($("emp"), count(ADS, a => a.arbetsgivare).slice(0, 12), { click: k => go({ q: k }) });
-bars($("lan"), count(ADS, a => a.lan), { click: k => go({ lan: k }) });
-bars($("krav"), count(ADS, a => a.krav), { max: ADS.length, val: v => procent(v, ADS.length) });
+bars($("kc"), S.kurser, { label: cname, sig: true });
+bars($("emp"), S.arbetsgivare, { click: k => go({ q: k }) });
+bars($("lan"), S.lan, { click: k => go({ lan: k }) });
+bars($("krav"), S.krav.map(([k, n, p]) => [k, n, `${p} %`]), { max: S.antal });
 $("om-date").textContent = DATA.hamtad; $("om-date2").textContent = DATA.hamtad; $("om-from").textContent = DATA.fran;
 
 // Annonser
-const st = { q: "", lan: "", kommun: "", omr: "", roll: "", status: "alla", match: "alla", sort: "datum", shown: 50 };
+const st = { q: "", lan: "", kommun: "", omr: "", roll: "", erf: "alla", klim: "", status: "alla", match: "alla", sort: "datum", shown: 50 };
 function opts(sel, rows, all) { sel.innerHTML = `<option value="">${all}</option>` + rows.map(([k, v]) => `<option value="${esc(k)}">${esc(k)} (${v})</option>`).join(""); }
-opts($("f-lan"), count(ADS, a => a.lan).sort((a, b) => a[0].localeCompare(b[0], "sv")), "Alla län");
-opts($("f-omr"), count(ADS, a => a.omraden), "Alla områden");
-opts($("f-roll"), count(ADS, a => a.roll), "Alla roller");
-function kommunOpts() { opts($("f-kommun"), count(ADS.filter(a => !st.lan || a.lan === st.lan), a => a.kommun).sort((a, b) => a[0].localeCompare(b[0], "sv")), "Alla orter"); $("f-kommun").value = st.kommun; }
+opts($("f-lan"), S.filter.lan, "Alla län");
+opts($("f-omr"), S.filter.omraden, "Alla områden");
+opts($("f-roll"), S.filter.roller, "Alla roller");
+function kommunOpts() { opts($("f-kommun"), S.filter.kommuner[st.lan || ""] || [], "Alla orter"); $("f-kommun").value = st.kommun; }
 kommunOpts();
 const MR = { "Hög": 3, "Medel": 2, "Grundläggande": 1 };
 function filtered() {
   const q = st.q.toLowerCase().trim();
-  let r = ADS.filter(a => (!q || matchQ(a, q)) && (!st.lan || a.lan === st.lan) && (!st.kommun || a.kommun === st.kommun) && (!st.omr || a.omraden.includes(st.omr)) && (!st.roll || a.roll === st.roll)
+  let r = ADS.filter(a => (!q || matchQ(a, q)) && (!st.lan || a.lan === st.lan) && (!st.kommun || a.kommun === st.kommun) && (!st.omr || a.omraden.includes(st.omr)) && (!st.roll || a.roll === st.roll) && erfarenhetOk(a, st.erf) && (!st.klim || a.klimat === st.klim)
     && (st.status === "alla" || a.status === st.status) && (st.match === "alla" || (st.match === "Hög" ? a.match === "Hög" : a.match !== "Grundläggande")));
   const s = { datum: (a, b) => b.publicerad.localeCompare(a.publicerad), match: (a, b) => b.poang - a.poang || b.publicerad.localeCompare(a.publicerad),
     ort: (a, b) => a.kommun.localeCompare(b.kommun, "sv") || b.publicerad.localeCompare(a.publicerad), sista: (a, b) => (a.status !== "aktuell") - (b.status !== "aktuell") || (a.sista || "9").localeCompare(b.sista || "9") }[st.sort];
   return r.sort(s);
 }
+// Erfarenhetskraven visas som punktlista på egen rad, så de upprepas inte bland övriga krav
+const ERF_KRAV = ["Erfarenhet av beredskap/kris", "Erfarenhet av säkerhet/risk", "Flera års erfarenhet", "Tidigare erfarenhet"];
+const ovrigaKrav = a => (a.krav || []).filter(k => !ERF_KRAV.includes(k));
 const fmt = d => d ? new Date(d).toLocaleDateString("sv-SE", { day: "numeric", month: "short", year: "numeric" }) : "";
 function renderList() {
   const r = filtered();
@@ -756,8 +768,9 @@ function renderList() {
       <span class="date">Publicerad ${fmt(a.publicerad)}</span><span class="date">${a.status === "aktuell" && a.sista ? `Sista dag ${fmt(a.sista)}` : "Ansökan stängd"}</span></div>
     <p class="ex">${esc(a.utdrag || "Ingen beskrivning i annonsen.")}</p>
     <dl class="adfacts">
-      <div><dt>Krav</dt><dd>${(a.krav || []).length ? a.krav.map(k => `<span class="chip krav">${esc(k)}</span>`).join("") : `<span class="muted small">Inga tydliga krav i annonstexten</span>`}</dd></div>
-      <div><dt>Passar</dt><dd><span class="chip ${a.match === "Hög" ? "good" : a.match === "Medel" ? "sig" : "plain"}">Matchning: ${a.match}</span>${a.omraden.slice(0, 1).map(o => `<span class="chip">${esc(o)}</span>`).join("")}${a.kurser.filter(isCourse).slice(0, 2).map(k => `<span class="chip plain">${esc(cname(k))}</span>`).join("")}</dd></div>
+      <div><dt>Krav</dt><dd>${ovrigaKrav(a).length ? ovrigaKrav(a).map(k => `<span class="chip krav">${esc(k)}</span>`).join("") : `<span class="muted small">Inga andra tydliga krav i annonstexten</span>`}</dd></div>
+      <div><dt>Erfarenhet</dt><dd>${(a.erfarenheter || []).length ? `<ul class="erf">${a.erfarenheter.map(e => `<li>${esc(e)}</li>`).join("")}</ul>` : `<span class="chip good">Kräver inte erfarenhet</span>`}</dd></div>
+      <div><dt>Passar</dt><dd>${a.junior ? `<span class="chip good">Passar nyexaminerade</span>` : ""}${a.klimat === "risk" ? `<span class="chip klim">Klimatrisker</span>` : a.klimat === "omst" ? `<span class="chip klim-omst">Klimatomställning</span>` : ""}<span class="chip ${a.match === "Hög" ? "good" : a.match === "Medel" ? "sig" : "plain"}">Matchning: ${a.match}</span>${a.omraden.slice(0, 1).map(o => `<span class="chip">${esc(o)}</span>`).join("")}${a.kurser.filter(isCourse).slice(0, 2).map(k => `<span class="chip plain">${esc(cname(k))}</span>`).join("")}</dd></div>
     </dl>
   </article>`).join("") : `<div class="empty">Inga annonser matchar filtren. Prova att rensa ett filter.</div>`;
   $("more").hidden = r.length <= st.shown;
@@ -765,18 +778,18 @@ function renderList() {
   $("more").textContent = `Visa fler (${(r.length - st.shown).toLocaleString("sv-SE")} kvar)`;
 }
 function syncControls() {
-  $("f-q").value = st.q; $("f-lan").value = st.lan; kommunOpts(); $("f-omr").value = st.omr; $("f-roll").value = st.roll; $("f-sort").value = st.sort;
+  $("f-q").value = st.q; $("f-lan").value = st.lan; kommunOpts(); $("f-omr").value = st.omr; $("f-roll").value = st.roll; $("f-erf").value = st.erf; $("f-klim").value = st.klim; $("f-sort").value = st.sort;
   ["status", "match"].forEach(k => $("f-" + k).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === st[k])));
 }
 const upd = (k, v) => { st[k] = v; st.shown = 50; if (k === "lan") { st.kommun = ""; kommunOpts(); } renderList(); };
 $("f-q").oninput = e => { upd("q", e.target.value); if (TEXT_STATUS === "ej laddad") loadText().then(renderList); };
-["lan", "kommun", "omr", "roll", "sort"].forEach(k => $("f-" + k).onchange = e => upd(k, e.target.value));
+["lan", "kommun", "omr", "roll", "erf", "klim", "sort"].forEach(k => $("f-" + k).onchange = e => upd(k, e.target.value));
 ["status", "match"].forEach(k => $("f-" + k).querySelectorAll("button").forEach(b => b.onclick = () => { upd(k, b.dataset.v); syncControls(); }));
 $("more").onclick = () => { st.shown += 50; renderList(); };
 $("ftoggle").onclick = () => { const o = $("more-filters").classList.toggle("open"); $("ftoggle").setAttribute("aria-expanded", o); };
 function fcount() { const n = aktivaFilter(st); $("fcount").hidden = !n; $("fcount").textContent = n; }
-$("reset").onclick = () => { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", status: "alla", match: "alla", shown: 50 }); syncControls(); renderList(); };
-function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", shown: 50 }, f); syncControls(); renderList(); if (st.q && TEXT_STATUS === "ej laddad") loadText().then(renderList); location.hash = "annonser"; window.scrollTo(0, 0); }
+$("reset").onclick = () => { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", erf: "alla", klim: "", status: "alla", match: "alla", shown: 50 }); syncControls(); renderList(); };
+function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: "", erf: "alla", klim: "", shown: 50 }, f); syncControls(); renderList(); if (st.q && TEXT_STATUS === "ej laddad") loadText().then(renderList); location.hash = "annonser"; window.scrollTo(0, 0); }
 
 // Valbara kurser: kompetensprofil och kort per kurs
 (function () {
@@ -789,11 +802,10 @@ function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: 
   const TOT = G.alla ? G.alla.antal : 0, sv = x => x.toLocaleString("sv-SE");
   const GRUPP_ORD = { alla: n => `av alla ${sv(n)} annonser`, sak: n => `av ${sv(n)} annonser för säkerhetssamordnare`,
     ber: n => `av ${sv(n)} annonser för beredskapssamordnare`, klim: n => `av ${sv(n)} klimatannonser` };
-  const kbText = (g, t, n) => `${sv(t)} ${(GRUPP_ORD[g] || (m => `av ${sv(m)} annonser`))(n)} nämner det` +
-    (g !== "alla" && TOT ? `, ${andelTot(t / TOT)} av alla ${sv(TOT)} annonser` : "");
-  const andelTot = x => x < 0.1 ? (x * 100).toLocaleString("sv-SE", { maximumFractionDigits: 1 }) + " %" : pct(x);
-  const staplar = id => GR.map(g => { const t = (G[g].traff || {})[id] ?? Math.round(G[g].andel[id] * G[g].antal), n = G[g].antal;
-    return `<div class="kbar"><span class="kb-lbl">${esc(G[g].namn)}</span><span class="v">${pct(G[g].andel[id])}</span><span class="track"><span class="fill sw-${g}" style="width:${Math.max(1, G[g].andel[id] * 100).toFixed(1)}%"></span></span><span class="kb-n">${kbText(g, t, n)}</span></div>`; }).join("");
+  const kbText = (g, t, n, avAlla) => `${sv(t)} ${(GRUPP_ORD[g] || (m => `av ${sv(m)} annonser`))(n)} nämner det` +
+    (g !== "alla" && TOT ? `, ${avAlla.toLocaleString("sv-SE")} % av alla ${sv(TOT)} annonser` : "");
+  const staplar = id => GR.map(g => { const t = G[g].traff[id], n = G[g].antal;
+    return `<div class="kbar"><span class="kb-lbl">${esc(G[g].namn)}</span><span class="v">${G[g].procent[id]} %</span><span class="track"><span class="fill sw-${g}" style="width:${Math.max(1, G[g].procent[id])}%"></span></span><span class="kb-n">${kbText(g, t, n, G[g].procent_av_alla[id])}</span></div>`; }).join("");
   $("komp-tabell").innerHTML = `<div class="komp-h"><span>Kompetens</span><span>Bara obligatoriska</span><span>Med valbar kurs</span><span>Hur stor del av annonserna som nämner den</span></div>` +
     K.kompetenser.map(k => `<div class="komp-r">
       <div class="komp-n"><b>${esc(k.namn)}</b><span class="muted small">Viktig för ${esc(k.viktig.toLowerCase())}</span></div>
@@ -808,7 +820,7 @@ function go(f) { Object.assign(st, { q: "", lan: "", kommun: "", omr: "", roll: 
   $("valbara").querySelectorAll("button.go").forEach(b => b.onclick = () => go({ q: b.dataset.q }));
   if (G.klim) {
     const n = G.klim.antal, fel = Math.round(100 * 1.96 * Math.sqrt(0.25 / Math.max(1, n)));
-    $("komp-klim-not").textContent = `Gruppen klimatrisker och naturolyckor bygger på ${n} annonser (${G.klim.aktuella} aktuella just nu), så andelarna där är osäkrare, ungefär ±${fel} procentenheter. Att klimatanpassning nämns ofta beror delvis på att gruppen är utvald med klimatord.`;
+    $("komp-klim-not").textContent = `Gruppen klimatrisker och naturolyckor bygger på ${n} annonser (${G.klim.aktuella} aktuella just nu), så andelarna där är osäkrare, ungefär ±${fel} procentenheter. Att klimatanpassning nämns ofta beror delvis på att gruppen är utvald med klimatord. Jobb om klimatomställning, energi och utsläpp ingår inte i gruppen.`;
   }
 })();
 
