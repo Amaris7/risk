@@ -203,12 +203,32 @@ class Erfarenheter(unittest.TestCase):
                 "Erfarenhet av SimCorp\n\nVi erbjuder:\nDu får erfarenhet av internationellt arbete")
         self.assertEqual(H.hitta_erfarenheter(text), ["Erfarenhet av krisberedskap"])
 
-    def test_ospecificerad_nar_bara_faltet_sager_erfarenhet(self):
-        self.assertEqual(H.hitta_erfarenheter("Inget om det.", erfarenhet_kravs=True), [H.ERF_OSPEC])
-        self.assertEqual(H.hitta_erfarenheter("Inget om det."), [])
+    def test_texten_avgor_inte_arbetsformedlingens_ruta(self):
+        """Länsstyrelsen Västra Götaland, Handläggare för riskhänsyn: rutan "erfarenhet krävs" är ikryssad,
+        men texten kräver bara utbildning och kunskap. Erfarenheterna står under "Vi ser gärna att du har:"."""
+        text = ("Du har:\nHögskoleutbildning inom riskhantering\nRelevant kunskap om riskhantering\n\n"
+                "Vi ser gärna att du har:\nRelevant yrkeserfarenhet inom risk- och beredskapshänsyn\n"
+                "Erfarenhet av översvämningshantering\n\nVälkommen med din ansökan!")
+        h = annons(description={"text": "Du arbetar med risk- och sårbarhetsanalys, krisberedskap, klimatanpassning och översvämning. "
+                                        "Du utvärderar åtgärder.\n" + text}, experience_required=True)
+        r = H.bearbeta(h, "aktuell", "x", fran="2026-01-01")
+        self.assertEqual(r["erfarenheter"], [])
+        self.assertTrue(r["erf_ruta"])
+        self.assertNotIn("Tidigare erfarenhet", r["krav"])
+        # Utan ikryssad ruta finns ingen anmärkning
+        h["experience_required"] = False
+        self.assertFalse(H.bearbeta(h, "aktuell", "x", fran="2026-01-01")["erf_ruta"])
+
+    def test_rutan_anmarks_inte_nar_texten_kraver_erfarenhet(self):
+        h = annons(description={"text": "Du arbetar med krisberedskap, risk- och sårbarhetsanalys (RSA), krisledning och övningar. "
+                                        "Du utvärderar åtgärder. Du har minst 3 års erfarenhet av kommunal verksamhet."},
+                   experience_required=True)
+        r = H.bearbeta(h, "aktuell", "x", fran="2026-01-01")
+        self.assertEqual(r["erfarenheter"], ["Minst 3 års erfarenhet av kommunal verksamhet"])
+        self.assertFalse(r["erf_ruta"])
 
     def test_nyexaminerade_och_mjuka_formuleringar(self):
-        self.assertEqual(H.hitta_erfarenheter("Du har erfarenhet av beredskap.", erfarenhet_kravs=True, nyexad=True), [])
+        self.assertEqual(H.hitta_erfarenheter("Du har erfarenhet av beredskap.", nyexad=True), [])
         self.assertEqual(H.hitta_erfarenheter("Har du erfarenhet av beredskap från dina studier är det bra."), [])
 
     def test_langa_fraser_kortas_vid_ordgrans(self):

@@ -135,6 +135,7 @@ def hitta_krav(text, korkort_kravs=False, erfarenhet_kravs=False, nyexad=False):
     hittade = {n for n, rx in KRAV if any(re.search(rx, m, re.I) for m in meningar)}
     if korkort_kravs:
         hittade.add("Körkort")
+    # erfarenhet_kravs: texten ställer erfarenhetskrav (se hitta_erfarenheter) som inte passar de specifika kraven
     if erfarenhet_kravs and not hittade & {"Erfarenhet av beredskap/kris", "Erfarenhet av säkerhet/risk", "Flera års erfarenhet"}:
         hittade.add("Tidigare erfarenhet")
     if nyexad:
@@ -147,11 +148,11 @@ ERF_FRAS = re.compile(r"((?:(?:minst|gedigen|god|goda|dokumenterad|flerårig|rel
                       r"(?:\d+\s*(?:[–-]\s*\d+\s*)?års?\s+(?:arbetslivs|yrkes|relevant\s+)?)?"
                       r"erfarenhet (?:av|från|inom|med) [^.;:!?•·\n]{3,160})", re.I)
 ERF_SLUT = re.compile(r"\s(?:samt|och du|eller du|då du|vilket|som du|för att|eftersom|är ett krav|krävs|är meriterande)\b.*$", re.I)
-ERF_OSPEC = "Tidigare erfarenhet krävs (anges inte vilken)"
 
 
-def hitta_erfarenheter(text, erfarenhet_kravs=False, nyexad=False, max_antal=4, max_tecken=110):
-    """Erfarenhetskrav som korta fraser. Meriterande och mjuka formuleringar räknas inte. Nyexaminerade: inga krav."""
+def hitta_erfarenheter(text, nyexad=False, max_antal=4, max_tecken=110):
+    """Erfarenhetskrav som korta fraser ur annonstexten. Meriterande och mjuka formuleringar räknas inte.
+    Nyexaminerade: inga krav. Arbetsförmedlingens ruta "erfarenhet krävs" påverkar inte: texten avgör."""
     if nyexad:
         return []
     ut = []
@@ -168,8 +169,6 @@ def hitta_erfarenheter(text, erfarenhet_kravs=False, nyexad=False, max_antal=4, 
             fras = fras[:1].upper() + fras[1:]
             if fras.lower() not in (f.lower() for f in ut):
                 ut.append(fras)
-    if not ut and erfarenhet_kravs:
-        ut = [ERF_OSPEC]
     return ut[:max_antal]
 
 
@@ -237,6 +236,8 @@ def bearbeta(h, src, sokterm, fran=FROM):
     if (FIN.search(head) or len(FIN.findall(text)) >= 3) and re.search(r"risk", head, re.I):
         areas = ["Finansiell & operativ risk (angränsande)"]
     match = "Hög" if score >= 7 else ("Medel" if score >= 5 else "Grundläggande")
+    nyexad = passar_nyexad(head, text)
+    erfarenheter = hitta_erfarenheter(text, nyexad)
     # Säkerhet: länka bara till Platsbanken, aldrig till en adress som kommer okontrollerad från datan
     url = h.get("webpage_url") or ""
     if not url.startswith(PLATSBANKEN):
@@ -250,10 +251,11 @@ def bearbeta(h, src, sokterm, fran=FROM):
         "status": "aktuell" if src == "aktuell" else "arkiverad",
         "omfattning": (h.get("working_hours_type") or {}).get("label"),
         "kurser": kurser, "match": match, "poang": score,
-        "junior": passar_nyexad(head, text),
-        "erfarenheter": hitta_erfarenheter(text, bool(h.get("experience_required")), passar_nyexad(head, text)),
-        "krav": hitta_krav(text, bool(h.get("driving_license_required")), bool(h.get("experience_required")),
-                           nyexad=passar_nyexad(head, text)),
+        "junior": nyexad,
+        "erfarenheter": erfarenheter,
+        # Arbetsförmedlingens ruta "erfarenhet krävs" är ikryssad men texten ställer inget erfarenhetskrav
+        "erf_ruta": bool(h.get("experience_required")) and not erfarenheter and not nyexad,
+        "krav": hitta_krav(text, bool(h.get("driving_license_required")), bool(erfarenheter), nyexad=nyexad),
         "text": re.sub(r"\s+", " ", text).strip()[:TEXT_MAX],
     }
 
@@ -289,7 +291,7 @@ def hamta():
 
 # Fälten som sidan använder (texten sparas separat i annonstext.json)
 KEEP = ["id", "rubrik", "arbetsgivare", "kommun", "lan", "publicerad", "sista", "omraden", "nyckelord", "utdrag",
-        "url", "status", "omfattning", "kurser", "match", "poang", "krav", "junior", "erfarenheter"]
+        "url", "status", "omfattning", "kurser", "match", "poang", "krav", "junior", "erfarenheter", "erf_ruta"]
 
 
 def spara(out, data_dir=DATA_DIR):

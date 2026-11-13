@@ -128,6 +128,7 @@ ul.clean li::before { content: ""; position: absolute; left: 2px; top: .62em; wi
 .chip.klim { background: color-mix(in srgb, var(--klim) 14%, transparent); color: var(--klim) }
 .chip.klim-omst { background: transparent; color: var(--klim); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--klim) 45%, transparent) }
 .klimrad { display: flex; flex-direction: column; gap: 2px }
+.erf-ruta { display: block; margin-top: 4px }
 .linkbtn { background: none; border: 0; padding: 0; font: inherit; color: var(--klim); text-decoration: underline; text-underline-offset: 2px; cursor: pointer }
 .klim-sum { margin: 0 0 18px; border-top: 0; padding-top: 0 }
 .chip.plain { background: transparent; box-shadow: inset 0 0 0 1px var(--line-strong); color: var(--muted) }
@@ -769,7 +770,7 @@ function renderList() {
     <p class="ex">${esc(a.utdrag || "Ingen beskrivning i annonsen.")}</p>
     <dl class="adfacts">
       <div><dt>Krav</dt><dd>${ovrigaKrav(a).length ? ovrigaKrav(a).map(k => `<span class="chip krav">${esc(k)}</span>`).join("") : `<span class="muted small">Inga andra tydliga krav i annonstexten</span>`}</dd></div>
-      <div><dt>Erfarenhet</dt><dd>${(a.erfarenheter || []).length ? `<ul class="erf">${a.erfarenheter.map(e => `<li>${esc(e)}</li>`).join("")}</ul>` : `<span class="chip good">Kräver inte erfarenhet</span>`}</dd></div>
+      <div><dt>Erfarenhet</dt><dd>${(a.erfarenheter || []).length ? `<ul class="erf">${a.erfarenheter.map(e => `<li>${esc(e)}</li>`).join("")}</ul>` : `<span class="chip good">Kräver inte erfarenhet</span>${a.erf_ruta ? `<span class="muted small erf-ruta">Annonstexten kräver ingen erfarenhet, men arbetsgivaren har kryssat i ”erfarenhet krävs” hos Arbetsförmedlingen. Fråga gärna kontaktpersonen.</span>` : ""}`}</dd></div>
       <div><dt>Passar</dt><dd>${a.junior ? `<span class="chip good">Passar nyexaminerade</span>` : ""}${a.klimat === "risk" ? `<span class="chip klim">Klimatrisker</span>` : a.klimat === "omst" ? `<span class="chip klim-omst">Klimatomställning</span>` : ""}<span class="chip ${a.match === "Hög" ? "good" : a.match === "Medel" ? "sig" : "plain"}">Matchning: ${a.match}</span>${a.omraden.slice(0, 1).map(o => `<span class="chip">${esc(o)}</span>`).join("")}${a.kurser.filter(isCourse).slice(0, 2).map(k => `<span class="chip plain">${esc(cname(k))}</span>`).join("")}</dd></div>
     </dl>
   </article>`).join("") : `<div class="empty">Inga annonser matchar filtren. Prova att rensa ett filter.</div>`;

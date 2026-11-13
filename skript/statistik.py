@@ -65,7 +65,6 @@ def procent_dec(del_, hel):
     return math.floor(p * 10 + 0.5) / 10 if p < 10 else math.floor(p + 0.5)
 
 
-ERF_OSPEC = "Tidigare erfarenhet krävs (anges inte vilken)"
 
 
 def kraver_erfarenhet(a):
@@ -171,7 +170,7 @@ def berakna(annonser, kurskoder, texter=None):
             "klimat_omst_procent": procent(sum(a["klimat"] == "omst" for a in annonser), n),
             "kraver_erfarenhet": sum(kraver_erfarenhet(a) for a in annonser),
             "kraver_inte_erfarenhet": sum(not kraver_erfarenhet(a) for a in annonser),
-            "erfarenhet_ospecificerad": sum(a.get("erfarenheter", [""])[:1] == [ERF_OSPEC] for a in annonser),
+            "erfarenhet_bara_ruta": sum(bool(a.get("erf_ruta")) for a in annonser),
         },
         "roller": roller,
         "omraden": rakna(annonser, lambda a: a["omraden"]),
@@ -196,7 +195,7 @@ def rapport(stat, kompetens=None):
     f = stat["fakta"]
     namn = {"annonser": "Annonser", "aktuella": "Aktuella just nu", "hog_matchning": "Hög matchning", "orter": "Orter",
             "arbetsgivare": "Arbetsgivare", "nyexaminerade": "Passar nyexaminerade", "kraver_erfarenhet": "Kräver erfarenhet",
-            "kraver_inte_erfarenhet": "Kräver inte erfarenhet", "erfarenhet_ospecificerad": "Kräver erfarenhet, men anger inte vilken",
+            "kraver_inte_erfarenhet": "Kräver inte erfarenhet", "erfarenhet_bara_ruta": "Kräver inte erfarenhet enligt texten, men Arbetsförmedlingens ruta är ikryssad",
             "klimat": "Handlar om klimatrisker och naturolyckor",
             "klimat_procent": "Andel klimatriskannonser (%)",
             "klimat_omst": "Handlar om klimatomställning, energi och utsläpp",

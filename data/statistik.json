@@ -1,10 +1,10 @@
 {
  "statistik": {
-  "antal": 1225,
+  "antal": 1227,
   "fakta": {
-   "annonser": 1225,
-   "aktuella": 116,
-   "hog_matchning": 477,
+   "annonser": 1227,
+   "aktuella": 118,
+   "hog_matchning": 479,
    "orter": 177,
    "arbetsgivare": 657,
    "nyexaminerade": 27,
@@ -12,9 +12,9 @@
    "klimat_procent": 3,
    "klimat_omst": 22,
    "klimat_omst_procent": 2,
-   "kraver_erfarenhet": 1165,
-   "kraver_inte_erfarenhet": 60,
-   "erfarenhet_ospecificerad": 201
+   "kraver_erfarenhet": 966,
+   "kraver_inte_erfarenhet": 261,
+   "erfarenhet_bara_ruta": 201
   },
   "roller": [
    {
@@ -72,8 +72,8 @@
    {
     "namn": "Beredskapssamordnare",
     "beskrivning": "Samordnar kommunens, regionens eller myndighetens krisberedskap och civila försvar: RSA, beredskapsplaner, krisledningsorganisation, övningar och utbildning.",
-    "antal": 150,
-    "aktuella": 14,
+    "antal": 151,
+    "aktuella": 15,
     "klimat": [
      3,
      2
@@ -91,7 +91,7 @@
     "arbetsgivare": [
      "Livsmedelsverket",
      "Region Västernorrland",
-     "Tillväxtverket"
+     "Norrköpings kommun"
     ],
     "kurser": [
      "RHAD21/RHAD31",
@@ -101,7 +101,7 @@
     "krav": [
      [
       "Akademisk examen",
-      115,
+      116,
       77
      ],
      [
@@ -111,12 +111,12 @@
      ],
      [
       "Erfarenhet av beredskap/kris",
-      83,
-      55
+      84,
+      56
      ],
      [
       "Körkort",
-      81,
+      82,
       54
      ]
     ]
@@ -124,8 +124,8 @@
    {
     "namn": "Beredskapshandläggare & -planerare",
     "beskrivning": "Handlägger och utvecklar beredskapsplanering på länsstyrelser, civilområden och statliga myndigheter, ofta med fokus på höjd beredskap.",
-    "antal": 131,
-    "aktuella": 3,
+    "antal": 132,
+    "aktuella": 4,
     "klimat": [
      1,
      1
@@ -153,23 +153,23 @@
     "krav": [
      [
       "Säkerhetsprövning",
-      96,
+      97,
       73
      ],
      [
       "Akademisk examen",
-      93,
+      94,
       71
      ],
      [
       "Erfarenhet av beredskap/kris",
-      73,
+      74,
       56
      ],
      [
       "Svenskt medborgarskap",
-      70,
-      53
+      71,
+      54
      ]
     ]
    },
@@ -418,8 +418,8 @@
      ],
      [
       "Tidigare erfarenhet",
-      54,
-      59
+      48,
+      52
      ],
      [
       "Säkerhetsprövning",
@@ -526,14 +526,14 @@
       42
      ],
      [
-      "Tidigare erfarenhet",
-      18,
-      40
-     ],
-     [
       "Engelska i tal och skrift",
       16,
       36
+     ],
+     [
+      "Flera års erfarenhet",
+      14,
+      31
      ]
     ]
    },
@@ -574,8 +574,8 @@
      ],
      [
       "Tidigare erfarenhet",
-      21,
-      72
+      19,
+      66
      ],
      [
       "Projektledning",
@@ -626,8 +626,8 @@
      ],
      [
       "Tidigare erfarenhet",
-      13,
-      59
+      12,
+      55
      ],
      [
       "Körkort",
@@ -677,14 +677,14 @@
       71
      ],
      [
-      "Tidigare erfarenhet",
-      57,
-      71
-     ],
-     [
       "Säkerhetsprövning",
       36,
       45
+     ],
+     [
+      "Tidigare erfarenhet",
+      28,
+      35
      ],
      [
       "Svenskt medborgarskap",
@@ -833,11 +833,6 @@
       55
      ],
      [
-      "Tidigare erfarenhet",
-      33,
-      40
-     ],
-     [
       "Säkerhetsprövning",
       30,
       36
@@ -846,6 +841,11 @@
       "Svenska i tal och skrift",
       28,
       34
+     ],
+     [
+      "Körkort",
+      24,
+      29
      ]
     ]
    }
@@ -853,7 +853,7 @@
   "omraden": [
    [
     "Krisberedskap & civilt försvar",
-    598
+    600
    ],
    [
     "Säkerhet & trygghet",
@@ -887,27 +887,27 @@
   "nyckelord": [
    [
     "utbildning",
-    924
+    926
    ],
    [
     "säkerhetsprövning",
-    701
+    702
    ],
    [
     "samverkan",
-    632
+    633
    ],
    [
     "krisberedskap",
-    506
+    508
    ],
    [
     "civilt försvar",
-    442
+    443
    ],
    [
     "körkort",
-    432
+    433
    ],
    [
     "säkerhetsskydd",
@@ -915,11 +915,11 @@
    ],
    [
     "höjd beredskap",
-    285
+    286
    ],
    [
     "övningar",
-    282
+    283
    ],
    [
     "totalförsvar",
@@ -937,15 +937,15 @@
   "kurser": [
    [
     "RHAD39",
-    937
+    939
    ],
    [
     "RHAD21/RHAD31",
-    932
+    934
    ],
    [
     "RHAD38",
-    815
+    817
    ],
    [
     "RHAD35",
@@ -953,11 +953,11 @@
    ],
    [
     "RHAD01/RHAD02",
-    681
+    683
    ],
    [
     "RHAD03",
-    499
+    501
    ],
    [
     "MVAE34",
@@ -1037,7 +1037,7 @@
    ],
    [
     "Östergötlands län",
-    62
+    63
    ],
    [
     "Uppsala län",
@@ -1093,7 +1093,7 @@
    ],
    [
     "Gävleborgs län",
-    16
+    17
    ],
    [
     "Kalmar län",
@@ -1115,32 +1115,27 @@
   "krav": [
    [
     "Akademisk examen",
-    827,
+    829,
     68
    ],
    [
     "Säkerhetsprövning",
-    717,
+    718,
     59
    ],
    [
     "Körkort",
-    480,
+    481,
     39
    ],
    [
-    "Tidigare erfarenhet",
-    438,
-    36
-   ],
-   [
     "Svenskt medborgarskap",
-    416,
+    417,
     34
    ],
    [
     "Erfarenhet av beredskap/kris",
-    345,
+    347,
     28
    ],
    [
@@ -1157,6 +1152,11 @@
     "Engelska i tal och skrift",
     307,
     25
+   ],
+   [
+    "Tidigare erfarenhet",
+    287,
+    23
    ],
    [
     "Flera års erfarenhet",
@@ -1302,7 +1302,7 @@
      ],
      [
       "Gävle",
-      12
+      13
      ],
      [
       "Göteborg",
@@ -1562,7 +1562,7 @@
      ],
      [
       "Norrköping",
-      30
+      31
      ],
      [
       "Norrtälje",
@@ -1942,7 +1942,7 @@
      ],
      [
       "Gävle",
-      12
+      13
      ],
      [
       "Hudiksvall",
@@ -2622,7 +2622,7 @@
      ],
      [
       "Norrköping",
-      30
+      31
      ],
      [
       "Ydre",
@@ -2649,7 +2649,7 @@
     ],
     [
      "Gävleborgs län",
-     16
+     17
     ],
     [
      "Hallands län",
@@ -2721,13 +2721,13 @@
     ],
     [
      "Östergötlands län",
-     62
+     63
     ]
    ],
    "omraden": [
     [
      "Krisberedskap & civilt försvar",
-     598
+     600
     ],
     [
      "Säkerhet & trygghet",
@@ -2769,11 +2769,11 @@
     ],
     [
      "Beredskapssamordnare",
-     150
+     151
     ],
     [
      "Beredskapshandläggare & -planerare",
-     131
+     132
     ],
     [
      "Trygghet & brottsförebyggande",
@@ -2949,24 +2949,24 @@
   "grupper": {
    "alla": {
     "namn": "Alla annonser",
-    "antal": 1225,
-    "aktuella": 116,
+    "antal": 1227,
+    "aktuella": 118,
     "andel": {
-     "rsa": 0.222,
-     "kontinuitet": 0.319,
-     "utredning": 0.069,
+     "rsa": 0.223,
+     "kontinuitet": 0.32,
+     "utredning": 0.068,
      "larande": 0.071,
-     "implementering": 0.633,
+     "implementering": 0.634,
      "kommunikation": 0.019,
      "klimat": 0.041,
-     "hallbarhet": 0.082
+     "hallbarhet": 0.081
     },
     "traff": {
-     "rsa": 272,
-     "kontinuitet": 391,
+     "rsa": 274,
+     "kontinuitet": 393,
      "utredning": 84,
      "larande": 87,
-     "implementering": 776,
+     "implementering": 778,
      "kommunikation": 23,
      "klimat": 50,
      "hallbarhet": 100
@@ -2984,12 +2984,12 @@
     "procent_av_alla": {
      "rsa": 22,
      "kontinuitet": 32,
-     "utredning": 6.9,
+     "utredning": 6.8,
      "larande": 7.1,
      "implementering": 63,
      "kommunikation": 1.9,
      "klimat": 4.1,
-     "hallbarhet": 8.2
+     "hallbarhet": 8.1
     }
    },
    "sak": {
@@ -3031,7 +3031,7 @@
      "kontinuitet": 6.0,
      "utredning": 1.6,
      "larande": 1.1,
-     "implementering": 12,
+     "implementering": 11,
      "kommunikation": 0.1,
      "klimat": 0.1,
      "hallbarhet": 1.1
@@ -3039,24 +3039,24 @@
    },
    "ber": {
     "namn": "Beredskapssamordnare",
-    "antal": 174,
-    "aktuella": 16,
+    "antal": 175,
+    "aktuella": 17,
     "andel": {
-     "rsa": 0.511,
-     "kontinuitet": 0.707,
+     "rsa": 0.514,
+     "kontinuitet": 0.709,
      "utredning": 0.04,
-     "larande": 0.098,
-     "implementering": 0.626,
+     "larande": 0.097,
+     "implementering": 0.629,
      "kommunikation": 0.023,
      "klimat": 0.011,
      "hallbarhet": 0.04
     },
     "traff": {
-     "rsa": 89,
-     "kontinuitet": 123,
+     "rsa": 90,
+     "kontinuitet": 124,
      "utredning": 7,
      "larande": 17,
-     "implementering": 109,
+     "implementering": 110,
      "kommunikation": 4,
      "klimat": 2,
      "hallbarhet": 7
@@ -3076,7 +3076,7 @@
      "kontinuitet": 10,
      "utredning": 0.6,
      "larande": 1.4,
-     "implementering": 8.9,
+     "implementering": 9.0,
      "kommunikation": 0.3,
      "klimat": 0.2,
      "hallbarhet": 0.6
@@ -3121,7 +3121,7 @@
      "kontinuitet": 0.2,
      "utredning": 0.0,
      "larande": 0.0,
-     "implementering": 1.6,
+     "implementering": 1.5,
      "kommunikation": 0.0,
      "klimat": 3.1,
      "hallbarhet": 1.1

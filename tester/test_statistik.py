@@ -104,7 +104,8 @@ class RiktigaSiffror(unittest.TestCase):
         self.assertEqual(f["kraver_erfarenhet"] + f["kraver_inte_erfarenhet"], self.n)
         self.assertEqual(f["kraver_erfarenhet"], len([a for a in self.ads if a["erfarenheter"]]))
         self.assertTrue(all(not a["erfarenheter"] for a in self.ads if a["junior"]), "nyexaminerade har inga erfarenhetskrav")
-        self.assertEqual(S.ERF_OSPEC, H.ERF_OSPEC)
+        self.assertEqual(f["erfarenhet_bara_ruta"], len([a for a in self.ads if a["erf_ruta"]]))
+        self.assertTrue(all(not a["erfarenheter"] for a in self.ads if a["erf_ruta"]), "rutan anmärks bara när texten saknar krav")
 
     def test_klimatannonser_per_roll(self):
         """Klimatfiltret och rollkortens klimatrad använder samma urval som gruppen på fliken Valbara kurser."""

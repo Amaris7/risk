@@ -70,14 +70,40 @@ Byt kalender genom att lägga en ny `.ics`-fil i `~/rhad-kalender` (den nyaste a
 
 | Del | Verktyg | Vad som testas |
 |---|---|---|
-| `tester/test_hamta.py` | Python `unittest` | Urval och klassning av annonser, dubbletter, säkra länkar, sparade filer |
+| `tester/test_hamta.py` | Python `unittest` | Urval och klassning av annonser, utsortering av forskartjänster, krav och erfarenhet (med exempel från riktiga annonser), dubbletter, säkra länkar, sparade filer |
 | `tester/test_bygg.py` | Python `unittest` | Kalenderläsning (Canvas-format, tidszoner, Zoom-länkar och namn tas bort), säker inbäddning av data, CSP |
 | `tester/test_validering.py` | Python `unittest` | Validering av den riktiga datan och `index.html`: fält, datum, länkar, kalender, hemligheter, escaping |
-| `tester/test_statistik.py` | Python `unittest` | Avrundning, rollindelning, att varje siffra går att räkna om från datan, och att sökordsräknaren i webbläsaren ger exakt samma antal som Python |
+| `tester/test_statistik.py` | Python `unittest` | Avrundning, rollindelning, klimatgrupperna, att varje siffra går att räkna om från datan, och att sökordsräknaren i webbläsaren ger exakt samma antal som Python |
 | `tester/logik.test.cjs` | Node `node:test` | Sidans logik i `skript/logik.js`: sökning, escaping, kalender, länkar |
 | `tester/webblasare/` | Playwright | Riktig webbläsare i dator- och mobilbredd: flikar och Mer-meny, filter, sökord, kalender, XSS-försök |
 
 Första gången på en ny dator: `npm install && npx playwright install chromium`. Snabb körning utan webbläsare: `./testa.sh snabb`.
+
+## Hur annonserna väljs ut och klassas
+
+### Urval vid hämtningen (`skript/hamta_annonser.py`)
+
+- **Rubriken** måste innehålla ett kärnord (`CORE`, t.ex. beredskap, kris, säkerhet, risk, klimat) och inget ord från `EXCLUDE` (IT-säkerhet, vakter, vård, säljare, säkerhetsarkitekter m.m.). "kris" räknas inte i ortnamn som Kristianstad och Kristinehamn.
+- **Tjänster som programmet inte leder till** sorteras bort (`kraver_annan_utbildning`):
+  - postdoktor och (biträdande) universitetslektor, som alltid kräver doktorsexamen,
+  - forskare och forskningssekreterare när texten *kräver* doktorsexamen eller forskarutbildning (är den bara meriterande får annonsen vara kvar),
+  - doktorandtjänster vars rubrik inte nämner risk, säkerhet, kris, beredskap eller civilt försvar.
+- **Kopplingen till utbildningen** måste vara tillräckligt stark: antal kursområden som texten träffar, plus 2 om rubriken är en tydlig riskroll, ska vara minst 3.
+
+### Krav och erfarenhet
+
+- **Krav** (`KRAV`) plockas ur annonstexten. Meningar som säger meriterande, önskvärt, gärna m.m. räknas inte, och inte heller listor under en rubrik som "Meriterande:" eller "Vi ser gärna att du har:". Rubriken står ofta sist på en lång rad i Platsbankens text, så bara radens sista mening kan vara en rubrik.
+- **Erfarenhet** (`hitta_erfarenheter`) är fraser som "Minst 3 års erfarenhet av …" ur texten. **Texten avgör:** om arbetsgivaren har kryssat i Arbetsförmedlingens ruta "erfarenhet krävs" men texten inte ställer något erfarenhetskrav räknas annonsen som *Kräver inte erfarenhet*, och kortet visar en anmärkning om rutan (fältet `erf_ruta`). Annonser som vänder sig till nyexaminerade får inga erfarenhetskrav. Uppgifter som "75 års erfarenhet" handlar om arbetsgivaren och räknas inte.
+- **Passar nyexaminerade** betyder att annonsen uttryckligen vänder sig till nyexaminerade, juniorer eller traineer (`NYEXAD`).
+
+### Klimatgrupper (`skript/kompetenser.py`, `klimattyp`)
+
+| Grupp | Regel |
+|---|---|
+| **Klimatrisker och naturolyckor** | Rubriken nämner klimatanpassning, klimatrisk, klimatförändring, översvämning, skred, skyfall, naturolycka, extremväder, dagvatten m.m., eller texten nämner sådana risker minst två gånger. Har rubriken bara ordet klimat, energi eller utsläpp räknas inte "klimatförändring" i texten, eftersom den också står i annonser om att minska utsläpp. |
+| **Klimatomställning, energi och utsläpp** | Rubriken nämner klimat, energistrateg, utsläpp, fossilfri m.m., men annonsen handlar inte om klimatrisker. |
+
+Orden matchar i början av ord, så "skred" träffar inte "riskreducerande". "Kallt klimat", "arbetsklimat" och "inomhusklimat" räknas inte. Grupperna styr filtret *Klimat* under Jobbannonser, klimatraden på varje yrkesroll och fördelningen mellan rollerna *Klimatanpassning* och *Klimatomställning & energi*. Fliken Valbara kurser räknar bara klimatrisker.
 
 ## Ändra innehållet
 
@@ -85,6 +111,6 @@ Första gången på en ny dator: `npm install && npx playwright install chromium
 - **Bort med brus:** lägg till ord i `EXCLUDE`.
 - **Hur matchningen räknas:** `COURSES` (kurskoppling) och gränserna för Hög/Medel längre ned i filen.
 - **Utseende och texter:** `skript/mall.html`. Färgerna står samlade högst upp i `:root`.
-- **Yrkesrollerna** och kurslistan på sidan definieras i `skript/mall.html` (`ROLES` och `TERMS`).
+- **Yrkesrollerna** definieras i `skript/statistik.py` (`ROLLER`), klimatgrupperna och kompetenserna i `skript/kompetenser.py`.
 
 Kör `./uppdatera.sh` efter ändringar i hämtningen, eller bara `python3 skript/bygg_sida.py` efter ändringar i mallen.
