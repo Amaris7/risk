@@ -1,6 +1,6 @@
 {
- "hamtad": "2026-11-13",
- "fran": "2025-11-13",
+ "hamtad": "2026-11-16",
+ "fran": "2025-11-16",
  "kurser": [
   [
    "RHAD01/RHAD02",
@@ -40,6 +40,178 @@
   ]
  ],
  "annonser": [
+  {
+   "id": "31734085",
+   "rubrik": "Samordnare - beredskap inom kommunal hälso- och sjukvård och socialtjänst",
+   "arbetsgivare": "Härnösands kommun",
+   "kommun": "Härnösand",
+   "lan": "Västernorrlands län",
+   "publicerad": "2026-11-16",
+   "sista": "2026-12-01",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "kontinuitetsplanering",
+    "krisberedskap",
+    "civilt försvar",
+    "höjd beredskap",
+    "utbildning",
+    "samverkan",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Som medarbetare i Härnösands kommun är ditt främsta uppdrag att tillsammans med dina kollegor ge god service till invånare och gäster.Vår kultur ska präglas av tillit, nyfikenhet och lärande och vi vi",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31734085",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD14",
+    "RHAD03",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 7,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Körkort",
+    "Erfarenhet av beredskap/kris"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av beredskapsfrågor"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "31733861",
+   "rubrik": "Avarn Security söker Biträdande säkerhetsskyddschef",
+   "arbetsgivare": "Avarn Security(Nokas)",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-11-16",
+   "sista": "2026-11-30",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "krisberedskap",
+    "säkerhetsskydd",
+    "utbildning",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Vill du arbeta brett med säkerhetsskydd i en verksamhet där säkerhet är en central del av både vårt uppdrag och vår affär? Hos Avarn Security får du möjlighet att påverka, utveckla och driva viktiga s",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31733861",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Säkerhetsprövning",
+    "Körkort",
+    "Erfarenhet av säkerhet/risk",
+    "Svenska i tal och skrift",
+    "Engelska i tal och skrift"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Gedigen erfarenhet av säkerhetsskyddsarbete, trivs med att kombinera strategiskt tänkande med operativt …",
+    "Erfarenhet av både operativt och strategiskt säkerhetsskyddsarbete"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "31733058",
+   "rubrik": "Säkerhetshandläggare till Ramboll Sverige",
+   "arbetsgivare": "Ramboll Sverige AB, Stockholm",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-11-16",
+   "sista": "2027-01-10",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "kontinuitetsplanering",
+    "krisledning",
+    "säkerhetsskydd",
+    "övningar",
+    "säkerhetskultur"
+   ],
+   "utdrag": "Om rollen På Ramboll är säkerhet en central del av det arbete vi utför. Våra projekt har stor påverkan på människor, samhälle och natur och är ofta kopplade till energiförsörjning, kritisk infrastrukt",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31733058",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Flera års erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Minst 5 års erfarenhet från en roll med relevant inriktning för tjänsten"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "31734735",
+   "rubrik": "Planeringsledare miljö, klimat och hållbarhet",
+   "arbetsgivare": "Stadsledningskontoret",
+   "kommun": "Göteborg",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-11-16",
+   "sista": "2026-11-30",
+   "omraden": [
+    "Klimatanpassning & naturolyckor"
+   ],
+   "nyckelord": [
+    "klimatanpassning",
+    "samverkan"
+   ],
+   "utdrag": "Arbetsplatsen En hållbar stad öppen för världen. Göteborgs Stad är en av Sveriges största arbetsgivare. Hos oss jobbar du tillsammans med fler än 60 000 kollegor för ett gott liv för alla i vår stad. ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31734735",
+   "status": "aktuell",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD03",
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Akademisk examen",
+    "Flera års erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av arbete med utvecklings- och förändringsarbete och har flerårig erfarenhet av strategiskt …",
+    "Erfarenhet av ledning och styrning på strategisk nivå"
+   ],
+   "erf_ruta": false
+  },
   {
    "id": "31729801",
    "rubrik": "Beredskapssamordnare till Utbildningskontoret",
@@ -2487,67 +2659,13 @@
    "erf_ruta": false
   },
   {
-   "id": "31679016",
-   "rubrik": "Trygghets- och säkerhetsansvarig till Botkyrkabyggen",
-   "arbetsgivare": "Botkyrkabyggen AB",
-   "kommun": "Botkyrka",
-   "lan": "Stockholms län",
-   "publicerad": "2026-11-03",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "kontinuitetsplanering",
-    "krisberedskap",
-    "civilt försvar",
-    "krisledning",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "brottsförebyggande",
-    "samhällsvetenskap"
-   ],
-   "utdrag": "Om oss Botkyrkabyggen är ett av landets större allmännyttiga bostadsföretag med cirka 10 800 hyresbostäder och 160 medarbetare. Vi är en stabil och långsiktig fastighetsägare med ett starkt samhällsen",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31679016",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 8,
-   "krav": [
-    "Akademisk examen",
-    "Erfarenhet av beredskap/kris",
-    "Erfarenhet av säkerhet/risk",
-    "Flera års erfarenhet",
-    "Svenska i tal och skrift"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Flerårig erfarenhet av kvalificerat trygghets- och säkerhetsarbete",
-    "Erfarenhet av samverkan med myndigheter, kommuner och andra samhällsaktörer",
-    "Erfarenhet av brottsförebyggande arbete, krisledning, kontinuitetshantering, civilt försvar och …",
-    "Erfarenhet av att hantera komplexa incidenter och situationer med höga krav på omdöme och handlingsförmåga"
-   ],
-   "erf_ruta": false
-  },
-  {
    "id": "31675426",
    "rubrik": "Regional samordnare för livsmedelsberedskap i norra Sverige",
    "arbetsgivare": "Livsmedelsverket",
    "kommun": "Umeå",
    "lan": "Västerbottens län",
    "publicerad": "2026-11-02",
-   "sista": "2026-11-23",
+   "sista": "2026-11-24",
    "omraden": [
     "Krisberedskap & civilt försvar"
    ],
@@ -2594,7 +2712,7 @@
    "kommun": "Umeå",
    "lan": "Västerbottens län",
    "publicerad": "2026-11-02",
-   "sista": "2026-11-23",
+   "sista": "2026-11-24",
    "omraden": [
     "Krisberedskap & civilt försvar"
    ],
@@ -2674,41 +2792,6 @@
     "Erfarenhet av säkerhetsarbete och som trivs i en bred roll där du kan växla mellan långsiktigt …"
    ],
    "erf_ruta": false
-  },
-  {
-   "id": "31673017",
-   "rubrik": "Officiell veterinär i beredskap Skövde (timanställning)",
-   "arbetsgivare": "Livsmedelsverket",
-   "kommun": "Skövde",
-   "lan": "Västra Götalands län",
-   "publicerad": "2026-11-02",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "höjd beredskap",
-    "totalförsvar",
-    "utbildning",
-    "körkort"
-   ],
-   "utdrag": "Är du veterinär och vill bidra till säkra livsmedel och ett gott djurskydd i Sverige vid höjd beredskap? Nu söker Livsmedelsverket veterinärer som vill vara med och upprätthålla säkra livsmedel om Sve",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31673017",
-   "status": "aktuell",
-   "omfattning": null,
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 4,
-   "krav": [
-    "Körkort",
-    "Svenska i tal och skrift"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
   },
   {
    "id": "31670194",
@@ -2884,52 +2967,6 @@
    "erf_ruta": false
   },
   {
-   "id": "31673589",
-   "rubrik": "Kommunikatör med uppdrag inom brottsförebyggande arbete",
-   "arbetsgivare": "Malmö Stad",
-   "kommun": "Malmö",
-   "lan": "Skåne län",
-   "publicerad": "2026-11-02",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Säkerhet & trygghet",
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "omvärldsbevakning",
-    "utbildning",
-    "samverkan",
-    "trygghetsskapande",
-    "brottsförebyggande",
-    "samhällsvetenskap"
-   ],
-   "utdrag": "Ref: 20262351 Vill du vara del av arbetet för ett tryggare Malmö? Malmö är en stad i ständig utveckling med höga ambitioner för trygghet, social hållbarhet och förebyggande arbete. Vi söker dig som är",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31673589",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD14",
-    "MVAE34",
-    "RHAD38",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Akademisk examen",
-    "Svenska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av att självständigt ansvara för kvalificerade kommunikationsprocesser och projekt med hög …",
-    "Erfarenhet av att omsätta information till begriplig, tillgänglig och målgruppsanpassad kommunikation",
-    "Erfarenhet av att ge kvalificerat kommunikationsstöd till chefer och medarbetare"
-   ],
-   "erf_ruta": false
-  },
-  {
    "id": "31674264",
    "rubrik": "OT-säkerhetsspecialist till Neonic i Stockholm",
    "arbetsgivare": "Batterigatan 14E",
@@ -3046,93 +3083,6 @@
    "junior": false,
    "erfarenheter": [
     "Flerårig erfarenhet av verksamhetsnära HR-arbete"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31665156",
-   "rubrik": "Säkerhetsspecialist till SFV",
-   "arbetsgivare": "Statens fastighetsverk",
-   "kommun": "Stockholm",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-30",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "säkerhetsskydd",
-    "utbildning",
-    "samverkan",
-    "säkerhetsprövning",
-    "körkort",
-    "säkerhetsskyddsanalys"
-   ],
-   "utdrag": "Det är på regeringens uppdrag som Statens fastighetsverk (SFV) förvaltar vårt gemensamma natur- och kulturarv. Vi förvaltar en mångfald av statligt ägda fastigheter – däribland regeringsbyggnader, dom",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31665156",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Erfarenhet av säkerhet/risk"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av att leda, utveckla, samordna och förvalta processer i säkerhetskänslig verksamhet",
-    "Erfarenhet av arbete med säkerhetsskyddslagen, säkerhetsskyddsförordningen och Säkerhetspolisens föreskrifter"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31664725",
-   "rubrik": "Erfaren säkerhetsspecialist till SFV",
-   "arbetsgivare": "Statens fastighetsverk",
-   "kommun": "Stockholm",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-30",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "säkerhetsskydd",
-    "utbildning",
-    "säkerhetsprövning"
-   ],
-   "utdrag": "Det är på regeringens uppdrag som Statens fastighetsverk (SFV) förvaltar vårt gemensamma natur- och kulturarv. Vi förvaltar en mångfald av statligt ägda fastigheter – däribland regeringsbyggnader, dom",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31664725",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Erfarenhet av säkerhet/risk",
-    "Flera års erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Flerårig erfarenhet av att leda eller genomföra arbete med säkerhetsskyddsanalyser, säkerhetsskyddsplaner …",
-    "Flerårig erfarenhet av att utveckla och implementera systematiskt säkerhets- och säkerhetsskyddsarbete",
-    "Erfarenhet av arbete med säkerhetsskyddslagen, säkerhetsskyddsförordningen och Säkerhetspolisens föreskrifter",
-    "Erfarenhet av och god förståelse för statliga myndigheters styrning"
    ],
    "erf_ruta": false
   },
@@ -3288,46 +3238,6 @@
    "junior": false,
    "erfarenheter": [],
    "erf_ruta": true
-  },
-  {
-   "id": "31659656",
-   "rubrik": "Kommunikatör med ansvar för press- och kriskommunikation",
-   "arbetsgivare": "Österåkers kommun",
-   "kommun": "Österåker",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-29",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Riskanalys & riskkonsult",
-    "Riskkommunikation"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "utbildning"
-   ],
-   "utdrag": "I Österåkers kommun arbetar vi för att ge invånarna den bästa kvaliteten på den service och de tjänster vi tillhandahåller. Hos oss är du med och gör skillnad, både för enskilda människor och för komm",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31659656",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD14",
-    "RHAD38"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Relevant erfarenhet av kvalificerat kommunikationsarbete",
-    "Erfarenhet av pressarbete"
-   ],
-   "erf_ruta": false
   },
   {
    "id": "31659478",
@@ -3501,51 +3411,6 @@
    "erf_ruta": false
   },
   {
-   "id": "31657086",
-   "rubrik": "Samordnare inom brandsäkerhet till Säkerhet och Beredskap",
-   "arbetsgivare": "Region Västmanland",
-   "kommun": "Västerås",
-   "lan": "Västmanlands län",
-   "publicerad": "2026-10-28",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "civilt försvar",
-    "övningar",
-    "utbildning",
-    "LSO",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Vill du arbeta brett med brandsäkerhet, brandfarlig vara och säkerhet i en samhällsviktig verksamhet? Vi söker dig som vill kombinera ett taktiskt stöd nära verksamheterna med samordning, utbildning o",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31657086",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Svenska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av brandsäkerhetsamordning"
-   ],
-   "erf_ruta": false
-  },
-  {
    "id": "31652906",
    "rubrik": "Expert till Kriminalvårdens Säkerhetsavdelning",
    "arbetsgivare": "Sektionen för fysisk säkerhet",
@@ -3671,48 +3536,6 @@
    "erf_ruta": false
   },
   {
-   "id": "31650039",
-   "rubrik": "Säkerhetsskyddshandläggare inriktning kontroll",
-   "arbetsgivare": "Försvarets Materielverk (FMV)",
-   "kommun": "Stockholm",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-27",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "säkerhetsskydd",
-    "utbildning",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Nu söker vi flera säkerhetsskyddshandläggare som vill stärka FMV:s säkerhetsskydd genom att kontrollera att våra leverantörer, underleverantörer och andra motparter följer sina säkerhetsskyddsavtal. I",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31650039",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Svenska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Relevant erfarenhet av att självständigt granska, bedöma och dokumentera efterlevnad av regelverk, avtal …"
-   ],
-   "erf_ruta": false
-  },
-  {
    "id": "31647861",
    "rubrik": "Enhetschef/CISO till säkerhetsenheten",
    "arbetsgivare": "Havs- och Vattenmyndigheten",
@@ -3794,116 +3617,6 @@
    "erf_ruta": true
   },
   {
-   "id": "31647311",
-   "rubrik": "Säkerhetssamordnare Kommunledningsförvaltningen",
-   "arbetsgivare": "Östersunds kommun",
-   "kommun": "Östersund",
-   "lan": "Jämtlands län",
-   "publicerad": "2026-10-26",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "civilt försvar",
-    "krisledning",
-    "säkerhetsskydd",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "systematiskt säkerhetsarbete",
-    "brottsförebyggande",
-    "säkerhetsprövning",
-    "samhällsvetenskap",
-    "styrdokument"
-   ],
-   "utdrag": "Kommunledningsförvaltningen söker en säkerhetssamordnare med särskilt ansvar för systematiskt beredskaps- och säkerhetsarbete på verksamhetsnivå. Uppdraget omfattar både strategiska och operativa arbe",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31647311",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 9,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Erfarenhet av säkerhet/risk",
-    "Flera års erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Flerårig erfarenhet av kvalificerat säkerhetsarbete, exempelvis säkerhetsskydd, informationssäkerhet …",
-    "Dokumenterad erfarenhet av operativ hantering av säkerhetsincidenter, inklusive utredning, analys …"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31645947",
-   "rubrik": "Trygghets- och beredskapssamordnare till Nykvarns Kommun",
-   "arbetsgivare": "Poolia ",
-   "kommun": "Nykvarn",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-26",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar",
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "risk- och sårbarhetsanalys",
-    "krisberedskap",
-    "civilt försvar",
-    "höjd beredskap",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "brottsförebyggande",
-    "säkerhetsprövning",
-    "körkort",
-    "samhällsvetenskap"
-   ],
-   "utdrag": "Vill du ha ett arbete där det du gör faktiskt gör skillnad? Som trygghets- och beredskapssamordnare på Nykvarns kommun bidrar du till ett tryggare och mer robust Nykvarn, både i vardagen och när det o",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31645947",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 9,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Körkort",
-    "Svenska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av strategiskt och operativt arbete inom trygghet, brottsförebyggande frågor, krisberedskap eller …",
-    "Erfarenhet av att ta fram och kvalitetssäkra planer, rutiner och dokumentation",
-    "Erfarenhet från kommun, region, myndighet eller annan politiskt styrd organisation",
-    "Erfarenhet av samverkan med exempelvis polis, räddningstjänst, länsstyrelse, näringsliv eller civilsamhälle"
-   ],
-   "erf_ruta": false
-  },
-  {
    "id": "31641824",
    "rubrik": "Säkerhetsspecialist – fysisk säkerhet",
    "arbetsgivare": "Svenska Kraftnät",
@@ -3948,198 +3661,6 @@
     "Erfarenhet av systemförvaltning, konfigurering, testning och driftsättning av säkerhetssystem"
    ],
    "erf_ruta": false
-  },
-  {
-   "id": "31643825",
-   "rubrik": "Trygghetssamordnare",
-   "arbetsgivare": "Stångåstaden",
-   "kommun": "Linköping",
-   "lan": "Östergötlands län",
-   "publicerad": "2026-10-26",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "samverkan",
-    "trygghetsskapande",
-    "brottsförebyggande",
-    "körkort"
-   ],
-   "utdrag": "Vill du vara med och utveckla tryggheten i våra bostadsområden? Som trygghetssamordnare hos Stångåstaden analyserar du vad som påverkar tryggheten i våra områden och ser till att kunskapen leder till ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31643825",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD38",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Körkort",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av trygghetsskapande, brottsförebyggande eller annat samhällsinriktat arbete där analys …"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31643184",
-   "rubrik": "Brandinspektör/Brandingenjör till Räddningstjänsten Väst",
-   "arbetsgivare": "Räddningstjänsten Väst",
-   "kommun": "Falkenberg",
-   "lan": "Hallands län",
-   "publicerad": "2026-10-26",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "samverkan",
-    "LSO",
-    "körkort"
-   ],
-   "utdrag": "Vill du bidra till ett säkrare samhälle? Vi på Räddningstjänsten Väst söker en engagerad medarbetare som vill vara med och utveckla framtidens förebyggande brandskyddsarbete. Oavsett om du är erfaren ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31643184",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Körkort"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
-  },
-  {
-   "id": "31643036",
-   "rubrik": "Brandinspektör/Brandingenjör till Räddningstjänsten Väst",
-   "arbetsgivare": "Räddningstjänsten Väst",
-   "kommun": "Varberg",
-   "lan": "Hallands län",
-   "publicerad": "2026-10-26",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "samverkan",
-    "LSO",
-    "körkort"
-   ],
-   "utdrag": "Vill du bidra till ett säkrare samhälle? Vi på Räddningstjänsten Väst söker en engagerad medarbetare som vill vara med och utveckla framtidens förebyggande brandskyddsarbete. Oavsett om du är erfaren ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31643036",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Körkort"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
-  },
-  {
-   "id": "31642682",
-   "rubrik": "Vi söker en Specialist Financial Risk and Opportunity Management",
-   "arbetsgivare": "BAE Systems Hägglunds AB",
-   "kommun": "Örnsköldsvik",
-   "lan": "Västernorrlands län",
-   "publicerad": "2026-10-26",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Finansiell & operativ risk (angränsande)"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "säkerhetsprövning"
-   ],
-   "utdrag": "Är du en strukturerad och resultatinriktad person med erfarenhet av finansiell risk- och möjlighetshantering i företag med högt tekniskt utvecklingsinnehåll och produktion? Vill du vara med och stärka",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31642682",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Säkerhetsprövning",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av finansiell risk- och möjlighetshantering i företag med högt tekniskt utvecklingsinnehåll och …",
-    "Erfarenhet av finansiell risk- och möjlighetshantering i företag med hög andel teknisk utveckling i …",
-    "Erfarenhet av att leda tvärfunktionella team och facilitera workshops"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31639858",
-   "rubrik": "Beredskapssamordnare",
-   "arbetsgivare": "Kommunstyrelsens förvaltning, Administrativa avdelningen",
-   "kommun": "Munkedal",
-   "lan": "Västra Götalands län",
-   "publicerad": "2026-10-23",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "civilt försvar",
-    "höjd beredskap",
-    "totalförsvar",
-    "krisledning",
-    "övningar",
-    "samverkan",
-    "säkerhetsprövning",
-    "körkort",
-    "styrdokument"
-   ],
-   "utdrag": "Vill du jobba i den lilla kommunen med de stora möjligheterna? Varmt välkommen till oss i Munkedals kommun! Munkedals kommun ligger i norra Bohuslän mellan Oslo och Göteborg. Här möts skog, älv och ha",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31639858",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Körkort"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
   },
   {
    "id": "31637014",
@@ -4237,180 +3758,6 @@
    "erf_ruta": false
   },
   {
-   "id": "31639935",
-   "rubrik": "Säkerhetssamordnare",
-   "arbetsgivare": "Kommunstyrelsens förvaltning, Administrativa avdelningen",
-   "kommun": "Munkedal",
-   "lan": "Västra Götalands län",
-   "publicerad": "2026-10-23",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "säkerhetsskydd",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "säkerhetskultur",
-    "brottsförebyggande",
-    "säkerhetsprövning",
-    "körkort",
-    "styrdokument"
-   ],
-   "utdrag": "Vill du jobba i den lilla kommunen med de stora möjligheterna? Varmt välkommen till oss i Munkedals kommun! Munkedals kommun ligger i norra Bohuslän mellan Oslo och Göteborg. Här möts skog, älv och ha",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31639935",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Körkort"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
-  },
-  {
-   "id": "31637581",
-   "rubrik": "Förebyggande och uppsökande socialarbetare",
-   "arbetsgivare": "Öckerö kommun, Socialförvaltningen ",
-   "kommun": "Öckerö",
-   "lan": "Västra Götalands län",
-   "publicerad": "2026-10-23",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "samverkan",
-    "brottsförebyggande",
-    "körkort"
-   ],
-   "utdrag": "I Öckerö kommun bor cirka 13 000 invånare och kommunen som arbetsgivare har cirka 1100 anställda. Tillsammans lever och verkar vi i en kommun som består av tio bebodda öar. Öckerö kommuns vision handl",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31637581",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 4,
-   "krav": [
-    "Akademisk examen",
-    "Körkort",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av att arbeta med ungdomar i olika miljöer och god kunskap om ungdomars livsvillkor och utmaningar"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31637442",
-   "rubrik": "Vi söker en brandingenjör till olycksförebyggande avdelningen",
-   "arbetsgivare": "Räddningstjänsten",
-   "kommun": "Jönköping",
-   "lan": "Jönköpings län",
-   "publicerad": "2026-10-23",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "utbildning",
-    "samverkan",
-    "brottsförebyggande",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Jönköpings kommun är en stor arbetsgivare med hundratals olika yrkesroller. Vi växer i takt med att kommunen utvecklas med fler invånare, fler bostäder och större utbud. Vi är alltid på jakt efter ny ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31637442",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD39"
-   ],
-   "match": "Medel",
-   "poang": 6,
-   "krav": [
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": false
-  },
-  {
-   "id": "31632886",
-   "rubrik": "Beredskapshandläggare inriktning befolkningsskydd",
-   "arbetsgivare": "Länsstyrelsen Kronoberg, Samhällsutvecklingsavdelningen",
-   "kommun": "Växjö",
-   "lan": "Kronobergs län",
-   "publicerad": "2026-10-22",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "höjd beredskap",
-    "totalförsvar",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "säkerhetsprövning",
-    "körkort",
-    "samhällsvetenskap"
-   ],
-   "utdrag": "Beskrivning Länsstyrelsen Kronoberg är en statlig myndighet. Vi arbetar för ett mer hållbart Kronoberg där människor och företag växer tillsammans. Hos oss arbetar 220 engagerade medarbetare med kompe",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31632886",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 8,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Erfarenhet av beredskap/kris"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Tidigare erfarenhet av beredskapsarbete och en vilja att utvecklas tillsammans med oss på enheten",
-    "Erfarenhet av beredskaps- eller totalförsvarsutveckling"
-   ],
-   "erf_ruta": false
-  },
-  {
    "id": "31633359",
    "rubrik": "Brandinspektör / Insatsledare till Sörmlandskustens Räddningstjänst",
    "arbetsgivare": "Nyköpings kommun, Räddning och säkerhet",
@@ -4457,51 +3804,6 @@
     "Erfarenhet av tillsyn enligt LSO och LBE",
     "Erfarenhet av verksamheter som omfattas av 2 kap",
     "Erfarenhet av Sevesolagstiftning och Sevesoverksamheter"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31631014",
-   "rubrik": "Enhetschef för samhällsskydd och beredskap",
-   "arbetsgivare": "Länsstyrelsen i Västmanlands län, Samhällsskydd och beredskap",
-   "kommun": "Västerås",
-   "lan": "Västmanlands län",
-   "publicerad": "2026-10-22",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "höjd beredskap",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Vill du leda samhällsviktigt arbete och stärka Västmanlands beredskap? Vi söker en trygg och engagerad ledare som vill driva och utveckla länets arbete inom samhällsskydd och beredskap. Som enhetschef",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31631014",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD39"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av ledarskap viktigt",
-    "Erfarenhet med personalansvar ett krav",
-    "Erfarenhet av arbete där samverkan med olika intressenter förekommer"
    ],
    "erf_ruta": false
   },
@@ -4667,49 +3969,6 @@
    "erf_ruta": false
   },
   {
-   "id": "31618017",
-   "rubrik": "Säkerhetssamordnare,  inriktning personalsäkerhet och internutredningar",
-   "arbetsgivare": "Stockholm",
-   "kommun": "Stockholm",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-20",
-   "sista": "2026-11-15",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "totalförsvar",
-    "säkerhetsskydd",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Är du intresserad av att arbeta i en spännande och dynamisk bransch med erfarna och kompetenta kollegor, där vi har en härlig gemenskap? Vill du arbeta med samhällsviktig infrastruktur där varje sekun",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31618017",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Körkort",
-    "Erfarenhet av säkerhet/risk",
-    "Flera års erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Flerårig erfarenhet av arbete med personalsäkerhetsfrågor och säkerhetsprövningsarbete i kombination med …",
-    "Tidigare erfarenhet av att samverka med andra myndigheter eller motsvarande aktörer i säkerhetsfrågor",
-    "Erfarenhet av att skapa och leda mindre projekt och arbetsgrupper"
-   ],
-   "erf_ruta": false
-  },
-  {
    "id": "31620062",
    "rubrik": "Säkerhetskoordinator till SKAB",
    "arbetsgivare": "Säkerhetsavdelningen",
@@ -4748,47 +4007,6 @@
    "junior": false,
    "erfarenheter": [],
    "erf_ruta": true
-  },
-  {
-   "id": "31606952",
-   "rubrik": "Säkerhetssamordnare inom verksamhetsskydd och säkerhetsskydd",
-   "arbetsgivare": "Quest Consulting Sverige AB",
-   "kommun": "Stockholm",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-16",
-   "sista": "2026-11-16",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "riskbedömning",
-    "säkerhetsskydd",
-    "utbildning",
-    "styrdokument"
-   ],
-   "utdrag": "Uppdragsbeskrivning Kunden söker säkerhetssamordnare inom verksamhetsskydd och säkerhetsskydd. Uppdraget styrs och arbetsleds av gruppchef för Avdelningsnära säkerhet och exponering av verksamhet och ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31606952",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Säkerhetsprövning",
-    "Erfarenhet av säkerhet/risk"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av säkerhetsskyddsarbete där aktuell lagstiftning inom området tillämpats, inklusive, men inte …",
-    "Erfarenhet från verksamhetsskyddsarbete inom samhällsviktig verksamhet (exempelvis",
-    "Erfarenhet av arbete inom både fysisk säkerhet och informationssäkerhet, inklusive arbete med riskbedömning …",
-    "Dokumenterad erfarenhet av att utveckla, implementera och följa upp processer, rutiner eller styrdokument …"
-   ],
-   "erf_ruta": false
   },
   {
    "id": "31599130",
@@ -4869,83 +4087,6 @@
    "junior": false,
    "erfarenheter": [],
    "erf_ruta": true
-  },
-  {
-   "id": "31594396",
-   "rubrik": "Materielhandläggare Flygbassäkerhetskompaniet, Skaraborgs flygflottilj F 7",
-   "arbetsgivare": "Försvarsmakten",
-   "kommun": "Lidköping",
-   "lan": "Västra Götalands län",
-   "publicerad": "2026-10-14",
-   "sista": "2026-11-13",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "höjd beredskap",
-    "övningar",
-    "utbildning",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Om arbetsplatsen Flygbassäkerhetskompaniet ansvarar för utbildning av värnpliktiga flygbassäk- och markförsvarssoldater till Skaraborgs flygflottilj F 7. Kompaniet har även en kontinuerligt tjänstgöra",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31594396",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Engelska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet från system PRIO och LIFT",
-    "Erfarenhet av att jobba med lagerstruktur inom logistik"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "31596858",
-   "rubrik": "Junior rådgivare inom brottsförebyggande arbete",
-   "arbetsgivare": "Ssf Service AB",
-   "kommun": "Stockholm",
-   "lan": "Stockholms län",
-   "publicerad": "2026-10-14",
-   "sista": "2026-11-13",
-   "omraden": [
-    "Säkerhet & trygghet",
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "brottsförebyggande"
-   ],
-   "utdrag": "Vill du använda din kriminologiutbildning för att hjälpa människor och företag att förebygga brott? SSF Stöldskyddsföreningen söker en rådgivare i början av karriären för en tidsbegränsad anställning ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31596858",
-   "status": "aktuell",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD38",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen"
-   ],
-   "junior": true,
-   "erfarenheter": [],
-   "erf_ruta": false
   },
   {
    "id": "31500139",
@@ -5122,6 +4263,50 @@
    "erf_ruta": false
   },
   {
+   "id": "bbd9332d2ea73a9cd63ab3d2b5c553031e453a9a",
+   "rubrik": "Säkerhetsexpert",
+   "arbetsgivare": "Migrationsverket, Operativ verksamhet, Nationella operativa avdelningen",
+   "kommun": "Norrköping",
+   "lan": "Östergötlands län",
+   "publicerad": "2026-10-28",
+   "sista": "2026-11-11",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "säkerhetsprövning"
+   ],
+   "utdrag": "Vi söker en Säkerhetsexpert till vår projektverksamhet i Norrköping. Vi söker en säkerhetsexpert inom flera områden som kan stödja både projekt och förvaltning till våra lokalförsörjningsenheter på Mi",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/bbd9332d2ea73a9cd63ab3d2b5c553031e453a9a",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD12/RHAD22",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 7,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Projektledning",
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av arbete med fysisk säkerhet och säkerhetsteknik",
+    "Erfarenhet av arbete i projekt"
+   ],
+   "erf_ruta": false
+  },
+  {
    "id": "9f189c308b18b6e3933241c76bcda419b425c4bb",
    "rubrik": "Säkerhetssamordnare inom brottsprevention, vikariat",
    "arbetsgivare": "Sigtuna kommun, Trygghets- och säkerhetsenheten",
@@ -5244,6 +4429,55 @@
    "junior": false,
    "erfarenheter": [],
    "erf_ruta": true
+  },
+  {
+   "id": "fc2e1aac67fe4e864d625444f2119717e3ac7e57",
+   "rubrik": "Säkerhets- och beredskapschef till Södra Älvsborgs sjukhus",
+   "arbetsgivare": "Södra Älvsborgs sjukhus, Stabsområde",
+   "kommun": "Borås",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-10-26",
+   "sista": "2026-11-08",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "krisberedskap",
+    "civilt försvar",
+    "höjd beredskap",
+    "totalförsvar",
+    "krisledning",
+    "säkerhetsskydd",
+    "utbildning",
+    "samverkan",
+    "säkerhetsprövning"
+   ],
+   "utdrag": "Att hjälpa människor till en bättre hälsa är ett av de viktigaste uppdragen man kan ha. På Södra Älvsborgs sjukhus (SÄS) är vi 3700 medarbetare med 120 olika yrken som tillsammans bidrar till det varj",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/fc2e1aac67fe4e864d625444f2119717e3ac7e57",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD39"
+   ],
+   "match": "Medel",
+   "poang": 6,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Erfarenhet av beredskap/kris",
+    "Flera års erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Flerårig erfarenhet av att arbeta som chef eller i annan ledande befattning inom säkerhet, krisberedskap …",
+    "Dokumenterad erfarenhet av att strategiskt leda, utveckla och samordna säkerhets-, krisberedskaps- och …",
+    "Erfarenhet av samverkan med myndigheter och andra externa aktörer"
+   ],
+   "erf_ruta": false
   },
   {
    "id": "fb16746ce1d4dc6e5cea6c18130d8bf9cbbed4d2",
@@ -5454,6 +4688,82 @@
     "Erfarenhet av säkerhetsarbete i publika miljöer eller vid större arrangemang och evenemang",
     "Erfarenhet av att ha ansvarat för publiksäkerhet eller evenemangssäkerhet på arrangörsnivå inom statlig …",
     "Erfarenhet av beredskap eller krishantering"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "3402898780f5c5de90d5efeda2fc75418e5d695b",
+   "rubrik": "Säkerhetshandläggare till frivården Mälardalen/Nyköping",
+   "arbetsgivare": "VO F Mälardalen, frivården Nyköping",
+   "kommun": "Nyköping",
+   "lan": "Södermanlands län",
+   "publicerad": "2026-10-22",
+   "sista": "2026-11-12",
+   "omraden": [
+    "Riskanalys & riskkonsult"
+   ],
+   "nyckelord": [
+    "övningar",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Om Kriminalvården Kriminalvården växer – vi bygger nytt, bygger om och bygger till och söker nu fler medarbetare. Vårt viktigaste mål är att minska återfall i brott – att bryta den onda cirkeln. Lycka",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/3402898780f5c5de90d5efeda2fc75418e5d695b",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Körkort",
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av arbete inom frivården"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "84179a2a8cbc80949ca7dea87d7947f9fbb26826",
+   "rubrik": "Områdeschefer till Jämtlands räddningstjänstförbund",
+   "arbetsgivare": "Räddningstjänsten Östersund",
+   "kommun": "Östersund",
+   "lan": "Jämtlands län",
+   "publicerad": "2026-10-22",
+   "sista": "2026-11-12",
+   "omraden": [
+    "Skadeförebyggande & personsäkerhet"
+   ],
+   "nyckelord": [
+    "samverkan",
+    "körkort"
+   ],
+   "utdrag": "Områdeschefer till Jämtlands räddningstjänstförbund Vill du vara med och utveckla framtidens räddningstjänst i Jämtland? Som områdeschef får du en nyckelroll i att leda, stödja och utveckla vår verksa",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/84179a2a8cbc80949ca7dea87d7947f9fbb26826",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Körkort",
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet med personal- och arbetsmiljöansvar"
    ],
    "erf_ruta": false
   },
@@ -5867,6 +5177,54 @@
     "Erfarenhet av arbete inom totalförsvar, civil beredskap eller krisberedskap",
     "Erfarenhet av hur beredskapssystemet fungerar",
     "Erfarenhet av att leda utvecklings- och förändringsarbete"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "c6ab60ab070640b7a5646cdd9879616767eda5ae",
+   "rubrik": "Enhetschef säkerhet",
+   "arbetsgivare": "Säkerhet",
+   "kommun": "Gotland",
+   "lan": "Gotlands län",
+   "publicerad": "2026-10-18",
+   "sista": "2026-11-01",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "omvärldsbevakning",
+    "samverkan",
+    "säkerhetskultur",
+    "systematiskt säkerhetsarbete",
+    "brottsförebyggande",
+    "körkort",
+    "högskoleexamen",
+    "styrdokument"
+   ],
+   "utdrag": "Enheten för säkerhet Vill du leda en samhällsviktig verksamhet med stor betydelse för trygghet, säkerhet och beredskap på Gotland? Region Gotland söker nu en enhetschef som vill ta ett strategiskt och",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/c6ab60ab070640b7a5646cdd9879616767eda5ae",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD12/RHAD22",
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Medel",
+   "poang": 6,
+   "krav": [
+    "Akademisk examen",
+    "Svenskt medborgarskap",
+    "Körkort",
+    "Erfarenhet av säkerhet/risk",
+    "Svenska i tal och skrift"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av säkerhets- och säkerhetsskyddsarbete"
    ],
    "erf_ruta": false
   },
@@ -6310,6 +5668,47 @@
     "Erfarenhet av arbete med personalsäkerhet, inklusive erfarenhet av att självständigt genomföra …",
     "Erfarenhet av arbete i offentlig förvaltning",
     "Erfarenhet av arbete med exponering av skyddsvärden"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "eea67422c0f68beebf6486303634dce3003b2ebd",
+   "rubrik": "Avdelningschef till Säkerhet på Västtrafik",
+   "arbetsgivare": "Västtrafik AB, Stab Ekonomi Kvalitet Säkerhet",
+   "kommun": "Göteborg",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-10-13",
+   "sista": "2026-11-01",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "samverkan"
+   ],
+   "utdrag": "Avdelningschef till Säkerhet på Västtrafik Nu söker vi vår nya avdelningschef för Säkerhet som tillsammans med Verksamhetschef för Kvalitet och Säkerhetsstyrning vill fortsätta utveckla ett samhällsvi",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/eea67422c0f68beebf6486303634dce3003b2ebd",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "MVAE34",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenska i tal och skrift",
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Tidigare erfarenhet från säkerhetsområdet",
+    "Erfarenhet av att leda och utveckla verksamheter och medarbetare",
+    "Erfarenhet av att verka i en komplex organisation",
+    "Erfarenhet av ledarskap, chefsskap, förändringsledning eller annan erfarenhet som arbetsgivaren bedömer som …"
    ],
    "erf_ruta": false
   },
@@ -12117,6 +11516,47 @@
    "junior": false,
    "erfarenheter": [
     "Tidigare erfarenhet av organisations-/verksamhetsutveckling eller krisberedskap"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "3abe905cd387453bbc70169dfe7a164e08a50d7c",
+   "rubrik": "Säkerhetssamordnare inom verksamhetsskydd och säkerhetsskydd",
+   "arbetsgivare": "Quest Consulting Sverige AB",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2026-09-03",
+   "sista": "2026-09-17",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "riskbedömning",
+    "säkerhetsskydd",
+    "utbildning",
+    "styrdokument"
+   ],
+   "utdrag": "Uppdragsbeskrivning Kunden söker säkerhetssamordnare inom verksamhetsskydd och säkerhetsskydd. Uppdraget styrs och arbetsleds av gruppchef för Avdelningsnära säkerhet och exponering av verksamhet och ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/3abe905cd387453bbc70169dfe7a164e08a50d7c",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD38",
+    "RHAD39"
+   ],
+   "match": "Medel",
+   "poang": 5,
+   "krav": [
+    "Säkerhetsprövning",
+    "Erfarenhet av säkerhet/risk"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av säkerhetsskyddsarbete där aktuell lagstiftning inom området tillämpats, inklusive, men inte …",
+    "Erfarenhet från verksamhetsskyddsarbete inom samhällsviktig verksamhet (exempelvis",
+    "Erfarenhet av arbete inom både fysisk säkerhet och informationssäkerhet, inklusive arbete med riskbedömning …",
+    "Dokumenterad erfarenhet av att utveckla, implementera och följa upp processer, rutiner eller styrdokument …"
    ],
    "erf_ruta": false
   },
@@ -19186,46 +18626,6 @@
    "erf_ruta": false
   },
   {
-   "id": "a9befbb2dc8b1ce82461ba950f8b63edbbf200fd",
-   "rubrik": "2-3 handläggare inom samhällsskydd och beredskap - försörjningsberedskap",
-   "arbetsgivare": "LÄNSSTYRELSEN I SÖDERMANLANDS LÄN, Samhällsskydd och beredskap",
-   "kommun": "Nyköping",
-   "lan": "Södermanlands län",
-   "publicerad": "2026-06-26",
-   "sista": "2026-08-09",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "civilt försvar",
-    "säkerhetsskydd",
-    "utbildning",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Länsstyrelsen är en expertmyndighet inom områden som natur och miljö, samhällsbyggnad och landsbygd, direkt underställd regeringen. Vi fungerar som en länk mellan människor, kommuner, regioner och oli",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/a9befbb2dc8b1ce82461ba950f8b63edbbf200fd",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "MVAE34",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 8,
-   "krav": [
-    "Akademisk examen",
-    "Körkort"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
-  },
-  {
    "id": "65944249e691e79085c3c1b6d109b63779bcdf2b",
    "rubrik": "Beredskapsexpert",
    "arbetsgivare": "Migrationsverket, Huvudkontor, Säkerhetsavdelningen",
@@ -19274,6 +18674,46 @@
     "Erfarenhet av arbete med analys och metodutveckling"
    ],
    "erf_ruta": false
+  },
+  {
+   "id": "a9befbb2dc8b1ce82461ba950f8b63edbbf200fd",
+   "rubrik": "2-3 handläggare inom samhällsskydd och beredskap - försörjningsberedskap",
+   "arbetsgivare": "LÄNSSTYRELSEN I SÖDERMANLANDS LÄN, Samhällsskydd och beredskap",
+   "kommun": "Nyköping",
+   "lan": "Södermanlands län",
+   "publicerad": "2026-06-26",
+   "sista": "2026-08-09",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "civilt försvar",
+    "säkerhetsskydd",
+    "utbildning",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Länsstyrelsen är en expertmyndighet inom områden som natur och miljö, samhällsbyggnad och landsbygd, direkt underställd regeringen. Vi fungerar som en länk mellan människor, kommuner, regioner och oli",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/a9befbb2dc8b1ce82461ba950f8b63edbbf200fd",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "MVAE34",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 8,
+   "krav": [
+    "Akademisk examen",
+    "Körkort"
+   ],
+   "junior": false,
+   "erfarenheter": [],
+   "erf_ruta": true
   },
   {
    "id": "1c7cb808fb3ee824c4185cdbbfe777aaecaeb8c8",
@@ -19397,6 +18837,60 @@
    "junior": false,
    "erfarenheter": [
     "Dokumenterad erfarenhet av ledarskap och/eller chefsroller"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "33c71d1de1b4a1e1c066ce415169808cc5297808",
+   "rubrik": "Säkerhetssamordnare Kommunledningsförvaltningen",
+   "arbetsgivare": "Östersunds kommun",
+   "kommun": "Östersund",
+   "lan": "Jämtlands län",
+   "publicerad": "2026-06-25",
+   "sista": "2026-08-09",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "krisberedskap",
+    "civilt försvar",
+    "krisledning",
+    "säkerhetsskydd",
+    "övningar",
+    "utbildning",
+    "samverkan",
+    "systematiskt säkerhetsarbete",
+    "brottsförebyggande",
+    "säkerhetsprövning",
+    "samhällsvetenskap",
+    "styrdokument"
+   ],
+   "utdrag": "Kommunledningsförvaltningen söker en säkerhetssamordnare med särskilt ansvar för systematiskt beredskaps- och säkerhetsarbete på kommunövergripande nivå. Uppdraget omfattar både strategiska och operat",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/33c71d1de1b4a1e1c066ce415169808cc5297808",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD12/RHAD22",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 9,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Erfarenhet av säkerhet/risk",
+    "Flera års erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Flerårig erfarenhet av kvalificerat säkerhetsarbete, exempelvis säkerhetsskydd, informationssäkerhet …",
+    "Dokumenterad erfarenhet av operativ hantering av säkerhetsincidenter, inklusive utredning, analys …"
    ],
    "erf_ruta": false
   },
@@ -24653,6 +24147,41 @@
    "erf_ruta": true
   },
   {
+   "id": "e9a8870c5713727039a792c634db8c90871c6a0b",
+   "rubrik": "Risk Manager till LF Jämtland",
+   "arbetsgivare": "Länsförsäkringar Jämtland",
+   "kommun": "Östersund",
+   "lan": "Jämtlands län",
+   "publicerad": "2026-05-19",
+   "sista": "2026-05-29",
+   "omraden": [
+    "Finansiell & operativ risk (angränsande)"
+   ],
+   "nyckelord": [],
+   "utdrag": "Vi är i ett spännande skede där vi på risk- och regelefterlevnadsområdet kommer att samarbeta mer med andra länsförsäkringsbolag i en omvärld som har allt högre förändringstakt – vilket ställer krav p",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/e9a8870c5713727039a792c634db8c90871c6a0b",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Medel",
+   "poang": 6,
+   "krav": [
+    "Akademisk examen",
+    "Erfarenhet av säkerhet/risk"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av arbete inom riskhantering, ekonomi i försäkringsbolag, försäkringsverksamhet, som revisor eller …",
+    "Erfarenhet av att arbeta i förändringsprocesser eller med utveckling av rutiner och processer"
+   ],
+   "erf_ruta": false
+  },
+  {
    "id": "52615366e6f9c96f8f774bd602a3b1eedfd8902f",
    "rubrik": "Samordnare Hamnmyndighet och Säkerhet Karlshamns Hamn",
    "arbetsgivare": "Karlshamns Hamn",
@@ -24727,41 +24256,6 @@
    "junior": false,
    "erfarenheter": [],
    "erf_ruta": true
-  },
-  {
-   "id": "e9a8870c5713727039a792c634db8c90871c6a0b",
-   "rubrik": "Risk Manager till LF Jämtland",
-   "arbetsgivare": "Länsförsäkringar Jämtland",
-   "kommun": "Östersund",
-   "lan": "Jämtlands län",
-   "publicerad": "2026-05-19",
-   "sista": "2026-05-29",
-   "omraden": [
-    "Finansiell & operativ risk (angränsande)"
-   ],
-   "nyckelord": [],
-   "utdrag": "Vi är i ett spännande skede där vi på risk- och regelefterlevnadsområdet kommer att samarbeta mer med andra länsförsäkringsbolag i en omvärld som har allt högre förändringstakt – vilket ställer krav p",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/e9a8870c5713727039a792c634db8c90871c6a0b",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 6,
-   "krav": [
-    "Akademisk examen",
-    "Erfarenhet av säkerhet/risk"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av arbete inom riskhantering, ekonomi i försäkringsbolag, försäkringsverksamhet, som revisor eller …",
-    "Erfarenhet av att arbeta i förändringsprocesser eller med utveckling av rutiner och processer"
-   ],
-   "erf_ruta": false
   },
   {
    "id": "075a2c56cdc0f7da5899f79538d9c4e1d27a4e48",
@@ -25403,6 +24897,44 @@
    "erfarenheter": [
     "Erfarenhet av att planera, genomföra och följa upp brottsförebyggande och trygghetsskapande insatser",
     "Erfarenhet av att leda processer och samverkan mellan olika aktörer"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "249829837f62419ef835800314245af5eb83dc55",
+   "rubrik": "Koordinator spårsäkerhet",
+   "arbetsgivare": "Stadsmiljöförvaltningen",
+   "kommun": "Göteborg",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-05-11",
+   "sista": "2026-05-25",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "kandidatexamen"
+   ],
+   "utdrag": "Beskrivning Stadsmiljöförvaltningen har ett helhetsansvar för stadens offentliga rum och samlade framkomlighet. Vi arbetar för att skapa tillgängliga, attraktiva och levande stadsmiljöer och naturområ",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/249829837f62419ef835800314245af5eb83dc55",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Akademisk examen",
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av kvalificerat administrativt arbete i en strukturerad och regelstyrd verksamhet",
+    "Erfarenhet av administrativt arbete med fokus på dokumentation, samordning och uppföljning",
+    "Erfarenhet av att arbeta i systemstöd (t"
    ],
    "erf_ruta": false
   },
@@ -40876,6 +40408,58 @@
    "erf_ruta": false
   },
   {
+   "id": "689861e23f6f1479bb3ecd90fc72a3c4b90dc316",
+   "rubrik": "Verksamhetsutvecklare säkerhet och beredskap till socialförvaltningen",
+   "arbetsgivare": "Melleruds kommun",
+   "kommun": "Mellerud",
+   "lan": "Västra Götalands län",
+   "publicerad": "2026-02-05",
+   "sista": "2026-03-01",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "krisberedskap",
+    "höjd beredskap",
+    "totalförsvar",
+    "omvärldsbevakning",
+    "utbildning",
+    "samverkan",
+    "projektledning",
+    "säkerhetsprövning",
+    "körkort",
+    "högskoleexamen",
+    "styrdokument"
+   ],
+   "utdrag": "Vad kul att du är intresserad av oss! Melleruds kommun strävar efter att erbjuda en attraktiv arbetsplats genom att värna om en god arbetsmiljö med hög delaktighet. Vår organisation bygger på öppenhet",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/689861e23f6f1479bb3ecd90fc72a3c4b90dc316",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "MVAE34",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 9,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Körkort",
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av samordning, utvecklings- eller projektarbete i komplexa organisationer och förmåga att arbeta …"
+   ],
+   "erf_ruta": false
+  },
+  {
    "id": "9793078ada36e12ad7170b95192021586754b702",
    "rubrik": "Beredskapssamordnare",
    "arbetsgivare": "Migrationsverket, Huvudkontor, Säkerhetsavdelningen",
@@ -43310,6 +42894,46 @@
    "erf_ruta": false
   },
   {
+   "id": "01a8c0b9c70426e64e0bae0f0292f3e6217bbb72",
+   "rubrik": "Brottsförebyggande samordnare",
+   "arbetsgivare": "Svedala kommun",
+   "kommun": "Svedala",
+   "lan": "Skåne län",
+   "publicerad": "2026-01-22",
+   "sista": "2026-02-12",
+   "omraden": [
+    "Säkerhet & trygghet",
+    "Skadeförebyggande & personsäkerhet"
+   ],
+   "nyckelord": [
+    "samverkan",
+    "projektledning",
+    "trygghetsskapande",
+    "brottsförebyggande",
+    "körkort"
+   ],
+   "utdrag": "Vill du bidra till ett meningsfullt och samhällsviktigt uppdrag? Svedala kommun söker nu en brottsförebyggande samordnare som får en central roll i arbetet med att skapa trygghet genom närvaro, samver",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/01a8c0b9c70426e64e0bae0f0292f3e6217bbb72",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD12/RHAD22",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 4,
+   "krav": [
+    "Akademisk examen",
+    "Körkort",
+    "Flera års erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Flerårig erfarenhet av socialt arbete med barn och unga där du arbetat förebyggande i samverkan med andra …"
+   ],
+   "erf_ruta": false
+  },
+  {
    "id": "80b784051e1aae1640b4c66d2f072037e012240f",
    "rubrik": "Hållbarhetsutvecklare med inriktning klimat (vikariat)",
    "arbetsgivare": "Strängnäs kommun, Kansliavdelningen",
@@ -44841,6 +44465,83 @@
     "Några års erfarenhet av arbete inom krisberedskap, civilt försvar, säkerhetsarbete eller säkerhetsskyddsfrågor",
     "Erfarenhet av att arbeta med risk- och sårbarhetsanalyser (RSA)",
     "Erfarenhet av tekniska stödsystem som WIS och Rakel"
+   ],
+   "erf_ruta": false
+  },
+  {
+   "id": "8db77414d30a5bd7857eeaa4f047e9bea4597ddd",
+   "rubrik": "Säkerhetssamordnare med polisiär bakgrund",
+   "arbetsgivare": "Braliva",
+   "kommun": "Malmö",
+   "lan": "Skåne län",
+   "publicerad": "2026-01-09",
+   "sista": "2026-05-14",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [],
+   "utdrag": "Säkerhetssamordnare/ Säkerhetschef Skåne län med utgångspunkt Malmö eller Helsingborg. Vi ser gärna att du har polisiär bakgrund eller annan erfarenhet av personsäkerhetsarbete eller motsvarande. Utbi",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/8db77414d30a5bd7857eeaa4f047e9bea4597ddd",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD12/RHAD22"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Körkort"
+   ],
+   "junior": false,
+   "erfarenheter": [],
+   "erf_ruta": true
+  },
+  {
+   "id": "4a3351113b8bf97a0a9cc0ea1d0ccf9950ef5063",
+   "rubrik": "Säkerhetssamordnare till strategiskt stöd",
+   "arbetsgivare": "Välfärdsförvaltningen",
+   "kommun": "Örnsköldsvik",
+   "lan": "Västernorrlands län",
+   "publicerad": "2026-01-09",
+   "sista": "2026-01-28",
+   "omraden": [
+    "Säkerhet & trygghet"
+   ],
+   "nyckelord": [
+    "RSA",
+    "krisberedskap",
+    "omvärldsbevakning",
+    "övningar",
+    "utbildning",
+    "samverkan",
+    "projektledning",
+    "säkerhetsprövning",
+    "körkort"
+   ],
+   "utdrag": "Vill du vara med och forma framtidens välfärd? Vi söker en säkerhetssamordnare till Välfärdsförvaltningen i Örnsköldsvik! Är du en person med starkt engagemang för civil beredskap, säkerhet, samhällsu",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/4a3351113b8bf97a0a9cc0ea1d0ccf9950ef5063",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD01/RHAD02",
+    "RHAD21/RHAD31",
+    "RHAD03",
+    "RHAD38",
+    "RHAD39",
+    "RHAD35"
+   ],
+   "match": "Hög",
+   "poang": 8,
+   "krav": [
+    "Akademisk examen",
+    "Säkerhetsprövning",
+    "Svenskt medborgarskap",
+    "Körkort",
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av att leda arbete med framtagande av risk- och sårbarhetsanalyser"
    ],
    "erf_ruta": false
   },
@@ -50562,6 +50263,41 @@
    "erf_ruta": false
   },
   {
+   "id": "8794bd1d5b7a2b10b8c213f8413ff08b796d9d0a",
+   "rubrik": "Systemspecialist med inriktning säkerhet (SOC)",
+   "arbetsgivare": "Vetenskapsrådet",
+   "kommun": "Stockholm",
+   "lan": "Stockholms län",
+   "publicerad": "2025-12-01",
+   "sista": "2026-01-06",
+   "omraden": [
+    "Krisberedskap & civilt försvar"
+   ],
+   "nyckelord": [
+    "utbildning",
+    "samverkan"
+   ],
+   "utdrag": "Sunet och anknutna tjänster är en del av Vetenskapsrådet. Internet i Sverige har sitt ursprung i Sunet. Vi driver världens modernaste forskningsnät och digitala identitetstjänster i världsklass. Sedan",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/8794bd1d5b7a2b10b8c213f8413ff08b796d9d0a",
+   "status": "arkiverad",
+   "omfattning": "Heltid",
+   "kurser": [
+    "RHAD21/RHAD31",
+    "RHAD38",
+    "RHAD35"
+   ],
+   "match": "Grundläggande",
+   "poang": 3,
+   "krav": [
+    "Tidigare erfarenhet"
+   ],
+   "junior": false,
+   "erfarenheter": [
+    "Erfarenhet av att arbeta med logghanteringsplattformar"
+   ],
+   "erf_ruta": false
+  },
+  {
    "id": "e27952099b9067980400f33282be101a34667fe6",
    "rubrik": "Säkerhetschef",
    "arbetsgivare": "Ansvar & Säkerhet i Europa AB",
@@ -52242,863 +51978,6 @@
     "Erfarenhet av myndighetsutövning IFO Barn och Ungdom",
     "Erfarenhet av arbete i utsatt område",
     "Erfarenhet av arbete med barn och ungdomar med normbrytande beteende"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "6964ed572a91b54d1a7802db86069a839fe660db",
-   "rubrik": "Lärare i civil beredskap och räddningstjänst",
-   "arbetsgivare": "STIFTELSEN LITORINA FOLKHÖGSKOLA I KARLSKRONA",
-   "kommun": "Karlskrona",
-   "lan": "Blekinge län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-14",
-   "omraden": [
-    "Krisberedskap & civilt försvar",
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "totalförsvar",
-    "skadeförebyggande",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "projektledning"
-   ],
-   "utdrag": "Arbetsbeskrivning Kursansvarig för Preparandkurs i totalförsvar och räddningstjänst Vi söker en lärare till vår nystartade utbildning Preparandkurs i totalförsvar och räddningstjänst. Utbildningen är ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/6964ed572a91b54d1a7802db86069a839fe660db",
-   "status": "arkiverad",
-   "omfattning": "Deltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 8,
-   "krav": [
-    "Projektledning",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Dokumenterad erfarenhet av kursutveckling, projektledning eller arbetsledning i en utvecklingsroll, (eller …",
-    "Erfarenhet av träning i syfte att underhålla kroppen för tjänstgöring, kostlära, beredskap, förberedelse …"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "abaae3d2c99399a83a19e4467a4f4cdfff0ab34b",
-   "rubrik": "Säkerhetssamordnare till funktionsstödsförvaltningen",
-   "arbetsgivare": "Malmö stad",
-   "kommun": "Malmö",
-   "lan": "Skåne län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-11-30",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "LSO",
-    "körkort"
-   ],
-   "utdrag": "Ref: **** Arbetsuppgifter I uppdraget som säkerhetsamordnare arbetar du aktivt med planering, framtagande och uppföljning av förvaltningens samlade säkerhetsarbete. Ditt huvudansvar är att säkerställa",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/abaae3d2c99399a83a19e4467a4f4cdfff0ab34b",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "MVAE34",
-    "RHAD38"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen",
-    "Körkort"
-   ],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
-  },
-  {
-   "id": "bf9cbbb5f8d575e3d9f306651f2e09d1c9c65af3",
-   "rubrik": "Brand- och säkerhetssamordnare, Östersund",
-   "arbetsgivare": "Statens Servicecenter",
-   "kommun": "Östersund",
-   "lan": "Jämtlands län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-03",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "LSO",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Förvaltningsenheten tillhör avdelningen för fastighet och säkerhet. Avdelningen ingår i verksamhetsområdet styrning och verksamhetsstöd som bland annat ansvarar för Statens servicecenters ekonomiska s",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/bf9cbbb5f8d575e3d9f306651f2e09d1c9c65af3",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 8,
-   "krav": [
-    "Säkerhetsprövning",
-    "Körkort",
-    "Svenska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet inom brandskydd, SBA och säkerhet"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "17afdb15d17baac2abe3be511c7fced478d91855",
-   "rubrik": "Beredskap- och säkerhetschef",
-   "arbetsgivare": "Upplands Väsby kommun",
-   "kommun": "Upplands Väsby",
-   "lan": "Stockholms län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-05",
-   "omraden": [
-    "Krisberedskap & civilt försvar",
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "civilt försvar",
-    "höjd beredskap",
-    "säkerhetsskydd",
-    "utbildning",
-    "brottsförebyggande",
-    "säkerhetsprövning"
-   ],
-   "utdrag": "Arbetsbeskrivning Upplands Väsby kommun söker en beredskap- och säkerhetschef till avdelningen för hållbar samhällsutveckling på kommunledningskontoret. Du kommer ha en ledande och stödjande roll för ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/17afdb15d17baac2abe3be511c7fced478d91855",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD39"
-   ],
-   "match": "Medel",
-   "poang": 6,
-   "krav": [
-    "Akademisk examen",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av att arbeta i en politiskt styrd organisation",
-    "Erfarenhet av ledande/samordnande roll",
-    "Erfarenhet av arbete inom minst tre av följande sakområden"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "dd34d7a6ddd1651b5537eae53d5d476fbe95ce8d",
-   "rubrik": "Säkerhetschef till Familjebostäder i Göteborg",
-   "arbetsgivare": "Familjebostäder i Göteborg AB",
-   "kommun": "Göteborg",
-   "lan": "Västra Götalands län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-11-30",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "civilt försvar",
-    "krisledning",
-    "övningar",
-    "säkerhetskultur"
-   ],
-   "utdrag": "Vill du bli vår nya säkerhetschef? Som bostadsbolag har vi ett viktigt uppdrag att se till att våra bostadsområden är trygga och säkra för såväl hyresgäster som medarbetare. Detta märks bland annat ge",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/dd34d7a6ddd1651b5537eae53d5d476fbe95ce8d",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Erfarenhet av beredskap/kris",
-    "Erfarenhet av säkerhet/risk",
-    "Flera års erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Flerårig erfarenhet av säkerhetsarbete med vana av att samverka och leda praktisk krisledning och …",
-    "Erfarenhet av att ta fram rutiner, anvisningar, remisser och är väl insatt i relevant lagstiftning och …",
-    "Erfarenhet av att möta media i olika situationer"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "4b283cda6bf29aff372fd741b0880df38e3d2569",
-   "rubrik": "Kanslichef till Säkerhetsavdelningen",
-   "arbetsgivare": "Migrationsverket, Huvudkontor, Säkerhetsavdelningen",
-   "kommun": "Sundbyberg",
-   "lan": "Stockholms län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-04",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "civilt försvar",
-    "säkerhetsskydd",
-    "utbildning",
-    "säkerhetsprövning"
-   ],
-   "utdrag": "På Migrationsverket arbetar vi med en av vår tids stora samhällsfrågor – migrationen. Totalt är vi cirka 6 000 personer här, och vi har ett ovanligt viktigt jobb! Migrationsverkets Säkerhetsavdelning ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/4b283cda6bf29aff372fd741b0880df38e3d2569",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Erfarenhet av säkerhet/risk",
-    "Flera års erfarenhet",
-    "Projektledning"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet med ansvar för budget, arbetsmiljö och personal",
-    "Erfarenhet av arbete i stab eller kansliverksamhet",
-    "Flerårig erfarenhet av arbete i offentlig verksamhet, främst statliga myndigheter",
-    "Erfarenhet av Migrationsverkets interna processer"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "7f649fe3ae0481f77cde932a6495401396220972",
-   "rubrik": "Brottsförebyggande samordnare",
-   "arbetsgivare": "Svedala kommun",
-   "kommun": "Svedala",
-   "lan": "Skåne län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-03",
-   "omraden": [
-    "Säkerhet & trygghet",
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "utbildning",
-    "samverkan",
-    "trygghetsskapande",
-    "brottsförebyggande",
-    "körkort",
-    "högskoleexamen"
-   ],
-   "utdrag": "I Svedala är du med och bygger en attraktiv kommun där ett hållbart arbetsliv, ett gott bemötande, en stor portion öppenhet, engagemang och mod guidar oss i våra uppdrag. Med höga ambitioner och verks",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/7f649fe3ae0481f77cde932a6495401396220972",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD38",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen",
-    "Körkort",
-    "Flera års erfarenhet",
-    "Svenska i tal och skrift"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet inom hela kommunen",
-    "Flerårig erfarenhet inom socialt arbete med barn och unga",
-    "Erfarenhet av brottsförebyggande arbete",
-    "Erfarenhet av samordningsuppdrag"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "fa770729fbfcde0fb39d72f0b271e40d40a84ea0",
-   "rubrik": "Finansiell riskanalytiker till GARANALYS",
-   "arbetsgivare": "Sida",
-   "kommun": "Sundbyberg",
-   "lan": "Stockholms län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-02",
-   "omraden": [
-    "Finansiell & operativ risk (angränsande)"
-   ],
-   "nyckelord": [
-    "utbildning"
-   ],
-   "utdrag": "Om jobbet Som Financial Risk Officer får du en central roll i att utveckla och stärka riskhanteringen inom Sidas garantiverksamhet. Du arbetar praktiskt med att granska och bedöma finansiella och komm",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/fa770729fbfcde0fb39d72f0b271e40d40a84ea0",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "MVAE34",
-    "RHAD38",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 6,
-   "krav": [
-    "Akademisk examen",
-    "Engelska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Gedigen erfarenhet av kvalificerat arbete med finansiella strukturer och riskberäkning inom riskfunktionen …"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "96aa2c3feec4adb269db1387e8199b19f9809612",
-   "rubrik": "Kontinuitet- och beredskapssamordnare",
-   "arbetsgivare": "TS Gemensamt",
-   "kommun": "Örebro",
-   "lan": "Örebro län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-05",
-   "omraden": [
-    "Krisberedskap & civilt försvar",
-    "Kontinuitetshantering"
-   ],
-   "nyckelord": [
-    "höjd beredskap",
-    "totalförsvar",
-    "krisledning",
-    "säkerhetsskydd",
-    "utbildning",
-    "säkerhetsprövning"
-   ],
-   "utdrag": "Vi får samhället att fungera för människor på väg, på spår, i luften och på sjön. Därför behöver vi den bästa kompetensen. Vårt uppdrag är viktigt och har betydelse i vardagen – både för privatpersone",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/96aa2c3feec4adb269db1387e8199b19f9809612",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Akademisk examen",
-    "Erfarenhet av beredskap/kris"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet inom branschen",
-    "Dokumenterad erfarenhet av arbete med inriktning på kris- och beredskapsområdet"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "3fe048bd5133f724a79c68bd55bca5f56429f0b8",
-   "rubrik": "Säkerhets- och beredskapssamordnare till vård och omsorgskontoret.",
-   "arbetsgivare": "Norrköpings kommun",
-   "kommun": "Norrköping",
-   "lan": "Östergötlands län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-14",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "säkerhetsskydd",
-    "utbildning",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Vård och omsorgskontoret söker dig som vill spela en nyckelroll i arbetet med säkerhet, krisberedskap och trygghet inom våra verksamheter. Vilka är vi? Vård- och omsorgskontoret i Norrköpings kommun h",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/3fe048bd5133f724a79c68bd55bca5f56429f0b8",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "MVAE34",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Körkort",
-    "Erfarenhet av beredskap/kris"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Tidigare erfarenhet av arbete inom säkerhet och beredskapsområdet där du samlat på dig väsentliga …"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "b70b15cbd78868fecc3a8eb459de3bc42262eaf2",
-   "rubrik": "Beredskapssamordnare till Sundsvall",
-   "arbetsgivare": "CSN",
-   "kommun": "Sundsvall",
-   "lan": "Västernorrlands län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-07",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "risk- och sårbarhetsanalys",
-    "krisberedskap",
-    "civilt försvar",
-    "utbildning"
-   ],
-   "utdrag": "Vad gör CSN? Vi har ett av världens mest generösa studiestöd. Tack vare denna möjlighet kan alla i Sverige studera, oavsett bakgrund. Hos oss kan du bidra med din kompetens och kunskap till samhällsny",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/b70b15cbd78868fecc3a8eb459de3bc42262eaf2",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 8,
-   "krav": [
-    "Akademisk examen",
-    "Erfarenhet av beredskap/kris",
-    "Svenska i tal och skrift"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet inom civil beredskapsområdet (krisberedskap, kontinuitetshantering, beredskapsplanering) inom …",
-    "Erfarenhet av att leda och samordna arbete inom arbetsområdet",
-    "Erfarenhet av att genomföra risk- och sårbarhetsanalys",
-    "Erfarenhet av att leda övnings- och utbildningsverksamhet inom för tjänsten relevant område"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "2702c44511eee574b7bb873d1769fba29548d69c",
-   "rubrik": "Stabshandläggare inriktning säkerhetskoordinering och beredskapssamordning",
-   "arbetsgivare": "Myndigheten för samhällsskydd och beredskap",
-   "kommun": "Karlstad",
-   "lan": "Värmlands län",
-   "publicerad": "2025-11-14",
-   "sista": "2025-12-04",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "RSA",
-    "civilt försvar",
-    "säkerhetsprövning",
-    "högskoleexamen"
-   ],
-   "utdrag": "MSB arbetar för ett säkrare samhälle i en föränderlig värld med fokus på utveckling av det civila försvaret. Från och med den 1 januari 2026 är vi Myndigheten för civilt försvar. Myndigheten för civil",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/2702c44511eee574b7bb873d1769fba29548d69c",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 7,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Engelska i tal och skrift",
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av samordnande eller koordinerade uppgifter",
-    "Erfarenhet av arbete i offentlig sektor eller i roller med hög kravställning på informationshantering"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "adad25b933b808266c73354e6e124c300e8d5c25",
-   "rubrik": "Krisberedskapshandläggare",
-   "arbetsgivare": "Länsstyrelsen Kalmar län , Avdelning samhälle, Krisberedskapsenheten",
-   "kommun": "Kalmar",
-   "lan": "Kalmar län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-12-14",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "totalförsvar",
-    "övningar",
-    "utbildning",
-    "samverkan",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Beskrivning Krisberedskapsenheten har en viktig roll i samhällets arbete med totalförsvar, krisberedskap, kärnenergiberedskap och hantering av skarpa händelser i länet. Inom enheten arbetar vi även me",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/adad25b933b808266c73354e6e124c300e8d5c25",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Medel",
-   "poang": 6,
-   "krav": [
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Erfarenhet av beredskap/kris",
-    "Flera års erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av arbete med krisberedskap eller totalförsvar"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "ce37b27f000eb75cc43d9d8e18b2ae8407e3737f",
-   "rubrik": "Säkerhetschef",
-   "arbetsgivare": "Härryda kommun",
-   "kommun": "Härryda",
-   "lan": "Västra Götalands län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-11-30",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "civilt försvar",
-    "höjd beredskap",
-    "säkerhetsskydd",
-    "samverkan",
-    "brottsförebyggande",
-    "säkerhetsprövning",
-    "körkort",
-    "styrdokument"
-   ],
-   "utdrag": "Din arbetsplats I Härryda kommun är kommuninvånarnas trygghet och kommunens krisberedskapsförmåga strategiskt viktiga och prioriterade områden. Är du en person med chefserfarenhet som brinner för säke",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/ce37b27f000eb75cc43d9d8e18b2ae8407e3737f",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 4,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Körkort",
-    "Flera års erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Dokumenterad erfarenhet av tidigare arbete inom säkerhetsområdet som arbetsgivaren bedömer likvärdig",
-    "Erfarenhet inom relevant område"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "e7dce56e1cb853fb9fe1930503e41a2c5e7d3ac8",
-   "rubrik": "Enhetschef, tillika säkerhetschef och biträdande säkerhetsskyddschef",
-   "arbetsgivare": "LÄNSSTYRELSEN SKÅNE, Enheten för intern säkerhet",
-   "kommun": "Malmö",
-   "lan": "Skåne län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-11-27",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "krisledning",
-    "säkerhetsskydd",
-    "utbildning",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Länsstyrelsen Skåne är en statlig myndighet på regional nivå som ansvarar för den statliga förvaltningen i länet. Vi arbetar med att nationella mål ska få genomslag i länet utifrån regionala förutsätt",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/e7dce56e1cb853fb9fe1930503e41a2c5e7d3ac8",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "MVAE34",
-    "RHAD39"
-   ],
-   "match": "Medel",
-   "poang": 5,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Svenskt medborgarskap",
-    "Körkort",
-    "Erfarenhet av säkerhet/risk",
-    "Engelska i tal och skrift"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av säkerhetsskyddsarbete",
-    "Erfarenhet av kontinuitetshantering",
-    "Erfarenhet av arbete som säkerhetsskyddschef i arbetsledande befattning"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "8af31e98c9efc3d2a795ddf876ea9267518dd763",
-   "rubrik": "Brottsförebyggande samordnare",
-   "arbetsgivare": "Mölndals stad, Avdelningen för ekonomi- och hållbarhetsstyrning",
-   "kommun": "Mölndal",
-   "lan": "Västra Götalands län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-12-03",
-   "omraden": [
-    "Säkerhet & trygghet",
-    "Skadeförebyggande & personsäkerhet"
-   ],
-   "nyckelord": [
-    "samverkan",
-    "trygghetsskapande",
-    "brottsförebyggande",
-    "styrdokument"
-   ],
-   "utdrag": "I Mölndals stad är vi stolta över att ha Sveriges viktigaste jobb där vi tillsammans skapar bästa möjliga vardag för våra medborgare. Med kunskap, mod och kreativitet utvecklar vi våra verksamheter oc",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/8af31e98c9efc3d2a795ddf876ea9267518dd763",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD12/RHAD22",
-    "MVAE34",
-    "RHAD38",
-    "RHAD35"
-   ],
-   "match": "Medel",
-   "poang": 6,
-   "krav": [
-    "Tidigare erfarenhet"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av samordning, utredning och projekt/processledning"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "61554078d3f72576adc2085aebfdb29c081091b7",
-   "rubrik": "Säkerhetschef / CISO  sökes till Nordlo i Umeå eller Lycksele",
-   "arbetsgivare": "Nordlo Elevate AB, Umeå",
-   "kommun": "Umeå",
-   "lan": "Västerbottens län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-12-13",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "säkerhetskultur"
-   ],
-   "utdrag": "Kontoret i Umeå Vill du leda ett säkerhetsarbete som är affärskritiskt och ta Nordlo till nästa nivå? Vi söker nu en erfaren och affärsdriven Säkerhetschef / CISO som vill spela en nyckelroll i vår fo",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/61554078d3f72576adc2085aebfdb29c081091b7",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD21/RHAD31",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Grundläggande",
-   "poang": 4,
-   "krav": [
-    "Körkort",
-    "Erfarenhet av säkerhet/risk",
-    "Flera års erfarenhet",
-    "Engelska i tal och skrift"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av att driva informationssäkerhetsarbete på strategisk nivå och trivs med att kombinera struktur …",
-    "Erfarenhet av att leda säkerhetsarbete inom IT- eller driftverksamhet",
-    "Erfarenhet av att leda områden som riskhantering, regelefterlevnad och processtyrning"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "7b78a7d435149c9b75c1a99b6fc3e88a1399299f",
-   "rubrik": "Senior/Business Risk Manager-Risk Mitigation Key Initiatives & Deliveries",
-   "arbetsgivare": "Nordea",
-   "kommun": "Stockholm",
-   "lan": "Stockholms län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-11-27",
-   "omraden": [
-    "Riskanalys & riskkonsult"
-   ],
-   "nyckelord": [],
-   "utdrag": "Nordea is a leading Nordic universal bank. We are helping our customers realise their dreams and aspirations - and we have done that for 200 years. We want to make a real difference for our customers ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/7b78a7d435149c9b75c1a99b6fc3e88a1399299f",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD21/RHAD31"
-   ],
-   "match": "Grundläggande",
-   "poang": 3,
-   "krav": [],
-   "junior": false,
-   "erfarenheter": [],
-   "erf_ruta": true
-  },
-  {
-   "id": "1a4db7acc4306a6d4fed40db9f906581ce29acc4",
-   "rubrik": "Säkerhetssamordnare – med fokus på evenemangssäkerhet",
-   "arbetsgivare": "Got Event AB",
-   "kommun": "Göteborg",
-   "lan": "Västra Götalands län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-11-27",
-   "omraden": [
-    "Säkerhet & trygghet"
-   ],
-   "nyckelord": [
-    "krisberedskap",
-    "riskbedömning",
-    "övningar",
-    "utbildning",
-    "säkerhetsprövning",
-    "körkort"
-   ],
-   "utdrag": "Arbetsuppgifter Säkerhet ingår som en naturlig del i vår verksamhet och spänner över flera områden. Vår målsättning är trygga evenemang och arenor för publik och arrangörer. Nu söker vi en säkerhetssa",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/1a4db7acc4306a6d4fed40db9f906581ce29acc4",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "MVAE34",
-    "RHAD38",
-    "RHAD39"
-   ],
-   "match": "Hög",
-   "poang": 8,
-   "krav": [
-    "Akademisk examen",
-    "Säkerhetsprövning",
-    "Körkort",
-    "Flera års erfarenhet",
-    "Svenska i tal och skrift",
-    "Engelska i tal och skrift"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Flerårig dokumenterad erfarenhet av arbete inom säkerhetsområdet, exempelvis fysisk säkerhet, risk- och …"
-   ],
-   "erf_ruta": false
-  },
-  {
-   "id": "1776506406e6ffb0b359f71ab25b316d4128ace5",
-   "rubrik": "Utvecklingsledare säkerhet- civil beredskap",
-   "arbetsgivare": "Socialförvaltningen Sydväst",
-   "kommun": "Göteborg",
-   "lan": "Västra Götalands län",
-   "publicerad": "2025-11-13",
-   "sista": "2025-12-07",
-   "omraden": [
-    "Krisberedskap & civilt försvar"
-   ],
-   "nyckelord": [
-    "kontinuitetsplanering",
-    "krisberedskap",
-    "utbildning",
-    "samverkan",
-    "högskoleexamen",
-    "samhällsvetenskap"
-   ],
-   "utdrag": "Beskrivning Vill du vara med och stärka socialförvaltningen Sydvästs förmåga att möta framtidens säkerhetsutmaningar och ha ett spännande och omvärldsbevakande jobb där du gör verklig nytta? Vi höjer ",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/1776506406e6ffb0b359f71ab25b316d4128ace5",
-   "status": "arkiverad",
-   "omfattning": "Heltid",
-   "kurser": [
-    "RHAD01/RHAD02",
-    "RHAD12/RHAD22",
-    "RHAD21/RHAD31",
-    "RHAD03",
-    "RHAD38",
-    "RHAD39",
-    "RHAD35"
-   ],
-   "match": "Hög",
-   "poang": 9,
-   "krav": [
-    "Akademisk examen",
-    "Erfarenhet av beredskap/kris",
-    "Projektledning"
-   ],
-   "junior": false,
-   "erfarenheter": [
-    "Erfarenhet av strategiskt arbete inom politiskt styrd organisation",
-    "Erfarenhet av arbete med antingen beredskapsfrågor, krishantering eller kontinuitetsplanering",
-    "Erfarenhet av arbetsledning, exempelvis som chef, projektledare eller processledare"
    ],
    "erf_ruta": false
   }
