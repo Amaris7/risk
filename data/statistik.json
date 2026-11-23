@@ -1,27 +1,27 @@
 {
  "statistik": {
-  "antal": 1201,
+  "antal": 1216,
   "fakta": {
-   "annonser": 1201,
-   "aktuella": 98,
-   "hog_matchning": 467,
+   "annonser": 1216,
+   "aktuella": 110,
+   "hog_matchning": 473,
    "orter": 175,
-   "arbetsgivare": 648,
-   "nyexaminerade": 26,
+   "arbetsgivare": 640,
+   "nyexaminerade": 27,
    "klimat": 40,
    "klimat_procent": 3,
    "klimat_omst": 22,
    "klimat_omst_procent": 2,
-   "kraver_erfarenhet": 948,
-   "kraver_inte_erfarenhet": 253,
-   "erfarenhet_bara_ruta": 195
+   "kraver_erfarenhet": 962,
+   "kraver_inte_erfarenhet": 254,
+   "erfarenhet_bara_ruta": 196
   },
   "roller": [
    {
     "namn": "Säkerhets- och beredskapssamordnare",
     "beskrivning": "Kombinerade roller där säkerhetsarbete och krisberedskap ligger på samma person, vanligt i mindre kommuner, bolag och förvaltningar.",
     "antal": 24,
-    "aktuella": 2,
+    "aktuella": 3,
     "klimat": [
      0,
      0
@@ -38,8 +38,8 @@
     ],
     "arbetsgivare": [
      "Hylte kommun",
-     "Kommunledningsförvaltningen, Stabsavdelningen",
-     "Telge Nät"
+     "Kultur- och fritidsförvaltningen",
+     "Kommunledningsförvaltningen, Stabsavdelningen"
     ],
     "kurser": [
      "RHAD21/RHAD31",
@@ -54,13 +54,13 @@
      ],
      [
       "Erfarenhet av beredskap/kris",
-      12,
-      50
+      13,
+      54
      ],
      [
       "Säkerhetsprövning",
-      11,
-      46
+      12,
+      50
      ],
      [
       "Körkort",
@@ -72,8 +72,8 @@
    {
     "namn": "Beredskapssamordnare",
     "beskrivning": "Samordnar kommunens, regionens eller myndighetens krisberedskap och civila försvar: RSA, beredskapsplaner, krisledningsorganisation, övningar och utbildning.",
-    "antal": 145,
-    "aktuella": 13,
+    "antal": 148,
+    "aktuella": 14,
     "klimat": [
      3,
      2
@@ -101,22 +101,22 @@
     "krav": [
      [
       "Akademisk examen",
-      111,
-      77
+      113,
+      76
      ],
      [
       "Säkerhetsprövning",
-      107,
-      74
+      108,
+      73
      ],
      [
       "Erfarenhet av beredskap/kris",
-      82,
-      57
+      81,
+      55
      ],
      [
       "Körkort",
-      79,
+      80,
       54
      ]
     ]
@@ -124,8 +124,8 @@
    {
     "namn": "Beredskapshandläggare & -planerare",
     "beskrivning": "Handlägger och utvecklar beredskapsplanering på länsstyrelser, civilområden och statliga myndigheter, ofta med fokus på höjd beredskap.",
-    "antal": 131,
-    "aktuella": 3,
+    "antal": 134,
+    "aktuella": 7,
     "klimat": [
      1,
      1
@@ -138,7 +138,7 @@
      "Beredskapshandläggare",
      "Beredskapsstrateg",
      "Säkerhets- och beredskapschef",
-     "Kvalificerad Beredskapshandläggare"
+     "Handläggare"
     ],
     "arbetsgivare": [
      "Tillväxtverket",
@@ -153,31 +153,31 @@
     "krav": [
      [
       "Säkerhetsprövning",
-      96,
+      98,
       73
      ],
      [
       "Akademisk examen",
-      94,
-      72
+      95,
+      71
      ],
      [
       "Erfarenhet av beredskap/kris",
-      73,
-      56
+      77,
+      57
      ],
      [
       "Svenskt medborgarskap",
-      70,
-      53
+      72,
+      54
      ]
     ]
    },
    {
     "namn": "Civilt försvar & totalförsvar",
     "beskrivning": "Roller som bygger upp det civila försvaret: planering för höjd beredskap, krigsorganisation, försörjningsberedskap och samverkan med Försvarsmakten.",
-    "antal": 83,
-    "aktuella": 3,
+    "antal": 86,
+    "aktuella": 6,
     "klimat": [
      0,
      0
@@ -195,7 +195,7 @@
     "arbetsgivare": [
      "Myndigheten för civilt försvar",
      "FOI Totalförsvarets Forskningsinstitut",
-     "Socialstyrelsen"
+     "RISE Research Institutes of Sweden AB"
     ],
     "kurser": [
      "RHAD21/RHAD31",
@@ -205,31 +205,31 @@
     "krav": [
      [
       "Akademisk examen",
-      64,
-      77
+      68,
+      79
      ],
      [
       "Säkerhetsprövning",
-      52,
-      63
+      53,
+      62
      ],
      [
       "Erfarenhet av beredskap/kris",
-      44,
-      53
+      45,
+      52
      ],
      [
       "Svenskt medborgarskap",
       33,
-      40
+      38
      ]
     ]
    },
    {
     "namn": "Säkerhetssamordnare",
     "beskrivning": "Samordnar en organisations säkerhetsarbete: riskbedömningar, incidenthantering, säkerhetsrutiner och ofta även krisberedskap.",
-    "antal": 166,
-    "aktuella": 11,
+    "antal": 160,
+    "aktuella": 8,
     "klimat": [
      1,
      1
@@ -245,9 +245,9 @@
      "Socionom säkerhetssamordnare skyddat boende"
     ],
     "arbetsgivare": [
+     "Infranord AB, Syd Underhåll",
      "Statens institutionsstyrelse",
-     "Migrationsverket, Huvudkontor, Säkerhetsavdelningen",
-     "Infranord AB, Syd Underhåll"
+     "Migrationsverket, Huvudkontor, Säkerhetsavdelningen"
     ],
     "kurser": [
      "RHAD39",
@@ -257,31 +257,31 @@
     "krav": [
      [
       "Akademisk examen",
-      121,
-      73
+      119,
+      74
      ],
      [
       "Säkerhetsprövning",
-      108,
-      65
+      107,
+      67
      ],
      [
       "Körkort",
-      83,
-      50
+      85,
+      53
      ],
      [
       "Erfarenhet av säkerhet/risk",
-      75,
-      45
+      73,
+      46
      ]
     ]
    },
    {
     "namn": "Säkerhetsstrateg & säkerhetschef",
     "beskrivning": "Strategiskt ansvar för säkerhet, beredskap och kontinuitet. Ofta krav på erfarenhet och ledningsförmåga.",
-    "antal": 158,
-    "aktuella": 15,
+    "antal": 159,
+    "aktuella": 10,
     "klimat": [
      0,
      0
@@ -292,8 +292,8 @@
     ],
     "titlar": [
      "Säkerhetsstrateg",
-     "Säkerhetsspecialist",
      "Säkerhetschef",
+     "Säkerhetsspecialist",
      "Säkerhetsansvarig"
     ],
     "arbetsgivare": [
@@ -319,21 +319,21 @@
      ],
      [
       "Erfarenhet av säkerhet/risk",
-      85,
-      54
+      91,
+      57
      ],
      [
       "Körkort",
-      58,
-      37
+      60,
+      38
      ]
     ]
    },
    {
     "namn": "Säkerhetsskydd",
     "beskrivning": "Säkerhetsskyddschefer och handläggare som skyddar säkerhetskänslig verksamhet. Kräver oftast kompletterande kunskap om säkerhetsskyddslagen.",
-    "antal": 43,
-    "aktuella": 7,
+    "antal": 48,
+    "aktuella": 12,
     "klimat": [
      0,
      0
@@ -361,31 +361,31 @@
     "krav": [
      [
       "Säkerhetsprövning",
-      38,
-      88
+      43,
+      90
      ],
      [
       "Erfarenhet av säkerhet/risk",
-      34,
+      38,
       79
      ],
      [
       "Akademisk examen",
-      27,
-      63
+      29,
+      60
      ],
      [
       "Svenskt medborgarskap",
-      24,
-      56
+      28,
+      58
      ]
     ]
    },
    {
     "namn": "Trygghet & brottsförebyggande",
     "beskrivning": "Arbetar lokalt med trygghetsskapande och brottsförebyggande åtgärder, ofta i kommuner och bostadsbolag.",
-    "antal": 88,
-    "aktuella": 9,
+    "antal": 85,
+    "aktuella": 7,
     "klimat": [
      0,
      0
@@ -398,12 +398,12 @@
      "Trygghetssamordnare",
      "Brottsförebyggande samordnare",
      "Verksamhetsutvecklare",
-     "Trygghetsstrateg"
+     "Enhetschef"
     ],
     "arbetsgivare": [
      "Bolagsverket, Brottsförebyggande avdelningen",
-     "Skatteverket",
-     "Linköpings kommun "
+     "Malmö Stad",
+     "Skatteverket"
     ],
     "kurser": [
      "RHAD12/RHAD22",
@@ -413,31 +413,31 @@
     "krav": [
      [
       "Akademisk examen",
-      64,
+      62,
       73
      ],
      [
       "Tidigare erfarenhet",
       45,
-      51
+      53
      ],
      [
       "Säkerhetsprövning",
-      36,
-      41
+      34,
+      40
      ],
      [
       "Körkort",
       25,
-      28
+      29
      ]
     ]
    },
    {
     "namn": "Kontinuitetshantering",
     "beskrivning": "Ser till att verksamheten fungerar vid störningar: kontinuitetsplaner, beroendeanalyser och övningar.",
-    "antal": 11,
-    "aktuella": 0,
+    "antal": 12,
+    "aktuella": 1,
     "klimat": [
      0,
      0
@@ -449,13 +449,13 @@
     "titlar": [
      "Kontinuitetsspecialist",
      "Kontinuitetsansvarig",
-     "Verksamhetsutvecklare inom säkerhet",
-     "Verksamhetsutvecklare inom kontinuitets- och beredskap"
+     "Kris- och kontinuitetssamordnare Drift",
+     "Verksamhetsutvecklare inom säkerhet"
     ],
     "arbetsgivare": [
      "Riksbanken",
      "Försäkringskassan",
-     "Peab Sweden AB"
+     "Svenska Kraftnät"
     ],
     "kurser": [
      "RHAD21/RHAD31",
@@ -465,30 +465,30 @@
     "krav": [
      [
       "Akademisk examen",
-      9,
-      82
+      10,
+      83
      ],
      [
       "Tidigare erfarenhet",
       6,
-      55
+      50
+     ],
+     [
+      "Erfarenhet av beredskap/kris",
+      4,
+      33
      ],
      [
       "Säkerhetsprövning",
       4,
-      36
-     ],
-     [
-      "Svenskt medborgarskap",
-      4,
-      36
+      33
      ]
     ]
    },
    {
     "namn": "Riskanalytiker & riskkonsult",
     "beskrivning": "Analyserar och bedömer risker, på myndighet, i industri eller som konsult. Inkluderar även finansiella riskroller, som är mer angränsande.",
-    "antal": 43,
+    "antal": 44,
     "aktuella": 6,
     "klimat": [
      1,
@@ -507,7 +507,7 @@
     "arbetsgivare": [
      "Swedbank",
      "Ernst & Young AB",
-     "Centio"
+     "Riksbanken"
     ],
     "kurser": [
      "RHAD01/RHAD02",
@@ -516,24 +516,24 @@
     ],
     "krav": [
      [
-      "Erfarenhet av säkerhet/risk",
-      19,
-      44
+      "Akademisk examen",
+      20,
+      45
      ],
      [
-      "Akademisk examen",
-      18,
-      42
+      "Erfarenhet av säkerhet/risk",
+      20,
+      45
      ],
      [
       "Engelska i tal och skrift",
-      15,
-      35
+      17,
+      39
      ],
      [
       "Flera års erfarenhet",
-      14,
-      33
+      16,
+      36
      ]
     ]
    },
@@ -541,7 +541,7 @@
     "namn": "Klimatanpassning",
     "beskrivning": "Strateger och projektledare som arbetar med klimatanpassning, översvämnings- och skredrisker i fysisk planering.",
     "antal": 30,
-    "aktuella": 1,
+    "aktuella": 2,
     "klimat": [
      30,
      100
@@ -552,9 +552,9 @@
     ],
     "titlar": [
      "Expert inom klimatanpassning",
+     "Projektledare",
      "Konsult inom klimatanpassning",
-     "VA- och dagvattenutredare inom klimatanpassning",
-     "Hydraulisk VA-modellör med inriktning mot klimatanpassning"
+     "VA- och dagvattenutredare inom klimatanpassning"
     ],
     "arbetsgivare": [
      "Ramboll Sverige AB, UMEÅ",
@@ -593,7 +593,7 @@
     "namn": "Klimatomställning & energi",
     "beskrivning": "Klimat-, miljö- och energistrateger som arbetar med att minska utsläpp och energianvändning. Angränsande till programmet: klimatfrågan är gemensam, men fokus är omställning snarare än risk.",
     "antal": 22,
-    "aktuella": 2,
+    "aktuella": 3,
     "klimat": [
      0,
      0
@@ -604,14 +604,14 @@
     ],
     "titlar": [
      "Klimat- och energistrateg",
+     "Handläggare",
      "Klimatstrateg",
-     "Miljö- och klimatstrateg",
-     "Handläggare"
+     "Miljö- och klimatstrateg"
     ],
     "arbetsgivare": [
+     "Naturvårdsverket Östersund",
      "Naturvårdsverket",
-     "LÄNSSTYRELSEN I SÖDERMANLANDS LÄN",
-     "Eskilstuna kommun, Kommunledningskontoret"
+     "LÄNSSTYRELSEN I SÖDERMANLANDS LÄN"
     ],
     "kurser": [
      "MVAE34",
@@ -631,8 +631,8 @@
      ],
      [
       "Körkort",
-      9,
-      41
+      8,
+      36
      ],
      [
       "Säkerhetsprövning",
@@ -644,8 +644,8 @@
    {
     "namn": "Skadeförebyggande & räddningstjänst",
     "beskrivning": "Förebyggande arbete mot olyckor och skador: trafiksäkerhet, räddningstjänstens förebyggande verksamhet och olycksutredning.",
-    "antal": 76,
-    "aktuella": 5,
+    "antal": 79,
+    "aktuella": 6,
     "klimat": [
      2,
      3
@@ -657,13 +657,13 @@
     "titlar": [
      "Brandingenjör",
      "Räddningschef",
-     "Depåmedarbetare inom trafiksäkerhet",
-     "Räddningstjänstpersonal i beredskap"
+     "Brandinspektör/Brandingenjör",
+     "Depåmedarbetare inom trafiksäkerhet"
     ],
     "arbetsgivare": [
      "Myndigheten för civilt försvar",
      "Räddningstjänsten Storgöteborg",
-     "Nyköpings kommun, Räddning och säkerhet"
+     "Räddningstjänsten"
     ],
     "kurser": [
      "RHAD39",
@@ -673,31 +673,31 @@
     "krav": [
      [
       "Körkort",
-      54,
+      56,
       71
      ],
      [
       "Säkerhetsprövning",
-      35,
-      46
+      37,
+      47
      ],
      [
       "Tidigare erfarenhet",
-      27,
-      36
+      29,
+      37
      ],
      [
       "Svenskt medborgarskap",
-      20,
-      26
+      22,
+      28
      ]
     ]
    },
    {
     "namn": "Krisledning & krisstöd",
     "beskrivning": "Krishantering, krisledning och krisstöd, ofta i regioner, myndigheter och företag.",
-    "antal": 18,
-    "aktuella": 2,
+    "antal": 17,
+    "aktuella": 1,
     "klimat": [
      0,
      0
@@ -709,8 +709,8 @@
     "titlar": [
      "Kommunikatör inom kriskommunikation",
      "Biträdande avdelningschef krisberedskap och civilförsvar",
-     "Kommunikatör med fokus",
-     "Luftfartsverket söker senior kriskommunikatör"
+     "Luftfartsverket söker senior kriskommunikatör",
+     "Senior upphandlingsstrateg inom krisberedskap"
     ],
     "arbetsgivare": [
      "Funktionsrätt Sverige",
@@ -725,31 +725,31 @@
     "krav": [
      [
       "Akademisk examen",
-      14,
-      78
+      13,
+      76
      ],
      [
       "Erfarenhet av beredskap/kris",
       11,
-      61
+      65
      ],
      [
       "Flera års erfarenhet",
       8,
-      44
+      47
      ],
      [
       "Säkerhetsprövning",
       6,
-      33
+      35
      ]
     ]
    },
    {
     "namn": "Analytiker & utredare",
     "beskrivning": "Andra analytiker-, utredar- och samordnarroller med koppling till risk, beredskap eller säkerhet.",
-    "antal": 81,
-    "aktuella": 8,
+    "antal": 83,
+    "aktuella": 11,
     "klimat": [
      1,
      1
@@ -760,48 +760,48 @@
     ],
     "titlar": [
      "Säkerhetshandläggare",
-     "Säkerhetsexpert",
+     "Säkerhetsanalytiker",
      "Utredare inriktning kvalitet och produktsäkerhet",
-     "Säkerhetsanalytiker"
+     "Expert inom civil beredskap"
     ],
     "arbetsgivare": [
-     "Migrationsverket, Operativ verksamhet, Nationella operativa avdelningen",
      "Fortifikationsverket",
-     "Riksbanken"
+     "Migrationsverket, Operativ verksamhet, Nationella operativa avdelningen",
+     "Länsstyrelsernas IT-avdelning, Enheten för särskilda uppdrag"
     ],
     "kurser": [
      "RHAD39",
-     "RHAD38",
-     "RHAD21/RHAD31"
+     "RHAD21/RHAD31",
+     "RHAD38"
     ],
     "krav": [
      [
       "Säkerhetsprövning",
-      62,
+      64,
       77
      ],
      [
       "Akademisk examen",
-      59,
-      73
+      60,
+      72
      ],
      [
       "Svenskt medborgarskap",
-      55,
-      68
+      57,
+      69
      ],
      [
-      "Körkort",
-      31,
-      38
+      "Engelska i tal och skrift",
+      34,
+      41
      ]
     ]
    },
    {
     "namn": "Övrigt",
     "beskrivning": "Annonser som inte passade in i någon av grupperna ovan.",
-    "antal": 82,
-    "aktuella": 11,
+    "antal": 85,
+    "aktuella": 13,
     "klimat": [
      1,
      1
@@ -822,29 +822,29 @@
      "Livsmedelsverket"
     ],
     "kurser": [
-     "RHAD35",
      "RHAD21/RHAD31",
+     "RHAD35",
      "RHAD39"
     ],
     "krav": [
      [
       "Akademisk examen",
-      46,
-      56
+      49,
+      58
      ],
      [
       "Säkerhetsprövning",
-      30,
-      37
+      31,
+      36
      ],
      [
       "Svenska i tal och skrift",
-      27,
+      28,
       33
      ],
      [
       "Engelska i tal och skrift",
-      24,
+      25,
       29
      ]
     ]
@@ -853,19 +853,19 @@
   "omraden": [
    [
     "Krisberedskap & civilt försvar",
-    589
+    602
    ],
    [
     "Säkerhet & trygghet",
-    440
+    441
    ],
    [
     "Skadeförebyggande & personsäkerhet",
-    150
+    148
    ],
    [
     "Riskanalys & riskkonsult",
-    71
+    70
    ],
    [
     "Klimatanpassning & naturolyckor",
@@ -873,7 +873,7 @@
    ],
    [
     "Finansiell & operativ risk (angränsande)",
-    24
+    26
    ],
    [
     "Kontinuitetshantering",
@@ -887,85 +887,85 @@
   "nyckelord": [
    [
     "utbildning",
-    901
+    912
    ],
    [
     "säkerhetsprövning",
-    686
+    706
    ],
    [
     "samverkan",
-    624
+    628
    ],
    [
     "krisberedskap",
-    499
+    507
    ],
    [
     "civilt försvar",
-    435
+    439
    ],
    [
     "körkort",
-    417
+    427
    ],
    [
     "säkerhetsskydd",
-    399
+    409
    ],
    [
     "höjd beredskap",
-    280
+    289
    ],
    [
     "övningar",
-    274
+    281
    ],
    [
     "totalförsvar",
-    225
+    232
    ],
    [
     "brottsförebyggande",
-    209
+    207
    ],
    [
-    "projektledning",
-    182
+    "kontinuitetsplanering",
+    186
    ]
   ],
   "kurser": [
    [
     "RHAD39",
-    915
+    934
    ],
    [
     "RHAD21/RHAD31",
-    914
+    931
    ],
    [
     "RHAD38",
-    799
+    805
    ],
    [
     "RHAD35",
-    769
+    783
    ],
    [
     "RHAD01/RHAD02",
-    670
+    681
    ],
    [
     "RHAD03",
-    499
+    503
    ],
    [
     "MVAE34",
-    486
+    487
    ],
    [
     "RHAD12/RHAD22",
-    386
+    382
    ],
    [
     "RHAD14",
@@ -986,28 +986,32 @@
     18
    ],
    [
+    "Försvarsmakten",
+    15
+   ],
+   [
     "Fortifikationsverket",
     14
    ],
    [
-    "Försvarsmakten",
+    "Centio",
     13
    ],
    [
     "Malmö Stad",
-    12
-   ],
-   [
-    "Centio",
-    12
-   ],
-   [
-    "Svenska Kraftnät",
-    12
+    13
    ],
    [
     "Avaron AB",
     12
+   ],
+   [
+    "Svenska Kraftnät",
+    11
+   ],
+   [
+    "Riksbanken",
+    11
    ],
    [
     "Migrationsverket, Huvudkontor, Säkerhetsavdelningen",
@@ -1016,20 +1020,16 @@
    [
     "Regeringskansliet",
     11
-   ],
-   [
-    "Bolagsverket, Brottsförebyggande avdelningen",
-    10
    ]
   ],
   "lan": [
    [
     "Stockholms län",
-    368
+    374
    ],
    [
     "Västra Götalands län",
-    147
+    152
    ],
    [
     "Skåne län",
@@ -1037,11 +1037,11 @@
    ],
    [
     "Östergötlands län",
-    62
+    61
    ],
    [
     "Uppsala län",
-    53
+    52
    ],
    [
     "Västernorrlands län",
@@ -1057,31 +1057,31 @@
    ],
    [
     "Jönköpings län",
-    36
+    38
    ],
    [
     "Örebro län",
-    32
-   ],
-   [
-    "Västerbottens län",
-    30
+    33
    ],
    [
     "Västmanlands län",
+    31
+   ],
+   [
+    "Hallands län",
+    30
+   ],
+   [
+    "Jämtlands län",
+    29
+   ],
+   [
+    "Västerbottens län",
     29
    ],
    [
     "Södermanlands län",
-    29
-   ],
-   [
-    "Hallands län",
-    28
-   ],
-   [
-    "Jämtlands län",
-    26
+    25
    ],
    [
     "Blekinge län",
@@ -1089,7 +1089,7 @@
    ],
    [
     "Kronobergs län",
-    21
+    23
    ],
    [
     "Gävleborgs län",
@@ -1100,12 +1100,12 @@
     13
    ],
    [
-    "Gotlands län",
+    "Ospecificerat",
     13
    ],
    [
-    "Ospecificerat",
-    13
+    "Gotlands län",
+    12
    ],
    [
     "Dalarnas län",
@@ -1115,67 +1115,63 @@
   "krav": [
    [
     "Akademisk examen",
-    813,
+    826,
     68
    ],
    [
     "Säkerhetsprövning",
-    704,
+    718,
     59
    ],
    [
     "Körkort",
-    465,
+    473,
     39
    ],
    [
     "Svenskt medborgarskap",
-    411,
+    419,
     34
    ],
    [
     "Erfarenhet av beredskap/kris",
-    341,
+    346,
     28
    ],
    [
     "Erfarenhet av säkerhet/risk",
-    326,
-    27
+    337,
+    28
    ],
    [
     "Svenska i tal och skrift",
-    321,
+    332,
     27
    ],
    [
     "Engelska i tal och skrift",
-    302,
+    308,
     25
    ],
    [
     "Tidigare erfarenhet",
-    279,
+    278,
     23
    ],
    [
     "Flera års erfarenhet",
-    256,
+    261,
     21
    ],
    [
     "Projektledning",
-    189,
+    190,
     16
    ]
   ],
   "filter": {
    "kommuner": {
     "": [
-     [
-      "Ale",
-      1
-     ],
      [
       "Alingsås",
       3
@@ -1190,7 +1186,7 @@
      ],
      [
       "Askersund",
-      1
+      2
      ],
      [
       "Avesta",
@@ -1218,7 +1214,7 @@
      ],
      [
       "Botkyrka",
-      2
+      3
      ],
      [
       "Bromölla",
@@ -1235,10 +1231,6 @@
      [
       "Degerfors",
       2
-     ],
-     [
-      "Eda",
-      1
      ],
      [
       "Ekerö",
@@ -1262,11 +1254,11 @@
      ],
      [
       "Falkenberg",
-      1
+      2
      ],
      [
       "Falköping",
-      2
+      3
      ],
      [
       "Falun",
@@ -1274,7 +1266,7 @@
      ],
      [
       "Finspång",
-      1
+      2
      ],
      [
       "Flen",
@@ -1286,7 +1278,7 @@
      ],
      [
       "Gotland",
-      13
+      12
      ],
      [
       "Grästorp",
@@ -1306,7 +1298,7 @@
      ],
      [
       "Göteborg",
-      79
+      81
      ],
      [
       "Habo",
@@ -1322,7 +1314,7 @@
      ],
      [
       "Haninge",
-      4
+      2
      ],
      [
       "Haparanda",
@@ -1334,11 +1326,11 @@
      ],
      [
       "Helsingborg",
-      7
+      5
      ],
      [
       "Huddinge",
-      5
+      4
      ],
      [
       "Hudiksvall",
@@ -1354,7 +1346,7 @@
      ],
      [
       "Härnösand",
-      11
+      12
      ],
      [
       "Härryda",
@@ -1386,7 +1378,7 @@
      ],
      [
       "Jönköping",
-      22
+      24
      ],
      [
       "Kalix",
@@ -1395,6 +1387,10 @@
      [
       "Kalmar",
       7
+     ],
+     [
+      "Karlsborg",
+      1
      ],
      [
       "Karlshamn",
@@ -1410,11 +1406,7 @@
      ],
      [
       "Karlstad",
-      40
-     ],
-     [
-      "Katrineholm",
-      1
+      41
      ],
      [
       "Kinda",
@@ -1494,7 +1486,7 @@
      ],
      [
       "Linköping",
-      21
+      22
      ],
      [
       "Luleå",
@@ -1502,7 +1494,7 @@
      ],
      [
       "Lund",
-      16
+      15
      ],
      [
       "Lysekil",
@@ -1510,7 +1502,7 @@
      ],
      [
       "Malmö",
-      48
+      50
      ],
      [
       "Malå",
@@ -1545,6 +1537,10 @@
       1
      ],
      [
+      "Munkedal",
+      2
+     ],
+     [
       "Munkfors",
       1
      ],
@@ -1558,19 +1554,23 @@
      ],
      [
       "Norrköping",
-      31
+      28
      ],
      [
       "Norrtälje",
-      5
+      4
      ],
      [
       "Nybro",
       2
      ],
      [
+      "Nykvarn",
+      1
+     ],
+     [
       "Nyköping",
-      11
+      8
      ],
      [
       "Nynäshamn",
@@ -1642,7 +1642,7 @@
      ],
      [
       "Solna",
-      26
+      27
      ],
      [
       "Stenungsund",
@@ -1650,7 +1650,7 @@
      ],
      [
       "Stockholm",
-      262
+      269
      ],
      [
       "Strängnäs",
@@ -1666,7 +1666,7 @@
      ],
      [
       "Sundsvall",
-      20
+      19
      ],
      [
       "Svalöv",
@@ -1750,7 +1750,7 @@
      ],
      [
       "Umeå",
-      23
+      22
      ],
      [
       "Upplands Väsby",
@@ -1762,7 +1762,7 @@
      ],
      [
       "Uppsala",
-      45
+      44
      ],
      [
       "Uppvidinge",
@@ -1778,7 +1778,7 @@
      ],
      [
       "Varberg",
-      4
+      5
      ],
      [
       "Vaxholm",
@@ -1814,11 +1814,11 @@
      ],
      [
       "Västerås",
-      24
+      26
      ],
      [
       "Växjö",
-      16
+      18
      ],
      [
       "Ydre",
@@ -1826,7 +1826,7 @@
      ],
      [
       "Ystad",
-      3
+      4
      ],
      [
       "Ängelholm",
@@ -1862,7 +1862,7 @@
      ],
      [
       "Östersund",
-      18
+      21
      ],
      [
       "Österåker",
@@ -1924,7 +1924,7 @@
     "Gotlands län": [
      [
       "Gotland",
-      13
+      12
      ]
     ],
     "Gävleborgs län": [
@@ -1952,7 +1952,7 @@
     "Hallands län": [
      [
       "Falkenberg",
-      1
+      2
      ],
      [
       "Halmstad",
@@ -1968,7 +1968,7 @@
      ],
      [
       "Varberg",
-      4
+      5
      ]
     ],
     "Jämtlands län": [
@@ -1994,7 +1994,7 @@
      ],
      [
       "Östersund",
-      18
+      21
      ]
     ],
     "Jönköpings län": [
@@ -2012,7 +2012,7 @@
      ],
      [
       "Jönköping",
-      22
+      24
      ],
      [
       "Mullsjö",
@@ -2076,7 +2076,7 @@
      ],
      [
       "Växjö",
-      16
+      18
      ]
     ],
     "Norrbottens län": [
@@ -2134,7 +2134,7 @@
      ],
      [
       "Helsingborg",
-      7
+      5
      ],
      [
       "Hässleholm",
@@ -2166,11 +2166,11 @@
      ],
      [
       "Lund",
-      16
+      15
      ],
      [
       "Malmö",
-      48
+      50
      ],
      [
       "Sjöbo",
@@ -2194,7 +2194,7 @@
      ],
      [
       "Ystad",
-      3
+      4
      ],
      [
       "Ängelholm",
@@ -2208,7 +2208,7 @@
     "Stockholms län": [
      [
       "Botkyrka",
-      2
+      3
      ],
      [
       "Ekerö",
@@ -2216,11 +2216,11 @@
      ],
      [
       "Haninge",
-      4
+      2
      ],
      [
       "Huddinge",
-      5
+      4
      ],
      [
       "Järfälla",
@@ -2236,7 +2236,11 @@
      ],
      [
       "Norrtälje",
-      5
+      4
+     ],
+     [
+      "Nykvarn",
+      1
      ],
      [
       "Nynäshamn",
@@ -2256,11 +2260,11 @@
      ],
      [
       "Solna",
-      26
+      27
      ],
      [
       "Stockholm",
-      262
+      269
      ],
      [
       "Sundbyberg",
@@ -2301,12 +2305,8 @@
       1
      ],
      [
-      "Katrineholm",
-      1
-     ],
-     [
       "Nyköping",
-      11
+      8
      ],
      [
       "Oxelösund",
@@ -2336,7 +2336,7 @@
      ],
      [
       "Uppsala",
-      45
+      44
      ],
      [
       "Östhammar",
@@ -2345,12 +2345,8 @@
     ],
     "Värmlands län": [
      [
-      "Eda",
-      1
-     ],
-     [
       "Karlstad",
-      40
+      41
      ],
      [
       "Kristinehamn",
@@ -2380,7 +2376,7 @@
      ],
      [
       "Umeå",
-      23
+      22
      ],
      [
       "Vilhelmina",
@@ -2394,7 +2390,7 @@
     "Västernorrlands län": [
      [
       "Härnösand",
-      11
+      12
      ],
      [
       "Kramfors",
@@ -2406,7 +2402,7 @@
      ],
      [
       "Sundsvall",
-      20
+      19
      ],
      [
       "Timrå",
@@ -2444,14 +2440,10 @@
      ],
      [
       "Västerås",
-      24
+      26
      ]
     ],
     "Västra Götalands län": [
-     [
-      "Ale",
-      1
-     ],
      [
       "Alingsås",
       3
@@ -2462,7 +2454,7 @@
      ],
      [
       "Falköping",
-      2
+      3
      ],
      [
       "Grästorp",
@@ -2474,11 +2466,15 @@
      ],
      [
       "Göteborg",
-      79
+      81
      ],
      [
       "Härryda",
       2
+     ],
+     [
+      "Karlsborg",
+      1
      ],
      [
       "Kungälv",
@@ -2502,6 +2498,10 @@
      ],
      [
       "Mellerud",
+      2
+     ],
+     [
+      "Munkedal",
       2
      ],
      [
@@ -2564,7 +2564,7 @@
     "Örebro län": [
      [
       "Askersund",
-      1
+      2
      ],
      [
       "Degerfors",
@@ -2586,7 +2586,7 @@
     "Östergötlands län": [
      [
       "Finspång",
-      1
+      2
      ],
      [
       "Kinda",
@@ -2594,7 +2594,7 @@
      ],
      [
       "Linköping",
-      21
+      22
      ],
      [
       "Mjölby",
@@ -2606,7 +2606,7 @@
      ],
      [
       "Norrköping",
-      31
+      28
      ],
      [
       "Ydre",
@@ -2629,7 +2629,7 @@
     ],
     [
      "Gotlands län",
-     13
+     12
     ],
     [
      "Gävleborgs län",
@@ -2637,15 +2637,15 @@
     ],
     [
      "Hallands län",
-     28
+     30
     ],
     [
      "Jämtlands län",
-     26
+     29
     ],
     [
      "Jönköpings län",
-     36
+     38
     ],
     [
      "Kalmar län",
@@ -2653,7 +2653,7 @@
     ],
     [
      "Kronobergs län",
-     21
+     23
     ],
     [
      "Norrbottens län",
@@ -2669,15 +2669,15 @@
     ],
     [
      "Stockholms län",
-     368
+     374
     ],
     [
      "Södermanlands län",
-     29
+     25
     ],
     [
      "Uppsala län",
-     53
+     52
     ],
     [
      "Värmlands län",
@@ -2685,7 +2685,7 @@
     ],
     [
      "Västerbottens län",
-     30
+     29
     ],
     [
      "Västernorrlands län",
@@ -2693,37 +2693,37 @@
     ],
     [
      "Västmanlands län",
-     29
+     31
     ],
     [
      "Västra Götalands län",
-     147
+     152
     ],
     [
      "Örebro län",
-     32
+     33
     ],
     [
      "Östergötlands län",
-     62
+     61
     ]
    ],
    "omraden": [
     [
      "Krisberedskap & civilt försvar",
-     589
+     602
     ],
     [
      "Säkerhet & trygghet",
-     440
+     441
     ],
     [
      "Skadeförebyggande & personsäkerhet",
-     150
+     148
     ],
     [
      "Riskanalys & riskkonsult",
-     71
+     70
     ],
     [
      "Klimatanpassning & naturolyckor",
@@ -2731,7 +2731,7 @@
     ],
     [
      "Finansiell & operativ risk (angränsande)",
-     24
+     26
     ],
     [
      "Kontinuitetshantering",
@@ -2745,47 +2745,47 @@
    "roller": [
     [
      "Säkerhetssamordnare",
-     166
+     160
     ],
     [
      "Säkerhetsstrateg & säkerhetschef",
-     158
+     159
     ],
     [
      "Beredskapssamordnare",
-     145
+     148
     ],
     [
      "Beredskapshandläggare & -planerare",
-     131
-    ],
-    [
-     "Trygghet & brottsförebyggande",
-     88
+     134
     ],
     [
      "Civilt försvar & totalförsvar",
-     83
+     86
     ],
     [
      "Övrigt",
-     82
+     85
+    ],
+    [
+     "Trygghet & brottsförebyggande",
+     85
     ],
     [
      "Analytiker & utredare",
-     81
+     83
     ],
     [
      "Skadeförebyggande & räddningstjänst",
-     76
+     79
     ],
     [
      "Säkerhetsskydd",
-     43
+     48
     ],
     [
      "Riskanalytiker & riskkonsult",
-     43
+     44
     ],
     [
      "Klimatanpassning",
@@ -2801,11 +2801,11 @@
     ],
     [
      "Krisledning & krisstöd",
-     18
+     17
     ],
     [
      "Kontinuitetshantering",
-     11
+     12
     ]
    ]
   }
@@ -2933,27 +2933,27 @@
   "grupper": {
    "alla": {
     "namn": "Alla annonser",
-    "antal": 1201,
-    "aktuella": 98,
+    "antal": 1216,
+    "aktuella": 110,
     "andel": {
-     "rsa": 0.225,
+     "rsa": 0.224,
      "kontinuitet": 0.324,
      "utredning": 0.067,
      "larande": 0.07,
-     "implementering": 0.634,
+     "implementering": 0.631,
      "kommunikation": 0.018,
      "klimat": 0.042,
      "hallbarhet": 0.082
     },
     "traff": {
-     "rsa": 270,
-     "kontinuitet": 389,
-     "utredning": 81,
-     "larande": 84,
-     "implementering": 761,
+     "rsa": 272,
+     "kontinuitet": 394,
+     "utredning": 82,
+     "larande": 85,
+     "implementering": 767,
      "kommunikation": 22,
      "klimat": 51,
-     "hallbarhet": 98
+     "hallbarhet": 100
     },
     "procent": {
      "rsa": 22,
@@ -2978,76 +2978,76 @@
    },
    "sak": {
     "namn": "Säkerhetssamordnare",
-    "antal": 190,
-    "aktuella": 13,
+    "antal": 184,
+    "aktuella": 11,
     "andel": {
      "rsa": 0.321,
-     "kontinuitet": 0.395,
-     "utredning": 0.105,
-     "larande": 0.063,
-     "implementering": 0.726,
-     "kommunikation": 0.005,
+     "kontinuitet": 0.38,
+     "utredning": 0.103,
+     "larande": 0.071,
+     "implementering": 0.734,
+     "kommunikation": 0.0,
      "klimat": 0.005,
-     "hallbarhet": 0.063
+     "hallbarhet": 0.06
     },
     "traff": {
-     "rsa": 61,
-     "kontinuitet": 75,
-     "utredning": 20,
-     "larande": 12,
-     "implementering": 138,
-     "kommunikation": 1,
+     "rsa": 59,
+     "kontinuitet": 70,
+     "utredning": 19,
+     "larande": 13,
+     "implementering": 135,
+     "kommunikation": 0,
      "klimat": 1,
-     "hallbarhet": 12
+     "hallbarhet": 11
     },
     "procent": {
      "rsa": 32,
-     "kontinuitet": 39,
-     "utredning": 11,
-     "larande": 6,
+     "kontinuitet": 38,
+     "utredning": 10,
+     "larande": 7,
      "implementering": 73,
-     "kommunikation": 1,
+     "kommunikation": 0,
      "klimat": 1,
      "hallbarhet": 6
     },
     "procent_av_alla": {
-     "rsa": 5.1,
-     "kontinuitet": 6.2,
-     "utredning": 1.7,
-     "larande": 1.0,
+     "rsa": 4.9,
+     "kontinuitet": 5.8,
+     "utredning": 1.6,
+     "larande": 1.1,
      "implementering": 11,
-     "kommunikation": 0.1,
+     "kommunikation": 0.0,
      "klimat": 0.1,
-     "hallbarhet": 1.0
+     "hallbarhet": 0.9
     }
    },
    "ber": {
     "namn": "Beredskapssamordnare",
-    "antal": 169,
-    "aktuella": 15,
+    "antal": 172,
+    "aktuella": 17,
     "andel": {
-     "rsa": 0.497,
-     "kontinuitet": 0.704,
-     "utredning": 0.036,
-     "larande": 0.101,
-     "implementering": 0.621,
-     "kommunikation": 0.03,
+     "rsa": 0.506,
+     "kontinuitet": 0.709,
+     "utredning": 0.041,
+     "larande": 0.099,
+     "implementering": 0.622,
+     "kommunikation": 0.029,
      "klimat": 0.012,
      "hallbarhet": 0.041
     },
     "traff": {
-     "rsa": 84,
-     "kontinuitet": 119,
-     "utredning": 6,
+     "rsa": 87,
+     "kontinuitet": 122,
+     "utredning": 7,
      "larande": 17,
-     "implementering": 105,
+     "implementering": 107,
      "kommunikation": 5,
      "klimat": 2,
      "hallbarhet": 7
     },
     "procent": {
-     "rsa": 50,
-     "kontinuitet": 70,
+     "rsa": 51,
+     "kontinuitet": 71,
      "utredning": 4,
      "larande": 10,
      "implementering": 62,
@@ -3056,11 +3056,11 @@
      "hallbarhet": 4
     },
     "procent_av_alla": {
-     "rsa": 7.0,
-     "kontinuitet": 9.9,
-     "utredning": 0.5,
+     "rsa": 7.2,
+     "kontinuitet": 10,
+     "utredning": 0.6,
      "larande": 1.4,
-     "implementering": 8.7,
+     "implementering": 8.8,
      "kommunikation": 0.4,
      "klimat": 0.2,
      "hallbarhet": 0.6
@@ -3069,7 +3069,7 @@
    "klim": {
     "namn": "Klimatrisker och naturolyckor",
     "antal": 40,
-    "aktuella": 2,
+    "aktuella": 3,
     "andel": {
      "rsa": 0.15,
      "kontinuitet": 0.05,
@@ -3105,7 +3105,7 @@
      "kontinuitet": 0.2,
      "utredning": 0.0,
      "larande": 0.0,
-     "implementering": 1.7,
+     "implementering": 1.6,
      "kommunikation": 0.0,
      "klimat": 3.2,
      "hallbarhet": 1.2
